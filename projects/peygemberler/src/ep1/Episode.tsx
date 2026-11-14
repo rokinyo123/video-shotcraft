@@ -8,6 +8,7 @@ import {
   BigText,
   Corner,
   Grain,
+  Leak,
   Opener,
   Letterbox,
   Particles,
@@ -82,7 +83,9 @@ const renderLayer = (l: Layer, t: number, i: number) => {
     case 'next':
       return <NextEp key={i} {...p} />;
     case 'source':
-      return <SourceTag key={i} {...p} label={l.label} weak={l.weak} />;
+      return <SourceTag key={i} {...p} label={l.label} weak={l.weak} icon={l.icon} />;
+    case 'leak':
+      return <Leak key={i} t={t} a={l.a} />;
     default:
       return null;
   }
@@ -104,7 +107,7 @@ export const Episode: React.FC<{from: number; to: number}> = ({from}) => {
         if (o <= 0) return null;
         return (
           <AbsoluteFill key={s.id} style={{opacity: o}}>
-            <Background bg={s.bg} t={t} a={s.a} b={s.b + 0.6} />
+            <Background bg={s.bg} t={t} a={s.a} b={s.b + 0.6} from={from} />
           </AbsoluteFill>
         );
       })}

@@ -1,5 +1,6 @@
 import React from 'react';
-import {AbsoluteFill, Easing, Img, interpolate, OffthreadVideo, random, staticFile, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Easing, Img, interpolate, OffthreadVideo, random, Sequence, staticFile, useCurrentFrame} from 'remotion';
+import {Icon, IconName} from './icons';
 import {C, F} from '../theme';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -29,44 +30,64 @@ export type BgSpec = {
   grade?: string;
 };
 
-export const Background: React.FC<{bg: BgSpec; t: number; a: number; b: number}> = ({bg, t, a, b}) => {
+export const Background: React.FC<{bg: BgSpec & {blur?: number}; t: number; a: number; b: number; from: number}> = ({bg, t, a, b, from}) => {
   const p = interpolate(t, [a, b], [0, 1], {...clamp, easing: Easing.inOut(Easing.sin)});
   const [s0, x0, y0, s1, x1, y1] = bg.kb ?? [1.04, 0, 0, 1.14, 0, 0];
   const sc = s0 + (s1 - s0) * p;
-  const tx = x0 + (x1 - x0) * p;
-  const ty = y0 + (y1 - y0) * p;
   const style: React.CSSProperties = {
     position: 'absolute',
     width: '100%',
     height: '100%',
     objectFit: 'cover',
-    transform: `scale(${sc}) translate(${tx}%, ${ty}%)`,
-    filter: bg.grade,
+    transform: `scale(${sc}) translate(${x0 + (x1 - x0) * p}%, ${y0 + (y1 - y0) * p}%)`,
+    filter: [bg.grade, bg.blur ? `blur(${bg.blur}px)` : ''].join(' ').trim() || undefined,
   };
   let media: React.ReactNode = null;
   if (bg.type === 'image' && bg.src) media = <Img src={staticFile(bg.src)} style={style} />;
   if (bg.type === 'video' && bg.src) {
     const rate = bg.rate ?? 1;
-    const played = (t - a) * rate + (bg.startFrom ?? 0);
-    const len = bg.clipLen ?? 7.9;
-    media =
-      played < len - 0.12 || !bg.last ? (
-        <OffthreadVideo
-          src={staticFile(bg.src)}
-          muted
-          playbackRate={rate}
-          startFrom={Math.round((bg.startFrom ?? 0) * FPS)}
-          style={style}
-        />
-      ) : (
-        <Img src={staticFile(bg.last)} style={style} />
+    const sf = bg.startFrom ?? 0;
+    const cyc = Math.max(1, ((bg.clipLen ?? 7.9) - sf - 0.15) / rate); // bir dövrənin uzunluğu (s)
+    const u = Math.max(0, t - a);
+    const n = Math.floor(u / cyc);
+    const X = 0.7; // dövrələr arası yumşaq keçid
+    const inst = [n];
+    if (u - n * cyc > cyc - X) inst.push(n + 1);
+    media = inst.map((k) => {
+      const st = a + k * cyc - (k > 0 ? X : 0);
+      const lo = Math.round((st - from) * FPS);
+      const o = k === n + 1 ? interpolate(u - n * cyc, [cyc - X, cyc], [0, 1], clamp) : 1;
+      return (
+        <Sequence key={k} from={lo} layout="none">
+          <div style={{position: 'absolute', inset: 0, opacity: o}}>
+            <OffthreadVideo src={staticFile(bg.src!)} muted playbackRate={rate} startFrom={Math.round(sf * FPS)} style={style} />
+          </div>
+        </Sequence>
       );
+    });
   }
   return (
-    <AbsoluteFill style={{background: C.bg, overflow: 'hidden'}}>
+    <AbsoluteFill style={{background: '#100c08', overflow: 'hidden'}}>
       {media}
-      <AbsoluteFill style={{background: `rgba(5,4,7,${bg.dark ?? 0.25})`}} />
+      <AbsoluteFill style={{background: `rgba(5,4,7,${bg.dark ?? 0.2})`}} />
     </AbsoluteFill>
+  );
+};
+
+/** Keçid parıltısı: işıq zolağı ekranı çəpinə keçir. */
+export const Leak: React.FC<{t: number; a: number}> = ({t, a}) => {
+  const f = t - a;
+  if (f < 0 || f > 1.1) return null;
+  const x = interpolate(f, [0, 1.1], [-40, 140]);
+  const o = interpolate(f, [0, 0.25, 0.8, 1.1], [0, 0.55, 0.3, 0]);
+  return (
+    <AbsoluteFill
+      style={{
+        opacity: o,
+        mixBlendMode: 'screen',
+        background: `linear-gradient(110deg, transparent ${x - 22}%, rgba(255,214,150,0.55) ${x - 6}%, rgba(255,245,220,0.9) ${x}%, rgba(255,190,110,0.45) ${x + 8}%, transparent ${x + 24}%)`,
+      }}
+    />
   );
 };
 
@@ -223,7 +244,10 @@ export const Stamp: React.FC<{t: number; a: number; b: number; top: string; main
           boxShadow: `0 0 80px rgba(0,0,0,0.9), 0 0 40px ${color}33`,
         }}
       >
-        <div style={{fontFamily: F.sans, fontSize: 22, letterSpacing: 10, color}}>{top}</div>
+        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14, fontFamily: F.sans, fontSize: 22, letterSpacing: 10, color}}>
+          <Icon name={/YOXLAMA/.test(top) ? 'search' : /HƏDİS|MÜSLİM|BUXARİ/.test(top + main) ? 'hadith' : /BƏQƏRƏ|AYƏ/.test(top + main) ? 'quran' : 'seal'} size={30} color={color} />
+          {top}
+        </div>
         <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 78, color: C.ivory, marginTop: 6, letterSpacing: 3}}>{main}</div>
       </div>
     </AbsoluteFill>
@@ -251,6 +275,7 @@ export const AyahCard: React.FC<{t: number; a: number; b: number; ar: string; az
       >
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 18, marginBottom: 18}}>
           <div style={{height: 1, width: 140, background: `linear-gradient(90deg, transparent, ${C.gold})`}} />
+          <Icon name="quran" size={30} color={C.gold} />
           <div style={{fontFamily: F.sans, fontSize: 18, letterSpacing: 8, color: C.gold}}>QURANİ-KƏRİM</div>
           <div style={{height: 1, width: 140, background: `linear-gradient(90deg, ${C.gold}, transparent)`}} />
         </div>
@@ -334,10 +359,10 @@ export const SeriesTitle: React.FC<{t: number; a: number; b: number}> = ({t, a, 
   const title = interpolate(f, [0.0, 0.9], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   const spacing = interpolate(f, [0, 4.5], [46, 16], {...clamp, easing: Easing.out(Easing.quad)});
   const ep = interpolate(f, [2.9, 3.5], [0, 1], clamp);
-  const flash = interpolate(f, [0, 0.06, 0.6], [0, 0.85, 0], clamp);
+  const flash = interpolate(f, [0, 0.06, 0.5], [0, 0.6, 0], clamp);
   const sweep = interpolate(f, [0.6, 2.4], [-30, 130], clamp);
   return (
-    <AbsoluteFill style={{opacity: o, background: C.bg}}>
+    <AbsoluteFill style={{opacity: o}}>
       <Particles t={t} kind="dust" n={90} />
       <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
         <div style={{textAlign: 'center'}}>
@@ -375,14 +400,16 @@ export const Pulse: React.FC<{t: number; a: number; b: number; color?: string}> 
   return <AbsoluteFill style={{background: `radial-gradient(ellipse 45% 40% at 50% 55%, ${color}aa, transparent 70%)`, opacity: o, mixBlendMode: 'screen'}} />;
 };
 
-export const SourceTag: React.FC<{t: number; a: number; b: number; label: string; weak?: boolean}> = ({t, a, b, label, weak}) => {
+export const SourceTag: React.FC<{t: number; a: number; b: number; label: string; weak?: boolean; icon?: IconName}> = ({t, a, b, label, weak, icon}) => {
   const o = env(t, a, b, 0.4, 0.4);
   if (o <= 0) return null;
   const acc = weak ? C.ember : C.gold;
   return (
     <div style={{position: 'absolute', left: 80, bottom: BAR + 36, display: 'flex', gap: 14, alignItems: 'center', opacity: o, transform: `translateX(${(1 - o) * -20}px)`}}>
-      <div style={{width: 4, height: 46, background: acc}} />
-      <div style={{fontFamily: F.sans, color: C.ivory, fontSize: 24, letterSpacing: 2}}>
+      <div style={{width: 64, height: 64, display: 'flex', alignItems: 'center', justifyContent: 'center', border: `2px solid ${acc}`, background: 'rgba(8,6,4,0.75)'}}>
+        <Icon name={weak ? 'warn' : icon ?? (/(Bəqərə|Əraf|Kəhf|Hicr|Nisa|Maidə|Taha|Məryəm)/.test(label) ? 'quran' : 'hadith')} size={38} color={acc} />
+      </div>
+      <div style={{fontFamily: F.sans, color: C.ivory, fontSize: 24, letterSpacing: 2, textShadow: '0 2px 12px #000'}}>
         <div style={{fontSize: 14, letterSpacing: 5, color: acc}}>{weak ? 'RƏVAYƏT · ZƏİF' : 'MƏNBƏ'}</div>
         {label}
       </div>

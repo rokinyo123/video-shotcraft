@@ -1,0 +1,2818 @@
+[
+{
+"part": 1,
+"shot": "K01",
+"si": 0,
+"text": "Hələ insan nəfəs almamışdı…",
+"a": 0.0,
+"b": 1.9
+},
+{
+"part": 1,
+"shot": "K01",
+"si": 1,
+"text": "Hələ heç bir göz açılmamışdı…",
+"a": 2.49,
+"b": 4.43
+},
+{
+"part": 1,
+"shot": "K02",
+"si": 0,
+"text": "Amma biri artıq onun ətrafında fırlanırdı…",
+"a": 5.04,
+"b": 8.15
+},
+{
+"part": 1,
+"shot": "K03",
+"si": 0,
+"text": "diqqətlə baxırdı… və onun zəif nöqtəsini tapmışdı.",
+"a": 8.75,
+"b": 12.91
+},
+{
+"part": 1,
+"shot": "K04",
+"si": 0,
+"text": "Bu səhnə nağıl deyil.",
+"a": 13.59,
+"b": 15.16
+},
+{
+"part": 1,
+"shot": "K04",
+"si": 1,
+"text": "Səhih Müslimdə nəql olunur.",
+"a": 15.58,
+"b": 17.31
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 0,
+"text": "Bu gün bu səhnənin davamını danışacağıq.",
+"a": 18.08,
+"b": 21.63
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 1,
+"text": "Həmçinin elə suallara cavab axtaracağıq ki,",
+"a": 21.76,
+"b": 23.69
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 1,
+"text": "çoxumuz onların cavabını bilmirik.",
+"a": 24.07,
+"b": 28.07
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 2,
+"text": "Adəm həqiqətən otuz metr boyunda idimi?",
+"a": 28.21,
+"b": 31.17
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 3,
+"text": "Və niyə böyük alim İbn Həcər bunu izah edə bilmədiyini açıq etiraf etdi?",
+"a": 31.17,
+"b": 35.17
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 4,
+"text": "Qadağan olunmuş meyvə alma deyildisə,",
+"a": 35.85,
+"b": 38.09
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 4,
+"text": "bəs nə idi?",
+"a": 38.39,
+"b": 39.07
+},
+{
+"part": 1,
+"shot": "SUAL",
+"si": 5,
+"text": "Və min illər sonra Adəm Musa ilə qarşılaşanda hansı bir cümlə ilə ona qalib gəldi?",
+"a": 39.65,
+"b": 45.9
+},
+{
+"part": 1,
+"shot": "K05",
+"si": 0,
+"text": "Peyğəmbərlərin Gizli Tarixi.",
+"a": 46.88,
+"b": 48.99
+},
+{
+"part": 1,
+"shot": "K05",
+"si": 1,
+"text": "Birinci bölüm:",
+"a": 49.55,
+"b": 50.33
+},
+{
+"part": 1,
+"shot": "K05",
+"si": 1,
+"text": "Adəm.",
+"a": 50.89,
+"b": 51.4
+},
+{
+"part": 1,
+"shot": "K06",
+"si": 0,
+"text": "Hər şey insan yaradılmazdan əvvəl başladı.",
+"a": 52.28,
+"b": 55.01
+},
+{
+"part": 1,
+"shot": "K07",
+"si": 0,
+"text": "Allah mələklərə buyurdu:",
+"a": 55.63,
+"b": 57.17
+},
+{
+"part": 1,
+"shot": "K07",
+"si": 0,
+"text": "“Mən yer üzündə bir xəlifə yaradacağam.”",
+"a": 57.79,
+"b": 60.39
+},
+{
+"part": 1,
+"shot": "K08",
+"si": 0,
+"text": "Mələklər soruşdular:",
+"a": 61.09,
+"b": 62.22
+},
+{
+"part": 1,
+"shot": "K08",
+"si": 0,
+"text": "“Orada fəsad törədəcək,",
+"a": 62.81,
+"b": 64.32
+},
+{
+"part": 1,
+"shot": "K08",
+"si": 0,
+"text": "qan tökəcək birinimi yaradırsan?",
+"a": 64.65,
+"b": 66.46
+},
+{
+"part": 1,
+"shot": "K08",
+"si": 1,
+"text": "Halbuki biz Səni həmd ilə təsbih edir,",
+"a": 67.05,
+"b": 69.47
+},
+{
+"part": 1,
+"shot": "K08",
+"si": 1,
+"text": "Səni müqəddəs tuturuq.”",
+"a": 69.8,
+"b": 71.05
+},
+{
+"part": 1,
+"shot": "KART-DAYANIN",
+"si": 0,
+"text": "Dayanın…",
+"a": 72.05,
+"b": 72.48
+},
+{
+"part": 1,
+"shot": "KART-DAYANIN",
+"si": 1,
+"text": "İnsan hələ yaradılmamışdı.",
+"a": 73.07,
+"b": 74.73
+},
+{
+"part": 1,
+"shot": "KART-DAYANIN",
+"si": 2,
+"text": "Bəs mələklər onun qan tökəcəyini haradan bilirdilər?",
+"a": 75.24,
+"b": 78.35
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 0,
+"text": "Təfsir alimləri burada bir neçə izah verir.",
+"a": 79.1,
+"b": 83.08
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 1,
+"text": "Birincisi:",
+"a": 83.61,
+"b": 84.0
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 1,
+"text": "Allah onlara gələcək insanın təbiətini əvvəlcədən bildirmişdi.",
+"a": 84.0,
+"b": 87.82
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 2,
+"text": "İkincisi:",
+"a": 88.48,
+"b": 89.2
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 2,
+"text": "“xəlifə” sözünün özüdür.",
+"a": 89.65,
+"b": 91.23
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 3,
+"text": "Xəlifə başqasının yerinə gələn deməkdir.",
+"a": 91.75,
+"b": 95.48
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 4,
+"text": "Deməli,",
+"a": 95.63,
+"b": 96.06
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 4,
+"text": "yer üzündə ondan əvvəl başqaları yaşamışdı.",
+"a": 96.06,
+"b": 98.29
+},
+{
+"part": 1,
+"shot": "KART-IZAH",
+"si": 5,
+"text": "Bəs kimlər?",
+"a": 98.8,
+"b": 99.5
+},
+{
+"part": 1,
+"shot": "K09",
+"si": 0,
+"text": "Təbərinin nəql etdiyi rəvayətlərə görə,",
+"a": 100.05,
+"b": 102.19
+},
+{
+"part": 1,
+"shot": "K09",
+"si": 0,
+"text": "Adəmdən əvvəl yer üzündə cinlər yaşayırdı.",
+"a": 102.53,
+"b": 105.52
+},
+{
+"part": 1,
+"shot": "K09",
+"si": 1,
+"text": "Onlar bir-birinin qanını tökür,",
+"a": 106.14,
+"b": 108.1
+},
+{
+"part": 1,
+"shot": "K09",
+"si": 1,
+"text": "yer üzünü fəsada verirdilər.",
+"a": 108.4,
+"b": 110.08
+},
+{
+"part": 1,
+"shot": "K09",
+"si": 2,
+"text": "Mələklər bunu görmüşdülər.",
+"a": 110.57,
+"b": 112.21
+},
+{
+"part": 1,
+"shot": "K09",
+"si": 3,
+"text": "Sual da buradan doğurdu.",
+"a": 112.79,
+"b": 114.32
+},
+{
+"part": 1,
+"shot": "K10",
+"si": 0,
+"text": "Allahın cavabı isə qısa və sirli oldu:",
+"a": 114.85,
+"b": 117.89
+},
+{
+"part": 1,
+"shot": "K10",
+"si": 0,
+"text": "“Mən sizin bilmədiklərinizi bilirəm.” Bu cümləni yadda saxlayın.",
+"a": 118.57,
+"b": 123.42
+},
+{
+"part": 1,
+"shot": "K10",
+"si": 1,
+"text": "Bir azdan Allah bu “bilmədiklərinizi” mələklərə necə göstərdi,",
+"a": 123.89,
+"b": 127.7
+},
+{
+"part": 1,
+"shot": "K10",
+"si": 1,
+"text": "onu görəcəyik.",
+"a": 127.7,
+"b": 128.41
+},
+{
+"part": 1,
+"shot": "K11",
+"si": 0,
+"text": "Allah Adəmi yer üzünün hər yerindən götürülmüş bir ovuc torpaqdan yaratdı.",
+"a": 128.7,
+"b": 135.36
+},
+{
+"part": 1,
+"shot": "K11",
+"si": 1,
+"text": "Peyğəmbərimiz,",
+"a": 135.95,
+"b": 136.21
+},
+{
+"part": 1,
+"shot": "K11",
+"si": 1,
+"text": "səllallahu aleyhi və səlləm,",
+"a": 136.21,
+"b": 138.07
+},
+{
+"part": 1,
+"shot": "K11",
+"si": 1,
+"text": "buyurur ki,",
+"a": 138.07,
+"b": 139.0
+},
+{
+"part": 1,
+"shot": "K11",
+"si": 1,
+"text": "Adəm övladları da o torpağa görə dünyaya gəldi:",
+"a": 139.47,
+"b": 142.46
+},
+{
+"part": 1,
+"shot": "K12",
+"si": 0,
+"text": "qırmızısı,",
+"a": 143.07,
+"b": 143.08
+},
+{
+"part": 1,
+"shot": "K12",
+"si": 0,
+"text": "ağı,",
+"a": 143.08,
+"b": 143.86
+},
+{
+"part": 1,
+"shot": "K12",
+"si": 0,
+"text": "qarası və bunların arasında olanı.",
+"a": 144.26,
+"b": 147.7
+},
+{
+"part": 1,
+"shot": "K12",
+"si": 1,
+"text": "Yumşağı və sərti.",
+"a": 148.37,
+"b": 149.13
+},
+{
+"part": 1,
+"shot": "K12",
+"si": 2,
+"text": "Pisi və yaxşısı.",
+"a": 149.26,
+"b": 150.93
+},
+{
+"part": 1,
+"shot": "K12",
+"si": 3,
+"text": "Bu gün yer üzündəki insan rənglərinin və xasiyyətlərinin müxtəlifliyi o bir ovuc torpaqdan başlayır.",
+"a": 151.12,
+"b": 159.19
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 0,
+"text": "Amma Allah bədənə dərhal ruh vermədi.",
+"a": 159.87,
+"b": 160.76
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 1,
+"text": "Səhih Müslimdə belə gəlir:",
+"a": 161.06,
+"b": 162.83
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 1,
+"text": "Allah Adəmin surətini yaratdıqdan sonra onu istədiyi qədər elə saxladı.",
+"a": 163.43,
+"b": 169.95
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 2,
+"text": "İblis onun ətrafında dolaşmağa,",
+"a": 169.95,
+"b": 172.5
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 2,
+"text": "onun nə olduğuna baxmağa başladı.",
+"a": 172.5,
+"b": 173.84
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 3,
+"text": "Onun içinin boş olduğunu görəndə anladı ki,",
+"a": 174.2,
+"b": 178.04
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 3,
+"text": "bu,",
+"a": 178.04,
+"b": 178.11
+},
+{
+"part": 1,
+"shot": "K13",
+"si": 3,
+"text": "özünə hakim ola bilməyən bir məxluqdur.",
+"a": 178.11,
+"b": 180.13
+},
+{
+"part": 1,
+"shot": "K14",
+"si": 0,
+"text": "Alimlər bu “içi boş” ifadəsini belə izah edirlər:",
+"a": 180.46,
+"b": 185.47
+},
+{
+"part": 1,
+"shot": "K14",
+"si": 0,
+"text": "insanın içində ehtiyac,",
+"a": 185.47,
+"b": 187.24
+},
+{
+"part": 1,
+"shot": "K14",
+"si": 0,
+"text": "arzu və istək üçün yer var.",
+"a": 187.87,
+"b": 189.73
+},
+{
+"part": 1,
+"shot": "K14",
+"si": 1,
+"text": "Aclıq… qəzəb… şəhvət… istək…",
+"a": 190.1,
+"b": 192.22
+},
+{
+"part": 1,
+"shot": "K14",
+"si": 2,
+"text": "Yəni İblis insanın zəif nöqtəsini hələ insan nəfəs almamışdan tapmışdı.",
+"a": 192.82,
+"b": 199.86
+},
+{
+"part": 1,
+"shot": "K14",
+"si": 3,
+"text": "Və bu gün də elə o nöqtədən vurur.",
+"a": 200.14,
+"b": 202.57
+},
+{
+"part": 1,
+"shot": "K15",
+"si": 0,
+"text": "Sonra Allah ona ruh üfürdü.",
+"a": 203.08,
+"b": 205.53
+},
+{
+"part": 1,
+"shot": "K15",
+"si": 1,
+"text": "Ruh bədənə daxil olanda",
+"a": 205.76,
+"b": 208.12
+},
+{
+"part": 1,
+"shot": "K16",
+"si": 0,
+"text": "Adəm asqırdı və Allahın izni ilə “Əlhəmdulillah” dedi.",
+"a": 208.64,
+"b": 211.64
+},
+{
+"part": 1,
+"shot": "K16",
+"si": 1,
+"text": "Allah da ona belə cavab verdi:",
+"a": 212.03,
+"b": 214.97
+},
+{
+"part": 1,
+"shot": "K16",
+"si": 1,
+"text": "“Allah sənə rəhm etsin,",
+"a": 215.23,
+"b": 217.02
+},
+{
+"part": 1,
+"shot": "K16",
+"si": 1,
+"text": "ey Adəm.” Düşünün… insanın dünyada eşitdiyi ilk söz rəhmət sözü idi.",
+"a": 217.02,
+"b": 222.09
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 0,
+"text": "Səhih Buxaridə Peyğəmbərimiz buyurur:",
+"a": 222.6,
+"b": 226.44
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 0,
+"text": "Allah Adəmi altmış dirsək boyunda yaratdı.",
+"a": 227.09,
+"b": 231.31
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 1,
+"text": "Bir dirsək təxminən qırx beş,",
+"a": 231.47,
+"b": 232.57
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 1,
+"text": "əlli santimetrdir.",
+"a": 232.57,
+"b": 234.54
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 2,
+"text": "Deməli,",
+"a": 234.66,
+"b": 235.15
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 2,
+"text": "Adəmin boyu təxminən iyirmi yeddi ilə otuz metr arasında idi.",
+"a": 235.15,
+"b": 240.8
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 3,
+"text": "Bu,",
+"a": 240.8,
+"b": 241.0
+},
+{
+"part": 1,
+"shot": "K17",
+"si": 3,
+"text": "doqquz mərtəbəli bina deməkdir.",
+"a": 241.0,
+"b": 243.51
+},
+{
+"part": 1,
+"shot": "K18",
+"si": 0,
+"text": "Hədisin davamında deyilir:",
+"a": 243.63,
+"b": 245.2
+},
+{
+"part": 1,
+"shot": "K18",
+"si": 0,
+"text": "Cənnətə girən hər kəs Adəmin surətində olacaq.",
+"a": 245.84,
+"b": 249.38
+},
+{
+"part": 1,
+"shot": "K18",
+"si": 1,
+"text": "Məxluqat isə o gündən bu günə qədər kiçilməkdə davam edir.",
+"a": 249.71,
+"b": 252.83
+},
+{
+"part": 1,
+"shot": "K19",
+"si": 0,
+"text": "Amma burada heç bir videoda danışılmayan bir məqam var.",
+"a": 252.99,
+"b": 256.86
+},
+{
+"part": 1,
+"shot": "K19",
+"si": 1,
+"text": "Səhih Buxarinin ən böyük şərhçisi İbn Həcər əl-Əsqəlani bu hədisi izah edərkən özü bir sual qaldırır:",
+"a": 257.04,
+"b": 264.26
+},
+{
+"part": 1,
+"shot": "K19",
+"si": 1,
+"text": "“Səmud qövmünün qayalara oyulmuş evləri bu gün də durur.",
+"a": 264.62,
+"b": 269.47
+},
+{
+"part": 1,
+"shot": "K19",
+"si": 2,
+"text": "Onların qapıları göstərir ki,",
+"a": 269.47,
+"b": 271.54
+},
+{
+"part": 1,
+"shot": "K19",
+"si": 2,
+"text": "o insanların boyu o qədər də uca olmayıb.",
+"a": 272.0,
+"b": 275.19
+},
+{
+"part": 1,
+"shot": "K19",
+"si": 3,
+"text": "Halbuki onlar çox qədim xalq idi.”",
+"a": 275.32,
+"b": 276.57
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 0,
+"text": "Sonra İbn Həcər,",
+"a": 277.11,
+"b": 277.67
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 0,
+"text": "səkkiz yüz il əvvəl,",
+"a": 277.95,
+"b": 279.63
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 0,
+"text": "bir alimin edə biləcəyi ən dürüst etirafı yazır:",
+"a": 280.27,
+"b": 283.93
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 0,
+"text": "“Bu müşkülü aradan qaldıran bir izahı indiyə qədər tapmadım.” Bəzi alimlər deyirlər ki,",
+"a": 283.93,
+"b": 290.2
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 0,
+"text": "kiçilmə Səmuddan çox əvvəl tamamlanmışdı.",
+"a": 290.2,
+"b": 294.03
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 1,
+"text": "Bəziləri isə bunun bizim bilmədiyimiz bir şəkildə baş verdiyini söyləyir.",
+"a": 294.2,
+"b": 299.85
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 2,
+"text": "Bəs siz nə düşünürsünüz?",
+"a": 299.85,
+"b": 301.09
+},
+{
+"part": 1,
+"shot": "K20",
+"si": 3,
+"text": "Fikrinizi şərhdə yazın.",
+"a": 301.72,
+"b": 305.12
+},
+{
+"part": 1,
+"shot": "KART-ABUNE",
+"si": 0,
+"text": "Bu cür araşdırmaları sevirsinizsə,",
+"a": 305.67,
+"b": 307.53
+},
+{
+"part": 1,
+"shot": "KART-ABUNE",
+"si": 0,
+"text": "kanala abunə olun.",
+"a": 307.85,
+"b": 308.93
+},
+{
+"part": 1,
+"shot": "KART-ABUNE",
+"si": 1,
+"text": "Çünki növbəti səhnə daha heyrətamizdir.",
+"a": 309.37,
+"b": 312.4
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 0,
+"text": "Xatırlayın:",
+"a": 312.46,
+"b": 313.15
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 0,
+"text": "mələklər “qan tökəcək birinimi yaradırsan?” demişdilər.",
+"a": 313.6,
+"b": 318.37
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 1,
+"text": "Allah da “Mən sizin bilmədiklərinizi bilirəm” buyurmuşdu.",
+"a": 318.87,
+"b": 322.7
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 2,
+"text": "İndi o cavabın vaxtı gəldi.",
+"a": 322.83,
+"b": 324.16
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 3,
+"text": "Allah Adəmə bütün adları öyrətdi.",
+"a": 324.8,
+"b": 327.27
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 4,
+"text": "Sonra onları mələklərə göstərib buyurdu:",
+"a": 327.79,
+"b": 330.19
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 4,
+"text": "“Doğru deyirsinizsə,",
+"a": 330.88,
+"b": 332.05
+},
+{
+"part": 2,
+"shot": "K21",
+"si": 4,
+"text": "bunların adlarını Mənə xəbər verin.”",
+"a": 332.4,
+"b": 334.51
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 0,
+"text": "Mələklər dedilər:",
+"a": 335.14,
+"b": 336.09
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 0,
+"text": "“Sən pak və müqəddəssən!",
+"a": 336.66,
+"b": 338.32
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 1,
+"text": "Bizim Sənin öyrətdiyindən başqa heç bir biliyimiz yoxdur.” Sonra Adəm onlara bu adları bir-bir söylədi.",
+"a": 338.88,
+"b": 345.94
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 2,
+"text": "Budur cavab.",
+"a": 346.51,
+"b": 347.18
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 3,
+"text": "İnsan qan tökə bilər,",
+"a": 347.59,
+"b": 348.36
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 3,
+"text": "amma ona elm öyrənmək qabiliyyəti verilib.",
+"a": 348.36,
+"b": 351.97
+},
+{
+"part": 2,
+"shot": "K22",
+"si": 4,
+"text": "Mələklərin görmədiyi tərəf bu idi.",
+"a": 352.42,
+"b": 354.59
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 0,
+"text": "Sonra Allah Adəmə buyurdu:",
+"a": 355.23,
+"b": 357.24
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 0,
+"text": "“Get,",
+"a": 357.82,
+"b": 358.2
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 0,
+"text": "o oturan mələklərə salam ver və nə cavab verdiklərinə qulaq as.",
+"a": 358.68,
+"b": 363.52
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 1,
+"text": "Bu,",
+"a": 363.75,
+"b": 364.01
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 1,
+"text": "sənin və nəslinin salamı olacaq.” Adəm dedi:",
+"a": 364.01,
+"b": 367.13
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 1,
+"text": "“Əssəlamu əleykum.” Mələklər cavab verdilər:",
+"a": 367.72,
+"b": 370.8
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 1,
+"text": "“Əssəlamu əleykə və rəhmətullah.” Yəni üstünə “və rəhmətullah” da əlavə etdilər.",
+"a": 371.35,
+"b": 377.31
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 2,
+"text": "Bu gün bir-birimizə verdiyimiz salam yer üzündə deyil,",
+"a": 377.84,
+"b": 382.17
+},
+{
+"part": 2,
+"shot": "K23",
+"si": 2,
+"text": "mələklərin hüzurunda başlayıb.",
+"a": 382.17,
+"b": 385.12
+},
+{
+"part": 2,
+"shot": "K24",
+"si": 0,
+"text": "Allah mələklərə əmr etdi:",
+"a": 385.25,
+"b": 386.57
+},
+{
+"part": 2,
+"shot": "K24",
+"si": 0,
+"text": "“Adəmə səcdə edin!” Hamısı səcdəyə qapandı…",
+"a": 386.57,
+"b": 389.39
+},
+{
+"part": 2,
+"shot": "K25",
+"si": 0,
+"text": "İblisdən başqa.",
+"a": 389.9,
+"b": 390.83
+},
+{
+"part": 2,
+"shot": "K26",
+"si": 0,
+"text": "Allah soruşdu:",
+"a": 391.43,
+"b": 392.31
+},
+{
+"part": 2,
+"shot": "K26",
+"si": 0,
+"text": "“Sənə əmr etdiyim zaman səni səcdədən nə saxladı?” İblis dedi:",
+"a": 392.86,
+"b": 397.36
+},
+{
+"part": 2,
+"shot": "K26",
+"si": 0,
+"text": "“Mən ondan üstünəm.",
+"a": 397.98,
+"b": 399.1
+},
+{
+"part": 2,
+"shot": "K26",
+"si": 1,
+"text": "Məni oddan,",
+"a": 399.54,
+"b": 400.06
+},
+{
+"part": 2,
+"shot": "K26",
+"si": 1,
+"text": "onu isə palçıqdan yaratdın.” Tarixdə ilk irqçilik,",
+"a": 400.22,
+"b": 404.93
+},
+{
+"part": 2,
+"shot": "K26",
+"si": 1,
+"text": "ilk “mən səndən üstünəm” sözü bu idi.",
+"a": 405.23,
+"b": 407.47
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 0,
+"text": "İndi bir əfsanəni yoxlayaq:",
+"a": 407.62,
+"b": 410.3
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 0,
+"text": "İblis üsyan etmiş bir mələk idimi?",
+"a": 410.93,
+"b": 413.11
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 1,
+"text": "Çoxları belə düşünür.",
+"a": 413.73,
+"b": 414.84
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 2,
+"text": "Amma Quran Kəhf surəsində açıq deyir:",
+"a": 415.34,
+"b": 418.87
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 2,
+"text": "“O,",
+"a": 419.12,
+"b": 420.02
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 2,
+"text": "cinlərdən idi.” Mələklər nurdan yaranıb və Allaha asi olmurlar.",
+"a": 420.73,
+"b": 425.45
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 3,
+"text": "Cinlər isə tüstüsüz oddan yaranıb.",
+"a": 425.62,
+"b": 427.21
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 4,
+"text": "Bunu da dürüstcəsinə deyək:",
+"a": 427.78,
+"b": 430.45
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 4,
+"text": "Təbəri İbn Abbasdan İblisin mələklərin bir qrupundan olduğuna dair rəvayət də nəql edir.",
+"a": 430.45,
+"b": 435.35
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 5,
+"text": "Amma alimlərin əksəriyyəti bu ayəyə əsasən deyir ki,",
+"a": 435.88,
+"b": 439.62
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 5,
+"text": "İblis cin idi,",
+"a": 440.01,
+"b": 441.08
+},
+{
+"part": 2,
+"shot": "K27",
+"si": 5,
+"text": "sadəcə çox ibadət etdiyi üçün mələklərin arasında yer tutmuşdu.",
+"a": 441.54,
+"b": 445.71
+},
+{
+"part": 2,
+"shot": "K28",
+"si": 0,
+"text": "İblis dərgahdan qovuldu,",
+"a": 446.33,
+"b": 447.93
+},
+{
+"part": 2,
+"shot": "K28",
+"si": 0,
+"text": "amma bir şey istədi:",
+"a": 448.39,
+"b": 449.59
+},
+{
+"part": 2,
+"shot": "K28",
+"si": 0,
+"text": "qiyamət gününə qədər möhlət.",
+"a": 450.12,
+"b": 451.94
+},
+{
+"part": 2,
+"shot": "K28",
+"si": 1,
+"text": "Və ona möhlət verildi.",
+"a": 452.52,
+"b": 454.08
+},
+{
+"part": 2,
+"shot": "K28",
+"si": 2,
+"text": "Bu gün eşitdiyimiz hər vəsvəsə o möhlətin davamıdır.",
+"a": 454.68,
+"b": 458.29
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 0,
+"text": "Quranda bir ayə var ki,",
+"a": 458.93,
+"b": 460.38
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 0,
+"text": "çoxumuz onun nə qədər böyük bir hadisəni anlatdığını bilmirik.",
+"a": 460.67,
+"b": 464.31
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 1,
+"text": "Allah Adəm övladlarının bellərindən nəsillərini çıxardı və onları özlərinə şahid tutdu:",
+"a": 464.85,
+"b": 472.4
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 1,
+"text": "“Mən sizin Rəbbiniz deyiləmmi?” Hamısı dedi:",
+"a": 472.4,
+"b": 476.69
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 1,
+"text": "“Bəli,",
+"a": 477.23,
+"b": 477.26
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 1,
+"text": "şahidik!” Yəni bu sual sizə də verilib.",
+"a": 477.26,
+"b": 479.97
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 2,
+"text": "Mənə də.",
+"a": 480.44,
+"b": 481.02
+},
+{
+"part": 2,
+"shot": "K29",
+"si": 3,
+"text": "Hamımıza.",
+"a": 481.71,
+"b": 482.59
+},
+{
+"part": 2,
+"shot": "K30",
+"si": 0,
+"text": "Tirmizinin nəql etdiyi hədisdə bu səhnənin davamı var.",
+"a": 482.59,
+"b": 484.99
+},
+{
+"part": 2,
+"shot": "K30",
+"si": 1,
+"text": "Allah Adəmin belini sığalladı və qiyamətə qədər yaradacağı bütün nəsli onun belindən çıxdı.",
+"a": 485.58,
+"b": 492.02
+},
+{
+"part": 2,
+"shot": "K30",
+"si": 2,
+"text": "Hər birinin iki gözünün arasına nurdan bir parıltı qoydu və onları Adəmə göstərdi.",
+"a": 492.53,
+"b": 498.28
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 0,
+"text": "Adəm onların arasında birini gördü.",
+"a": 498.9,
+"b": 501.1
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 1,
+"text": "Gözlərinin arasındakı nur onu heyran etdi.",
+"a": 501.64,
+"b": 505.44
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 2,
+"text": "“Ya Rəbb,",
+"a": 505.78,
+"b": 506.42
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 2,
+"text": "bu kimdir?” “Bu,",
+"a": 506.99,
+"b": 507.35
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 2,
+"text": "sənin nəslindəndir,",
+"a": 507.51,
+"b": 508.78
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 2,
+"text": "sonrakı ümmətlərdən.",
+"a": 509.16,
+"b": 510.55
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 3,
+"text": "Adı Davuddur.” “Ya Rəbb,",
+"a": 511.04,
+"b": 513.07
+},
+{
+"part": 2,
+"shot": "K31",
+"si": 3,
+"text": "onun ömrünü nə qədər etdin?” “Altmış il.”",
+"a": 513.37,
+"b": 516.19
+},
+{
+"part": 2,
+"shot": "K32",
+"si": 0,
+"text": "Adəm dedi:",
+"a": 516.64,
+"b": 517.34
+},
+{
+"part": 2,
+"shot": "K32",
+"si": 0,
+"text": "“Ya Rəbb,",
+"a": 517.74,
+"b": 518.12
+},
+{
+"part": 2,
+"shot": "K32",
+"si": 0,
+"text": "mənim ömrümdən ona qırx il əlavə et.”",
+"a": 518.54,
+"b": 521.06
+},
+{
+"part": 2,
+"shot": "K33",
+"si": 0,
+"text": "İllər keçdi.",
+"a": 521.48,
+"b": 522.29
+},
+{
+"part": 2,
+"shot": "K33",
+"si": 1,
+"text": "Adəmin ömrü sona çatanda ölüm mələyi gəldi.",
+"a": 522.81,
+"b": 525.79
+},
+{
+"part": 2,
+"shot": "K33",
+"si": 2,
+"text": "Adəm dedi:",
+"a": 526.24,
+"b": 526.95
+},
+{
+"part": 2,
+"shot": "K33",
+"si": 2,
+"text": "“Axı mənim ömrümdən hələ qırx il qalmayıbmı?” Mələk dedi:",
+"a": 527.42,
+"b": 530.99
+},
+{
+"part": 2,
+"shot": "K33",
+"si": 2,
+"text": "“Məgər onu oğlun Davuda verməmişdinmi?” Adəm bunu unutmuşdu.",
+"a": 531.46,
+"b": 535.95
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 0,
+"text": "Peyğəmbərimiz,",
+"a": 536.54,
+"b": 537.32
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 0,
+"text": "səllallahu aleyhi və səlləm,",
+"a": 537.44,
+"b": 539.54
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 0,
+"text": "buyurur:",
+"a": 539.96,
+"b": 540.28
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 0,
+"text": "“Adəm inkar etdi,",
+"a": 540.28,
+"b": 541.28
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 0,
+"text": "nəsli də inkar etdi.",
+"a": 541.75,
+"b": 544.23
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 1,
+"text": "Adəm unutdu,",
+"a": 544.38,
+"b": 545.77
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 1,
+"text": "nəsli də unutdu.",
+"a": 545.91,
+"b": 547.53
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 2,
+"text": "Adəm xəta etdi,",
+"a": 547.66,
+"b": 549.34
+},
+{
+"part": 2,
+"shot": "K34",
+"si": 2,
+"text": "nəsli də xəta etdi.”",
+"a": 549.47,
+"b": 551.86
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 0,
+"text": "Bəzi rəvayətlərdə deyilir ki,",
+"a": 552.12,
+"b": 553.08
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 0,
+"text": "o gündən sonra yazmaq və şahid tutmaq əmr olundu.",
+"a": 553.08,
+"b": 555.65
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 1,
+"text": "Quranın ən uzun ayəsi,",
+"a": 556.24,
+"b": 558.9
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 1,
+"text": "borcların yazılması ayəsi də elə bunu əmr edir.",
+"a": 558.9,
+"b": 561.26
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 2,
+"text": "Çünki insan unudur.",
+"a": 561.7,
+"b": 564.08
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 3,
+"text": "Bu,",
+"a": 564.26,
+"b": 564.31
+},
+{
+"part": 2,
+"shot": "K35",
+"si": 3,
+"text": "Adəmdən bizə qalan bir xasiyyətdir.",
+"a": 564.31,
+"b": 566.41
+},
+{
+"part": 2,
+"shot": "K36",
+"si": 0,
+"text": "Allah Adəmin tək qalmaması üçün ondan zövcəsi Həvvanı yaratdı və ikisini Cənnətə yerləşdirdi.",
+"a": 566.95,
+"b": 573.89
+},
+{
+"part": 2,
+"shot": "K37",
+"si": 0,
+"text": "Onlara yalnız bir qadağa qoydu:",
+"a": 574.46,
+"b": 576.39
+},
+{
+"part": 2,
+"shot": "K37",
+"si": 0,
+"text": "“Bu ağaca yaxınlaşmayın,",
+"a": 576.88,
+"b": 577.82
+},
+{
+"part": 2,
+"shot": "K37",
+"si": 0,
+"text": "yoxsa zalımlardan olarsınız.”",
+"a": 577.82,
+"b": 580.79
+},
+{
+"part": 2,
+"shot": "K38",
+"si": 0,
+"text": "Birinci əfsanə:",
+"a": 581.98,
+"b": 583.01
+},
+{
+"part": 2,
+"shot": "K38",
+"si": 0,
+"text": "alma.",
+"a": 583.51,
+"b": 583.92
+},
+{
+"part": 2,
+"shot": "K38",
+"si": 1,
+"text": "Qurani-Kərimdə də,",
+"a": 584.62,
+"b": 586.0
+},
+{
+"part": 2,
+"shot": "K38",
+"si": 1,
+"text": "səhih hədislərdə də “alma” sözü bir dəfə də olsun keçmir.",
+"a": 586.0,
+"b": 589.64
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 0,
+"text": "Səhabə və təbiinlərdən buğda,",
+"a": 590.18,
+"b": 592.52
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 0,
+"text": "üzüm,",
+"a": 592.67,
+"b": 593.15
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 0,
+"text": "əncir rəvayətləri gəlib.",
+"a": 593.3,
+"b": 594.59
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 1,
+"text": "Amma heç biri qəti deyil.",
+"a": 595.04,
+"b": 596.47
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 2,
+"text": "Allah ağacın adını gizli saxladı.",
+"a": 597.02,
+"b": 599.35
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 3,
+"text": "Çünki məsələ meyvədə deyildi.",
+"a": 599.75,
+"b": 601.63
+},
+{
+"part": 2,
+"shot": "K39",
+"si": 4,
+"text": "Məsələ əmrə itaətdə idi.",
+"a": 602.07,
+"b": 604.11
+},
+{
+"part": 2,
+"shot": "KART-MALUM",
+"si": 0,
+"text": "Bəs alma haradan çıxdı?",
+"a": 604.64,
+"b": 606.17
+},
+{
+"part": 2,
+"shot": "KART-MALUM",
+"si": 1,
+"text": "Alimlərin bir izahına görə,",
+"a": 606.71,
+"b": 608.29
+},
+{
+"part": 2,
+"shot": "KART-MALUM",
+"si": 1,
+"text": "Latın dilində “malum” sözü həm “alma”,",
+"a": 608.49,
+"b": 610.46
+},
+{
+"part": 2,
+"shot": "KART-MALUM",
+"si": 1,
+"text": "həm də “pislik” deməkdir.",
+"a": 610.61,
+"b": 612.11
+},
+{
+"part": 2,
+"shot": "KART-MALUM",
+"si": 2,
+"text": "Bu söz oyunu Avropa rəssamlığında almanı simvola çevirdi.",
+"a": 612.25,
+"b": 616.05
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 0,
+"text": "İkinci əfsanə:",
+"a": 616.19,
+"b": 617.64
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 0,
+"text": "günahı Həvva işlətdi və Adəmi aldatdı.",
+"a": 618.79,
+"b": 621.93
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 1,
+"text": "Qurana baxaq.",
+"a": 622.07,
+"b": 623.44
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 2,
+"text": "Əraf surəsində Şeytan ikisinə birlikdə vəsvəsə edir və onlara and içir:",
+"a": 624.07,
+"b": 629.09
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 2,
+"text": "“Rəbbiniz sizə bu ağacı ancaq mələk olmayasınız və ya əbədi qalanlardan olmayasınız deyə qadağan etdi.” Taha surəsində isə Şeytan birbaşa Adəmə müraciət edir:",
+"a": 629.31,
+"b": 642.41
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 2,
+"text": "“Ey Adəm,",
+"a": 642.88,
+"b": 643.64
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 2,
+"text": "sənə əbədiyyət ağacını və köhnəlməyən səltənəti göstərimmi?” Və ayə səhvi açıq şəkildə Adəmin adı ilə çəkir:",
+"a": 643.96,
+"b": 651.97
+},
+{
+"part": 2,
+"shot": "K40",
+"si": 2,
+"text": "“Adəm Rəbbinə asi oldu.” Yəni Quran bu səhvi qadının boynuna yükləmir.",
+"a": 652.46,
+"b": 658.13
+},
+{
+"part": 2,
+"shot": "KART-HEDIS",
+"si": 0,
+"text": "Dürüst olaq:",
+"a": 658.72,
+"b": 659.38
+},
+{
+"part": 2,
+"shot": "KART-HEDIS",
+"si": 0,
+"text": "Buxaridə “Həvva olmasaydı,",
+"a": 659.84,
+"b": 662.0
+},
+{
+"part": 2,
+"shot": "KART-HEDIS",
+"si": 0,
+"text": "heç bir qadın ərinə xəyanət etməzdi” hədisi də var.",
+"a": 662.22,
+"b": 665.12
+},
+{
+"part": 2,
+"shot": "KART-HEDIS",
+"si": 1,
+"text": "Amma alimlər bu hədisi ilk günahın Həvvaya yüklənməsi kimi anlamayıblar.",
+"a": 665.56,
+"b": 670.36
+},
+{
+"part": 2,
+"shot": "KART-HEDIS",
+"si": 2,
+"text": "“Həvva Adəmi aldatdı,",
+"a": 671.01,
+"b": 672.34
+},
+{
+"part": 2,
+"shot": "KART-HEDIS",
+"si": 2,
+"text": "qadın lənətləndi” hekayəsi Tövrat rəvayətlərindən gəlir.",
+"a": 672.48,
+"b": 676.7
+},
+{
+"part": 2,
+"shot": "K41",
+"si": 0,
+"text": "İkisi də daddılar.",
+"a": 677.21,
+"b": 678.33
+},
+{
+"part": 2,
+"shot": "K41",
+"si": 1,
+"text": "Libasları üstlərindən düşdü və özlərini Cənnət yarpaqları ilə örtməyə başladılar.",
+"a": 678.72,
+"b": 683.7
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 0,
+"text": "Sonra Adəm Rəbbindən bəzi kəlmələr öyrəndi.",
+"a": 684.31,
+"b": 687.43
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 1,
+"text": "O kəlmələr bunlar idi:",
+"a": 687.93,
+"b": 689.26
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 1,
+"text": "“Rəbbimiz,",
+"a": 689.84,
+"b": 690.51
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 1,
+"text": "biz özümüzə zülm etdik.",
+"a": 690.81,
+"b": 692.43
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 2,
+"text": "Əgər bizi bağışlamasan və bizə rəhm etməsən,",
+"a": 692.88,
+"b": 695.81
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 2,
+"text": "şübhəsiz ki,",
+"a": 696.1,
+"b": 696.39
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 2,
+"text": "ziyana uğrayanlardan olarıq.” Allah onların tövbəsini qəbul etdi.",
+"a": 696.39,
+"b": 701.74
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 3,
+"text": "İslamda “ilk günahın” nəslə miras qalması deyə bir şey yoxdur.",
+"a": 702.38,
+"b": 706.27
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 4,
+"text": "Səhv edildi,",
+"a": 706.71,
+"b": 707.5
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 4,
+"text": "tövbə edildi,",
+"a": 707.89,
+"b": 708.76
+},
+{
+"part": 2,
+"shot": "K42",
+"si": 4,
+"text": "bağışlandı.",
+"a": 709.1,
+"b": 710.01
+},
+{
+"part": 3,
+"shot": "K43",
+"si": 0,
+"text": "Amma yer üzünə enmə vaxtı gəlmişdi.",
+"a": 710.01,
+"b": 712.54
+},
+{
+"part": 3,
+"shot": "K43",
+"si": 1,
+"text": "Çünki Adəm əvvəldən yer üzü üçün,",
+"a": 713.04,
+"b": 715.8
+},
+{
+"part": 3,
+"shot": "K43",
+"si": 1,
+"text": "xəlifə olmaq üçün yaradılmışdı.",
+"a": 716.14,
+"b": 717.99
+},
+{
+"part": 3,
+"shot": "K44",
+"si": 0,
+"text": "Səhih Müslimdə gəlir:",
+"a": 718.54,
+"b": 719.85
+},
+{
+"part": 3,
+"shot": "K44",
+"si": 0,
+"text": "Adəm Cümə günü yaradıldı,",
+"a": 720.42,
+"b": 722.29
+},
+{
+"part": 3,
+"shot": "K44",
+"si": 0,
+"text": "Cümə günü Cənnətə daxil edildi və Cümə günü oradan çıxarıldı.",
+"a": 722.84,
+"b": 728.39
+},
+{
+"part": 3,
+"shot": "K44",
+"si": 1,
+"text": "Qiyamət də Cümə günü qopacaq.",
+"a": 728.51,
+"b": 730.04
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 0,
+"text": "Bəs Adəm və Həvva harada endilər?",
+"a": 730.74,
+"b": 732.95
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 1,
+"text": "Bəzi rəvayətlərə görə Adəm Hind tərəfə,",
+"a": 733.68,
+"b": 737.51
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 1,
+"text": "indiki Şri-Lankaya,",
+"a": 737.51,
+"b": 739.47
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 1,
+"text": "Həvva isə Ciddə tərəfə endirildi.",
+"a": 739.6,
+"b": 743.03
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 2,
+"text": "Uzun ayrılıqdan sonra Ərəfatda bir-birini tapıb tanıdılar.",
+"a": 743.19,
+"b": 746.86
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 3,
+"text": "Deyilənə görə “Ərəfat” adı da elə “tanışmaq” sözündəndir.",
+"a": 747.08,
+"b": 752.94
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 4,
+"text": "Amma bu rəvayətlərin isnadı zəifdir.",
+"a": 753.43,
+"b": 754.67
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 5,
+"text": "Ona görə də bunları qəti fakt kimi yox,",
+"a": 754.67,
+"b": 757.64
+},
+{
+"part": 3,
+"shot": "K45",
+"si": 5,
+"text": "rəvayət kimi qəbul edirik.",
+"a": 758.35,
+"b": 760.78
+},
+{
+"part": 3,
+"shot": "KART-EVLILIK",
+"si": 0,
+"text": "İndi hamının ağlındakı suala gələk:",
+"a": 761.45,
+"b": 763.12
+},
+{
+"part": 3,
+"shot": "KART-EVLILIK",
+"si": 0,
+"text": "Yer üzündə tək bir ailə vardısa,",
+"a": 763.12,
+"b": 765.43
+},
+{
+"part": 3,
+"shot": "KART-EVLILIK",
+"si": 0,
+"text": "Adəmin övladları kiminlə evləndi?",
+"a": 765.57,
+"b": 768.82
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 0,
+"text": "Təfsir rəvayətlərinə görə Həvva hər doğumda əkiz dünyaya gətirirdi:",
+"a": 768.94,
+"b": 773.92
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 0,
+"text": "bir oğlan və bir qız.",
+"a": 774.53,
+"b": 775.86
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 1,
+"text": "Doğumların sayı rəvayətlərdə fərqli verilir.",
+"a": 775.86,
+"b": 780.26
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 2,
+"text": "O dövrə məxsus müvəqqəti hökmə görə oğlan öz əkizi ilə evlənə bilməzdi.",
+"a": 780.44,
+"b": 783.52
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 3,
+"text": "O,",
+"a": 783.65,
+"b": 784.54
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 3,
+"text": "başqa doğumdan olan bacı ilə evlənməli idi.",
+"a": 784.54,
+"b": 787.85
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 4,
+"text": "İnsanlığın artması başqa yolla mümkün deyildi.",
+"a": 787.85,
+"b": 789.79
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 5,
+"text": "Sonrakı şəriətlərdə bu,",
+"a": 790.35,
+"b": 793.01
+},
+{
+"part": 3,
+"shot": "K46",
+"si": 5,
+"text": "tamamilə haram edildi.",
+"a": 793.01,
+"b": 795.72
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 0,
+"text": "İlk qətlə gəlincə,",
+"a": 795.85,
+"b": 796.2
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 0,
+"text": "bunu bilmək vacibdir:",
+"a": 796.2,
+"b": 797.17
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 0,
+"text": "“Qabil” və “Habil” adları Quranda keçmir.",
+"a": 797.77,
+"b": 800.56
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 1,
+"text": "Quran onları “Adəmin iki oğlu” deyə anır.",
+"a": 801.12,
+"b": 804.39
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 2,
+"text": "Quran deyir ki,",
+"a": 804.96,
+"b": 806.87
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 2,
+"text": "onlar qurban təqdim etdilər.",
+"a": 806.87,
+"b": 808.17
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 3,
+"text": "Birininki qəbul olundu,",
+"a": 808.68,
+"b": 810.73
+},
+{
+"part": 3,
+"shot": "K47",
+"si": 3,
+"text": "o birininki olunmadı.",
+"a": 810.88,
+"b": 812.17
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 0,
+"text": "Qəbul olunmayan dedi:",
+"a": 812.75,
+"b": 813.98
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 0,
+"text": "“Səni öldürəcəyəm!” O biri isə dedi:",
+"a": 814.42,
+"b": 816.96
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 0,
+"text": "“Sən məni öldürmək üçün əlini mənə uzatsan da,",
+"a": 817.49,
+"b": 821.34
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 0,
+"text": "mən səni öldürmək üçün əlimi sənə uzatmayacağam.",
+"a": 821.34,
+"b": 824.64
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 1,
+"text": "Mən aləmlərin Rəbbi Allahdan qorxuram.” Qətlin səbəbini Quran demir.",
+"a": 824.99,
+"b": 830.14
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 2,
+"text": "Rəvayətlərə görə səbəb qardaşın öz əkiz bacısı ilə evlənmək istəməsi idi.",
+"a": 830.64,
+"b": 836.31
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 3,
+"text": "Bu,",
+"a": 836.44,
+"b": 836.83
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 3,
+"text": "təfsir rəvayətidir,",
+"a": 836.83,
+"b": 839.06
+},
+{
+"part": 3,
+"shot": "K48",
+"si": 3,
+"text": "Quran ayəsi deyil.",
+"a": 839.71,
+"b": 840.47
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 0,
+"text": "Qatil qardaşının cəsədi ilə nə edəcəyini bilmirdi.",
+"a": 840.47,
+"b": 845.14
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 1,
+"text": "Allah bir qarğa göndərdi.",
+"a": 845.67,
+"b": 846.93
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 2,
+"text": "Qarğa yeri eşdi.",
+"a": 847.43,
+"b": 848.15
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 3,
+"text": "Qatil dedi:",
+"a": 848.69,
+"b": 849.5
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 3,
+"text": "“Vay halıma!",
+"a": 850.05,
+"b": 850.62
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 4,
+"text": "Bu qarğa qədər də ola bilmədimmi ki,",
+"a": 850.62,
+"b": 851.94
+},
+{
+"part": 3,
+"shot": "K49",
+"si": 4,
+"text": "qardaşımın cəsədini basdırım?” Və peşman olanlardan oldu.",
+"a": 852.15,
+"b": 858.14
+},
+{
+"part": 3,
+"shot": "K50",
+"si": 0,
+"text": "Peyğəmbərimiz buyurur:",
+"a": 858.78,
+"b": 860.6
+},
+{
+"part": 3,
+"shot": "K50",
+"si": 0,
+"text": "Haqsız yerə öldürülən hər canın qanından bir pay Adəmin birinci oğlunun üzərinə yazılır.",
+"a": 860.6,
+"b": 866.64
+},
+{
+"part": 3,
+"shot": "K50",
+"si": 1,
+"text": "Çünki qətl yolunu ilk o açdı.",
+"a": 866.89,
+"b": 871.16
+},
+{
+"part": 3,
+"shot": "K50",
+"si": 2,
+"text": "Düşünün… minilliklər boyu tökülən hər haqsız qan…",
+"a": 871.29,
+"b": 874.98
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 0,
+"text": "Və sonda Səhih Buxari və Səhih Müslimdə gələn bir səhnə.",
+"a": 874.98,
+"b": 877.47
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 1,
+"text": "Adəm ilə Musa qarşılaşdılar və mübahisə etdilər.",
+"a": 878.17,
+"b": 884.3
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 2,
+"text": "Bu görüşün harada olduğunu hədis demir.",
+"a": 884.83,
+"b": 886.94
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 3,
+"text": "Alimlər bərzəx,",
+"a": 887.2,
+"b": 888.38
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 3,
+"text": "yuxu və Merac gecəsi ehtimallarını müzakirə ediblər.",
+"a": 888.38,
+"b": 892.76
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 4,
+"text": "Bu,",
+"a": 893.35,
+"b": 894.06
+},
+{
+"part": 3,
+"shot": "K51",
+"si": 4,
+"text": "hələ də açıq qalan bir sualdır.",
+"a": 894.61,
+"b": 895.33
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 0,
+"text": "Musa dedi:",
+"a": 895.74,
+"b": 897.13
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 0,
+"text": "“Ey Adəm!",
+"a": 897.65,
+"b": 898.45
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 1,
+"text": "Sən bizim atamızsan.",
+"a": 898.57,
+"b": 899.64
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 2,
+"text": "Bizi məyus etdin və bizi Cənnətdən çıxardın!” Adəm cavab verdi:",
+"a": 899.76,
+"b": 905.68
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 2,
+"text": "“Ey Musa!",
+"a": 905.68,
+"b": 907.28
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 3,
+"text": "Allah səni Öz kəlamı ilə seçdi və sənin üçün Öz əli ilə yazdı.",
+"a": 907.64,
+"b": 911.05
+},
+{
+"part": 3,
+"shot": "K52",
+"si": 4,
+"text": "İndi sən məni Allahın məni yaratmazdan qırx il əvvəl mənim üçün təqdir etdiyi bir işə görəmi qınayırsan?”",
+"a": 911.28,
+"b": 919.76
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 0,
+"text": "Peyğəmbərimiz,",
+"a": 920.02,
+"b": 920.27
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 0,
+"text": "səllallahu aleyhi və səlləm,",
+"a": 920.27,
+"b": 922.33
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 0,
+"text": "üç dəfə təkrarladı:",
+"a": 922.57,
+"b": 923.95
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 0,
+"text": "“Adəm Musaya qalib gəldi.",
+"a": 924.6,
+"b": 926.7
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 1,
+"text": "Adəm Musaya qalib gəldi.",
+"a": 927.31,
+"b": 929.66
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 2,
+"text": "Adəm Musaya qalib gəldi.” Diqqət edin:",
+"a": 930.3,
+"b": 932.78
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 2,
+"text": "Adəm günahına bəhanə gətirmirdi.",
+"a": 932.78,
+"b": 935.72
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 3,
+"text": "O,",
+"a": 935.95,
+"b": 936.25
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 3,
+"text": "artıq tövbə etmişdi və bağışlanmışdı.",
+"a": 936.25,
+"b": 938.79
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 4,
+"text": "Alimlər deyir ki,",
+"a": 939.12,
+"b": 940.42
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 4,
+"text": "Musanın qınadığı şey günahın özü deyil,",
+"a": 940.55,
+"b": 943.8
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 4,
+"text": "Cənnətdən çıxış müsibəti idi.",
+"a": 944.43,
+"b": 946.19
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 5,
+"text": "Adəm isə ona xatırlatdı ki,",
+"a": 946.63,
+"b": 948.26
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 5,
+"text": "insanın yer üzünə enməsi Allahın əvvəlcədən yazdığı böyük bir hikmət idi.",
+"a": 948.59,
+"b": 954.07
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 6,
+"text": "Axı ilk gündən deyilmişdi:",
+"a": 954.5,
+"b": 956.04
+},
+{
+"part": 3,
+"shot": "K53",
+"si": 6,
+"text": "“Mən yer üzündə bir xəlifə yaradacağam.”",
+"a": 956.04,
+"b": 958.91
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 0,
+"text": "İblis də səhv etdi.",
+"a": 959.45,
+"b": 960.54
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 1,
+"text": "Adəm də səhv etdi.",
+"a": 961.04,
+"b": 962.13
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 2,
+"text": "Amma İblis dedi:",
+"a": 962.57,
+"b": 964.01
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 2,
+"text": "“Mən ondan üstünəm.” Adəm isə dedi:",
+"a": 964.6,
+"b": 966.56
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 2,
+"text": "“Rəbbimiz,",
+"a": 966.91,
+"b": 968.21
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 2,
+"text": "biz özümüzə zülm etdik.” Biri təkəbbür etdi və qovuldu.",
+"a": 968.33,
+"b": 971.47
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 3,
+"text": "O biri boynunu bükdü və bəşəriyyətin atası oldu.",
+"a": 972.06,
+"b": 975.75
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 4,
+"text": "Fərq səhvdə deyil.",
+"a": 976.39,
+"b": 977.65
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 5,
+"text": "Fərq səhvdən sonra nə etdiyimizdədir.",
+"a": 978.16,
+"b": 980.96
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 6,
+"text": "Bu faktlardan hansını ilk dəfə eşitdiniz?",
+"a": 981.74,
+"b": 985.5
+},
+{
+"part": 3,
+"shot": "K54",
+"si": 7,
+"text": "Şərhdə yazın.",
+"a": 986.23,
+"b": 987.22
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 0,
+"text": "Növbəti bölümdə Adəmin nəslindən elə bir peyğəmbər gələcək ki,",
+"a": 987.44,
+"b": 991.16
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 0,
+"text": "Quran onun haqqında belə deyir:",
+"a": 991.29,
+"b": 994.02
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 0,
+"text": "“Biz onu uca bir məkana qaldırdıq.” Peyğəmbərimiz Merac gecəsində onu dördüncü səmada gördü.",
+"a": 994.21,
+"b": 1000.28
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 1,
+"text": "Rəvayətlərə görə o,",
+"a": 1000.89,
+"b": 1001.9
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 1,
+"text": "qələmlə yazan ilk insan idi.",
+"a": 1002.21,
+"b": 1004.43
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 2,
+"text": "Bəs onu səmaya qaldıran sirr nə idi?",
+"a": 1005.07,
+"b": 1007.39
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 3,
+"text": "Və o rəvayətlərin hansı doğrudur,",
+"a": 1007.96,
+"b": 1010.53
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 3,
+"text": "hansı əfsanədir?",
+"a": 1010.96,
+"b": 1012.04
+},
+{
+"part": 3,
+"shot": "K55",
+"si": 4,
+"text": "Görüşənədək…",
+"a": 1012.7,
+"b": 1013.64
+}
+]

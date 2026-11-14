@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, staticFile} from 'remotion';
 import {C, F} from '../theme';
 import {BAR} from './layers';
+import {Icon, IconName} from './icons';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const ease = Easing.bezier(0.33, 0, 0.2, 1);
@@ -69,7 +70,7 @@ export const Quote: React.FC<P & {text: string; by?: string; color?: string; sid
 
 /** 2–3 sütunlu müqayisə panelləri (3D girişlə). */
 export const Columns: React.FC<
-  P & {title?: string; items: {h: string; t: string; c?: string; at: number; ar?: string; img?: string; mark?: string}[]; focus?: {i: number; at: number}}
+  P & {title?: string; items: {h: string; t: string; c?: string; at: number; ar?: string; img?: string; mark?: string; icon?: IconName}[]; focus?: {i: number; at: number}}
 > = ({t, a, b, title, items, focus}) => {
   const o = env(t, a, b, 0.4, 0.5);
   if (o <= 0) return null;
@@ -94,7 +95,10 @@ export const Columns: React.FC<
                     <Img src={staticFile(it.img)} style={{width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.8)'}} />
                   </div>
                 )}
-                {it.mark && <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 64, color: col, lineHeight: 1}}>{it.mark}</div>}
+                <div style={{display: 'flex', alignItems: 'center', gap: 16}}>
+                  {it.icon && <Icon name={it.icon} size={58} color={col} />}
+                  {it.mark && <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: it.mark.length > 3 ? 34 : 64, color: col, lineHeight: 1}}>{it.mark}</div>}
+                </div>
                 <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 48, color: col, lineHeight: 1.1, marginTop: 6}}>{it.h}</div>
                 {it.ar && (
                   <div dir="rtl" style={{fontFamily: F.arabic, fontSize: 40, color: C.goldSoft, marginTop: 16, lineHeight: 1.6}}>
@@ -512,7 +516,10 @@ export const Verdict: React.FC<P & {text: string; c?: string}> = ({t, a, b, text
   const k = pop(t, a, 0.45);
   return (
     <div style={{position: 'absolute', left: 90, top: BAR + 50, opacity: o, transform: `scale(${0.8 + 0.2 * k})`, transformOrigin: 'left top'}}>
-      <span style={{border: `3px solid ${c}`, color: c, background: 'rgba(8,6,4,0.8)', padding: '12px 26px', fontFamily: F.sans, fontWeight: 600, fontSize: 30, letterSpacing: 4}}>{text}</span>
+      <span style={{display: 'inline-flex', alignItems: 'center', gap: 14, border: `3px solid ${c}`, color: c, background: 'rgba(8,6,4,0.82)', padding: '12px 26px', fontFamily: F.sans, fontWeight: 600, fontSize: 30, letterSpacing: 4}}>
+        <Icon name={c === '#3ddc84' || c === '#d6a84e' ? 'check' : 'warn'} size={34} color={c} />
+        {text}
+      </span>
     </div>
   );
 };
