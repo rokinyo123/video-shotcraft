@@ -1,0 +1,23 @@
+{
+  "name": "peygemberlerin-gizli-tarixi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:ep1-acilis": "remotion render src/index.ts Ep1Acilis out/ep1-acilis.mp4",
+    "still": "remotion still src/index.ts"
+  },
+  "dependencies": {
+    "@fontsource/amiri": "5.2.5",
+    "@fontsource/cormorant-garamond": "5.2.6",
+    "@fontsource/inter": "5.2.6",
+    "@remotion/cli": "4.0.484",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "typescript": "6.0.3"
+  }
+}
