@@ -1,0 +1,1818 @@
+{
+ "shots": [
+  {
+   "id": "K01",
+   "a": 0.0,
+   "b": 4.74,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K01.mp4",
+    "last": "media/ep1/K01_last.jpg",
+    "rate": 0.778,
+    "startFrom": 0.0,
+    "clipLen": 4.0,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.06,
+     0,
+     0
+    ],
+    "dark": 0.2
+   },
+   "tr": 0.0
+  },
+  {
+   "id": "K02",
+   "a": 4.74,
+   "b": 8.44,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K02.mp4",
+    "last": "media/ep1/K02_last.jpg",
+    "rate": 1.0,
+    "startFrom": 1.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.05,
+     0,
+     0,
+     1.12,
+     0,
+     -1
+    ],
+    "dark": 0.15
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K03",
+   "a": 8.44,
+   "b": 13.26,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K03.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.28,
+     0,
+     2
+    ],
+    "dark": 0.1
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K04",
+   "a": 13.26,
+   "b": 17.7,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K35.jpg",
+    "kb": [
+     1.08,
+     2,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.55,
+    "grade": "grayscale(0.6) contrast(1.1)"
+   },
+   "tr": 0.0
+  },
+  {
+   "id": "SUAL",
+   "a": 17.7,
+   "b": 26.720000000000002,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K13.mp4",
+    "last": "media/ep1/K13_last.jpg",
+    "rate": 0.909,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.1,
+     0,
+     0
+    ],
+    "dark": 0.5
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "QBG",
+   "a": 26.42,
+   "b": 46.4,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.3
+  },
+  {
+   "id": "K05",
+   "a": 46.4,
+   "b": 51.84,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.0
+  },
+  {
+   "id": "K06",
+   "a": 51.84,
+   "b": 55.32,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K06.jpg",
+    "kb": [
+     1.12,
+     0,
+     0,
+     1.02,
+     0,
+     0
+    ],
+    "dark": 0.15
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K07",
+   "a": 55.32,
+   "b": 61.74,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K07.mp4",
+    "last": "media/ep1/K07_last.jpg",
+    "rate": 1.0,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     1
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  }
+ ],
+ "layers": [
+  {
+   "type": "particles",
+   "a": 0,
+   "b": 13.3,
+   "kind": "dust"
+  },
+  {
+   "type": "particles",
+   "a": 4.6,
+   "b": 13.3,
+   "kind": "embers",
+   "n": 40
+  },
+  {
+   "type": "pulse",
+   "a": 10.4,
+   "b": 13.26
+  },
+  {
+   "type": "big",
+   "a": 13.41,
+   "b": 15.46,
+   "text": "Bu səhnə nağıl deyil."
+  },
+  {
+   "type": "stamp",
+   "a": 15.36,
+   "b": 18.0,
+   "top": "MƏNBƏ",
+   "main": "SƏHİH MÜSLİM · 2611"
+  },
+  {
+   "type": "particles",
+   "a": 17.7,
+   "b": 26.42,
+   "kind": "embers",
+   "n": 25,
+   "alpha": 0.6
+  },
+  {
+   "type": "qcard",
+   "a": 26.42,
+   "b": 35.66,
+   "n": 1,
+   "q": "Adəm həqiqətən otuz metr boyunda idimi?",
+   "sub": "…və İbn Həcər niyə bunu izah edə bilmədiyini etiraf etdi?",
+   "subAt": 29.86,
+   "img": "media/ep1/K19.jpg"
+  },
+  {
+   "type": "qcard",
+   "a": 35.51,
+   "b": 39.51,
+   "n": 2,
+   "q": "Qadağan meyvə alma deyildisə, bəs nə idi?",
+   "sub": null,
+   "subAt": null,
+   "img": "media/ep1/K38.jpg"
+  },
+  {
+   "type": "qcard",
+   "a": 39.36,
+   "b": 46.25,
+   "n": 3,
+   "q": "Adəm Musaya hansı cümlə ilə qalib gəldi?",
+   "sub": "Səhih Buxari · Səhih Müslim",
+   "subAt": 42.36,
+   "img": "media/ep1/K52.jpg"
+  },
+  {
+   "type": "title",
+   "a": 46.4,
+   "b": 52.04
+  },
+  {
+   "type": "particles",
+   "a": 55.32,
+   "b": 61.74,
+   "kind": "lights",
+   "n": 40,
+   "alpha": 0.7
+  },
+  {
+   "type": "ayah",
+   "a": 56.62,
+   "b": 61.64,
+   "ar": "إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
+   "az": "Mən yer üzündə bir xəlifə yaradacağam.",
+   "ref_": "BƏQƏRƏ · 2:30"
+  }
+ ],
+ "subs": [
+  {
+   "a": 0.0,
+   "b": 2.15,
+   "text": "Hələ insan nəfəs almamışdı…"
+  },
+  {
+   "a": 2.2,
+   "b": 4.69,
+   "text": "Hələ heç bir göz açılmamışdı…"
+  },
+  {
+   "a": 4.74,
+   "b": 8.39,
+   "text": "Amma biri artıq onun ətrafında fırlanırdı…"
+  },
+  {
+   "a": 8.44,
+   "b": 13.21,
+   "text": "diqqətlə baxırdı… və onun zəif nöqtəsini tapmışdı."
+  },
+  {
+   "a": 15.36,
+   "b": 17.65,
+   "text": "Səhih Müslimdə nəql olunur."
+  },
+  {
+   "a": 17.7,
+   "b": 20.76,
+   "text": "Bu gün bu səhnənin davamını danışacağıq."
+  },
+  {
+   "a": 20.81,
+   "b": 25.06,
+   "text": "Həmçinin elə suallara cavab axtaracağıq ki, çoxumuz onların"
+  },
+  {
+   "a": 25.11,
+   "b": 26.37,
+   "text": "cavabını bilmirik."
+  },
+  {
+   "a": 51.84,
+   "b": 55.27,
+   "text": "Hər şey insan yaradılmazdan əvvəl başladı."
+  },
+  {
+   "a": 60.74,
+   "b": 65.12,
+   "text": "Mələklər soruşdular: “Orada fəsad törədəcək, qan tökəcək"
+  },
+  {
+   "a": 65.17,
+   "b": 66.7,
+   "text": "birinimi yaradırsan?"
+  },
+  {
+   "a": 66.75,
+   "b": 71.51,
+   "text": "Halbuki biz Səni həmd ilə təsbih edir, Səni müqəddəs tuturuq.”"
+  },
+  {
+   "a": 71.56,
+   "b": 72.72,
+   "text": "Dayanın…"
+  },
+  {
+   "a": 72.77,
+   "b": 74.93,
+   "text": "İnsan hələ yaradılmamışdı."
+  },
+  {
+   "a": 74.98,
+   "b": 78.67,
+   "text": "Bəs mələklər onun qan tökəcəyini haradan bilirdilər?"
+  },
+  {
+   "a": 78.72,
+   "b": 82.05,
+   "text": "Təfsir alimləri burada bir neçə izah verir."
+  },
+  {
+   "a": 82.1,
+   "b": 87.08,
+   "text": "Birincisi: Allah onlara gələcək insanın təbiətini əvvəlcədən"
+  },
+  {
+   "a": 87.13,
+   "b": 88.09,
+   "text": "bildirmişdi."
+  },
+  {
+   "a": 88.14,
+   "b": 91.44,
+   "text": "İkincisi: “xəlifə” sözünün özüdür."
+  },
+  {
+   "a": 91.49,
+   "b": 94.67,
+   "text": "Xəlifə başqasının yerinə gələn deməkdir."
+  },
+  {
+   "a": 94.72,
+   "b": 98.5,
+   "text": "Deməli, yer üzündə ondan əvvəl başqaları yaşamışdı."
+  },
+  {
+   "a": 98.55,
+   "b": 99.73,
+   "text": "Bəs kimlər?"
+  },
+  {
+   "a": 99.78,
+   "b": 106.42,
+   "text": "Təbərinin nəql etdiyi rəvayətlərə görə, Adəmdən əvvəl yer üzündə"
+  },
+  {
+   "a": 106.47,
+   "b": 108.2,
+   "text": "cinlər yaşayırdı."
+  },
+  {
+   "a": 108.25,
+   "b": 112.45,
+   "text": "Onlar bir-birinin qanını tökür, yer üzünü fəsada verirdilər."
+  },
+  {
+   "a": 112.5,
+   "b": 116.15,
+   "text": "Mələklər bunu görmüşdülər."
+  },
+  {
+   "a": 116.2,
+   "b": 118.18,
+   "text": "Sual da buradan doğurdu."
+  },
+  {
+   "a": 118.23,
+   "b": 121.47,
+   "text": "Allahın cavabı isə qısa və sirli oldu: “Mən sizin"
+  },
+  {
+   "a": 121.52,
+   "b": 125.03,
+   "text": "bilmədiklərinizi bilirəm.” Bu cümləni yadda saxlayın."
+  },
+  {
+   "a": 125.08,
+   "b": 128.98,
+   "text": "Bir azdan Allah bu “bilmədiklərinizi” mələklərə necə göstərdi,"
+  },
+  {
+   "a": 129.03,
+   "b": 129.87,
+   "text": "onu görəcəyik."
+  },
+  {
+   "a": 129.92,
+   "b": 134.19,
+   "text": "Allah Adəmi yer üzünün hər yerindən götürülmüş bir ovuc"
+  },
+  {
+   "a": 134.24,
+   "b": 135.61,
+   "text": "torpaqdan yaratdı."
+  },
+  {
+   "a": 135.66,
+   "b": 141.03,
+   "text": "Peyğəmbərimiz, səllallahu aleyhi və səlləm, buyurur ki, Adəm"
+  },
+  {
+   "a": 141.08,
+   "b": 144.83,
+   "text": "övladları da o torpağa görə dünyaya gəldi:"
+  },
+  {
+   "a": 144.88,
+   "b": 150.14,
+   "text": "qırmızısı, ağı, qarası və bunların arasında olanı."
+  },
+  {
+   "a": 150.19,
+   "b": 152.16,
+   "text": "Yumşağı və sərti."
+  },
+  {
+   "a": 152.21,
+   "b": 154.05,
+   "text": "Pisi və yaxşısı."
+  },
+  {
+   "a": 154.1,
+   "b": 159.16,
+   "text": "Bu gün yer üzündəki insan rənglərinin və xasiyyətlərinin"
+  },
+  {
+   "a": 159.21,
+   "b": 163.08,
+   "text": "müxtəlifliyi o bir ovuc torpaqdan başlayır."
+  },
+  {
+   "a": 163.13,
+   "b": 165.42,
+   "text": "Amma Allah bədənə dərhal ruh vermədi."
+  },
+  {
+   "a": 165.47,
+   "b": 169.06,
+   "text": "Səhih Müslimdə belə gəlir: Allah Adəmin surətini yaratdıqdan"
+  },
+  {
+   "a": 169.11,
+   "b": 171.3,
+   "text": "sonra onu istədiyi qədər elə saxladı."
+  },
+  {
+   "a": 171.35,
+   "b": 175.75,
+   "text": "İblis onun ətrafında dolaşmağa, onun nə olduğuna baxmağa"
+  },
+  {
+   "a": 175.8,
+   "b": 176.39,
+   "text": "başladı."
+  },
+  {
+   "a": 176.44,
+   "b": 181.3,
+   "text": "Onun içinin boş olduğunu görəndə anladı ki, bu, özünə hakim ola"
+  },
+  {
+   "a": 181.35,
+   "b": 183.09,
+   "text": "bilməyən bir məxluqdur."
+  },
+  {
+   "a": 183.14,
+   "b": 187.42,
+   "text": "Alimlər bu “içi boş” ifadəsini belə izah edirlər: insanın içində"
+  },
+  {
+   "a": 187.47,
+   "b": 189.86,
+   "text": "ehtiyac, arzu və istək üçün yer var."
+  },
+  {
+   "a": 189.91,
+   "b": 194.52,
+   "text": "Aclıq… qəzəb… şəhvət… istək…"
+  },
+  {
+   "a": 194.57,
+   "b": 199.25,
+   "text": "Yəni İblis insanın zəif nöqtəsini hələ insan nəfəs almamışdan"
+  },
+  {
+   "a": 199.3,
+   "b": 199.95,
+   "text": "tapmışdı."
+  },
+  {
+   "a": 200.0,
+   "b": 202.77,
+   "text": "Və bu gün də elə o nöqtədən vurur."
+  },
+  {
+   "a": 202.82,
+   "b": 205.97,
+   "text": "Sonra Allah ona ruh üfürdü."
+  },
+  {
+   "a": 206.02,
+   "b": 208.34,
+   "text": "Ruh bədənə daxil olanda"
+  },
+  {
+   "a": 208.39,
+   "b": 211.78,
+   "text": "Adəm asqırdı və Allahın izni ilə “Əlhəmdulillah” dedi."
+  },
+  {
+   "a": 211.83,
+   "b": 217.29,
+   "text": "Allah da ona belə cavab verdi: “Allah sənə rəhm etsin, ey Adəm.”"
+  },
+  {
+   "a": 217.34,
+   "b": 222.29,
+   "text": "Düşünün… insanın dünyada eşitdiyi ilk söz rəhmət sözü idi."
+  },
+  {
+   "a": 222.34,
+   "b": 228.28,
+   "text": "Səhih Buxaridə Peyğəmbərimiz buyurur: Allah Adəmi altmış dirsək"
+  },
+  {
+   "a": 228.33,
+   "b": 229.8,
+   "text": "boyunda yaratdı."
+  },
+  {
+   "a": 229.85,
+   "b": 233.5,
+   "text": "Bir dirsək təxminən qırx beş, əlli santimetrdir."
+  },
+  {
+   "a": 233.55,
+   "b": 237.84,
+   "text": "Deməli, Adəmin boyu təxminən iyirmi yeddi ilə otuz metr arasında"
+  },
+  {
+   "a": 237.89,
+   "b": 238.11,
+   "text": "idi."
+  },
+  {
+   "a": 238.16,
+   "b": 242.53,
+   "text": "Bu, doqquz mərtəbəli bina deməkdir."
+  },
+  {
+   "a": 242.58,
+   "b": 246.35,
+   "text": "Hədisin davamında deyilir: Cənnətə girən hər kəs Adəmin"
+  },
+  {
+   "a": 246.4,
+   "b": 247.53,
+   "text": "surətində olacaq."
+  },
+  {
+   "a": 247.58,
+   "b": 251.55,
+   "text": "Məxluqat isə o gündən bu günə qədər kiçilməkdə davam edir."
+  },
+  {
+   "a": 251.6,
+   "b": 255.78,
+   "text": "Amma burada heç bir videoda danışılmayan bir məqam var."
+  },
+  {
+   "a": 255.83,
+   "b": 260.23,
+   "text": "Səhih Buxarinin ən böyük şərhçisi İbn Həcər əl-Əsqəlani bu"
+  },
+  {
+   "a": 260.28,
+   "b": 264.68,
+   "text": "hədisi izah edərkən özü bir sual qaldırır: “Səmud qövmünün"
+  },
+  {
+   "a": 264.73,
+   "b": 267.75,
+   "text": "qayalara oyulmuş evləri bu gün də durur."
+  },
+  {
+   "a": 267.8,
+   "b": 273.06,
+   "text": "Onların qapıları göstərir ki, o insanların boyu o qədər də uca"
+  },
+  {
+   "a": 273.11,
+   "b": 273.75,
+   "text": "olmayıb."
+  },
+  {
+   "a": 273.8,
+   "b": 276.79,
+   "text": "Halbuki onlar çox qədim xalq idi.”"
+  },
+  {
+   "a": 276.84,
+   "b": 282.24,
+   "text": "Sonra İbn Həcər, səkkiz yüz il əvvəl, bir alimin edə biləcəyi ən"
+  },
+  {
+   "a": 282.29,
+   "b": 287.27,
+   "text": "dürüst etirafı yazır: “Bu müşkülü aradan qaldıran bir izahı"
+  },
+  {
+   "a": 287.32,
+   "b": 292.13,
+   "text": "indiyə qədər tapmadım.” Bəzi alimlər deyirlər ki, kiçilmə"
+  },
+  {
+   "a": 292.18,
+   "b": 294.94,
+   "text": "Səmuddan çox əvvəl tamamlanmışdı."
+  },
+  {
+   "a": 294.99,
+   "b": 300.55,
+   "text": "Bəziləri isə bunun bizim bilmədiyimiz bir şəkildə baş verdiyini"
+  },
+  {
+   "a": 300.6,
+   "b": 301.35,
+   "text": "söyləyir."
+  },
+  {
+   "a": 301.4,
+   "b": 303.33,
+   "text": "Bəs siz nə düşünürsünüz?"
+  },
+  {
+   "a": 303.38,
+   "b": 305.34,
+   "text": "Fikrinizi şərhdə yazın."
+  },
+  {
+   "a": 305.39,
+   "b": 309.09,
+   "text": "Bu cür araşdırmaları sevirsinizsə, kanala abunə olun."
+  },
+  {
+   "a": 309.14,
+   "b": 312.4,
+   "text": "Çünki növbəti səhnə daha heyrətamizdir."
+  },
+  {
+   "a": 312.45,
+   "b": 317.53,
+   "text": "Xatırlayın: mələklər “qan tökəcək birinimi yaradırsan?”"
+  },
+  {
+   "a": 317.58,
+   "b": 318.56,
+   "text": "demişdilər."
+  },
+  {
+   "a": 318.61,
+   "b": 321.91,
+   "text": "Allah da “Mən sizin bilmədiklərinizi bilirəm” buyurmuşdu."
+  },
+  {
+   "a": 321.96,
+   "b": 324.43,
+   "text": "İndi o cavabın vaxtı gəldi."
+  },
+  {
+   "a": 324.48,
+   "b": 327.48,
+   "text": "Allah Adəmə bütün adları öyrətdi."
+  },
+  {
+   "a": 327.53,
+   "b": 333.04,
+   "text": "Sonra onları mələklərə göstərib buyurdu: “Doğru deyirsinizsə,"
+  },
+  {
+   "a": 333.09,
+   "b": 336.32,
+   "text": "bunların adlarını Mənə xəbər verin.”"
+  },
+  {
+   "a": 336.37,
+   "b": 340.03,
+   "text": "Mələklər dedilər: “Sən pak və müqəddəssən!"
+  },
+  {
+   "a": 340.08,
+   "b": 344.62,
+   "text": "Bizim Sənin öyrətdiyindən başqa heç bir biliyimiz yoxdur.” Sonra"
+  },
+  {
+   "a": 344.67,
+   "b": 347.34,
+   "text": "Adəm onlara bu adları bir-bir söylədi."
+  },
+  {
+   "a": 347.39,
+   "b": 349.21,
+   "text": "Budur cavab."
+  },
+  {
+   "a": 349.26,
+   "b": 354.86,
+   "text": "İnsan qan tökə bilər, amma ona elm öyrənmək qabiliyyəti verilib."
+  },
+  {
+   "a": 354.91,
+   "b": 357.48,
+   "text": "Mələklərin görmədiyi tərəf bu idi."
+  },
+  {
+   "a": 357.53,
+   "b": 363.26,
+   "text": "Sonra Allah Adəmə buyurdu: “Get, o oturan mələklərə salam ver və"
+  },
+  {
+   "a": 363.31,
+   "b": 366.06,
+   "text": "nə cavab verdiklərinə qulaq as."
+  },
+  {
+   "a": 366.11,
+   "b": 370.41,
+   "text": "Bu, sənin və nəslinin salamı olacaq.” Adəm dedi: “Əssəlamu"
+  },
+  {
+   "a": 370.46,
+   "b": 374.47,
+   "text": "əleykum.” Mələklər cavab verdilər: “Əssəlamu əleykə və"
+  },
+  {
+   "a": 374.52,
+   "b": 378.97,
+   "text": "rəhmətullah.” Yəni üstünə “və rəhmətullah” da əlavə etdilər."
+  },
+  {
+   "a": 379.02,
+   "b": 383.26,
+   "text": "Bu gün bir-birimizə verdiyimiz salam yer üzündə deyil,"
+  },
+  {
+   "a": 383.31,
+   "b": 385.65,
+   "text": "mələklərin hüzurunda başlayıb."
+  },
+  {
+   "a": 385.7,
+   "b": 391.72,
+   "text": "Allah mələklərə əmr etdi: “Adəmə səcdə edin!” Hamısı səcdəyə"
+  },
+  {
+   "a": 391.77,
+   "b": 392.53,
+   "text": "qapandı…"
+  },
+  {
+   "a": 392.58,
+   "b": 394.05,
+   "text": "İblisdən başqa."
+  },
+  {
+   "a": 394.1,
+   "b": 399.09,
+   "text": "Allah soruşdu: “Sənə əmr etdiyim zaman səni səcdədən nə"
+  },
+  {
+   "a": 399.14,
+   "b": 402.85,
+   "text": "saxladı?” İblis dedi: “Mən ondan üstünəm."
+  },
+  {
+   "a": 402.9,
+   "b": 407.69,
+   "text": "Məni oddan, onu isə palçıqdan yaratdın.” Tarixdə ilk irqçilik,"
+  },
+  {
+   "a": 407.74,
+   "b": 410.58,
+   "text": "ilk “mən səndən üstünəm” sözü bu idi."
+  },
+  {
+   "a": 410.63,
+   "b": 415.04,
+   "text": "İndi bir əfsanəni yoxlayaq: İblis üsyan etmiş bir mələk idimi?"
+  },
+  {
+   "a": 415.09,
+   "b": 418.29,
+   "text": "Çoxları belə düşünür."
+  },
+  {
+   "a": 418.34,
+   "b": 422.59,
+   "text": "Amma Quran Kəhf surəsində açıq deyir: “O, cinlərdən idi.”"
+  },
+  {
+   "a": 422.64,
+   "b": 426.13,
+   "text": "Mələklər nurdan yaranıb və Allaha asi olmurlar."
+  },
+  {
+   "a": 426.18,
+   "b": 429.42,
+   "text": "Cinlər isə tüstüsüz oddan yaranıb."
+  },
+  {
+   "a": 429.47,
+   "b": 433.46,
+   "text": "Bunu da dürüstcəsinə deyək: Təbəri İbn Abbasdan İblisin"
+  },
+  {
+   "a": 433.51,
+   "b": 437.87,
+   "text": "mələklərin bir qrupundan olduğuna dair rəvayət də nəql edir."
+  },
+  {
+   "a": 437.92,
+   "b": 442.8,
+   "text": "Amma alimlərin əksəriyyəti bu ayəyə əsasən deyir ki, İblis cin"
+  },
+  {
+   "a": 442.85,
+   "b": 447.4,
+   "text": "idi, sadəcə çox ibadət etdiyi üçün mələklərin arasında yer"
+  },
+  {
+   "a": 447.45,
+   "b": 448.12,
+   "text": "tutmuşdu."
+  },
+  {
+   "a": 448.17,
+   "b": 453.22,
+   "text": "İblis dərgahdan qovuldu, amma bir şey istədi: qiyamət gününə"
+  },
+  {
+   "a": 453.27,
+   "b": 454.33,
+   "text": "qədər möhlət."
+  },
+  {
+   "a": 454.38,
+   "b": 455.1,
+   "text": "Və ona möhlət verildi."
+  },
+  {
+   "a": 455.15,
+   "b": 458.56,
+   "text": "Bu gün eşitdiyimiz hər vəsvəsə o möhlətin davamıdır."
+  },
+  {
+   "a": 458.61,
+   "b": 464.37,
+   "text": "Quranda bir ayə var ki, çoxumuz onun nə qədər böyük bir hadisəni"
+  },
+  {
+   "a": 464.42,
+   "b": 466.28,
+   "text": "anlatdığını bilmirik."
+  },
+  {
+   "a": 466.33,
+   "b": 471.74,
+   "text": "Allah Adəm övladlarının bellərindən nəsillərini çıxardı və"
+  },
+  {
+   "a": 471.79,
+   "b": 477.39,
+   "text": "onları özlərinə şahid tutdu: “Mən sizin Rəbbiniz deyiləmmi?”"
+  },
+  {
+   "a": 477.44,
+   "b": 482.95,
+   "text": "Hamısı dedi: “Bəli, şahidik!” Yəni bu sual sizə də verilib."
+  },
+  {
+   "a": 483.0,
+   "b": 484.0,
+   "text": "Mənə də."
+  },
+  {
+   "a": 484.05,
+   "b": 485.24,
+   "text": "Hamımıza."
+  },
+  {
+   "a": 485.29,
+   "b": 489.19,
+   "text": "Tirmizinin nəql etdiyi hədisdə bu səhnənin davamı var."
+  },
+  {
+   "a": 489.24,
+   "b": 494.27,
+   "text": "Allah Adəmin belini sığalladı və qiyamətə qədər yaradacağı bütün"
+  },
+  {
+   "a": 494.32,
+   "b": 496.34,
+   "text": "nəsli onun belindən çıxdı."
+  },
+  {
+   "a": 496.39,
+   "b": 499.97,
+   "text": "Hər birinin iki gözünün arasına nurdan bir parıltı qoydu və"
+  },
+  {
+   "a": 500.02,
+   "b": 501.33,
+   "text": "onları Adəmə göstərdi."
+  },
+  {
+   "a": 501.38,
+   "b": 504.59,
+   "text": "Adəm onların arasında birini gördü."
+  },
+  {
+   "a": 504.64,
+   "b": 506.66,
+   "text": "Gözlərinin arasındakı nur onu heyran etdi."
+  },
+  {
+   "a": 506.71,
+   "b": 511.99,
+   "text": "“Ya Rəbb, bu kimdir?” “Bu, sənin nəslindəndir, sonrakı"
+  },
+  {
+   "a": 512.04,
+   "b": 513.18,
+   "text": "ümmətlərdən."
+  },
+  {
+   "a": 513.23,
+   "b": 517.97,
+   "text": "Adı Davuddur.” “Ya Rəbb, onun ömrünü nə qədər etdin?” “Altmış"
+  },
+  {
+   "a": 518.02,
+   "b": 518.28,
+   "text": "il.”"
+  },
+  {
+   "a": 518.33,
+   "b": 522.5,
+   "text": "Adəm dedi: “Ya Rəbb, mənim ömrümdən ona qırx il əlavə et.”"
+  },
+  {
+   "a": 522.55,
+   "b": 523.91,
+   "text": "İllər keçdi."
+  },
+  {
+   "a": 523.96,
+   "b": 527.14,
+   "text": "Adəmin ömrü sona çatanda ölüm mələyi gəldi."
+  },
+  {
+   "a": 527.19,
+   "b": 533.27,
+   "text": "Adəm dedi: “Axı mənim ömrümdən hələ qırx il qalmayıbmı?” Mələk"
+  },
+  {
+   "a": 533.32,
+   "b": 538.71,
+   "text": "dedi: “Məgər onu oğlun Davuda verməmişdinmi?” Adəm bunu"
+  },
+  {
+   "a": 538.76,
+   "b": 539.7,
+   "text": "unutmuşdu."
+  },
+  {
+   "a": 539.75,
+   "b": 544.35,
+   "text": "Peyğəmbərimiz, səllallahu aleyhi və səlləm, buyurur: “Adəm inkar"
+  },
+  {
+   "a": 544.4,
+   "b": 546.24,
+   "text": "etdi, nəsli də inkar etdi."
+  },
+  {
+   "a": 546.29,
+   "b": 548.0,
+   "text": "Adəm unutdu, nəsli də unutdu."
+  },
+  {
+   "a": 548.05,
+   "b": 549.83,
+   "text": "Adəm xəta etdi, nəsli də xəta etdi.”"
+  },
+  {
+   "a": 549.88,
+   "b": 554.49,
+   "text": "Bəzi rəvayətlərdə deyilir ki, o gündən sonra yazmaq və şahid"
+  },
+  {
+   "a": 554.54,
+   "b": 555.89,
+   "text": "tutmaq əmr olundu."
+  },
+  {
+   "a": 555.94,
+   "b": 561.03,
+   "text": "Quranın ən uzun ayəsi, borcların yazılması ayəsi də elə bunu əmr"
+  },
+  {
+   "a": 561.08,
+   "b": 561.43,
+   "text": "edir."
+  },
+  {
+   "a": 561.48,
+   "b": 563.46,
+   "text": "Çünki insan unudur."
+  },
+  {
+   "a": 563.51,
+   "b": 566.63,
+   "text": "Bu, Adəmdən bizə qalan bir xasiyyətdir."
+  },
+  {
+   "a": 566.68,
+   "b": 573.55,
+   "text": "Allah Adəmin tək qalmaması üçün ondan zövcəsi Həvvanı yaratdı və"
+  },
+  {
+   "a": 573.6,
+   "b": 576.58,
+   "text": "ikisini Cənnətə yerləşdirdi."
+  },
+  {
+   "a": 576.63,
+   "b": 581.42,
+   "text": "Onlara yalnız bir qadağa qoydu: “Bu ağaca yaxınlaşmayın, yoxsa"
+  },
+  {
+   "a": 581.47,
+   "b": 583.21,
+   "text": "zalımlardan olarsınız.”"
+  },
+  {
+   "a": 583.26,
+   "b": 584.23,
+   "text": "Birinci əfsanə: alma."
+  },
+  {
+   "a": 584.28,
+   "b": 588.88,
+   "text": "Qurani-Kərimdə də, səhih hədislərdə də “alma” sözü bir dəfə də"
+  },
+  {
+   "a": 588.93,
+   "b": 589.85,
+   "text": "olsun keçmir."
+  },
+  {
+   "a": 589.9,
+   "b": 594.81,
+   "text": "Səhabə və təbiinlərdən buğda, üzüm, əncir rəvayətləri gəlib."
+  },
+  {
+   "a": 594.86,
+   "b": 596.7,
+   "text": "Amma heç biri qəti deyil."
+  },
+  {
+   "a": 596.75,
+   "b": 599.5,
+   "text": "Allah ağacın adını gizli saxladı."
+  },
+  {
+   "a": 599.55,
+   "b": 601.8,
+   "text": "Çünki məsələ meyvədə deyildi."
+  },
+  {
+   "a": 601.85,
+   "b": 604.34,
+   "text": "Məsələ əmrə itaətdə idi."
+  },
+  {
+   "a": 604.39,
+   "b": 606.39,
+   "text": "Bəs alma haradan çıxdı?"
+  },
+  {
+   "a": 606.44,
+   "b": 610.83,
+   "text": "Alimlərin bir izahına görə, Latın dilində “malum” sözü həm"
+  },
+  {
+   "a": 610.88,
+   "b": 613.36,
+   "text": "“alma”, həm də “pislik” deməkdir."
+  },
+  {
+   "a": 613.41,
+   "b": 618.17,
+   "text": "Bu söz oyunu Avropa rəssamlığında almanı simvola çevirdi."
+  },
+  {
+   "a": 618.22,
+   "b": 623.71,
+   "text": "İkinci əfsanə: günahı Həvva işlətdi və Adəmi aldatdı."
+  },
+  {
+   "a": 623.76,
+   "b": 625.15,
+   "text": "Qurana baxaq."
+  },
+  {
+   "a": 625.2,
+   "b": 630.05,
+   "text": "Əraf surəsində Şeytan ikisinə birlikdə vəsvəsə edir və onlara"
+  },
+  {
+   "a": 630.1,
+   "b": 635.1,
+   "text": "and içir: “Rəbbiniz sizə bu ağacı ancaq mələk olmayasınız və ya"
+  },
+  {
+   "a": 635.15,
+   "b": 640.24,
+   "text": "əbədi qalanlardan olmayasınız deyə qadağan etdi.” Taha surəsində"
+  },
+  {
+   "a": 640.29,
+   "b": 645.38,
+   "text": "isə Şeytan birbaşa Adəmə müraciət edir: “Ey Adəm, sənə əbədiyyət"
+  },
+  {
+   "a": 645.43,
+   "b": 650.43,
+   "text": "ağacını və köhnəlməyən səltənəti göstərimmi?” Və ayə səhvi açıq"
+  },
+  {
+   "a": 650.48,
+   "b": 655.17,
+   "text": "şəkildə Adəmin adı ilə çəkir: “Adəm Rəbbinə asi oldu.” Yəni"
+  },
+  {
+   "a": 655.22,
+   "b": 658.38,
+   "text": "Quran bu səhvi qadının boynuna yükləmir."
+  },
+  {
+   "a": 658.43,
+   "b": 662.91,
+   "text": "Dürüst olaq: Buxaridə “Həvva olmasaydı, heç bir qadın ərinə"
+  },
+  {
+   "a": 662.96,
+   "b": 665.29,
+   "text": "xəyanət etməzdi” hədisi də var."
+  },
+  {
+   "a": 665.34,
+   "b": 669.65,
+   "text": "Amma alimlər bu hədisi ilk günahın Həvvaya yüklənməsi kimi"
+  },
+  {
+   "a": 669.7,
+   "b": 670.63,
+   "text": "anlamayıblar."
+  },
+  {
+   "a": 670.68,
+   "b": 675.11,
+   "text": "“Həvva Adəmi aldatdı, qadın lənətləndi” hekayəsi Tövrat"
+  },
+  {
+   "a": 675.16,
+   "b": 676.9,
+   "text": "rəvayətlərindən gəlir."
+  },
+  {
+   "a": 676.95,
+   "b": 678.48,
+   "text": "İkisi də daddılar."
+  },
+  {
+   "a": 678.53,
+   "b": 682.65,
+   "text": "Libasları üstlərindən düşdü və özlərini Cənnət yarpaqları ilə"
+  },
+  {
+   "a": 682.7,
+   "b": 683.95,
+   "text": "örtməyə başladılar."
+  },
+  {
+   "a": 684.0,
+   "b": 687.63,
+   "text": "Sonra Adəm Rəbbindən bəzi kəlmələr öyrəndi."
+  },
+  {
+   "a": 687.68,
+   "b": 692.6,
+   "text": "O kəlmələr bunlar idi: “Rəbbimiz, biz özümüzə zülm etdik."
+  },
+  {
+   "a": 692.65,
+   "b": 697.54,
+   "text": "Əgər bizi bağışlamasan və bizə rəhm etməsən, şübhəsiz ki, ziyana"
+  },
+  {
+   "a": 697.59,
+   "b": 702.01,
+   "text": "uğrayanlardan olarıq.” Allah onların tövbəsini qəbul etdi."
+  },
+  {
+   "a": 702.06,
+   "b": 706.44,
+   "text": "İslamda “ilk günahın” nəslə miras qalması deyə bir şey yoxdur."
+  },
+  {
+   "a": 706.49,
+   "b": 709.96,
+   "text": "Səhv edildi, tövbə edildi, bağışlandı."
+  },
+  {
+   "a": 710.01,
+   "b": 712.74,
+   "text": "Amma yer üzünə enmə vaxtı gəlmişdi."
+  },
+  {
+   "a": 712.79,
+   "b": 717.11,
+   "text": "Çünki Adəm əvvəldən yer üzü üçün, xəlifə olmaq üçün"
+  },
+  {
+   "a": 717.16,
+   "b": 718.22,
+   "text": "yaradılmışdı."
+  },
+  {
+   "a": 718.27,
+   "b": 723.15,
+   "text": "Səhih Müslimdə gəlir: Adəm Cümə günü yaradıldı, Cümə günü"
+  },
+  {
+   "a": 723.2,
+   "b": 727.57,
+   "text": "Cənnətə daxil edildi və Cümə günü oradan çıxarıldı."
+  },
+  {
+   "a": 727.62,
+   "b": 730.36,
+   "text": "Qiyamət də Cümə günü qopacaq."
+  },
+  {
+   "a": 730.41,
+   "b": 733.27,
+   "text": "Bəs Adəm və Həvva harada endilər?"
+  },
+  {
+   "a": 733.32,
+   "b": 738.34,
+   "text": "Bəzi rəvayətlərə görə Adəm Hind tərəfə, indiki Şri-Lankaya,"
+  },
+  {
+   "a": 738.39,
+   "b": 741.17,
+   "text": "Həvva isə Ciddə tərəfə endirildi."
+  },
+  {
+   "a": 741.22,
+   "b": 745.7,
+   "text": "Uzun ayrılıqdan sonra Ərəfatda bir-birini tapıb tanıdılar."
+  },
+  {
+   "a": 745.75,
+   "b": 750.16,
+   "text": "Deyilənə görə “Ərəfat” adı da elə “tanışmaq” sözündəndir."
+  },
+  {
+   "a": 750.21,
+   "b": 753.13,
+   "text": "Amma bu rəvayətlərin isnadı zəifdir."
+  },
+  {
+   "a": 753.18,
+   "b": 757.42,
+   "text": "Ona görə də bunları qəti fakt kimi yox, rəvayət kimi qəbul"
+  },
+  {
+   "a": 757.47,
+   "b": 757.94,
+   "text": "edirik."
+  },
+  {
+   "a": 757.99,
+   "b": 763.14,
+   "text": "İndi hamının ağlındakı suala gələk: Yer üzündə tək bir ailə"
+  },
+  {
+   "a": 763.19,
+   "b": 766.84,
+   "text": "vardısa, Adəmin övladları kiminlə evləndi?"
+  },
+  {
+   "a": 766.89,
+   "b": 771.5,
+   "text": "Təfsir rəvayətlərinə görə Həvva hər doğumda əkiz dünyaya"
+  },
+  {
+   "a": 771.55,
+   "b": 774.17,
+   "text": "gətirirdi: bir oğlan və bir qız."
+  },
+  {
+   "a": 774.22,
+   "b": 777.58,
+   "text": "Doğumların sayı rəvayətlərdə fərqli verilir."
+  },
+  {
+   "a": 777.63,
+   "b": 782.27,
+   "text": "O dövrə məxsus müvəqqəti hökmə görə oğlan öz əkizi ilə evlənə"
+  },
+  {
+   "a": 782.32,
+   "b": 782.96,
+   "text": "bilməzdi."
+  },
+  {
+   "a": 783.01,
+   "b": 786.36,
+   "text": "O, başqa doğumdan olan bacı ilə evlənməli idi."
+  },
+  {
+   "a": 786.41,
+   "b": 790.01,
+   "text": "İnsanlığın artması başqa yolla mümkün deyildi."
+  },
+  {
+   "a": 790.06,
+   "b": 794.0,
+   "text": "Sonrakı şəriətlərdə bu, tamamilə haram edildi."
+  },
+  {
+   "a": 794.05,
+   "b": 798.95,
+   "text": "İlk qətlə gəlincə, bunu bilmək vacibdir: “Qabil” və “Habil”"
+  },
+  {
+   "a": 799.0,
+   "b": 800.79,
+   "text": "adları Quranda keçmir."
+  },
+  {
+   "a": 800.84,
+   "b": 804.63,
+   "text": "Quran onları “Adəmin iki oğlu” deyə anır."
+  },
+  {
+   "a": 804.68,
+   "b": 808.37,
+   "text": "Quran deyir ki, onlar qurban təqdim etdilər."
+  },
+  {
+   "a": 808.42,
+   "b": 812.42,
+   "text": "Birininki qəbul olundu, o birininki olunmadı."
+  },
+  {
+   "a": 812.47,
+   "b": 817.53,
+   "text": "Qəbul olunmayan dedi: “Səni öldürəcəyəm!” O biri isə dedi: “Sən"
+  },
+  {
+   "a": 817.58,
+   "b": 822.73,
+   "text": "məni öldürmək üçün əlini mənə uzatsan da, mən səni öldürmək üçün"
+  },
+  {
+   "a": 822.78,
+   "b": 824.76,
+   "text": "əlimi sənə uzatmayacağam."
+  },
+  {
+   "a": 824.81,
+   "b": 829.84,
+   "text": "Mən aləmlərin Rəbbi Allahdan qorxuram.” Qətlin səbəbini Quran"
+  },
+  {
+   "a": 829.89,
+   "b": 830.34,
+   "text": "demir."
+  },
+  {
+   "a": 830.39,
+   "b": 834.77,
+   "text": "Rəvayətlərə görə səbəb qardaşın öz əkiz bacısı ilə evlənmək"
+  },
+  {
+   "a": 834.82,
+   "b": 835.75,
+   "text": "istəməsi idi."
+  },
+  {
+   "a": 835.8,
+   "b": 839.33,
+   "text": "Bu, təfsir rəvayətidir, Quran ayəsi deyil."
+  },
+  {
+   "a": 839.38,
+   "b": 842.98,
+   "text": "Qatil qardaşının cəsədi ilə nə edəcəyini bilmirdi."
+  },
+  {
+   "a": 843.03,
+   "b": 845.35,
+   "text": "Allah bir qarğa göndərdi."
+  },
+  {
+   "a": 845.4,
+   "b": 847.13,
+   "text": "Qarğa yeri eşdi."
+  },
+  {
+   "a": 847.18,
+   "b": 849.72,
+   "text": "Qatil dedi: “Vay halıma!"
+  },
+  {
+   "a": 849.77,
+   "b": 854.95,
+   "text": "Bu qarğa qədər də ola bilmədimmi ki, qardaşımın cəsədini"
+  },
+  {
+   "a": 855.0,
+   "b": 858.41,
+   "text": "basdırım?” Və peşman olanlardan oldu."
+  },
+  {
+   "a": 858.46,
+   "b": 863.16,
+   "text": "Peyğəmbərimiz buyurur: Haqsız yerə öldürülən hər canın qanından"
+  },
+  {
+   "a": 863.21,
+   "b": 866.7,
+   "text": "bir pay Adəmin birinci oğlunun üzərinə yazılır."
+  },
+  {
+   "a": 866.75,
+   "b": 869.2,
+   "text": "Çünki qətl yolunu ilk o açdı."
+  },
+  {
+   "a": 869.25,
+   "b": 872.87,
+   "text": "Düşünün… minilliklər boyu tökülən hər haqsız qan…"
+  },
+  {
+   "a": 872.92,
+   "b": 877.77,
+   "text": "Və sonda Səhih Buxari və Səhih Müslimdə gələn bir səhnə."
+  },
+  {
+   "a": 877.82,
+   "b": 881.64,
+   "text": "Adəm ilə Musa qarşılaşdılar və mübahisə etdilər."
+  },
+  {
+   "a": 881.69,
+   "b": 884.51,
+   "text": "Bu görüşün harada olduğunu hədis demir."
+  },
+  {
+   "a": 884.56,
+   "b": 889.56,
+   "text": "Alimlər bərzəx, yuxu və Merac gecəsi ehtimallarını müzakirə"
+  },
+  {
+   "a": 889.61,
+   "b": 890.24,
+   "text": "ediblər."
+  },
+  {
+   "a": 890.29,
+   "b": 894.29,
+   "text": "Bu, hələ də açıq qalan bir sualdır."
+  },
+  {
+   "a": 894.34,
+   "b": 895.48,
+   "text": "Musa dedi: “Ey Adəm!"
+  },
+  {
+   "a": 895.53,
+   "b": 898.86,
+   "text": "Sən bizim atamızsan."
+  },
+  {
+   "a": 898.91,
+   "b": 903.9,
+   "text": "Bizi məyus etdin və bizi Cənnətdən çıxardın!” Adəm cavab verdi:"
+  },
+  {
+   "a": 903.95,
+   "b": 904.62,
+   "text": "“Ey Musa!"
+  },
+  {
+   "a": 904.67,
+   "b": 909.95,
+   "text": "Allah səni Öz kəlamı ilə seçdi və sənin üçün Öz əli ilə yazdı."
+  },
+  {
+   "a": 910.0,
+   "b": 914.09,
+   "text": "İndi sən məni Allahın məni yaratmazdan qırx il əvvəl mənim üçün"
+  },
+  {
+   "a": 914.14,
+   "b": 916.79,
+   "text": "təqdir etdiyi bir işə görəmi qınayırsan?”"
+  },
+  {
+   "a": 916.84,
+   "b": 922.12,
+   "text": "Peyğəmbərimiz, səllallahu aleyhi və səlləm, üç dəfə təkrarladı:"
+  },
+  {
+   "a": 922.17,
+   "b": 924.23,
+   "text": "“Adəm Musaya qalib gəldi."
+  },
+  {
+   "a": 924.28,
+   "b": 926.96,
+   "text": "Adəm Musaya qalib gəldi."
+  },
+  {
+   "a": 927.01,
+   "b": 932.69,
+   "text": "Adəm Musaya qalib gəldi.” Diqqət edin: Adəm günahına bəhanə"
+  },
+  {
+   "a": 932.74,
+   "b": 933.76,
+   "text": "gətirmirdi."
+  },
+  {
+   "a": 933.81,
+   "b": 937.37,
+   "text": "O, artıq tövbə etmişdi və bağışlanmışdı."
+  },
+  {
+   "a": 937.42,
+   "b": 941.81,
+   "text": "Alimlər deyir ki, Musanın qınadığı şey günahın özü deyil,"
+  },
+  {
+   "a": 941.86,
+   "b": 944.07,
+   "text": "Cənnətdən çıxış müsibəti idi."
+  },
+  {
+   "a": 944.12,
+   "b": 948.79,
+   "text": "Adəm isə ona xatırlatdı ki, insanın yer üzünə enməsi Allahın"
+  },
+  {
+   "a": 948.84,
+   "b": 951.94,
+   "text": "əvvəlcədən yazdığı böyük bir hikmət idi."
+  },
+  {
+   "a": 951.99,
+   "b": 956.35,
+   "text": "Axı ilk gündən deyilmişdi: “Mən yer üzündə bir xəlifə"
+  },
+  {
+   "a": 956.4,
+   "b": 957.43,
+   "text": "yaradacağam.”"
+  },
+  {
+   "a": 957.48,
+   "b": 959.13,
+   "text": "İblis də səhv etdi."
+  },
+  {
+   "a": 959.18,
+   "b": 960.74,
+   "text": "Adəm də səhv etdi."
+  },
+  {
+   "a": 960.79,
+   "b": 966.6,
+   "text": "Amma İblis dedi: “Mən ondan üstünəm.” Adəm isə dedi: “Rəbbimiz,"
+  },
+  {
+   "a": 966.65,
+   "b": 971.72,
+   "text": "biz özümüzə zülm etdik.” Biri təkəbbür etdi və qovuldu."
+  },
+  {
+   "a": 971.77,
+   "b": 976.01,
+   "text": "O biri boynunu bükdü və bəşəriyyətin atası oldu."
+  },
+  {
+   "a": 976.06,
+   "b": 977.84,
+   "text": "Fərq səhvdə deyil."
+  },
+  {
+   "a": 977.89,
+   "b": 981.3,
+   "text": "Fərq səhvdən sonra nə etdiyimizdədir."
+  },
+  {
+   "a": 981.35,
+   "b": 984.51,
+   "text": "Bu faktlardan hansını ilk dəfə eşitdiniz?"
+  },
+  {
+   "a": 984.56,
+   "b": 985.81,
+   "text": "Şərhdə yazın."
+  },
+  {
+   "a": 985.86,
+   "b": 990.77,
+   "text": "Növbəti bölümdə Adəmin nəslindən elə bir peyğəmbər gələcək ki,"
+  },
+  {
+   "a": 990.82,
+   "b": 995.18,
+   "text": "Quran onun haqqında belə deyir: “Biz onu uca bir məkana"
+  },
+  {
+   "a": 995.23,
+   "b": 1000.06,
+   "text": "qaldırdıq.” Peyğəmbərimiz Merac gecəsində onu dördüncü səmada"
+  },
+  {
+   "a": 1000.11,
+   "b": 1000.54,
+   "text": "gördü."
+  },
+  {
+   "a": 1000.59,
+   "b": 1004.7,
+   "text": "Rəvayətlərə görə o, qələmlə yazan ilk insan idi."
+  },
+  {
+   "a": 1004.75,
+   "b": 1007.63,
+   "text": "Bəs onu səmaya qaldıran sirr nə idi?"
+  },
+  {
+   "a": 1007.68,
+   "b": 1012.32,
+   "text": "Və o rəvayətlərin hansı doğrudur, hansı əfsanədir?"
+  },
+  {
+   "a": 1012.37,
+   "b": 1013.61,
+   "text": "Görüşənədək…"
+  }
+ ],
+ "sfx": [
+  {
+   "n": "wind",
+   "t": 0.0,
+   "g": 0.8
+  },
+  {
+   "n": "drone_dark",
+   "t": 0.0,
+   "g": 1.0
+  },
+  {
+   "n": "heartbeat",
+   "t": 4.74,
+   "g": 0.9
+  },
+  {
+   "n": "whoosh_low",
+   "t": 4.5,
+   "g": 0.6
+  },
+  {
+   "n": "sub_hit",
+   "t": 10.6,
+   "g": 0.9
+  },
+  {
+   "n": "cut_silence",
+   "t": 13.26,
+   "g": 1.0
+  },
+  {
+   "n": "stamp",
+   "t": 15.36,
+   "g": 1.0
+  },
+  {
+   "n": "paper",
+   "t": 15.46,
+   "g": 0.6
+  },
+  {
+   "n": "whoosh",
+   "t": 26.07,
+   "g": 0.7
+  },
+  {
+   "n": "impact",
+   "t": 26.42,
+   "g": 0.85
+  },
+  {
+   "n": "whoosh",
+   "t": 35.16,
+   "g": 0.7
+  },
+  {
+   "n": "impact",
+   "t": 35.51,
+   "g": 0.85
+  },
+  {
+   "n": "whoosh",
+   "t": 39.01,
+   "g": 0.7
+  },
+  {
+   "n": "impact",
+   "t": 39.36,
+   "g": 0.85
+  },
+  {
+   "n": "tension_bed",
+   "t": 13.8,
+   "g": 1.0
+  },
+  {
+   "n": "riser",
+   "t": 41.4,
+   "g": 0.8
+  },
+  {
+   "n": "braam",
+   "t": 46.4,
+   "g": 1.0
+  },
+  {
+   "n": "boom",
+   "t": 46.4,
+   "g": 1.0
+  },
+  {
+   "n": "pad_sacred",
+   "t": 51.34,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh_low",
+   "t": 51.44,
+   "g": 0.5
+  },
+  {
+   "n": "shimmer",
+   "t": 56.52,
+   "g": 0.8
+  },
+  {
+   "n": "choir_hit",
+   "t": 56.62,
+   "g": 0.7
+  }
+ ]
+}

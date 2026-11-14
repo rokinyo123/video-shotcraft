@@ -8,6 +8,7 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {Ep1Acilis, EP1_ACILIS_FRAMES} from './ep1/Acilis';
 import {A18Enis, A18_FRAMES} from './ep1/A18Enis';
+import {Episode} from './ep1/Episode';
 import {FPS} from './theme';
 
 export const RemotionRoot: React.FC = () => (
@@ -21,5 +22,6 @@ export const RemotionRoot: React.FC = () => (
       height={1080}
     />
     <Composition id="A18Enis" component={A18Enis} durationInFrames={A18_FRAMES} fps={FPS} width={1920} height={1080} />
+    <Composition id="Ep1Min1" component={Episode} durationInFrames={Math.round(61.6 * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{from: 0, to: 61.6}} />
   </>
 );
