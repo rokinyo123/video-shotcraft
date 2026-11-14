@@ -20,6 +20,7 @@ import {
   useT,
   Vignette,
 } from './layers';
+import {Calligraphy, Chips, Columns, Comment, Counter, Dialog, LifeBars, List, Malum, NextEp, Quote, Repeat, Scale, Strike, Subscribe, TwinTree, Verdict, XMark} from './layers2';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 type Shot = {id: string; a: number; b: number; bg: BgSpec; tr: number};
@@ -44,6 +45,42 @@ const renderLayer = (l: Layer, t: number, i: number) => {
       return <Opener key={i} {...p} />;
     case 'title':
       return <SeriesTitle key={i} {...p} />;
+    case 'quote':
+      return <Quote key={i} {...p} text={l.text} by={l.by} color={l.color} side={l.side} size={l.size} />;
+    case 'columns':
+      return <Columns key={i} {...p} title={l.title} items={l.items} focus={l.focus} />;
+    case 'chips':
+      return <Chips key={i} {...p} items={l.items} y={l.y} size={l.size} />;
+    case 'list':
+      return <List key={i} {...p} title={l.title} sub={l.sub} items={l.items} />;
+    case 'callig':
+      return <Calligraphy key={i} {...p} ar={l.ar} sub={l.sub} y={l.y} />;
+    case 'counter':
+      return <Counter key={i} {...p} from={l.from} to={l.to} at={l.at} dur={l.dur} label={l.label} suffix={l.suffix} y={l.y} />;
+    case 'bars':
+      return <LifeBars key={i} {...p} cut={l.cut} join={l.join} />;
+    case 'scale':
+      return <Scale key={i} {...p} ruler={l.ruler} build={l.build} done={l.done} />;
+    case 'tree':
+      return <TwinTree key={i} {...p} cross={l.cross} ban={l.ban} haram={l.haram} />;
+    case 'strike':
+      return <Strike key={i} {...p} words={l.words} strikeAt={l.strikeAt} repl={l.repl} replAt={l.replAt} ar={l.ar} ref_={l.ref_} />;
+    case 'repeat':
+      return <Repeat key={i} {...p} text={l.text} times={l.times} />;
+    case 'malum':
+      return <Malum key={i} {...p} split={l.split} />;
+    case 'xmark':
+      return <XMark key={i} {...p} />;
+    case 'verdict':
+      return <Verdict key={i} {...p} text={l.text} c={l.c} />;
+    case 'comment':
+      return <Comment key={i} {...p} text={l.text} />;
+    case 'subscribe':
+      return <Subscribe key={i} {...p} click={l.click} />;
+    case 'dialog':
+      return <Dialog key={i} {...p} who={l.who} text={l.text} side={l.side} c={l.c} />;
+    case 'next':
+      return <NextEp key={i} {...p} />;
     case 'source':
       return <SourceTag key={i} {...p} label={l.label} weak={l.weak} />;
     default:
@@ -81,7 +118,7 @@ export const Episode: React.FC<{from: number; to: number}> = ({from}) => {
           <Subtitle key={i} text={s.text} t={t} a={s.a} b={s.b} />
         ))}
       <Corner alpha={titleOn ? 0 : interpolate(t, [52, 54], [0, 1], clamp)} />
-      <AbsoluteFill style={{background: '#000', opacity: interpolate(t, [0, 1.2], [1, 0], clamp)}} />
+      <AbsoluteFill style={{background: '#000', opacity: Math.max(interpolate(t, [0, 1.2], [1, 0], clamp), interpolate(t, [1012.4, 1014.6], [0, 1], clamp))}} />
     </AbsoluteFill>
   );
 };

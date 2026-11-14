@@ -167,6 +167,1075 @@
     "dark": 0.35
    },
    "tr": 0.45
+  },
+  {
+   "id": "K08",
+   "a": 60.74,
+   "b": 71.56,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K08.jpg",
+    "kb": [
+     1.02,
+     -1,
+     0,
+     1.14,
+     1,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "KART-DAYANIN",
+   "a": 71.56,
+   "b": 78.72,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K08.jpg",
+    "kb": [
+     1.14,
+     1,
+     0,
+     1.2,
+     1,
+     0
+    ],
+    "dark": 0.6,
+    "grade": "grayscale(1) contrast(1.2)"
+   },
+   "tr": 0.0
+  },
+  {
+   "id": "KART-IZAH",
+   "a": 78.72,
+   "b": 99.78,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K22.jpg",
+    "kb": [
+     1.05,
+     0,
+     0,
+     1.15,
+     0,
+     -1
+    ],
+    "dark": 0.62
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K09",
+   "a": 99.78,
+   "b": 118.23,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K09.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.18,
+     0,
+     1
+    ],
+    "dark": 0.2
+   },
+   "tr": 0.2
+  },
+  {
+   "id": "K10",
+   "a": 118.23,
+   "b": 129.92,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K10.jpg",
+    "kb": [
+     1.0,
+     0,
+     2,
+     1.15,
+     0,
+     -1
+    ],
+    "dark": 0.25
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K11",
+   "a": 129.92,
+   "b": 144.88,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/GlobeSoil.mp4",
+    "rate": 1.0,
+    "clipLen": 15.6,
+    "kb": [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "dark": 0.0
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K12",
+   "a": 144.88,
+   "b": 163.13,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K12.jpg",
+    "kb": [
+     1.02,
+     0,
+     1,
+     1.14,
+     0,
+     -1
+    ],
+    "dark": 0.45
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K13",
+   "a": 163.13,
+   "b": 183.14,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K13.mp4",
+    "last": "media/ep1/K13_last.jpg",
+    "rate": 0.5,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.25
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K14",
+   "a": 183.14,
+   "b": 202.82,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K03.jpg",
+    "kb": [
+     1.2,
+     0,
+     2,
+     1.32,
+     0,
+     3
+    ],
+    "dark": 0.55
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K15",
+   "a": 202.82,
+   "b": 208.89,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K15.mp4",
+    "last": "media/ep1/K15_last.jpg",
+    "rate": 1.0,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.1,
+     0,
+     0
+    ],
+    "dark": 0.1,
+    "grade": "saturate(0.55) sepia(0.35) brightness(1.08) hue-rotate(-8deg)"
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K16",
+   "a": 208.39,
+   "b": 222.34,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K16.jpg",
+    "kb": [
+     1.04,
+     0,
+     0,
+     1.16,
+     0,
+     1
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K17",
+   "a": 222.34,
+   "b": 242.58,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.4
+  },
+  {
+   "id": "K18",
+   "a": 242.58,
+   "b": 251.6,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K18.mp4",
+    "last": "media/ep1/K18_last.jpg",
+    "rate": 0.879,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     0
+    ],
+    "dark": 0.25
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K19g",
+   "a": 251.6,
+   "b": 260.9,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/GlobeHegra.mp4",
+    "rate": 1.0,
+    "clipLen": 9.5,
+    "kb": [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "dark": 0.0
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K19",
+   "a": 260.9,
+   "b": 276.84,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K19.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.14,
+     2,
+     0
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.8
+  },
+  {
+   "id": "K20",
+   "a": 276.84,
+   "b": 305.39,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K20.jpg",
+    "kb": [
+     1.03,
+     0,
+     0,
+     1.16,
+     -1,
+     0
+    ],
+    "dark": 0.4
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "KART-ABUNE",
+   "a": 305.39,
+   "b": 312.45,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K16.jpg",
+    "kb": [
+     1.2,
+     0,
+     0,
+     1.26,
+     0,
+     0
+    ],
+    "dark": 0.75
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K21",
+   "a": 312.45,
+   "b": 336.37,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K21.mp4",
+    "last": "media/ep1/K21_last.jpg",
+    "rate": 0.5,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.1,
+     0,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K22",
+   "a": 336.37,
+   "b": 357.53,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K22.jpg",
+    "kb": [
+     1.04,
+     0,
+     0,
+     1.16,
+     0,
+     1
+    ],
+    "dark": 0.4
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K23",
+   "a": 357.53,
+   "b": 385.7,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K23.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.15,
+     0,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K24",
+   "a": 385.7,
+   "b": 392.58,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K24.mp4",
+    "last": "media/ep1/K24_last.jpg",
+    "rate": 1.0,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     0
+    ],
+    "dark": 0.25
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K25",
+   "a": 392.58,
+   "b": 396.1,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K25.mp4",
+    "last": "media/ep1/K25_last.jpg",
+    "rate": 1.0,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.15
+   },
+   "tr": 0.0
+  },
+  {
+   "id": "K26",
+   "a": 396.1,
+   "b": 410.63,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.4
+  },
+  {
+   "id": "K27",
+   "a": 410.63,
+   "b": 448.17,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K27.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.14,
+     0,
+     0
+    ],
+    "dark": 0.55
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K28",
+   "a": 448.17,
+   "b": 458.61,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K28.mp4",
+    "last": "media/ep1/K28_last.jpg",
+    "rate": 0.76,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.1,
+     0,
+     0
+    ],
+    "dark": 0.2
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K29",
+   "a": 458.61,
+   "b": 485.29,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K29.mp4",
+    "last": "media/ep1/K29_last.jpg",
+    "rate": 0.5,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.15,
+     0,
+     0
+    ],
+    "dark": 0.25
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K30",
+   "a": 485.29,
+   "b": 501.38,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K29.mp4",
+    "last": "media/ep1/K29_last.jpg",
+    "rate": 0.5,
+    "startFrom": 3.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.15,
+     0,
+     0,
+     1.3,
+     0,
+     0
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K31",
+   "a": 501.38,
+   "b": 518.33,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K31.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.25,
+     4,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K32",
+   "a": 518.33,
+   "b": 525.55,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.4
+  },
+  {
+   "id": "K33",
+   "a": 525.55,
+   "b": 539.75,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K33.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.14,
+     -1,
+     0
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K34",
+   "a": 539.75,
+   "b": 549.88,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K34.jpg",
+    "kb": [
+     1.04,
+     0,
+     0,
+     1.18,
+     2,
+     0
+    ],
+    "dark": 0.4
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K35",
+   "a": 549.88,
+   "b": 566.68,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K35.jpg",
+    "kb": [
+     1.04,
+     0,
+     0,
+     1.16,
+     0,
+     0
+    ],
+    "dark": 0.45
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K36",
+   "a": 566.68,
+   "b": 576.63,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K36.mp4",
+    "last": "media/ep1/K36_last.jpg",
+    "rate": 0.797,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     0
+    ],
+    "dark": 0.1
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K37",
+   "a": 576.63,
+   "b": 583.26,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K37.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.14,
+     0,
+     -1
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K38",
+   "a": 583.26,
+   "b": 589.9,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K38.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.0
+  },
+  {
+   "id": "K39",
+   "a": 589.9,
+   "b": 604.39,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K39.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.14,
+     0,
+     0
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "KART-MALUM",
+   "a": 604.39,
+   "b": 618.22,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K38.jpg",
+    "kb": [
+     1.2,
+     0,
+     0,
+     1.3,
+     0,
+     0
+    ],
+    "dark": 0.75,
+    "grade": "grayscale(0.6)"
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K40",
+   "a": 618.22,
+   "b": 658.43,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K40.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.6
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "KART-HEDIS",
+   "a": 658.43,
+   "b": 676.95,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K35.jpg",
+    "kb": [
+     1.1,
+     0,
+     0,
+     1.18,
+     0,
+     0
+    ],
+    "dark": 0.65
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K41",
+   "a": 676.95,
+   "b": 684.0,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K41.mp4",
+    "last": "media/ep1/K41_last.jpg",
+    "rate": 1.0,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     0
+    ],
+    "dark": 0.15
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K42",
+   "a": 684.0,
+   "b": 710.01,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K54.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.16,
+     0,
+     0
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K43",
+   "a": 710.01,
+   "b": 718.27,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K43.mp4",
+    "last": "media/ep1/K43_last.jpg",
+    "rate": 0.96,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     0
+    ],
+    "dark": 0.15
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K44",
+   "a": 718.27,
+   "b": 730.41,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K43_last.jpg",
+    "kb": [
+     1.1,
+     0,
+     0,
+     1.2,
+     0,
+     0
+    ],
+    "dark": 0.7
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K45",
+   "a": 730.41,
+   "b": 757.99,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/GlobeArrival.mp4",
+    "rate": 1.0,
+    "clipLen": 27.8,
+    "kb": [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "dark": 0.0
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "KART-EVLILIK",
+   "a": 757.99,
+   "b": 766.89,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.3
+  },
+  {
+   "id": "K46",
+   "a": 766.89,
+   "b": 794.05,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K46.jpg",
+    "kb": [
+     1.1,
+     0,
+     0,
+     1.2,
+     0,
+     0
+    ],
+    "dark": 0.72
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K47",
+   "a": 794.05,
+   "b": 812.47,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.4
+  },
+  {
+   "id": "K47b",
+   "a": 804.68,
+   "b": 812.47,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K47.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.2
+   },
+   "tr": 0.6
+  },
+  {
+   "id": "K48",
+   "a": 812.47,
+   "b": 839.38,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K48.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.16,
+     0,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K49",
+   "a": 839.38,
+   "b": 858.46,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K49.mp4",
+    "last": "media/ep1/K49_last.jpg",
+    "rate": 0.5,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.1,
+     0,
+     0
+    ],
+    "dark": 0.2
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K50",
+   "a": 858.46,
+   "b": 872.92,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K50.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.25,
+     0,
+     0
+    ],
+    "dark": 0.25
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K51",
+   "a": 872.92,
+   "b": 894.34,
+   "bg": {
+    "type": "dark"
+   },
+   "tr": 0.4
+  },
+  {
+   "id": "K52",
+   "a": 894.34,
+   "b": 916.84,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K52.jpg",
+    "kb": [
+     1.02,
+     0,
+     0,
+     1.14,
+     0,
+     0
+    ],
+    "dark": 0.45
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K53",
+   "a": 916.84,
+   "b": 957.48,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K10.jpg",
+    "kb": [
+     1.1,
+     0,
+     0,
+     1.25,
+     0,
+     0
+    ],
+    "dark": 0.55
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K54",
+   "a": 957.48,
+   "b": 985.86,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/K54.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.12,
+     0,
+     0
+    ],
+    "dark": 0.35
+   },
+   "tr": 0.45
+  },
+  {
+   "id": "K55",
+   "a": 985.86,
+   "b": 1013.66,
+   "bg": {
+    "type": "video",
+    "src": "media/ep1/K55.mp4",
+    "last": "media/ep1/K55_last.jpg",
+    "rate": 0.5,
+    "startFrom": 0.0,
+    "clipLen": 7.93,
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.1,
+     0,
+     0
+    ],
+    "dark": 0.3
+   },
+   "tr": 0.45
   }
  ],
  "layers": [
@@ -264,6 +1333,970 @@
    "ar": "إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
    "az": "Mən yer üzündə bir xəlifə yaradacağam.",
    "ref_": "BƏQƏRƏ · 2:30"
+  },
+  {
+   "type": "particles",
+   "a": 60.74,
+   "b": 71.56,
+   "kind": "embers",
+   "n": 45
+  },
+  {
+   "type": "quote",
+   "a": 61.94,
+   "b": 71.56,
+   "text": "Orada fəsad törədəcək, qan tökəcək birinimi yaradırsan?",
+   "by": "Mələklər · Bəqərə 2:30",
+   "size": 60
+  },
+  {
+   "type": "big",
+   "a": 71.56,
+   "b": 72.97,
+   "text": "DAYANIN…",
+   "size": 150
+  },
+  {
+   "type": "big",
+   "a": 74.98,
+   "b": 78.92,
+   "text": "Haradan bilirdilər?",
+   "sub": "İnsan hələ yaradılmamışdı",
+   "size": 110
+  },
+  {
+   "type": "columns",
+   "a": 79.12,
+   "b": 98.85,
+   "title": "TƏFSİR ALİMLƏRİNİN İZAHI",
+   "items": [
+    {
+     "mark": "1",
+     "h": "Allah bildirmişdi",
+     "t": "Gələcək insanın təbiətini mələklərə əvvəlcədən xəbər vermişdi.",
+     "at": 82.1
+    },
+    {
+     "mark": "2",
+     "h": "“Xəlifə” sözü",
+     "t": "Xəlifə — başqasının yerinə gələn. Deməli, ondan əvvəl yer üzündə başqaları yaşayırdı.",
+     "at": 88.14
+    }
+   ],
+   "focus": {
+    "i": 1,
+    "at": 91.49
+   }
+  },
+  {
+   "type": "big",
+   "a": 98.55,
+   "b": 100.08,
+   "text": "Bəs kimlər?",
+   "size": 120
+  },
+  {
+   "type": "particles",
+   "a": 99.78,
+   "b": 118.23,
+   "kind": "embers",
+   "n": 70
+  },
+  {
+   "type": "source",
+   "a": 100.28,
+   "b": 108.25,
+   "label": "Təbəri təfsiri",
+   "weak": true
+  },
+  {
+   "type": "verdict",
+   "a": 112.5,
+   "b": 118.23,
+   "text": "MƏLƏKLƏR BUNU GÖRMÜŞDÜLƏR",
+   "c": "#c4532b"
+  },
+  {
+   "type": "ayah",
+   "a": 120.83,
+   "b": 130.22,
+   "ar": "إِنِّي أَعْلَمُ مَا لَا تَعْلَمُونَ",
+   "az": "Mən sizin bilmədiklərinizi bilirəm.",
+   "ref_": "BƏQƏRƏ · 2:30"
+  },
+  {
+   "type": "particles",
+   "a": 118.23,
+   "b": 129.92,
+   "kind": "lights",
+   "n": 40,
+   "alpha": 0.8
+  },
+  {
+   "type": "source",
+   "a": 135.66,
+   "b": 144.88,
+   "label": "Tirmizi 2955 · Əbu Davud 4693"
+  },
+  {
+   "type": "chips",
+   "a": 144.88,
+   "b": 154.5,
+   "y": 40,
+   "items": [
+    {
+     "text": "qırmızı",
+     "at": 145.18,
+     "c": "#e07a5a"
+    },
+    {
+     "text": "ağ",
+     "at": 146.18,
+     "c": "#f3ecdc"
+    },
+    {
+     "text": "qara",
+     "at": 147.07999999999998,
+     "c": "#a89a8a"
+    },
+    {
+     "text": "yumşaq",
+     "at": 150.19,
+     "c": "#d6a84e"
+    },
+    {
+     "text": "sərt",
+     "at": 150.99,
+     "c": "#d6a84e"
+    },
+    {
+     "text": "pis",
+     "at": 152.21,
+     "c": "#c4532b"
+    },
+    {
+     "text": "yaxşı",
+     "at": 152.81,
+     "c": "#3ddc84"
+    }
+   ]
+  },
+  {
+   "type": "stamp",
+   "a": 165.47,
+   "b": 168.67,
+   "top": "HƏDİS",
+   "main": "SƏHİH MÜSLİM · 2611"
+  },
+  {
+   "type": "quote",
+   "a": 176.44,
+   "b": 183.14,
+   "text": "…onun içinin boş olduğunu gördü.",
+   "by": "Səhih Müslim",
+   "size": 62
+  },
+  {
+   "type": "particles",
+   "a": 163.13,
+   "b": 202.82,
+   "kind": "embers",
+   "n": 35,
+   "alpha": 0.7
+  },
+  {
+   "type": "chips",
+   "a": 189.91,
+   "b": 200.3,
+   "y": 42,
+   "size": 76,
+   "items": [
+    {
+     "text": "ACLIQ",
+     "at": 190.01,
+     "c": "#c4532b"
+    },
+    {
+     "text": "QƏZƏB",
+     "at": 191.10999999999999,
+     "c": "#c4532b"
+    },
+    {
+     "text": "ŞƏHVƏT",
+     "at": 192.31,
+     "c": "#c4532b"
+    },
+    {
+     "text": "İSTƏK",
+     "at": 193.41,
+     "c": "#c4532b"
+    }
+   ]
+  },
+  {
+   "type": "pulse",
+   "a": 189.91,
+   "b": 202.82
+  },
+  {
+   "type": "big",
+   "a": 200.0,
+   "b": 203.12,
+   "text": "…və bu gün də elə o nöqtədən vurur.",
+   "size": 70,
+   "color": "#c4532b"
+  },
+  {
+   "type": "particles",
+   "a": 202.82,
+   "b": 222.34,
+   "kind": "lights",
+   "n": 60
+  },
+  {
+   "type": "callig",
+   "a": 209.59,
+   "b": 212.13,
+   "ar": "الْحَمْدُ لِلَّهِ",
+   "sub": "Əlhəmdulillah",
+   "y": 40
+  },
+  {
+   "type": "quote",
+   "a": 213.43,
+   "b": 222.14,
+   "text": "Allah sənə rəhm etsin, ey Adəm.",
+   "size": 64
+  },
+  {
+   "type": "source",
+   "a": 208.39,
+   "b": 215.83,
+   "label": "Tirmizi 3368"
+  },
+  {
+   "type": "scale",
+   "a": 222.34,
+   "b": 242.78,
+   "ruler": 224.34,
+   "build": 237.56,
+   "done": 233.55
+  },
+  {
+   "type": "source",
+   "a": 222.84,
+   "b": 228.34,
+   "label": "Səhih Buxari 3326 · 6227"
+  },
+  {
+   "type": "quote",
+   "a": 257.83,
+   "b": 276.84,
+   "text": "Səmud qövmünün qayalara oyulmuş evləri bu gün də durur. Onların qapıları göstərir ki, o insanların boyu o qədər də uca olmayıb.",
+   "by": "İbn Həcər əl-Əsqəlani · Fəthul-Bari",
+   "size": 50
+  },
+  {
+   "type": "quote",
+   "a": 280.84,
+   "b": 294.59,
+   "text": "Bu müşkülü aradan qaldıran bir izahı indiyə qədər tapmadım.",
+   "by": "İbn Həcər · Fəthul-Bari",
+   "size": 64,
+   "color": "#f0d9a0"
+  },
+  {
+   "type": "comment",
+   "a": 301.4,
+   "b": 305.89,
+   "text": "Siz nə düşünürsünüz? Şərhdə yazın"
+  },
+  {
+   "type": "subscribe",
+   "a": 305.69,
+   "b": 312.55,
+   "click": 307.69
+  },
+  {
+   "type": "quote",
+   "a": 312.95,
+   "b": 321.96,
+   "text": "Mən sizin bilmədiklərinizi bilirəm.",
+   "by": "Xatırlayın · Bəqərə 2:30",
+   "size": 64,
+   "color": "#f0d9a0"
+  },
+  {
+   "type": "ayah",
+   "a": 324.48,
+   "b": 336.37,
+   "ar": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
+   "az": "Və Adəmə bütün adları öyrətdi.",
+   "ref_": "BƏQƏRƏ · 2:31"
+  },
+  {
+   "type": "particles",
+   "a": 312.45,
+   "b": 336.37,
+   "kind": "lights",
+   "n": 50
+  },
+  {
+   "type": "quote",
+   "a": 336.67,
+   "b": 347.09,
+   "text": "Sən pak və müqəddəssən! Bizim Sənin öyrətdiyindən başqa heç bir biliyimiz yoxdur.",
+   "by": "Mələklər · Bəqərə 2:32",
+   "size": 56
+  },
+  {
+   "type": "big",
+   "a": 347.39,
+   "b": 357.83,
+   "text": "ELM",
+   "sub": "Mələklərin görmədiyi tərəf",
+   "size": 200,
+   "color": "#d6a84e"
+  },
+  {
+   "type": "chips",
+   "a": 369.11,
+   "b": 379.52,
+   "y": 38,
+   "size": 60,
+   "items": [
+    {
+     "text": "Əssəlamu əleykum",
+     "at": 369.11,
+     "c": "#f3ecdc"
+    },
+    {
+     "text": "Əssəlamu əleykə",
+     "at": 372.11,
+     "c": "#f3ecdc"
+    },
+    {
+     "text": "+ və rəhmətullah",
+     "at": 374.61,
+     "c": "#d6a84e"
+    }
+   ]
+  },
+  {
+   "type": "source",
+   "a": 358.53,
+   "b": 379.02,
+   "label": "Səhih Buxari 6227"
+  },
+  {
+   "type": "particles",
+   "a": 357.53,
+   "b": 385.7,
+   "kind": "lights",
+   "n": 50
+  },
+  {
+   "type": "ayah",
+   "a": 386.9,
+   "b": 392.78,
+   "ar": "اسْجُدُوا لِآدَمَ",
+   "az": "Adəmə səcdə edin!",
+   "ref_": "BƏQƏRƏ · 2:34"
+  },
+  {
+   "type": "big",
+   "a": 392.68,
+   "b": 396.1,
+   "text": "İBLİSDƏN BAŞQA",
+   "size": 130,
+   "color": "#c4532b"
+  },
+  {
+   "type": "columns",
+   "a": 396.3,
+   "b": 408.13,
+   "title": "İBLİSİN MƏNTİQİ",
+   "items": [
+    {
+     "h": "OD",
+     "t": "“Məni oddan yaratdın…”",
+     "c": "#c4532b",
+     "at": 396.40000000000003,
+     "img": "media/ep1/K28.jpg"
+    },
+    {
+     "h": "PALÇIQ",
+     "t": "“…onu isə palçıqdan.”",
+     "c": "#b08a5a",
+     "at": 402.9,
+     "img": "media/ep1/K03.jpg"
+    }
+   ]
+  },
+  {
+   "type": "stamp",
+   "a": 408.03,
+   "b": 410.93,
+   "top": "TARİXDƏ İLK",
+   "main": "İRQÇİLİK",
+   "color": "#c4532b"
+  },
+  {
+   "type": "stamp",
+   "a": 410.83,
+   "b": 418.14,
+   "top": "MƏNBƏ YOXLAMASI",
+   "main": "İBLİS MƏLƏK İDİMİ?"
+  },
+  {
+   "type": "ayah",
+   "a": 418.34,
+   "b": 422.94,
+   "ar": "كَانَ مِنَ الْجِنِّ",
+   "az": "O, cinlərdən idi.",
+   "ref_": "KƏHF · 18:50"
+  },
+  {
+   "type": "columns",
+   "a": 423.14,
+   "b": 429.87,
+   "items": [
+    {
+     "h": "MƏLƏK",
+     "t": "nurdan",
+     "c": "#fff3cf",
+     "at": 423.23999999999995
+    },
+    {
+     "h": "CİN",
+     "t": "tüstüsüz oddan",
+     "c": "#7fb3ff",
+     "at": 426.18
+    },
+    {
+     "h": "İNSAN",
+     "t": "palçıqdan",
+     "c": "#b08a5a",
+     "at": 427.38
+    }
+   ]
+  },
+  {
+   "type": "source",
+   "a": 429.47,
+   "b": 437.92,
+   "label": "Təbəri · İbn Abbas rəvayəti",
+   "weak": true
+  },
+  {
+   "type": "verdict",
+   "a": 438.92,
+   "b": 448.47,
+   "text": "ALİMLƏRİN ƏKSƏRİYYƏTİ: CİN"
+  },
+  {
+   "type": "big",
+   "a": 454.38,
+   "b": 456.35,
+   "text": "QİYAMƏTƏ QƏDƏR MÖHLƏT",
+   "size": 90,
+   "color": "#c4532b"
+  },
+  {
+   "type": "source",
+   "a": 448.17,
+   "b": 458.61,
+   "label": "Hicr 15:36–38"
+  },
+  {
+   "type": "ayah",
+   "a": 472.33,
+   "b": 483.3,
+   "ar": "أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا بَلَىٰ شَهِدْنَا",
+   "az": "Mən sizin Rəbbiniz deyiləmmi? — Bəli, şahidik!",
+   "ref_": "ƏRAF · 7:172"
+  },
+  {
+   "type": "big",
+   "a": 480.8,
+   "b": 485.69,
+   "text": "Bu sual sizə də verilib.",
+   "size": 84
+  },
+  {
+   "type": "particles",
+   "a": 485.29,
+   "b": 501.38,
+   "kind": "lights",
+   "n": 110
+  },
+  {
+   "type": "source",
+   "a": 485.29,
+   "b": 501.38,
+   "label": "Tirmizi 3076"
+  },
+  {
+   "type": "dialog",
+   "a": 506.71,
+   "b": 513.43,
+   "who": "ADƏM",
+   "text": "Ya Rəbb, bu kimdir?",
+   "side": "left"
+  },
+  {
+   "type": "big",
+   "a": 513.23,
+   "b": 515.63,
+   "text": "DAVUD",
+   "size": 170,
+   "color": "#fff3cf"
+  },
+  {
+   "type": "dialog",
+   "a": 515.63,
+   "b": 518.33,
+   "who": "ADƏM",
+   "text": "Onun ömrünü nə qədər etdin? — Altmış il.",
+   "side": "left"
+  },
+  {
+   "type": "bars",
+   "a": 518.33,
+   "b": 525.55,
+   "cut": 520.33,
+   "join": 521.33
+  },
+  {
+   "type": "counter",
+   "a": 525.75,
+   "b": 528.69,
+   "from": 0,
+   "to": 960,
+   "at": 525.75,
+   "dur": 2.2,
+   "label": "İL",
+   "y": 26
+  },
+  {
+   "type": "dialog",
+   "a": 527.19,
+   "b": 531.59,
+   "who": "ADƏM",
+   "text": "Axı mənim ömrümdən hələ qırx il qalmayıbmı?",
+   "side": "left"
+  },
+  {
+   "type": "dialog",
+   "a": 531.59,
+   "b": 538.25,
+   "who": "ÖLÜM MƏLƏYİ",
+   "text": "Məgər onu oğlun Davuda verməmişdinmi?",
+   "side": "right",
+   "c": "#cfd8e6"
+  },
+  {
+   "type": "chips",
+   "a": 541.25,
+   "b": 550.28,
+   "y": 42,
+   "size": 54,
+   "items": [
+    {
+     "text": "inkar etdi",
+     "at": 541.75,
+     "c": "#c4532b"
+    },
+    {
+     "text": "unutdu",
+     "at": 546.29,
+     "c": "#d6a84e"
+    },
+    {
+     "text": "xəta etdi",
+     "at": 548.05,
+     "c": "#cfd8e6"
+    }
+   ]
+  },
+  {
+   "type": "stamp",
+   "a": 555.94,
+   "b": 561.48,
+   "top": "BƏQƏRƏ · 2:282",
+   "main": "ƏN UZUN AYƏ"
+  },
+  {
+   "type": "big",
+   "a": 561.48,
+   "b": 566.98,
+   "text": "Çünki insan unudur.",
+   "size": 96,
+   "color": "#f0d9a0"
+  },
+  {
+   "type": "source",
+   "a": 567.68,
+   "b": 576.63,
+   "label": "Nisa 4:1"
+  },
+  {
+   "type": "ayah",
+   "a": 577.63,
+   "b": 583.56,
+   "ar": "وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ",
+   "az": "Bu ağaca yaxınlaşmayın.",
+   "ref_": "BƏQƏRƏ · 2:35"
+  },
+  {
+   "type": "stamp",
+   "a": 583.26,
+   "b": 585.28,
+   "top": "MƏNBƏ YOXLAMASI · 2",
+   "main": "ALMA?"
+  },
+  {
+   "type": "xmark",
+   "a": 587.28,
+   "b": 590.2
+  },
+  {
+   "type": "chips",
+   "a": 591.5,
+   "b": 597.05,
+   "y": 30,
+   "items": [
+    {
+     "text": "buğda ?",
+     "at": 591.5
+    },
+    {
+     "text": "üzüm ?",
+     "at": 592.3
+    },
+    {
+     "text": "əncir ?",
+     "at": 593.1
+    }
+   ]
+  },
+  {
+   "type": "big",
+   "a": 599.55,
+   "b": 604.69,
+   "text": "Məsələ meyvədə deyildi",
+   "sub": "Məsələ — əmrə itaətdə idi",
+   "size": 84
+  },
+  {
+   "type": "malum",
+   "a": 606.44,
+   "b": 618.52,
+   "split": 609.94
+  },
+  {
+   "type": "stamp",
+   "a": 618.22,
+   "b": 624.36,
+   "top": "MƏNBƏ YOXLAMASI · 3",
+   "main": "GÜNAHI HƏVVA İŞLƏTDİ?",
+   "color": "#c4532b"
+  },
+  {
+   "type": "columns",
+   "a": 625.2,
+   "b": 654.93,
+   "title": "QURAN NƏ DEYİR?",
+   "items": [
+    {
+     "h": "İkisinə birlikdə",
+     "t": "Şeytan ikisinə vəsvəsə edir.",
+     "c": "#d6a84e",
+     "at": 625.5,
+     "mark": "Əraf 7:20"
+    },
+    {
+     "h": "“Ey Adəm…”",
+     "t": "Şeytan birbaşa Adəmə müraciət edir.",
+     "c": "#d6a84e",
+     "at": 639.1566,
+     "mark": "Taha 20:120"
+    },
+    {
+     "h": "Adəm asi oldu",
+     "ar": "وَعَصَىٰ آدَمُ رَبَّهُ",
+     "t": "Səhv Adəmin adı ilə çəkilir.",
+     "c": "#d6a84e",
+     "at": 645.8026,
+     "mark": "Taha 20:121"
+    }
+   ]
+  },
+  {
+   "type": "verdict",
+   "a": 655.03,
+   "b": 658.63,
+   "text": "QURAN SƏHVİ QADINA YÜKLƏMİR"
+  },
+  {
+   "type": "quote",
+   "a": 659.93,
+   "b": 665.34,
+   "text": "Həvva olmasaydı, heç bir qadın ərinə xəyanət etməzdi.",
+   "by": "Səhih Buxari 3330",
+   "size": 58
+  },
+  {
+   "type": "verdict",
+   "a": 665.34,
+   "b": 670.88,
+   "text": "ALİMLƏR: İLK GÜNAH HƏVVAYA YÜKLƏNMİR",
+   "c": "#d6a84e"
+  },
+  {
+   "type": "verdict",
+   "a": 670.68,
+   "b": 677.25,
+   "text": "“HƏVVA ALDATDI” — TÖVRAT RƏVAYƏTİ",
+   "c": "#c4532b"
+  },
+  {
+   "type": "ayah",
+   "a": 687.68,
+   "b": 702.36,
+   "ar": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا",
+   "az": "Rəbbimiz, biz özümüzə zülm etdik…",
+   "ref_": "ƏRAF · 7:23"
+  },
+  {
+   "type": "big",
+   "a": 706.49,
+   "b": 710.41,
+   "text": "Səhv edildi. Tövbə edildi. Bağışlandı.",
+   "size": 74,
+   "color": "#f0d9a0"
+  },
+  {
+   "type": "list",
+   "a": 718.47,
+   "b": 730.61,
+   "title": "CÜMƏ",
+   "sub": "Səhih Müslim 854",
+   "items": [
+    {
+     "text": "Adəm yaradıldı",
+     "at": 720.87
+    },
+    {
+     "text": "Cənnətə daxil edildi",
+     "at": 722.87
+    },
+    {
+     "text": "Cənnətdən çıxarıldı",
+     "at": 725.0699999999999
+    },
+    {
+     "text": "Qiyamət qopacaq",
+     "at": 727.62
+    }
+   ]
+  },
+  {
+   "type": "qcard",
+   "a": 758.19,
+   "b": 766.89,
+   "n": 4,
+   "q": "Adəmin övladları kiminlə evləndi?",
+   "img": "media/ep1/K46.jpg"
+  },
+  {
+   "type": "tree",
+   "a": 767.19,
+   "b": 794.25,
+   "cross": 783.01,
+   "ban": 778.83,
+   "haram": 790.06
+  },
+  {
+   "type": "source",
+   "a": 766.89,
+   "b": 777.63,
+   "label": "Təfsir rəvayətləri",
+   "weak": true
+  },
+  {
+   "type": "strike",
+   "a": 794.25,
+   "b": 804.98,
+   "words": [
+    "Qabil",
+    "Habil"
+   ],
+   "strikeAt": 797.05,
+   "repl": "Adəmin iki oğlu",
+   "replAt": 800.84,
+   "ar": "ابْنَيْ آدَمَ",
+   "ref_": "MAİDƏ · 5:27"
+  },
+  {
+   "type": "dialog",
+   "a": 812.47,
+   "b": 815.47,
+   "who": "QƏBUL OLUNMAYAN",
+   "text": "Səni öldürəcəyəm!",
+   "side": "left",
+   "c": "#c4532b"
+  },
+  {
+   "type": "dialog",
+   "a": 815.47,
+   "b": 827.41,
+   "who": "O BİRİ",
+   "text": "Sən məni öldürmək üçün əlini mənə uzatsan da, mən əlimi sənə uzatmayacağam.",
+   "side": "right"
+  },
+  {
+   "type": "source",
+   "a": 830.39,
+   "b": 839.38,
+   "label": "Təfsir rəvayəti — Quran ayəsi deyil",
+   "weak": true
+  },
+  {
+   "type": "quote",
+   "a": 847.18,
+   "b": 858.46,
+   "text": "Vay halıma! Bu qarğa qədər də ola bilmədimmi?",
+   "by": "Maidə 5:31",
+   "size": 62
+  },
+  {
+   "type": "source",
+   "a": 859.46,
+   "b": 869.25,
+   "label": "Səhih Buxari 3335"
+  },
+  {
+   "type": "big",
+   "a": 869.25,
+   "b": 873.32,
+   "text": "…hər haqsız qan",
+   "size": 96,
+   "color": "#c4532b"
+  },
+  {
+   "type": "stamp",
+   "a": 873.22,
+   "b": 878.32,
+   "top": "SƏHİH BUXARİ 6614 · SƏHİH MÜSLİM 2652",
+   "main": "ADƏM VƏ MUSA"
+  },
+  {
+   "type": "columns",
+   "a": 884.56,
+   "b": 894.64,
+   "title": "GÖRÜŞ HARADA OLDU?",
+   "items": [
+    {
+     "mark": "?",
+     "h": "Bərzəx",
+     "t": "ruhlar aləmi",
+     "at": 884.9599999999999
+    },
+    {
+     "mark": "?",
+     "h": "Yuxu",
+     "t": "Peyğəmbərə göstərilən",
+     "at": 886.16
+    },
+    {
+     "mark": "?",
+     "h": "Merac",
+     "t": "səmalar gecəsi",
+     "at": 887.3599999999999
+    }
+   ]
+  },
+  {
+   "type": "dialog",
+   "a": 894.34,
+   "b": 901.91,
+   "who": "MUSA",
+   "text": "Sən bizim atamızsan. Bizi Cənnətdən çıxardın!",
+   "side": "left",
+   "c": "#cfd8e6"
+  },
+  {
+   "type": "dialog",
+   "a": 904.67,
+   "b": 916.84,
+   "who": "ADƏM",
+   "text": "Məni yaradılmamdan qırx il əvvəl yazılmış bir işə görəmi qınayırsan?",
+   "side": "right"
+  },
+  {
+   "type": "repeat",
+   "a": 920.04,
+   "b": 929.61,
+   "text": "ADƏM MUSAYA QALİB GƏLDİ",
+   "times": [
+    920.24,
+    924.28,
+    927.01
+   ]
+  },
+  {
+   "type": "ayah",
+   "a": 951.99,
+   "b": 957.88,
+   "ar": "إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
+   "az": "Mən yer üzündə bir xəlifə yaradacağam.",
+   "ref_": "BƏQƏRƏ · 2:30"
+  },
+  {
+   "type": "dialog",
+   "a": 960.79,
+   "b": 964.99,
+   "who": "İBLİS",
+   "text": "Mən ondan üstünəm.",
+   "side": "left",
+   "c": "#c4532b"
+  },
+  {
+   "type": "dialog",
+   "a": 964.99,
+   "b": 973.77,
+   "who": "ADƏM",
+   "text": "Rəbbimiz, biz özümüzə zülm etdik.",
+   "side": "right"
+  },
+  {
+   "type": "big",
+   "a": 976.06,
+   "b": 981.65,
+   "text": "Fərq səhvdə deyil.",
+   "sub": "Fərq səhvdən sonra nə etdiyimizdədir.",
+   "size": 96,
+   "color": "#f0d9a0"
+  },
+  {
+   "type": "comment",
+   "a": 981.35,
+   "b": 986.46,
+   "text": "Hansını ilk dəfə eşitdiniz? Şərhdə yazın"
+  },
+  {
+   "type": "ayah",
+   "a": 992.36,
+   "b": 1000.59,
+   "ar": "وَرَفَعْنَاهُ مَكَانًا عَلِيًّا",
+   "az": "Biz onu uca bir məkana qaldırdıq.",
+   "ref_": "MƏRYƏM · 19:57"
+  },
+  {
+   "type": "next",
+   "a": 1004.75,
+   "b": 1014.26
   }
  ],
  "subs": [
@@ -328,11 +2361,6 @@
    "text": "Halbuki biz Səni həmd ilə təsbih edir, Səni müqəddəs tuturuq.”"
   },
   {
-   "a": 71.56,
-   "b": 72.72,
-   "text": "Dayanın…"
-  },
-  {
    "a": 72.77,
    "b": 74.93,
    "text": "İnsan hələ yaradılmamışdı."
@@ -371,11 +2399,6 @@
    "a": 94.72,
    "b": 98.5,
    "text": "Deməli, yer üzündə ondan əvvəl başqaları yaşamışdı."
-  },
-  {
-   "a": 98.55,
-   "b": 99.73,
-   "text": "Bəs kimlər?"
   },
   {
    "a": 99.78,
@@ -526,11 +2549,6 @@
    "a": 199.3,
    "b": 199.95,
    "text": "tapmışdı."
-  },
-  {
-   "a": 200.0,
-   "b": 202.77,
-   "text": "Və bu gün də elə o nöqtədən vurur."
   },
   {
    "a": 202.82,
@@ -798,11 +2816,6 @@
    "text": "qapandı…"
   },
   {
-   "a": 392.58,
-   "b": 394.05,
-   "text": "İblisdən başqa."
-  },
-  {
    "a": 394.1,
    "b": 399.09,
    "text": "Allah soruşdu: “Sənə əmr etdiyim zaman səni səcdədən nə"
@@ -1053,11 +3066,6 @@
    "text": "edir."
   },
   {
-   "a": 561.48,
-   "b": 563.46,
-   "text": "Çünki insan unudur."
-  },
-  {
    "a": 563.51,
    "b": 566.63,
    "text": "Bu, Adəmdən bizə qalan bir xasiyyətdir."
@@ -1111,16 +3119,6 @@
    "a": 596.75,
    "b": 599.5,
    "text": "Allah ağacın adını gizli saxladı."
-  },
-  {
-   "a": 599.55,
-   "b": 601.8,
-   "text": "Çünki məsələ meyvədə deyildi."
-  },
-  {
-   "a": 601.85,
-   "b": 604.34,
-   "text": "Məsələ əmrə itaətdə idi."
   },
   {
    "a": 604.39,
@@ -1258,11 +3256,6 @@
    "text": "İslamda “ilk günahın” nəslə miras qalması deyə bir şey yoxdur."
   },
   {
-   "a": 706.49,
-   "b": 709.96,
-   "text": "Səhv edildi, tövbə edildi, bağışlandı."
-  },
-  {
    "a": 710.01,
    "b": 712.74,
    "text": "Amma yer üzünə enmə vaxtı gəlmişdi."
@@ -1331,16 +3324,6 @@
    "a": 757.47,
    "b": 757.94,
    "text": "edirik."
-  },
-  {
-   "a": 757.99,
-   "b": 763.14,
-   "text": "İndi hamının ağlındakı suala gələk: Yer üzündə tək bir ailə"
-  },
-  {
-   "a": 763.19,
-   "b": 766.84,
-   "text": "vardısa, Adəmin övladları kiminlə evləndi?"
   },
   {
    "a": 766.89,
@@ -1573,11 +3556,6 @@
    "text": "“Adəm Musaya qalib gəldi."
   },
   {
-   "a": 924.28,
-   "b": 926.96,
-   "text": "Adəm Musaya qalib gəldi."
-  },
-  {
    "a": 927.01,
    "b": 932.69,
    "text": "Adəm Musaya qalib gəldi.” Diqqət edin: Adəm günahına bəhanə"
@@ -1646,16 +3624,6 @@
    "a": 971.77,
    "b": 976.01,
    "text": "O biri boynunu bükdü və bəşəriyyətin atası oldu."
-  },
-  {
-   "a": 976.06,
-   "b": 977.84,
-   "text": "Fərq səhvdə deyil."
-  },
-  {
-   "a": 977.89,
-   "b": 981.3,
-   "text": "Fərq səhvdən sonra nə etdiyimizdədir."
   },
   {
    "a": 981.35,
@@ -1800,6 +3768,11 @@
    "g": 0.8
   },
   {
+   "n": "cut_silence",
+   "t": 46.4,
+   "g": 1.0
+  },
+  {
    "n": "braam",
    "t": 46.4,
    "g": 1.0
@@ -1828,6 +3801,907 @@
    "n": "choir_hit",
    "t": 56.62,
    "g": 0.7
+  },
+  {
+   "n": "drone_dark",
+   "t": 60.5,
+   "g": 1.0
+  },
+  {
+   "n": "fire",
+   "t": 60.7,
+   "g": 0.7
+  },
+  {
+   "n": "whoosh_low",
+   "t": 60.4,
+   "g": 0.5
+  },
+  {
+   "n": "cut_silence",
+   "t": 71.56,
+   "g": 1
+  },
+  {
+   "n": "rewind",
+   "t": 71.46,
+   "g": 0.9
+  },
+  {
+   "n": "impact",
+   "t": 71.61,
+   "g": 0.9
+  },
+  {
+   "n": "mystery_bed",
+   "t": 72.77,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh",
+   "t": 81.8,
+   "g": 0.6
+  },
+  {
+   "n": "whoosh",
+   "t": 87.84,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 98.55,
+   "g": 0.8
+  },
+  {
+   "n": "fire",
+   "t": 99.78,
+   "g": 0.9
+  },
+  {
+   "n": "boom",
+   "t": 108.25,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 99.88,
+   "g": 0.6
+  },
+  {
+   "n": "shimmer",
+   "t": 120.73,
+   "g": 0.8
+  },
+  {
+   "n": "choir_hit",
+   "t": 120.83,
+   "g": 0.7
+  },
+  {
+   "n": "pad_sacred",
+   "t": 129.62,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh_low",
+   "t": 129.42,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 131.12,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 132.52,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 135.32,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 136.52,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 137.92,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 139.92,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 142.52,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 145.18,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 146.18,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 147.08,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 150.19,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 150.99,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 152.21,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 152.81,
+   "g": 0.5
+  },
+  {
+   "n": "drone_dark",
+   "t": 163.13,
+   "g": 1.0
+  },
+  {
+   "n": "heartbeat",
+   "t": 163.13,
+   "g": 0.9,
+   "dur": 39.6
+  },
+  {
+   "n": "stamp",
+   "t": 165.47,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh_low",
+   "t": 171.35,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 190.01,
+   "g": 0.55
+  },
+  {
+   "n": "impact",
+   "t": 191.11,
+   "g": 0.55
+  },
+  {
+   "n": "impact",
+   "t": 192.31,
+   "g": 0.55
+  },
+  {
+   "n": "impact",
+   "t": 193.41,
+   "g": 0.55
+  },
+  {
+   "n": "pad_sacred",
+   "t": 202.52,
+   "g": 1.0
+  },
+  {
+   "n": "choir_hit",
+   "t": 203.12,
+   "g": 1.0
+  },
+  {
+   "n": "shimmer",
+   "t": 203.02,
+   "g": 0.9
+  },
+  {
+   "n": "cut_amb",
+   "t": 202.62,
+   "g": 1
+  },
+  {
+   "n": "shimmer",
+   "t": 209.59,
+   "g": 0.7
+  },
+  {
+   "n": "mystery_bed",
+   "t": 222.14,
+   "g": 1.0
+  },
+  {
+   "n": "tick",
+   "t": 224.34,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 224.79,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 225.24,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 225.69,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 226.14,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 226.59,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 227.04,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 227.49,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 227.94,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 228.39,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 228.84,
+   "g": 0.45
+  },
+  {
+   "n": "tick",
+   "t": 229.29,
+   "g": 0.45
+  },
+  {
+   "n": "impact",
+   "t": 233.55,
+   "g": 0.8
+  },
+  {
+   "n": "boom",
+   "t": 238.16,
+   "g": 0.5
+  },
+  {
+   "n": "wind",
+   "t": 242.58,
+   "g": 0.6,
+   "dur": 9
+  },
+  {
+   "n": "tension_bed",
+   "t": 251.6,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh_low",
+   "t": 251.2,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 256.0,
+   "g": 0.7
+  },
+  {
+   "n": "paper",
+   "t": 280.84,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 280.84,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 301.4,
+   "g": 0.7
+  },
+  {
+   "n": "pad_sacred",
+   "t": 305.39,
+   "g": 1.0
+  },
+  {
+   "n": "click",
+   "t": 307.69,
+   "g": 0.9
+  },
+  {
+   "n": "bell",
+   "t": 307.84,
+   "g": 0.9
+  },
+  {
+   "n": "mystery_bed",
+   "t": 312.45,
+   "g": 1.0
+  },
+  {
+   "n": "shimmer",
+   "t": 324.48,
+   "g": 0.9
+  },
+  {
+   "n": "choir_hit",
+   "t": 324.68,
+   "g": 0.7
+  },
+  {
+   "n": "pad_sacred",
+   "t": 336.37,
+   "g": 1.0
+  },
+  {
+   "n": "braam",
+   "t": 347.39,
+   "g": 0.6
+  },
+  {
+   "n": "shimmer",
+   "t": 374.61,
+   "g": 0.7
+  },
+  {
+   "n": "epic_bed",
+   "t": 385.7,
+   "g": 1.0
+  },
+  {
+   "n": "braam",
+   "t": 386.9,
+   "g": 0.9
+  },
+  {
+   "n": "choir_hit",
+   "t": 386.9,
+   "g": 0.9
+  },
+  {
+   "n": "cut_silence",
+   "t": 392.58,
+   "g": 1
+  },
+  {
+   "n": "boom",
+   "t": 392.68,
+   "g": 1.0
+  },
+  {
+   "n": "fire",
+   "t": 392.58,
+   "g": 0.9,
+   "dur": 6
+  },
+  {
+   "n": "drone_dark",
+   "t": 396.1,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh",
+   "t": 396.3,
+   "g": 0.6
+  },
+  {
+   "n": "whoosh",
+   "t": 402.6,
+   "g": 0.6
+  },
+  {
+   "n": "stamp",
+   "t": 408.03,
+   "g": 1.0
+  },
+  {
+   "n": "tension_bed",
+   "t": 410.63,
+   "g": 1.0
+  },
+  {
+   "n": "stamp",
+   "t": 410.83,
+   "g": 1.0
+  },
+  {
+   "n": "shimmer",
+   "t": 418.34,
+   "g": 0.6
+  },
+  {
+   "n": "whoosh",
+   "t": 422.94,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 425.88,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 427.08,
+   "g": 0.5
+  },
+  {
+   "n": "impact",
+   "t": 438.92,
+   "g": 0.7
+  },
+  {
+   "n": "drone_dark",
+   "t": 448.17,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh_low",
+   "t": 448.17,
+   "g": 0.8
+  },
+  {
+   "n": "boom",
+   "t": 454.38,
+   "g": 0.7
+  },
+  {
+   "n": "pad_sacred",
+   "t": 458.61,
+   "g": 1.0
+  },
+  {
+   "n": "choir_hit",
+   "t": 472.33,
+   "g": 0.9
+  },
+  {
+   "n": "shimmer",
+   "t": 472.33,
+   "g": 0.7
+  },
+  {
+   "n": "shimmer",
+   "t": 513.23,
+   "g": 0.8
+  },
+  {
+   "n": "impact",
+   "t": 513.23,
+   "g": 0.5
+  },
+  {
+   "n": "mystery_bed",
+   "t": 518.33,
+   "g": 1.0
+  },
+  {
+   "n": "sand",
+   "t": 520.13,
+   "g": 0.8
+  },
+  {
+   "n": "clock",
+   "t": 525.55,
+   "g": 0.6,
+   "dur": 14.2
+  },
+  {
+   "n": "whoosh_low",
+   "t": 523.96,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 541.75,
+   "g": 0.5
+  },
+  {
+   "n": "impact",
+   "t": 546.29,
+   "g": 0.5
+  },
+  {
+   "n": "impact",
+   "t": 548.05,
+   "g": 0.5
+  },
+  {
+   "n": "paper",
+   "t": 539.75,
+   "g": 0.5
+  },
+  {
+   "n": "stamp",
+   "t": 555.94,
+   "g": 1.0
+  },
+  {
+   "n": "paper",
+   "t": 549.88,
+   "g": 0.5
+  },
+  {
+   "n": "pad_sacred",
+   "t": 566.68,
+   "g": 1.0
+  },
+  {
+   "n": "water",
+   "t": 566.68,
+   "g": 0.7,
+   "dur": 16.58
+  },
+  {
+   "n": "shimmer",
+   "t": 577.63,
+   "g": 0.5
+  },
+  {
+   "n": "tension_bed",
+   "t": 583.26,
+   "g": 1.0
+  },
+  {
+   "n": "stamp",
+   "t": 583.26,
+   "g": 1.0
+  },
+  {
+   "n": "impact",
+   "t": 587.28,
+   "g": 0.9
+  },
+  {
+   "n": "tick",
+   "t": 591.5,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 592.3,
+   "g": 0.5
+  },
+  {
+   "n": "tick",
+   "t": 593.1,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 606.24,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 609.94,
+   "g": 0.6
+  },
+  {
+   "n": "stamp",
+   "t": 618.22,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh",
+   "t": 625.2,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 638.86,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 645.5,
+   "g": 0.5
+  },
+  {
+   "n": "impact",
+   "t": 655.03,
+   "g": 0.7
+  },
+  {
+   "n": "paper",
+   "t": 659.93,
+   "g": 0.6
+  },
+  {
+   "n": "sorrow_bed",
+   "t": 676.95,
+   "g": 1.0
+  },
+  {
+   "n": "leaves",
+   "t": 676.95,
+   "g": 0.7,
+   "dur": 7.05
+  },
+  {
+   "n": "choir_hit",
+   "t": 687.68,
+   "g": 0.7
+  },
+  {
+   "n": "epic_bed",
+   "t": 709.81,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh_low",
+   "t": 709.71,
+   "g": 0.7
+  },
+  {
+   "n": "wind",
+   "t": 710.01,
+   "g": 0.5,
+   "dur": 8.26
+  },
+  {
+   "n": "tick",
+   "t": 720.87,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 722.87,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 725.07,
+   "g": 0.6
+  },
+  {
+   "n": "impact",
+   "t": 727.62,
+   "g": 0.8
+  },
+  {
+   "n": "whoosh_low",
+   "t": 730.41,
+   "g": 0.6
+  },
+  {
+   "n": "stamp",
+   "t": 750.21,
+   "g": 1.0
+  },
+  {
+   "n": "tick",
+   "t": 736.91,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 743.91,
+   "g": 0.6
+  },
+  {
+   "n": "tick",
+   "t": 750.71,
+   "g": 0.6
+  },
+  {
+   "n": "mystery_bed",
+   "t": 757.99,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh",
+   "t": 757.79,
+   "g": 0.7
+  },
+  {
+   "n": "impact",
+   "t": 758.19,
+   "g": 0.8
+  },
+  {
+   "n": "impact",
+   "t": 778.83,
+   "g": 0.6
+  },
+  {
+   "n": "whoosh",
+   "t": 783.01,
+   "g": 0.6
+  },
+  {
+   "n": "stamp",
+   "t": 790.06,
+   "g": 0.9
+  },
+  {
+   "n": "drone_dark",
+   "t": 794.05,
+   "g": 1.0
+  },
+  {
+   "n": "impact",
+   "t": 797.05,
+   "g": 0.7
+  },
+  {
+   "n": "fire",
+   "t": 804.68,
+   "g": 0.6,
+   "dur": 8
+  },
+  {
+   "n": "boom",
+   "t": 812.47,
+   "g": 0.6
+  },
+  {
+   "n": "heartbeat",
+   "t": 812.47,
+   "g": 0.8,
+   "dur": 26
+  },
+  {
+   "n": "dig",
+   "t": 845.4,
+   "g": 0.8,
+   "dur": 5
+  },
+  {
+   "n": "wind",
+   "t": 839.38,
+   "g": 0.5,
+   "dur": 19.08
+  },
+  {
+   "n": "drip",
+   "t": 858.76,
+   "g": 0.8
+  },
+  {
+   "n": "sub_hit",
+   "t": 869.25,
+   "g": 0.8
+  },
+  {
+   "n": "mystery_bed",
+   "t": 872.92,
+   "g": 1.0
+  },
+  {
+   "n": "stamp",
+   "t": 873.22,
+   "g": 1.0
+  },
+  {
+   "n": "whoosh",
+   "t": 884.66,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 885.86,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh",
+   "t": 887.06,
+   "g": 0.5
+  },
+  {
+   "n": "whoosh_low",
+   "t": 904.67,
+   "g": 0.5
+  },
+  {
+   "n": "epic_bed",
+   "t": 916.84,
+   "g": 1.0
+  },
+  {
+   "n": "braam",
+   "t": 920.24,
+   "g": 0.55
+  },
+  {
+   "n": "impact",
+   "t": 920.24,
+   "g": 0.6
+  },
+  {
+   "n": "braam",
+   "t": 924.28,
+   "g": 0.55
+  },
+  {
+   "n": "impact",
+   "t": 924.28,
+   "g": 0.6
+  },
+  {
+   "n": "braam",
+   "t": 927.01,
+   "g": 0.55
+  },
+  {
+   "n": "impact",
+   "t": 927.01,
+   "g": 0.6
+  },
+  {
+   "n": "choir_hit",
+   "t": 951.99,
+   "g": 0.9
+  },
+  {
+   "n": "sorrow_bed",
+   "t": 957.48,
+   "g": 1.0
+  },
+  {
+   "n": "tick",
+   "t": 981.35,
+   "g": 0.6
+  },
+  {
+   "n": "mystery_bed",
+   "t": 985.86,
+   "g": 1.0
+  },
+  {
+   "n": "choir_hit",
+   "t": 992.36,
+   "g": 0.7
+  },
+  {
+   "n": "riser",
+   "t": 999.75,
+   "g": 0.8
+  },
+  {
+   "n": "braam",
+   "t": 1004.75,
+   "g": 0.9
+  },
+  {
+   "n": "boom",
+   "t": 1004.75,
+   "g": 0.8
   }
  ]
 }

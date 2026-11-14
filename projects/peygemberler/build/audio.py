@@ -275,6 +275,174 @@ def choir_hit(d=5.0):
     return reverb(stereo(norm(out, 0.5), 1), 4.0, 0.5)
 
 
+
+def mystery_bed(d):
+    t = T(d)
+    n = len(t)
+    out = 0.5 * np.sin(2 * np.pi * D1 * t) + 0.3 * lp(saw(D2, t) + saw(D2, t, -0.004), 260)
+    # yavaş, sirli yüksək notlar (D minor, kiçik sekunda gərginliyi)
+    notes = [587.33, 622.25, 698.46, 587.33, 554.37, 587.33, 880.0, 830.61]
+    step = 2.6
+    for i in range(int(d / step) + 1):
+        a = i * step + 0.4
+        if a >= d - 0.5: break
+        seg = T(min(3.5, d - a))
+        f = notes[i % len(notes)]
+        tone = (np.sin(2 * np.pi * f * seg) + 0.3 * np.sin(2 * np.pi * f * 2.01 * seg)) * np.exp(-seg * 1.1)
+        j = int(a * SR)
+        out[j : j + len(seg)] += 0.18 * tone[: n - j]
+    out += 0.06 * bp(rng.standard_normal(n), 2000, 5000) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.05 * t))
+    out *= adsr(n, 2.5, 1.0)
+    return reverb(stereo(out, 1.5), 4.0, 0.5)
+
+
+def taiko(g=1.0):
+    s = T(1.2)
+    f = 55 + 70 * np.exp(-s * 18)
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-s * 5) + 0.3 * lp(rng.standard_normal(len(s)), 900) * np.exp(-s * 30)
+    return np.tanh(1.6 * x) * g
+
+
+def epic_bed(d):
+    t = T(d)
+    n = len(t)
+    out = np.zeros(n)
+    # davul nəbzi (treyler ritmi)
+    pat = [0, 0.75, 1.5, 1.875, 2.25, 3.0]
+    bar = 3.2
+    k = 0
+    while k * bar < d:
+        for p in pat:
+            a = k * bar + p
+            if a >= d - 0.2: break
+            x = taiko(1.0 if p in (0, 1.5) else 0.6)
+            i = int(a * SR)
+            out[i : i + len(x)] += x[: n - i]
+        k += 1
+    strings = sum(lp(saw(f, t, j * 0.003), 1200) for j, f in enumerate([D2, A2, D3, F3, A3]))
+    out += 0.12 * strings * np.clip(t / 4, 0, 1)
+    out += 0.5 * np.sin(2 * np.pi * D1 * t)
+    out *= adsr(n, 1.2, 1.0)
+    return reverb(stereo(out, 1), 2.6, 0.32)
+
+
+def sorrow_bed(d):
+    t = T(d)
+    n = len(t)
+    out = np.zeros(n)
+    seq = [293.66, 349.23, 440.0, 349.23, 261.63, 329.63, 392.0, 329.63, 233.08, 293.66, 349.23, 293.66]
+    step = 0.85
+    for i in range(int(d / step)):
+        a = i * step
+        seg = T(min(2.8, d - a))
+        f = seq[i % len(seq)]
+        # piano kimi: harmoniklər + sürətli zəifləmə
+        tone = sum(np.sin(2 * np.pi * f * m * seg) / m ** 1.4 for m in (1, 2, 3, 4)) * np.exp(-seg * 2.2)
+        j = int(a * SR)
+        out[j : j + len(seg)] += 0.22 * tone[: n - j]
+    pad = sum(lp(saw(f, t, 0.003), 700) for f in (D3, F3, A3))
+    out += 0.05 * pad + 0.25 * np.sin(2 * np.pi * D2 * t)
+    out *= adsr(n, 2.0, 1.5)
+    return reverb(stereo(out, 1), 3.5, 0.45)
+
+
+def fire(d):
+    t = T(d)
+    n = len(t)
+    base = lp(rng.standard_normal(n), 900) * 0.5
+    cr = np.zeros(n)
+    for _ in range(int(d * 18)):
+        i = rng.integers(0, n - 400)
+        L_ = rng.integers(40, 300)
+        cr[i : i + L_] += rng.standard_normal(L_) * np.exp(-np.arange(L_) / (L_ / 4)) * rng.uniform(0.3, 1.0)
+    x = base + hp(cr, 1500)
+    return stereo(norm(x, 0.5) * adsr(n, 1.0, 1.0), 1.5)
+
+
+def tick():
+    s = T(0.25)
+    x = np.sin(2 * np.pi * 1800 * s) * np.exp(-s * 60) + 0.4 * hp(rng.standard_normal(len(s)), 4000) * np.exp(-s * 120)
+    return reverb(stereo(norm(x, 0.6)), 1.0, 0.25)
+
+
+def clock(d):
+    n = int(d * SR)
+    out = np.zeros(n)
+    k = 0
+    while k * 1.0 < d:
+        x = tick()[:, 0] * (1 if k % 2 == 0 else 0.7)
+        i = int(k * SR)
+        out[i : i + len(x)] += x[: n - i]
+        k += 1
+    return stereo(out)
+
+
+def sand(d=3.0):
+    t = T(d)
+    x = bp(rng.standard_normal(len(t)), 3000, 9000) * (0.6 + 0.4 * rng.random(len(t))) * np.sin(np.pi * t / d)
+    return stereo(norm(x, 0.35), 1)
+
+
+def water(d):
+    t = T(d)
+    x = bp(rng.standard_normal(len(t)), 400, 3000)
+    bub = np.zeros(len(t))
+    for _ in range(int(d * 12)):
+        i = rng.integers(0, len(t) - 2000)
+        s = T(0.04)
+        f = rng.uniform(500, 1500)
+        bub[i : i + len(s)] += np.sin(2 * np.pi * f * s * (1 + 3 * s)) * np.exp(-s * 80)
+    return stereo(norm(0.6 * x + bub, 0.4) * adsr(len(t), 1.5, 1.5), 2)
+
+
+def leaves(d):
+    t = T(d)
+    env = np.zeros(len(t))
+    for _ in range(int(d * 10)):
+        c = rng.uniform(0, d)
+        env += np.exp(-((t - c) ** 2) / (2 * 0.05 ** 2))
+    x = bp(rng.standard_normal(len(t)), 1500, 6000) * env
+    return stereo(norm(x, 0.35), 2)
+
+
+def click():
+    s = T(0.12)
+    x = hp(rng.standard_normal(len(s)), 2000) * np.exp(-s * 200) + np.sin(2 * np.pi * 900 * s) * np.exp(-s * 80)
+    return stereo(norm(x, 0.6))
+
+
+def bell():
+    s = T(3.0)
+    x = sum(np.sin(2 * np.pi * f * s) * np.exp(-s * dcy) / (i + 1) for i, (f, dcy) in enumerate(((880, 1.2), (1760, 2.0), (2640, 3.0), (1318.5, 1.6))))
+    return reverb(stereo(norm(x, 0.6)), 2.0, 0.35)
+
+
+def dig(d):
+    n = int(d * SR)
+    out = np.zeros(n)
+    k = 0.0
+    while k < d - 0.3:
+        s = T(0.18)
+        x = lp(rng.standard_normal(len(s)), 2500) * np.exp(-s * 25)
+        i = int(k * SR)
+        out[i : i + len(s)] += x[: n - i]
+        k += rng.uniform(0.35, 0.7)
+    return stereo(norm(out, 0.5))
+
+
+def drip():
+    s = T(1.5)
+    f = 1400 * np.exp(-s * 8) + 600
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-s * 10)
+    return reverb(stereo(norm(x, 0.5)), 2.5, 0.5)
+
+
+def rewind():
+    s = T(0.9)
+    f = 900 * np.exp(-s * 3.5) + 60
+    x = lp(saw(f, s), 3000) * (1 - s / 0.9)
+    return stereo(norm(x, 0.5))
+
 ELEM = {
     'whoosh': lambda: whoosh(1.3),
     'whoosh_low': lambda: whoosh(1.8, low=True),
@@ -287,11 +455,12 @@ ELEM = {
     'paper': paper,
     'shimmer': shimmer,
     'choir_hit': choir_hit,
+    'tick': tick, 'sand': sand, 'click': click, 'bell': bell, 'drip': drip, 'rewind': rewind,
 }
-BEDS = {'drone_dark': drone_dark, 'tension_bed': tension_bed, 'pad_sacred': pad_sacred}
-AMB = {'heartbeat': heartbeat, 'wind': wind}
+BEDS = {'drone_dark': drone_dark, 'tension_bed': tension_bed, 'pad_sacred': pad_sacred, 'mystery_bed': mystery_bed, 'epic_bed': epic_bed, 'sorrow_bed': sorrow_bed}
+AMB = {'heartbeat': heartbeat, 'wind': wind, 'fire': fire, 'clock': clock, 'water': water, 'leaves': leaves, 'dig': dig}
 GAIN = {  # qrup səviyyələri (dB) — danışıq üstün olsun deyə
-    'beds': -11, 'amb': -12.5, 'sfx': -9,
+    'beds': -8.5, 'amb': -12, 'sfx': -8.5,
 }
 
 
@@ -304,7 +473,7 @@ def main(t0, t1, out_path):
     n = int((t1 - t0) * SR)
     music = np.zeros((n, 2))
     sfxb = np.zeros((n, 2))
-    stops = sorted([c['t'] for c in cues if c['n'] in BEDS or c['n'] in ('cut_silence', 'braam')] + [t1])
+    stops = sorted([c['t'] for c in cues if c['n'] in BEDS or c['n'] in ('cut_silence', 'cut_amb')] + [t1])
 
     def place(buf, x, at, g):
         i = int((at - t0) * SR)
@@ -315,7 +484,10 @@ def main(t0, t1, out_path):
     for c in sorted(cues, key=lambda c: c['t']):
         nm, at, g = c['n'], c['t'], c['g']
         if nm in BEDS or nm in AMB:
-            end = min([s for s in stops if s > at + 0.5] or [t1])
+            if 'dur' in c:
+                end = at + c['dur']
+            else:
+                end = min([s for s in stops if s > at + 0.5] or [t1])
             x = (BEDS.get(nm) or AMB.get(nm))(end - at + 0.3)
             fo = int(0.25 * SR)
             x[-fo:] *= np.linspace(1, 0, fo)[:, None]

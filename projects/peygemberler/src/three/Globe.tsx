@@ -115,27 +115,27 @@ export const Stars: React.FC<{count?: number}> = ({count = 2500}) => {
 };
 
 /** Torpağa sancılan nişan: işıq sütunu + nəbz halqası. */
-export const Pin: React.FC<{lat: number; lon: number; color: string; t: number; pulse: number}> = ({lat, lon, color, t, pulse}) => {
+export const Pin: React.FC<{lat: number; lon: number; color: string; t: number; pulse: number; s?: number}> = ({lat, lon, color, t, pulse, s = 1}) => {
   const base = toVec3(lat, lon, 1.0);
   const quat = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), base.clone().normalize());
-  const h = 0.06 * t;
-  const ring = 0.012 + 0.03 * pulse;
+  const h = 0.06 * t * s;
+  const ring = (0.012 + 0.03 * pulse) * s;
   return (
     <group position={base} quaternion={quat}>
       <mesh position={[0, h / 2, 0]}>
-        <cylinderGeometry args={[0.0018, 0.0018, h, 12]} />
+        <cylinderGeometry args={[0.0018 * s, 0.0018 * s, h, 12]} />
         <meshBasicMaterial color={color} />
       </mesh>
       <mesh position={[0, h, 0]}>
-        <sphereGeometry args={[0.006 * t, 16, 16]} />
+        <sphereGeometry args={[0.006 * t * s, 16, 16]} />
         <meshBasicMaterial color={color} />
       </mesh>
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.0015, 0]}>
-        <ringGeometry args={[ring, ring + 0.003, 48]} />
+        <ringGeometry args={[ring, ring + 0.003 * s, 48]} />
         <meshBasicMaterial color={color} transparent opacity={(1 - pulse) * t} side={THREE.DoubleSide} />
       </mesh>
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.001, 0]}>
-        <circleGeometry args={[0.012 * t, 32]} />
+        <circleGeometry args={[0.012 * t * s, 32]} />
         <meshBasicMaterial color={color} transparent opacity={0.35 * t} />
       </mesh>
     </group>
