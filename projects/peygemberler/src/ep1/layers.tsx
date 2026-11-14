@@ -9,8 +9,12 @@ const ease = Easing.bezier(0.33, 0, 0.2, 1);
 /** Qlobal saniyə (kompozisiyanın başlanğıcı + kadr). */
 export const useT = (offset: number) => offset + useCurrentFrame() / FPS;
 
-const env = (t: number, a: number, b: number, fin = 0.5, fout = 0.5) =>
-  interpolate(t, [a, a + fin, b - fout, b], [0, 1, 1, 0], clamp);
+const env = (t: number, a: number, b: number, fin = 0.5, fout = 0.5) => {
+  const L = Math.max(0.04, b - a);
+  const k = Math.min(1, (L - 0.02) / Math.max(0.001, fin + fout));
+  const fi = Math.max(0.005, fin * k), fo = Math.max(0.005, fout * k);
+  return interpolate(t, [a, a + fi, Math.max(a + fi + 0.001, a + L - fo), Math.max(a + fi + 0.002, a + L)], [0, 1, 1, 0], clamp);
+};
 
 /* ---------------- FON: şəkil / video + Ken Burns ---------------- */
 export type BgSpec = {

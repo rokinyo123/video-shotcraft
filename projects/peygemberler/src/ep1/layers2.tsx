@@ -5,7 +5,12 @@ import {BAR} from './layers';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const ease = Easing.bezier(0.33, 0, 0.2, 1);
-const env = (t: number, a: number, b: number, fin = 0.5, fout = 0.5) => interpolate(t, [a, a + fin, b - fout, b], [0, 1, 1, 0], clamp);
+const env = (t: number, a: number, b: number, fin = 0.5, fout = 0.5) => {
+  const L = Math.max(0.04, b - a);
+  const k = Math.min(1, (L - 0.02) / Math.max(0.001, fin + fout));
+  const fi = Math.max(0.005, fin * k), fo = Math.max(0.005, fout * k);
+  return interpolate(t, [a, a + fi, Math.max(a + fi + 0.001, a + L - fo), Math.max(a + fi + 0.002, a + L)], [0, 1, 1, 0], clamp);
+};
 const pop = (t: number, a: number, d = 0.5) => interpolate(t, [a, a + d], [0, 1], {...clamp, easing: Easing.out(Easing.back(1.6))});
 const fadeIn = (t: number, a: number, d = 0.5) => interpolate(t, [a, a + d], [0, 1], {...clamp, easing: ease});
 type P = {t: number; a: number; b: number};
