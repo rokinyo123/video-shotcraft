@@ -392,6 +392,16 @@ sent_n = {k: len(v['sent']) for k, v in S.items()}
 for r in PH:
     if (r['shot'], r['si']) in nosub: continue
     subs += chunks(r['text'], r['a'] - 0.05, r['b'] + 0.1)
+# 2-ci və 3-cü hissə: görüntü/altyazı/effektlər səsdən 0.2 s əvvəl (gecikmə hissi olmasın)
+ADV = 0.2
+for coll, keys in ((shots, ('a', 'b')), (layers, ('a', 'b')), (subs, ('a', 'b'))):
+    for o in coll:
+        if o['a'] >= 312.6:
+            for kk in keys: o[kk] = round(o[kk] - ADV, 3)
+            for kk in ('at', 'subAt', 'strikeAt', 'replAt', 'click', 'cut', 'join', 'ruler', 'build', 'done', 'cross', 'ban', 'haram', 'split'):
+                if isinstance(o.get(kk), (int, float)) and not isinstance(o.get(kk), bool) and o[kk] > 300: o[kk] = round(o[kk] - ADV, 3)
+for o in sfx:
+    if o['t'] >= 312.6: o['t'] = round(o['t'] - ADV, 3)
 json.dump({'shots': shots, 'layers': layers, 'subs': subs, 'sfx': sfx}, open('src/ep1/timeline.json', 'w', encoding='utf8'), ensure_ascii=False, indent=1)
 print(len(shots), 'shot ·', len(layers), 'qat ·', len(subs), 'altyazı ·', len(sfx), 'səs')
 dark = [s['id'] for s in shots if s['bg'].get('type') == 'dark']

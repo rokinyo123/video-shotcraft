@@ -1045,14 +1045,14 @@
 "si": 0,
 "text": "Allah mələklərə əmr etdi:",
 "a": 385.25,
-"b": 386.57
+"b": 385.45
 },
 {
 "part": 2,
 "shot": "K24",
 "si": 0,
 "text": "“Adəmə səcdə edin!” Hamısı səcdəyə qapandı…",
-"a": 386.57,
+"a": 386.02,
 "b": 389.39
 },
 {
@@ -1285,14 +1285,14 @@
 "si": 1,
 "text": "“Bəli,",
 "a": 477.23,
-"b": 477.26
+"b": 477.43
 },
 {
 "part": 2,
 "shot": "K29",
 "si": 1,
 "text": "şahidik!” Yəni bu sual sizə də verilib.",
-"a": 477.26,
+"a": 477.48,
 "b": 479.97
 },
 {
@@ -1573,22 +1573,22 @@
 "si": 2,
 "text": "Çünki insan unudur.",
 "a": 561.7,
-"b": 564.08
+"b": 563.27
 },
 {
 "part": 2,
 "shot": "K35",
 "si": 3,
 "text": "Bu,",
-"a": 564.26,
-"b": 564.31
+"a": 563.76,
+"b": 564.08
 },
 {
 "part": 2,
 "shot": "K35",
 "si": 3,
 "text": "Adəmdən bizə qalan bir xasiyyətdir.",
-"a": 564.31,
+"a": 564.26,
 "b": 566.41
 },
 {
@@ -2165,14 +2165,14 @@
 "si": 3,
 "text": "başqa doğumdan olan bacı ilə evlənməli idi.",
 "a": 784.54,
-"b": 787.85
+"b": 786.13
 },
 {
 "part": 3,
 "shot": "K46",
 "si": 4,
 "text": "İnsanlığın artması başqa yolla mümkün deyildi.",
-"a": 787.85,
+"a": 786.69,
 "b": 789.79
 },
 {
@@ -2229,14 +2229,14 @@
 "si": 2,
 "text": "Quran deyir ki,",
 "a": 804.96,
-"b": 806.87
+"b": 805.87
 },
 {
 "part": 3,
 "shot": "K47",
 "si": 2,
 "text": "onlar qurban təqdim etdilər.",
-"a": 806.87,
+"a": 806.28,
 "b": 808.17
 },
 {
@@ -2325,14 +2325,14 @@
 "si": 3,
 "text": "Quran ayəsi deyil.",
 "a": 839.71,
-"b": 840.47
+"b": 839.91
 },
 {
 "part": 3,
 "shot": "K49",
 "si": 0,
 "text": "Qatil qardaşının cəsədi ilə nə edəcəyini bilmirdi.",
-"a": 840.47,
+"a": 839.96,
 "b": 845.14
 },
 {
@@ -2365,14 +2365,14 @@
 "si": 3,
 "text": "“Vay halıma!",
 "a": 850.05,
-"b": 850.62
+"b": 850.25
 },
 {
 "part": 3,
 "shot": "K49",
 "si": 4,
 "text": "Bu qarğa qədər də ola bilmədimmi ki,",
-"a": 850.62,
+"a": 850.3,
 "b": 851.94
 },
 {

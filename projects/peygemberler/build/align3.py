@@ -40,7 +40,7 @@ for part in (1,2,3):
         for si,s in enumerate(sents):
             ph = re.split(r'(?<=[,:;—])\s+', s)
             for pi,p in enumerate(ph):
-                toks.append({'shot':sid,'si':si,'text':p,'syl':syl(p),'strong':pi==len(ph)-1})
+                toks.append({'shot':sid,'si':si,'text':p,'syl':syl(p),'strong':pi==len(ph)-1,'first':pi==0})
     N=sum(t['syl'] for t in toks); M=len(nt)
     rep.append((part, N, M, round(M/N,2)))
     # kümulativ heca → vaxt
@@ -62,6 +62,36 @@ for part in (1,2,3):
             tk['a']=prev_end; tk['b']=s; prev_end=e2
         else:
             tk['a']=prev_end; tk['b']=est; prev_end=est
+    if part in (2, 3):  # DP: ifadə başlanğıclarını real səs başlanğıclarına monoton uyğunlaşdır
+        ons = [e2 for s0, e2 in P]; ps_of = {e2: s0 for s0, e2 in P}
+        A0 = [tk['a'] for tk in toks]; n = len(toks); m = len(ons); INF = 1e9
+        # dp[k][j]: k-cı sərhəd j-dən əvvəlki fasilələri istifadə edib
+        best = {(-1): (0.0, [])}
+        state = [(0.0, -1, [])]  # (xərc, son istifadə olunan fasilə, seçimlər)
+        import bisect
+        dp = [0.0] + [INF]*m; ch = [[] for _ in range(m+1)]  # indeks = son istifadə + 1
+        for k in range(1, n):
+            w = 1.4 if toks[k]['first'] else 0.7; skip = 1.6 if toks[k]['first'] else 0.6
+            ndp = [INF]*(m+1); nch = [None]*(m+1)
+            # snaplamadan
+            for q in range(m+1):
+                if dp[q] < INF and dp[q] + skip < ndp[q]: ndp[q] = dp[q] + skip; nch[q] = ch[q] + [None]
+            # fasiləyə yapışdır
+            pref = INF; pq = -1
+            for jj in range(m):
+                if dp[jj] < pref: pref = dp[jj]; pq = jj   # dp indeks jj = son istifadə jj-1 < jj
+                d = abs(ons[jj] - A0[k])
+                if d <= w and pref < INF and pref + d < ndp[jj+1]:
+                    ndp[jj+1] = pref + d; nch[jj+1] = ch[pq] + [jj]
+            dp, ch = ndp, [c if c is not None else [] for c in nch]
+        q = min(range(m+1), key=lambda q: dp[q]); sel = ch[q]
+        for k in range(1, n):
+            jj = sel[k-1]
+            if jj is None: continue
+            toks[k]['a'] = ons[jj]; toks[k-1]['b'] = ps_of[ons[jj]]
+        for k in range(1, n):  # ardıcıllıq qoruyucusu
+            if toks[k]['a'] < toks[k-1]['a'] + 0.25: toks[k]['a'] = toks[k-1]['a'] + 0.25
+            toks[k-1]['b'] = max(toks[k-1]['a'] + 0.2, min(toks[k-1]['b'], toks[k]['a']))
     o=OFF[part]
     for tk in toks:
         res_all.append({'part':part,'shot':tk['shot'],'si':tk['si'],'text':tk['text'],'a':round(tk['a']+o,2),'b':round(tk['b']+o,2)})

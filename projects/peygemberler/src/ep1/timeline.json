@@ -572,8 +572,8 @@
   },
   {
    "id": "K22",
-   "a": 334.99,
-   "b": 355.08,
+   "a": 334.79,
+   "b": 354.88,
    "bg": {
     "type": "image",
     "src": "media/ep1/K22.jpg",
@@ -591,8 +591,8 @@
   },
   {
    "id": "K23",
-   "a": 355.08,
-   "b": 385.1,
+   "a": 354.88,
+   "b": 384.9,
    "bg": {
     "type": "image",
     "src": "media/ep1/K23.jpg",
@@ -610,8 +610,8 @@
   },
   {
    "id": "K24",
-   "a": 385.1,
-   "b": 389.75,
+   "a": 384.9,
+   "b": 389.55,
    "bg": {
     "type": "video",
     "src": "media/ep1/K24.mp4",
@@ -632,8 +632,8 @@
   },
   {
    "id": "K25",
-   "a": 389.75,
-   "b": 392.88,
+   "a": 389.55,
+   "b": 392.68,
    "bg": {
     "type": "video",
     "src": "media/ep1/K25.mp4",
@@ -654,8 +654,8 @@
   },
   {
    "id": "K26",
-   "a": 392.88,
-   "b": 407.47,
+   "a": 392.68,
+   "b": 407.27,
    "bg": {
     "type": "video",
     "src": "media/ep1/K25.mp4",
@@ -677,8 +677,8 @@
   },
   {
    "id": "K27",
-   "a": 407.47,
-   "b": 446.18,
+   "a": 407.27,
+   "b": 445.98,
    "bg": {
     "type": "image",
     "src": "media/ep1/K27.jpg",
@@ -696,8 +696,8 @@
   },
   {
    "id": "K28",
-   "a": 446.18,
-   "b": 458.78,
+   "a": 445.98,
+   "b": 458.58,
    "bg": {
     "type": "video",
     "src": "media/ep1/K28.mp4",
@@ -718,8 +718,8 @@
   },
   {
    "id": "K29",
-   "a": 458.78,
-   "b": 482.44,
+   "a": 458.58,
+   "b": 482.24,
    "bg": {
     "type": "video",
     "src": "media/ep1/K29.mp4",
@@ -740,8 +740,8 @@
   },
   {
    "id": "K30",
-   "a": 482.44,
-   "b": 498.75,
+   "a": 482.24,
+   "b": 498.55,
    "bg": {
     "type": "video",
     "src": "media/ep1/K29.mp4",
@@ -762,8 +762,8 @@
   },
   {
    "id": "K31",
-   "a": 498.75,
-   "b": 516.49,
+   "a": 498.55,
+   "b": 516.29,
    "bg": {
     "type": "image",
     "src": "media/ep1/K31.jpg",
@@ -781,8 +781,8 @@
   },
   {
    "id": "K32",
-   "a": 516.49,
-   "b": 524.33,
+   "a": 516.29,
+   "b": 524.13,
    "bg": {
     "type": "video",
     "src": "media/ep1/K29.mp4",
@@ -804,8 +804,8 @@
   },
   {
    "id": "K33",
-   "a": 524.33,
-   "b": 536.39,
+   "a": 524.13,
+   "b": 536.19,
    "bg": {
     "type": "image",
     "src": "media/ep1/K33.jpg",
@@ -823,8 +823,8 @@
   },
   {
    "id": "K34",
-   "a": 536.39,
-   "b": 551.97,
+   "a": 536.19,
+   "b": 551.77,
    "bg": {
     "type": "image",
     "src": "media/ep1/K34.jpg",
@@ -842,8 +842,8 @@
   },
   {
    "id": "K35",
-   "a": 551.97,
-   "b": 566.8,
+   "a": 551.77,
+   "b": 566.6,
    "bg": {
     "type": "image",
     "src": "media/ep1/K35.jpg",
@@ -861,8 +861,8 @@
   },
   {
    "id": "K36",
-   "a": 566.8,
-   "b": 574.31,
+   "a": 566.6,
+   "b": 574.11,
    "bg": {
     "type": "video",
     "src": "media/ep1/K36.mp4",
@@ -883,8 +883,8 @@
   },
   {
    "id": "K37",
-   "a": 574.31,
-   "b": 581.83,
+   "a": 574.11,
+   "b": 581.63,
    "bg": {
     "type": "image",
     "src": "media/ep1/K37.jpg",
@@ -902,8 +902,8 @@
   },
   {
    "id": "K38",
-   "a": 581.83,
-   "b": 590.03,
+   "a": 581.63,
+   "b": 589.83,
    "bg": {
     "type": "image",
     "src": "media/ep1/K38.jpg",
@@ -921,8 +921,8 @@
   },
   {
    "id": "K39",
-   "a": 590.03,
-   "b": 604.49,
+   "a": 589.83,
+   "b": 604.29,
    "bg": {
     "type": "image",
     "src": "media/ep1/K39.jpg",
@@ -940,8 +940,8 @@
   },
   {
    "id": "KART-MALUM",
-   "a": 604.49,
-   "b": 616.04,
+   "a": 604.29,
+   "b": 615.84,
    "bg": {
     "type": "image",
     "src": "media/ep1/K38.jpg",
@@ -961,8 +961,8 @@
   },
   {
    "id": "K40",
-   "a": 616.04,
-   "b": 658.57,
+   "a": 615.84,
+   "b": 658.37,
    "bg": {
     "type": "image",
     "src": "media/ep1/K40.jpg",
@@ -981,8 +981,8 @@
   },
   {
    "id": "KART-HEDIS",
-   "a": 658.57,
-   "b": 677.06,
+   "a": 658.37,
+   "b": 676.86,
    "bg": {
     "type": "image",
     "src": "media/ep1/K35.jpg",
@@ -1001,8 +1001,8 @@
   },
   {
    "id": "K41",
-   "a": 677.06,
-   "b": 684.16,
+   "a": 676.86,
+   "b": 683.96,
    "bg": {
     "type": "video",
     "src": "media/ep1/K41.mp4",
@@ -1023,8 +1023,8 @@
   },
   {
    "id": "K42",
-   "a": 684.16,
-   "b": 709.86,
+   "a": 683.96,
+   "b": 709.66,
    "bg": {
     "type": "image",
     "src": "media/ep1/K54.jpg",
@@ -1042,8 +1042,8 @@
   },
   {
    "id": "K43",
-   "a": 709.86,
-   "b": 718.39,
+   "a": 709.66,
+   "b": 718.19,
    "bg": {
     "type": "video",
     "src": "media/ep1/K43.mp4",
@@ -1064,8 +1064,8 @@
   },
   {
    "id": "K44",
-   "a": 718.39,
-   "b": 730.59,
+   "a": 718.19,
+   "b": 730.39,
    "bg": {
     "type": "video",
     "src": "media/ep1/K43.mp4",
@@ -1087,8 +1087,8 @@
   },
   {
    "id": "K45",
-   "a": 730.59,
-   "b": 761.3,
+   "a": 730.39,
+   "b": 761.1,
    "bg": {
     "type": "video",
     "src": "media/ep1/GlobeArrival.mp4",
@@ -1108,8 +1108,8 @@
   },
   {
    "id": "KART-EVLILIK",
-   "a": 761.3,
-   "b": 768.79,
+   "a": 761.1,
+   "b": 768.59,
    "bg": {
     "type": "image",
     "src": "media/ep1/K46.jpg",
@@ -1129,8 +1129,8 @@
   },
   {
    "id": "K46",
-   "a": 768.79,
-   "b": 795.7,
+   "a": 768.59,
+   "b": 795.5,
    "bg": {
     "type": "image",
     "src": "media/ep1/K46.jpg",
@@ -1149,8 +1149,8 @@
   },
   {
    "id": "K47",
-   "a": 795.7,
-   "b": 804.81,
+   "a": 795.5,
+   "b": 804.61,
    "bg": {
     "type": "image",
     "src": "media/ep1/K48.jpg",
@@ -1169,8 +1169,8 @@
   },
   {
    "id": "K47b",
-   "a": 804.81,
-   "b": 812.6,
+   "a": 804.61,
+   "b": 812.4,
    "bg": {
     "type": "image",
     "src": "media/ep1/K47.jpg",
@@ -1188,8 +1188,8 @@
   },
   {
    "id": "K48",
-   "a": 812.6,
-   "b": 840.32,
+   "a": 812.4,
+   "b": 839.61,
    "bg": {
     "type": "image",
     "src": "media/ep1/K48.jpg",
@@ -1207,8 +1207,8 @@
   },
   {
    "id": "K49",
-   "a": 840.32,
-   "b": 858.63,
+   "a": 839.61,
+   "b": 858.43,
    "bg": {
     "type": "video",
     "src": "media/ep1/K49.mp4",
@@ -1229,8 +1229,8 @@
   },
   {
    "id": "K50",
-   "a": 858.63,
-   "b": 874.83,
+   "a": 858.43,
+   "b": 874.63,
    "bg": {
     "type": "image",
     "src": "media/ep1/K50.jpg",
@@ -1248,8 +1248,8 @@
   },
   {
    "id": "K51",
-   "a": 874.83,
-   "b": 895.59,
+   "a": 874.63,
+   "b": 895.39,
    "bg": {
     "type": "image",
     "src": "media/ep1/K52.jpg",
@@ -1268,8 +1268,8 @@
   },
   {
    "id": "K52",
-   "a": 895.59,
-   "b": 919.87,
+   "a": 895.39,
+   "b": 919.67,
    "bg": {
     "type": "image",
     "src": "media/ep1/K52.jpg",
@@ -1287,8 +1287,8 @@
   },
   {
    "id": "K53",
-   "a": 919.87,
-   "b": 959.3,
+   "a": 919.67,
+   "b": 959.1,
    "bg": {
     "type": "video",
     "src": "media/ep1/K07.mp4",
@@ -1310,8 +1310,8 @@
   },
   {
    "id": "K54",
-   "a": 959.3,
-   "b": 987.29,
+   "a": 959.1,
+   "b": 987.09,
    "bg": {
     "type": "image",
     "src": "media/ep1/K54.jpg",
@@ -1329,8 +1329,8 @@
   },
   {
    "id": "K55",
-   "a": 987.29,
-   "b": 1015.49,
+   "a": 987.09,
+   "b": 1015.29,
    "bg": {
     "type": "video",
     "src": "media/ep1/K55.mp4",
@@ -1761,8 +1761,8 @@
   },
   {
    "type": "quote",
-   "a": 312.76,
-   "b": 322.7,
+   "a": 312.56,
+   "b": 322.5,
    "text": "Mən sizin bilmədiklərinizi bilirəm.",
    "by": "Xatırlayın · Bəqərə 2:30",
    "size": 64,
@@ -1770,8 +1770,8 @@
   },
   {
    "type": "ayah",
-   "a": 324.6,
-   "b": 334.99,
+   "a": 324.4,
+   "b": 334.79,
    "ar": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
    "az": "Və Adəmə bütün adları öyrətdi.",
    "ref_": "BƏQƏRƏ · 2:31"
@@ -1790,16 +1790,16 @@
   },
   {
    "type": "quote",
-   "a": 335.34,
-   "b": 346.21,
+   "a": 335.14,
+   "b": 346.01,
    "text": "Sən pak və müqəddəssən! Bizim Sənin öyrətdiyindən başqa heç bir biliyimiz yoxdur.",
    "by": "Mələklər · Bəqərə 2:32",
    "size": 56
   },
   {
    "type": "big",
-   "a": 346.41,
-   "b": 355.38,
+   "a": 346.21,
+   "b": 355.18,
    "text": "ELM",
    "sub": "Mələklərin görmədiyi tərəf",
    "size": 200,
@@ -1807,8 +1807,8 @@
   },
   {
    "type": "chips",
-   "a": 367.69,
-   "b": 377.81,
+   "a": 367.49,
+   "b": 377.61,
    "y": 38,
    "size": 60,
    "items": [
@@ -1831,42 +1831,42 @@
   },
   {
    "type": "source",
-   "a": 356.23,
-   "b": 377.31,
+   "a": 356.03,
+   "b": 377.11,
    "label": "Səhih Buxari 6227"
   },
   {
    "type": "particles",
-   "a": 355.08,
-   "b": 385.1,
+   "a": 354.88,
+   "b": 384.9,
    "kind": "lights",
    "n": 50
   },
   {
    "type": "ayah",
-   "a": 386.44,
-   "b": 389.85,
+   "a": 385.7,
+   "b": 389.65,
    "ar": "اسْجُدُوا لِآدَمَ",
    "az": "Adəmə səcdə edin!",
    "ref_": "BƏQƏRƏ · 2:34"
   },
   {
    "type": "leak",
-   "a": 385.1,
-   "b": 386.2
+   "a": 384.9,
+   "b": 386.0
   },
   {
    "type": "big",
-   "a": 389.85,
-   "b": 392.88,
+   "a": 389.65,
+   "b": 392.68,
    "text": "İBLİSDƏN BAŞQA",
    "size": 130,
    "color": "#c4532b"
   },
   {
    "type": "columns",
-   "a": 392.98,
-   "b": 402.75,
+   "a": 392.78,
+   "b": 402.55,
    "title": "İBLİSİN MƏNTİQİ",
    "items": [
     {
@@ -1889,31 +1889,31 @@
   },
   {
    "type": "stamp",
-   "a": 402.85,
-   "b": 407.77,
+   "a": 402.65,
+   "b": 407.57,
    "top": "TARİXDƏ İLK",
    "main": "İRQÇİLİK",
    "color": "#c4532b"
   },
   {
    "type": "stamp",
-   "a": 407.62,
-   "b": 419.02,
+   "a": 407.42,
+   "b": 418.82,
    "top": "MƏNBƏ YOXLAMASI",
    "main": "İBLİS MƏLƏK İDİMİ?"
   },
   {
    "type": "ayah",
-   "a": 419.22,
-   "b": 421.83,
+   "a": 419.02,
+   "b": 421.63,
    "ar": "كَانَ مِنَ الْجِنِّ",
    "az": "O, cinlərdən idi.",
    "ref_": "KƏHF · 18:50"
   },
   {
    "type": "columns",
-   "a": 421.83,
-   "b": 427.81,
+   "a": 421.63,
+   "b": 427.61,
    "items": [
     {
      "icon": "light",
@@ -1940,118 +1940,118 @@
   },
   {
    "type": "source",
-   "a": 427.78,
-   "b": 435.35,
+   "a": 427.58,
+   "b": 435.15,
    "label": "Təbəri · İbn Abbas rəvayəti",
    "weak": true
   },
   {
    "type": "verdict",
-   "a": 439.71,
-   "b": 446.38,
+   "a": 439.51,
+   "b": 446.18,
    "text": "ALİMLƏRİN ƏKSƏRİYYƏTİ: CİN"
   },
   {
    "type": "big",
-   "a": 452.42,
-   "b": 458.98,
+   "a": 452.22,
+   "b": 458.78,
    "text": "QİYAMƏTƏ QƏDƏR MÖHLƏT",
    "size": 90,
    "color": "#c4532b"
   },
   {
    "type": "source",
-   "a": 446.33,
-   "b": 458.78,
+   "a": 446.13,
+   "b": 458.58,
    "label": "Hicr 15:36–38"
   },
   {
    "type": "ayah",
-   "a": 472.3,
-   "b": 478.04,
+   "a": 472.1,
+   "b": 477.84,
    "ar": "أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا بَلَىٰ شَهِدْنَا",
    "az": "Mən sizin Rəbbiniz deyiləmmi? — Bəli, şahidik!",
    "ref_": "ƏRAF · 7:172"
   },
   {
    "type": "big",
-   "a": 478.14,
-   "b": 482.84,
+   "a": 477.94,
+   "b": 482.64,
    "text": "Bu sual sizə də verilib.",
    "size": 84
   },
   {
    "type": "leak",
-   "a": 458.78,
-   "b": 459.88
+   "a": 458.58,
+   "b": 459.68
   },
   {
    "type": "particles",
-   "a": 482.44,
-   "b": 498.75,
+   "a": 482.24,
+   "b": 498.55,
    "kind": "lights",
    "n": 110
   },
   {
    "type": "source",
-   "a": 482.59,
-   "b": 498.75,
+   "a": 482.39,
+   "b": 498.55,
    "label": "Tirmizi 3076"
   },
   {
    "type": "dialog",
-   "a": 505.75,
-   "b": 510.94,
+   "a": 505.55,
+   "b": 510.74,
    "who": "ADƏM",
    "text": "Ya Rəbb, bu kimdir?",
    "side": "left"
   },
   {
    "type": "big",
-   "a": 510.94,
-   "b": 513.44,
+   "a": 510.74,
+   "b": 513.24,
    "text": "DAVUD",
    "size": 170,
    "color": "#fff3cf"
   },
   {
    "type": "dialog",
-   "a": 513.44,
-   "b": 516.49,
+   "a": 513.24,
+   "b": 516.29,
    "who": "ADƏM",
    "text": "Onun ömrünü nə qədər etdin? — Altmış il.",
    "side": "left"
   },
   {
    "type": "bars",
-   "a": 516.49,
-   "b": 524.33,
-   "cut": 518.49,
-   "join": 519.49
+   "a": 516.29,
+   "b": 524.13,
+   "cut": 518.29,
+   "join": 519.29
   },
   {
    "type": "counter",
-   "a": 524.53,
-   "b": 527.28,
+   "a": 524.33,
+   "b": 527.08,
    "from": 0,
    "to": 960,
-   "at": 524.53,
+   "at": 524.33,
    "dur": 2.2,
    "label": "İL",
    "y": 26
   },
   {
    "type": "dialog",
-   "a": 527.38,
-   "b": 531.43,
+   "a": 527.18,
+   "b": 531.23,
    "who": "ADƏM",
    "text": "Axı mənim ömrümdən hələ qırx il qalmayıbmı?",
    "side": "left"
   },
   {
    "type": "dialog",
-   "a": 531.43,
-   "b": 536.39,
+   "a": 531.23,
+   "b": 536.19,
    "who": "ÖLÜM MƏLƏYİ",
    "text": "Məgər onu oğlun Davuda verməmişdinmi?",
    "side": "right",
@@ -2059,8 +2059,8 @@
   },
   {
    "type": "chips",
-   "a": 540.24,
-   "b": 552.37,
+   "a": 540.04,
+   "b": 552.17,
    "y": 42,
    "size": 54,
    "items": [
@@ -2083,54 +2083,54 @@
   },
   {
    "type": "stamp",
-   "a": 556.14,
-   "b": 561.6,
+   "a": 555.94,
+   "b": 561.4,
    "top": "BƏQƏRƏ · 2:282",
    "main": "ƏN UZUN AYƏ"
   },
   {
    "type": "big",
-   "a": 561.6,
-   "b": 567.1,
+   "a": 561.4,
+   "b": 566.9,
    "text": "Çünki insan unudur.",
    "size": 96,
    "color": "#f0d9a0"
   },
   {
    "type": "source",
-   "a": 567.95,
-   "b": 574.31,
+   "a": 567.75,
+   "b": 574.11,
    "label": "Nisa 4:1"
   },
   {
    "type": "leak",
-   "a": 566.8,
-   "b": 567.9
+   "a": 566.6,
+   "b": 567.7
   },
   {
    "type": "ayah",
-   "a": 576.72,
-   "b": 582.03,
+   "a": 576.52,
+   "b": 581.83,
    "ar": "وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ",
    "az": "Bu ağaca yaxınlaşmayın.",
    "ref_": "BƏQƏRƏ · 2:35"
   },
   {
    "type": "stamp",
-   "a": 581.98,
-   "b": 585.62,
+   "a": 581.78,
+   "b": 585.42,
    "top": "MƏNBƏ YOXLAMASI · 2",
    "main": "ALMA?"
   },
   {
    "type": "xmark",
-   "a": 589.32,
-   "b": 590.23
+   "a": 589.12,
+   "b": 590.03
   },
   {
    "type": "chips",
-   "a": 591.94,
-   "b": 596.77,
+   "a": 591.74,
+   "b": 596.57,
    "y": 30,
    "items": [
     {
@@ -2149,30 +2149,30 @@
   },
   {
    "type": "big",
-   "a": 599.65,
-   "b": 604.79,
+   "a": 599.45,
+   "b": 604.59,
    "text": "Məsələ meyvədə deyildi",
    "sub": "Məsələ — əmrə itaətdə idi",
    "size": 84
   },
   {
    "type": "malum",
-   "a": 608.39,
-   "b": 616.34,
-   "split": 610.41
+   "a": 608.19,
+   "b": 616.14,
+   "split": 610.21
   },
   {
    "type": "stamp",
-   "a": 616.19,
-   "b": 623.77,
+   "a": 615.99,
+   "b": 623.57,
    "top": "MƏNBƏ YOXLAMASI · 3",
    "main": "GÜNAHI HƏVVA İŞLƏTDİ?",
    "color": "#c4532b"
   },
   {
    "type": "columns",
-   "a": 623.87,
-   "b": 654.28,
+   "a": 623.67,
+   "b": 654.08,
    "title": "QURAN NƏ DEYİR?",
    "items": [
     {
@@ -2204,57 +2204,57 @@
   },
   {
    "type": "verdict",
-   "a": 654.38,
-   "b": 658.77,
+   "a": 654.18,
+   "b": 658.57,
    "text": "QURAN SƏHVİ QADINA YÜKLƏMİR"
   },
   {
    "type": "quote",
-   "a": 659.92,
-   "b": 665.12,
+   "a": 659.72,
+   "b": 664.92,
    "text": "Həvva olmasaydı, heç bir qadın ərinə xəyanət etməzdi.",
    "by": "Səhih Buxari 3330",
    "size": 58
   },
   {
    "type": "verdict",
-   "a": 665.46,
-   "b": 670.56,
+   "a": 665.26,
+   "b": 670.36,
    "text": "ALİMLƏR: İLK GÜNAH HƏVVAYA YÜKLƏNMİR",
    "c": "#d6a84e"
   },
   {
    "type": "verdict",
-   "a": 670.91,
-   "b": 677.36,
+   "a": 670.71,
+   "b": 677.16,
    "text": "“HƏVVA ALDATDI” — TÖVRAT RƏVAYƏTİ",
    "c": "#c4532b"
   },
   {
    "type": "ayah",
-   "a": 689.71,
-   "b": 702.04,
+   "a": 689.51,
+   "b": 701.84,
    "ar": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا",
    "az": "Rəbbimiz, biz özümüzə zülm etdik…",
    "ref_": "ƏRAF · 7:23"
   },
   {
    "type": "big",
-   "a": 706.61,
-   "b": 710.26,
+   "a": 706.41,
+   "b": 710.06,
    "text": "Səhv edildi. Tövbə edildi. Bağışlandı.",
    "size": 74,
    "color": "#f0d9a0"
   },
   {
    "type": "leak",
-   "a": 709.86,
-   "b": 710.96
+   "a": 709.66,
+   "b": 710.76
   },
   {
    "type": "list",
-   "a": 718.59,
-   "b": 730.79,
+   "a": 718.39,
+   "b": 730.59,
    "title": "CÜMƏ",
    "sub": "Səhih Müslim 854",
    "items": [
@@ -2278,50 +2278,50 @@
   },
   {
    "type": "qcard",
-   "a": 761.3,
-   "b": 768.79,
+   "a": 761.1,
+   "b": 768.59,
    "n": 4,
    "q": "Adəmin övladları kiminlə evləndi?",
    "img": "media/ep1/K46.jpg"
   },
   {
    "type": "leak",
-   "a": 761.3,
-   "b": 762.4
+   "a": 761.1,
+   "b": 762.2
   },
   {
    "type": "tree",
-   "a": 768.99,
-   "b": 795.9,
-   "cross": 784.54,
-   "ban": 782.0016901408451,
-   "haram": 790.25
+   "a": 768.79,
+   "b": 795.7,
+   "cross": 784.34,
+   "ban": 781.802,
+   "haram": 790.05
   },
   {
    "type": "source",
-   "a": 768.94,
-   "b": 780.26,
+   "a": 768.74,
+   "b": 780.06,
    "label": "Təfsir rəvayətləri",
    "weak": true
   },
   {
    "type": "strike",
-   "a": 795.8,
-   "b": 804.96,
+   "a": 795.6,
+   "b": 804.76,
    "words": [
     "Qabil",
     "Habil"
    ],
-   "strikeAt": 799.0629268292682,
+   "strikeAt": 798.863,
    "repl": "Adəmin iki oğlu",
-   "replAt": 801.12,
+   "replAt": 800.92,
    "ar": "ابْنَيْ آدَمَ",
    "ref_": "MAİDƏ · 5:27"
   },
   {
    "type": "dialog",
-   "a": 814.39,
-   "b": 817.47,
+   "a": 814.19,
+   "b": 817.27,
    "who": "QƏBUL OLUNMAYAN",
    "text": "Səni öldürəcəyəm!",
    "side": "left",
@@ -2329,52 +2329,52 @@
   },
   {
    "type": "dialog",
-   "a": 817.47,
-   "b": 827.59,
+   "a": 817.27,
+   "b": 827.39,
    "who": "O BİRİ",
    "text": "Sən məni öldürmək üçün əlini mənə uzatsan da, mən əlimi sənə uzatmayacağam.",
    "side": "right"
   },
   {
    "type": "source",
-   "a": 830.64,
-   "b": 840.32,
+   "a": 830.44,
+   "b": 839.61,
    "label": "Təfsir rəvayəti — Quran ayəsi deyil",
    "weak": true
   },
   {
    "type": "quote",
-   "a": 848.59,
-   "b": 858.63,
+   "a": 848.39,
+   "b": 858.43,
    "text": "Vay halıma! Bu qarğa qədər də ola bilmədimmi?",
    "by": "Maidə 5:31",
    "size": 62
   },
   {
    "type": "source",
-   "a": 859.78,
-   "b": 871.16,
+   "a": 859.58,
+   "b": 870.96,
    "label": "Səhih Buxari 3335"
   },
   {
    "type": "big",
-   "a": 871.19,
-   "b": 875.23,
+   "a": 870.99,
+   "b": 875.03,
    "text": "…hər haqsız qan",
    "size": 96,
    "color": "#c4532b"
   },
   {
    "type": "stamp",
-   "a": 875.18,
-   "b": 884.63,
+   "a": 874.98,
+   "b": 884.43,
    "top": "SƏHİH BUXARİ 6614 · SƏHİH MÜSLİM 2652",
    "main": "ADƏM VƏ MUSA"
   },
   {
    "type": "columns",
-   "a": 887.0,
-   "b": 895.89,
+   "a": 886.8,
+   "b": 895.69,
    "title": "GÖRÜŞ HARADA OLDU?",
    "items": [
     {
@@ -2399,8 +2399,8 @@
   },
   {
    "type": "dialog",
-   "a": 895.64,
-   "b": 905.66,
+   "a": 895.44,
+   "b": 905.46,
    "who": "MUSA",
    "text": "Sən bizim atamızsan. Bizi Cənnətdən çıxardın!",
    "side": "left",
@@ -2408,16 +2408,16 @@
   },
   {
    "type": "dialog",
-   "a": 905.76,
-   "b": 919.87,
+   "a": 905.56,
+   "b": 919.67,
    "who": "ADƏM",
    "text": "Məni yaradılmamdan qırx il əvvəl yazılmış bir işə görəmi qınayırsan?",
    "side": "right"
   },
   {
    "type": "repeat",
-   "a": 924.48,
-   "b": 932.9,
+   "a": 924.28,
+   "b": 932.7,
    "text": "ADƏM MUSAYA QALİB GƏLDİ",
    "times": [
     924.684,
@@ -2427,16 +2427,16 @@
   },
   {
    "type": "ayah",
-   "a": 955.91,
-   "b": 959.6,
+   "a": 955.71,
+   "b": 959.4,
    "ar": "إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
    "az": "Mən yer üzündə bir xəlifə yaradacağam.",
    "ref_": "BƏQƏRƏ · 2:30"
   },
   {
    "type": "dialog",
-   "a": 964.56,
-   "b": 966.94,
+   "a": 964.36,
+   "b": 966.74,
    "who": "İBLİS",
    "text": "Mən ondan üstünəm.",
    "side": "left",
@@ -2444,16 +2444,16 @@
   },
   {
    "type": "dialog",
-   "a": 966.94,
-   "b": 974.06,
+   "a": 966.74,
+   "b": 973.86,
    "who": "ADƏM",
    "text": "Rəbbimiz, biz özümüzə zülm etdik.",
    "side": "right"
   },
   {
    "type": "big",
-   "a": 976.29,
-   "b": 981.26,
+   "a": 976.09,
+   "b": 981.06,
    "text": "Fərq səhvdə deyil.",
    "sub": "Fərq səhvdən sonra nə etdiyimizdədir.",
    "size": 96,
@@ -2461,22 +2461,22 @@
   },
   {
    "type": "comment",
-   "a": 981.74,
-   "b": 987.89,
+   "a": 981.54,
+   "b": 987.69,
    "text": "Hansını ilk dəfə eşitdiniz? Şərhdə yazın"
   },
   {
    "type": "ayah",
-   "a": 994.08,
-   "b": 1000.79,
+   "a": 993.88,
+   "b": 1000.59,
    "ar": "وَرَفَعْنَاهُ مَكَانًا عَلِيًّا",
    "az": "Biz onu uca bir məkana qaldırdıq.",
    "ref_": "MƏRYƏM · 19:57"
   },
   {
    "type": "next",
-   "a": 1004.97,
-   "b": 1015.49
+   "a": 1004.77,
+   "b": 1015.29
   }
  ],
  "subs": [
@@ -2991,1298 +2991,1298 @@
    "text": "Xatırlayın:"
   },
   {
-   "a": 313.55,
-   "b": 318.43,
+   "a": 313.35,
+   "b": 318.23,
    "text": "mələklər “qan tökəcək birinimi yaradırsan?” demişdilər."
   },
   {
-   "a": 318.82,
-   "b": 322.76,
+   "a": 318.62,
+   "b": 322.56,
    "text": "Allah da “Mən sizin bilmədiklərinizi bilirəm” buyurmuşdu."
   },
   {
-   "a": 322.78,
-   "b": 324.22,
+   "a": 322.58,
+   "b": 324.02,
    "text": "İndi o cavabın vaxtı gəldi."
   },
   {
-   "a": 324.75,
-   "b": 327.33,
+   "a": 324.55,
+   "b": 327.13,
    "text": "Allah Adəmə bütün adları öyrətdi."
   },
   {
-   "a": 327.74,
-   "b": 330.25,
+   "a": 327.54,
+   "b": 330.05,
    "text": "Sonra onları mələklərə göstərib buyurdu:"
   },
   {
-   "a": 330.83,
-   "b": 332.11,
+   "a": 330.63,
+   "b": 331.91,
    "text": "“Doğru deyirsinizsə,"
   },
   {
-   "a": 332.35,
-   "b": 334.57,
+   "a": 332.15,
+   "b": 334.37,
    "text": "bunların adlarını Mənə xəbər verin.”"
   },
   {
-   "a": 335.09,
-   "b": 336.15,
+   "a": 334.89,
+   "b": 335.95,
    "text": "Mələklər dedilər:"
   },
   {
-   "a": 336.61,
-   "b": 338.38,
+   "a": 336.41,
+   "b": 338.18,
    "text": "“Sən pak və müqəddəssən!"
   },
   {
-   "a": 338.83,
-   "b": 342.89,
+   "a": 338.63,
+   "b": 342.69,
    "text": "Bizim Sənin öyrətdiyindən başqa heç bir biliyimiz yoxdur.”"
   },
   {
-   "a": 342.93,
-   "b": 346.0,
+   "a": 342.73,
+   "b": 345.8,
    "text": "Sonra Adəm onlara bu adları bir-bir söylədi."
   },
   {
-   "a": 346.46,
-   "b": 347.24,
+   "a": 346.26,
+   "b": 347.04,
    "text": "Budur cavab."
   },
   {
-   "a": 347.54,
-   "b": 348.42,
+   "a": 347.34,
+   "b": 348.22,
    "text": "İnsan qan tökə bilər,"
   },
   {
-   "a": 348.31,
-   "b": 352.03,
+   "a": 348.11,
+   "b": 351.83,
    "text": "amma ona elm öyrənmək qabiliyyəti verilib."
   },
   {
-   "a": 352.37,
-   "b": 354.65,
+   "a": 352.17,
+   "b": 354.45,
    "text": "Mələklərin görmədiyi tərəf bu idi."
   },
   {
-   "a": 355.18,
-   "b": 357.3,
+   "a": 354.98,
+   "b": 357.1,
    "text": "Sonra Allah Adəmə buyurdu:"
   },
   {
-   "a": 357.77,
-   "b": 358.26,
+   "a": 357.57,
+   "b": 358.06,
    "text": "“Get,"
   },
   {
-   "a": 358.63,
-   "b": 363.34,
+   "a": 358.43,
+   "b": 363.14,
    "text": "o oturan mələklərə salam ver və nə cavab verdiklərinə qulaq"
   },
   {
-   "a": 363.38,
-   "b": 363.58,
+   "a": 363.18,
+   "b": 363.38,
    "text": "as."
   },
   {
-   "a": 363.7,
-   "b": 364.07,
+   "a": 363.5,
+   "b": 363.87,
    "text": "Bu,"
   },
   {
-   "a": 363.96,
-   "b": 367.19,
+   "a": 363.76,
+   "b": 366.99,
    "text": "sənin və nəslinin salamı olacaq.” Adəm dedi:"
   },
   {
-   "a": 367.67,
-   "b": 370.86,
+   "a": 367.47,
+   "b": 370.66,
    "text": "“Əssəlamu əleykum.” Mələklər cavab verdilər:"
   },
   {
-   "a": 371.3,
-   "b": 376.06,
+   "a": 371.1,
+   "b": 375.86,
    "text": "“Əssəlamu əleykə və rəhmətullah.” Yəni üstünə “və rəhmətullah”"
   },
   {
-   "a": 376.1,
-   "b": 377.37,
+   "a": 375.9,
+   "b": 377.17,
    "text": "da əlavə etdilər."
   },
   {
-   "a": 377.79,
-   "b": 382.23,
+   "a": 377.59,
+   "b": 382.03,
    "text": "Bu gün bir-birimizə verdiyimiz salam yer üzündə deyil,"
   },
   {
-   "a": 382.12,
-   "b": 385.18,
+   "a": 381.92,
+   "b": 384.98,
    "text": "mələklərin hüzurunda başlayıb."
   },
   {
-   "a": 385.2,
-   "b": 386.63,
+   "a": 385.0,
+   "b": 385.31,
    "text": "Allah mələklərə əmr etdi:"
   },
   {
-   "a": 386.52,
-   "b": 389.45,
+   "a": 385.77,
+   "b": 389.25,
    "text": "“Adəmə səcdə edin!” Hamısı səcdəyə qapandı…"
   },
   {
-   "a": 391.38,
-   "b": 392.37,
+   "a": 391.18,
+   "b": 392.17,
    "text": "Allah soruşdu:"
   },
   {
-   "a": 392.81,
-   "b": 397.42,
+   "a": 392.61,
+   "b": 397.22,
    "text": "“Sənə əmr etdiyim zaman səni səcdədən nə saxladı?” İblis dedi:"
   },
   {
-   "a": 397.93,
-   "b": 399.16,
+   "a": 397.73,
+   "b": 398.96,
    "text": "“Mən ondan üstünəm."
   },
   {
-   "a": 399.49,
-   "b": 400.12,
+   "a": 399.29,
+   "b": 399.92,
    "text": "Məni oddan,"
   },
   {
-   "a": 400.17,
-   "b": 404.99,
+   "a": 399.97,
+   "b": 404.79,
    "text": "onu isə palçıqdan yaratdın.” Tarixdə ilk irqçilik,"
   },
   {
-   "a": 405.18,
-   "b": 407.53,
+   "a": 404.98,
+   "b": 407.33,
    "text": "ilk “mən səndən üstünəm” sözü bu idi."
   },
   {
-   "a": 407.57,
-   "b": 410.36,
+   "a": 407.37,
+   "b": 410.16,
    "text": "İndi bir əfsanəni yoxlayaq:"
   },
   {
-   "a": 410.88,
-   "b": 413.17,
+   "a": 410.68,
+   "b": 412.97,
    "text": "İblis üsyan etmiş bir mələk idimi?"
   },
   {
-   "a": 413.68,
-   "b": 414.9,
+   "a": 413.48,
+   "b": 414.7,
    "text": "Çoxları belə düşünür."
   },
   {
-   "a": 415.29,
-   "b": 418.93,
+   "a": 415.09,
+   "b": 418.73,
    "text": "Amma Quran Kəhf surəsində açıq deyir:"
   },
   {
-   "a": 419.07,
-   "b": 420.08,
+   "a": 418.87,
+   "b": 419.88,
    "text": "“O,"
   },
   {
-   "a": 420.68,
-   "b": 424.8,
+   "a": 420.48,
+   "b": 424.6,
    "text": "cinlərdən idi.” Mələklər nurdan yaranıb və Allaha asi"
   },
   {
-   "a": 424.84,
-   "b": 425.51,
+   "a": 424.64,
+   "b": 425.31,
    "text": "olmurlar."
   },
   {
-   "a": 425.57,
-   "b": 427.27,
+   "a": 425.37,
+   "b": 427.07,
    "text": "Cinlər isə tüstüsüz oddan yaranıb."
   },
   {
-   "a": 427.73,
-   "b": 430.51,
+   "a": 427.53,
+   "b": 430.31,
    "text": "Bunu da dürüstcəsinə deyək:"
   },
   {
-   "a": 430.4,
-   "b": 433.9,
+   "a": 430.2,
+   "b": 433.7,
    "text": "Təbəri İbn Abbasdan İblisin mələklərin bir qrupundan olduğuna"
   },
   {
-   "a": 433.94,
-   "b": 435.41,
+   "a": 433.74,
+   "b": 435.21,
    "text": "dair rəvayət də nəql edir."
   },
   {
-   "a": 435.83,
-   "b": 439.68,
+   "a": 435.63,
+   "b": 439.48,
    "text": "Amma alimlərin əksəriyyəti bu ayəyə əsasən deyir ki,"
   },
   {
-   "a": 439.96,
-   "b": 441.14,
+   "a": 439.76,
+   "b": 440.94,
    "text": "İblis cin idi,"
   },
   {
-   "a": 441.49,
-   "b": 445.14,
+   "a": 441.29,
+   "b": 444.94,
    "text": "sadəcə çox ibadət etdiyi üçün mələklərin arasında yer"
   },
   {
-   "a": 445.18,
-   "b": 445.77,
+   "a": 444.98,
+   "b": 445.57,
    "text": "tutmuşdu."
   },
   {
-   "a": 446.28,
-   "b": 447.99,
+   "a": 446.08,
+   "b": 447.79,
    "text": "İblis dərgahdan qovuldu,"
   },
   {
-   "a": 448.34,
-   "b": 449.65,
+   "a": 448.14,
+   "b": 449.45,
    "text": "amma bir şey istədi:"
   },
   {
-   "a": 450.07,
-   "b": 452.0,
+   "a": 449.87,
+   "b": 451.8,
    "text": "qiyamət gününə qədər möhlət."
   },
   {
-   "a": 452.47,
-   "b": 454.14,
+   "a": 452.27,
+   "b": 453.94,
    "text": "Və ona möhlət verildi."
   },
   {
-   "a": 454.63,
-   "b": 458.35,
+   "a": 454.43,
+   "b": 458.15,
    "text": "Bu gün eşitdiyimiz hər vəsvəsə o möhlətin davamıdır."
   },
   {
-   "a": 458.88,
-   "b": 460.44,
+   "a": 458.68,
+   "b": 460.24,
    "text": "Quranda bir ayə var ki,"
   },
   {
-   "a": 460.62,
-   "b": 464.37,
+   "a": 460.42,
+   "b": 464.17,
    "text": "çoxumuz onun nə qədər böyük bir hadisəni anlatdığını bilmirik."
   },
   {
-   "a": 464.8,
-   "b": 469.95,
+   "a": 464.6,
+   "b": 469.75,
    "text": "Allah Adəm övladlarının bellərindən nəsillərini çıxardı və"
   },
   {
-   "a": 469.99,
-   "b": 472.46,
+   "a": 469.79,
+   "b": 472.26,
    "text": "onları özlərinə şahid tutdu:"
   },
   {
-   "a": 472.35,
-   "b": 476.75,
+   "a": 472.15,
+   "b": 476.55,
    "text": "“Mən sizin Rəbbiniz deyiləmmi?” Hamısı dedi:"
   },
   {
-   "a": 477.18,
-   "b": 477.32,
+   "a": 476.98,
+   "b": 477.29,
    "text": "“Bəli,"
   },
   {
-   "a": 477.21,
-   "b": 480.03,
+   "a": 477.23,
+   "b": 479.83,
    "text": "şahidik!” Yəni bu sual sizə də verilib."
   },
   {
-   "a": 480.39,
-   "b": 481.08,
+   "a": 480.19,
+   "b": 480.88,
    "text": "Mənə də."
   },
   {
-   "a": 481.66,
-   "b": 482.65,
+   "a": 481.46,
+   "b": 482.45,
    "text": "Hamımıza."
   },
   {
-   "a": 482.54,
-   "b": 485.05,
+   "a": 482.34,
+   "b": 484.85,
    "text": "Tirmizinin nəql etdiyi hədisdə bu səhnənin davamı var."
   },
   {
-   "a": 485.53,
-   "b": 489.74,
+   "a": 485.33,
+   "b": 489.54,
    "text": "Allah Adəmin belini sığalladı və qiyamətə qədər yaradacağı"
   },
   {
-   "a": 489.78,
-   "b": 492.08,
+   "a": 489.58,
+   "b": 491.88,
    "text": "bütün nəsli onun belindən çıxdı."
   },
   {
-   "a": 492.48,
-   "b": 496.74,
+   "a": 492.28,
+   "b": 496.54,
    "text": "Hər birinin iki gözünün arasına nurdan bir parıltı qoydu və"
   },
   {
-   "a": 496.78,
-   "b": 498.34,
+   "a": 496.58,
+   "b": 498.14,
    "text": "onları Adəmə göstərdi."
   },
   {
-   "a": 498.85,
-   "b": 501.16,
+   "a": 498.65,
+   "b": 500.96,
    "text": "Adəm onların arasında birini gördü."
   },
   {
-   "a": 501.59,
-   "b": 505.5,
+   "a": 501.39,
+   "b": 505.3,
    "text": "Gözlərinin arasındakı nur onu heyran etdi."
   },
   {
-   "a": 505.73,
-   "b": 506.48,
+   "a": 505.53,
+   "b": 506.28,
    "text": "“Ya Rəbb,"
   },
   {
-   "a": 506.94,
-   "b": 507.41,
+   "a": 506.74,
+   "b": 507.21,
    "text": "bu kimdir?” “Bu,"
   },
   {
-   "a": 507.46,
-   "b": 508.84,
+   "a": 507.26,
+   "b": 508.64,
    "text": "sənin nəslindəndir,"
   },
   {
-   "a": 509.11,
-   "b": 510.61,
+   "a": 508.91,
+   "b": 510.41,
    "text": "sonrakı ümmətlərdən."
   },
   {
-   "a": 510.99,
-   "b": 513.13,
+   "a": 510.79,
+   "b": 512.93,
    "text": "Adı Davuddur.” “Ya Rəbb,"
   },
   {
-   "a": 513.32,
-   "b": 516.25,
+   "a": 513.12,
+   "b": 516.05,
    "text": "onun ömrünü nə qədər etdin?” “Altmış il.”"
   },
   {
-   "a": 516.59,
-   "b": 517.4,
+   "a": 516.39,
+   "b": 517.2,
    "text": "Adəm dedi:"
   },
   {
-   "a": 517.69,
-   "b": 518.18,
+   "a": 517.49,
+   "b": 517.98,
    "text": "“Ya Rəbb,"
   },
   {
-   "a": 518.49,
-   "b": 521.12,
+   "a": 518.29,
+   "b": 520.92,
    "text": "mənim ömrümdən ona qırx il əlavə et.”"
   },
   {
-   "a": 521.43,
-   "b": 522.35,
+   "a": 521.23,
+   "b": 522.15,
    "text": "İllər keçdi."
   },
   {
-   "a": 522.76,
-   "b": 525.85,
+   "a": 522.56,
+   "b": 525.65,
    "text": "Adəmin ömrü sona çatanda ölüm mələyi gəldi."
   },
   {
-   "a": 526.19,
-   "b": 527.01,
+   "a": 525.99,
+   "b": 526.81,
    "text": "Adəm dedi:"
   },
   {
-   "a": 527.37,
-   "b": 531.05,
+   "a": 527.17,
+   "b": 530.85,
    "text": "“Axı mənim ömrümdən hələ qırx il qalmayıbmı?” Mələk dedi:"
   },
   {
-   "a": 531.41,
-   "b": 536.01,
+   "a": 531.21,
+   "b": 535.81,
    "text": "“Məgər onu oğlun Davuda verməmişdinmi?” Adəm bunu unutmuşdu."
   },
   {
-   "a": 536.49,
-   "b": 537.38,
+   "a": 536.29,
+   "b": 537.18,
    "text": "Peyğəmbərimiz,"
   },
   {
-   "a": 537.39,
-   "b": 539.6,
+   "a": 537.19,
+   "b": 539.4,
    "text": "səllallahu aleyhi və səlləm,"
   },
   {
-   "a": 539.91,
-   "b": 540.34,
+   "a": 539.71,
+   "b": 540.14,
    "text": "buyurur:"
   },
   {
-   "a": 540.23,
-   "b": 541.34,
+   "a": 540.03,
+   "b": 541.14,
    "text": "“Adəm inkar etdi,"
   },
   {
-   "a": 541.7,
-   "b": 544.29,
+   "a": 541.5,
+   "b": 544.09,
    "text": "nəsli də inkar etdi."
   },
   {
-   "a": 544.33,
-   "b": 545.83,
+   "a": 544.13,
+   "b": 545.63,
    "text": "Adəm unutdu,"
   },
   {
-   "a": 545.86,
-   "b": 547.59,
+   "a": 545.66,
+   "b": 547.39,
    "text": "nəsli də unutdu."
   },
   {
-   "a": 547.61,
-   "b": 549.4,
+   "a": 547.41,
+   "b": 549.2,
    "text": "Adəm xəta etdi,"
   },
   {
-   "a": 549.42,
-   "b": 551.92,
+   "a": 549.22,
+   "b": 551.72,
    "text": "nəsli də xəta etdi.”"
   },
   {
-   "a": 552.07,
-   "b": 553.14,
+   "a": 551.87,
+   "b": 552.94,
    "text": "Bəzi rəvayətlərdə deyilir ki,"
   },
   {
-   "a": 553.03,
-   "b": 555.71,
+   "a": 552.83,
+   "b": 555.51,
    "text": "o gündən sonra yazmaq və şahid tutmaq əmr olundu."
   },
   {
-   "a": 556.19,
-   "b": 558.96,
+   "a": 555.99,
+   "b": 558.76,
    "text": "Quranın ən uzun ayəsi,"
   },
   {
-   "a": 558.85,
-   "b": 561.32,
+   "a": 558.65,
+   "b": 561.12,
    "text": "borcların yazılması ayəsi də elə bunu əmr edir."
   },
   {
-   "a": 564.21,
-   "b": 564.37,
+   "a": 563.51,
+   "b": 563.94,
    "text": "Bu,"
   },
   {
-   "a": 564.26,
-   "b": 566.47,
+   "a": 564.01,
+   "b": 566.27,
    "text": "Adəmdən bizə qalan bir xasiyyətdir."
   },
   {
-   "a": 566.9,
-   "b": 571.56,
+   "a": 566.7,
+   "b": 571.36,
    "text": "Allah Adəmin tək qalmaması üçün ondan zövcəsi Həvvanı yaratdı"
   },
   {
-   "a": 571.6,
-   "b": 573.95,
+   "a": 571.4,
+   "b": 573.75,
    "text": "və ikisini Cənnətə yerləşdirdi."
   },
   {
-   "a": 574.41,
-   "b": 576.45,
+   "a": 574.21,
+   "b": 576.25,
    "text": "Onlara yalnız bir qadağa qoydu:"
   },
   {
-   "a": 576.83,
-   "b": 577.88,
+   "a": 576.63,
+   "b": 577.68,
    "text": "“Bu ağaca yaxınlaşmayın,"
   },
   {
-   "a": 577.77,
-   "b": 580.85,
+   "a": 577.57,
+   "b": 580.65,
    "text": "yoxsa zalımlardan olarsınız.”"
   },
   {
-   "a": 581.93,
-   "b": 583.07,
+   "a": 581.73,
+   "b": 582.87,
    "text": "Birinci əfsanə:"
   },
   {
-   "a": 583.46,
-   "b": 583.98,
+   "a": 583.26,
+   "b": 583.78,
    "text": "alma."
   },
   {
-   "a": 584.57,
-   "b": 586.06,
+   "a": 584.37,
+   "b": 585.86,
    "text": "Qurani-Kərimdə də,"
   },
   {
-   "a": 585.95,
-   "b": 589.7,
+   "a": 585.75,
+   "b": 589.5,
    "text": "səhih hədislərdə də “alma” sözü bir dəfə də olsun keçmir."
   },
   {
-   "a": 590.13,
-   "b": 592.58,
+   "a": 589.93,
+   "b": 592.38,
    "text": "Səhabə və təbiinlərdən buğda,"
   },
   {
-   "a": 592.62,
-   "b": 593.21,
+   "a": 592.42,
+   "b": 593.01,
    "text": "üzüm,"
   },
   {
-   "a": 593.25,
-   "b": 594.65,
+   "a": 593.05,
+   "b": 594.45,
    "text": "əncir rəvayətləri gəlib."
   },
   {
-   "a": 594.99,
-   "b": 596.53,
+   "a": 594.79,
+   "b": 596.33,
    "text": "Amma heç biri qəti deyil."
   },
   {
-   "a": 596.97,
-   "b": 599.41,
+   "a": 596.77,
+   "b": 599.21,
    "text": "Allah ağacın adını gizli saxladı."
   },
   {
-   "a": 604.59,
-   "b": 606.23,
+   "a": 604.39,
+   "b": 606.03,
    "text": "Bəs alma haradan çıxdı?"
   },
   {
-   "a": 606.66,
-   "b": 608.35,
+   "a": 606.46,
+   "b": 608.15,
    "text": "Alimlərin bir izahına görə,"
   },
   {
-   "a": 608.44,
-   "b": 610.52,
+   "a": 608.24,
+   "b": 610.32,
    "text": "Latın dilində “malum” sözü həm “alma”,"
   },
   {
-   "a": 610.56,
-   "b": 612.17,
+   "a": 610.36,
+   "b": 611.97,
    "text": "həm də “pislik” deməkdir."
   },
   {
-   "a": 612.2,
-   "b": 616.11,
+   "a": 612.0,
+   "b": 615.91,
    "text": "Bu söz oyunu Avropa rəssamlığında almanı simvola çevirdi."
   },
   {
-   "a": 616.14,
-   "b": 617.7,
+   "a": 615.94,
+   "b": 617.5,
    "text": "İkinci əfsanə:"
   },
   {
-   "a": 618.74,
-   "b": 621.99,
+   "a": 618.54,
+   "b": 621.79,
    "text": "günahı Həvva işlətdi və Adəmi aldatdı."
   },
   {
-   "a": 622.02,
-   "b": 623.5,
+   "a": 621.82,
+   "b": 623.3,
    "text": "Qurana baxaq."
   },
   {
-   "a": 624.02,
-   "b": 628.49,
+   "a": 623.82,
+   "b": 628.29,
    "text": "Əraf surəsində Şeytan ikisinə birlikdə vəsvəsə edir və onlara"
   },
   {
-   "a": 628.53,
-   "b": 629.15,
+   "a": 628.33,
+   "b": 628.95,
    "text": "and içir:"
   },
   {
-   "a": 629.26,
-   "b": 634.23,
+   "a": 629.06,
+   "b": 634.03,
    "text": "“Rəbbiniz sizə bu ağacı ancaq mələk olmayasınız və ya əbədi"
   },
   {
-   "a": 634.27,
-   "b": 639.5,
+   "a": 634.07,
+   "b": 639.3,
    "text": "qalanlardan olmayasınız deyə qadağan etdi.” Taha surəsində isə"
   },
   {
-   "a": 639.54,
-   "b": 642.47,
+   "a": 639.34,
+   "b": 642.27,
    "text": "Şeytan birbaşa Adəmə müraciət edir:"
   },
   {
-   "a": 642.83,
-   "b": 643.7,
+   "a": 642.63,
+   "b": 643.5,
    "text": "“Ey Adəm,"
   },
   {
-   "a": 643.91,
-   "b": 648.45,
+   "a": 643.71,
+   "b": 648.25,
    "text": "sənə əbədiyyət ağacını və köhnəlməyən səltənəti göstərimmi?”"
   },
   {
-   "a": 648.49,
-   "b": 652.03,
+   "a": 648.29,
+   "b": 651.83,
    "text": "Və ayə səhvi açıq şəkildə Adəmin adı ilə çəkir:"
   },
   {
-   "a": 652.41,
-   "b": 657.43,
+   "a": 652.21,
+   "b": 657.23,
    "text": "“Adəm Rəbbinə asi oldu.” Yəni Quran bu səhvi qadının boynuna"
   },
   {
-   "a": 657.47,
-   "b": 658.19,
+   "a": 657.27,
+   "b": 657.99,
    "text": "yükləmir."
   },
   {
-   "a": 658.67,
-   "b": 659.44,
+   "a": 658.47,
+   "b": 659.24,
    "text": "Dürüst olaq:"
   },
   {
-   "a": 659.79,
-   "b": 662.06,
+   "a": 659.59,
+   "b": 661.86,
    "text": "Buxaridə “Həvva olmasaydı,"
   },
   {
-   "a": 662.17,
-   "b": 665.18,
+   "a": 661.97,
+   "b": 664.98,
    "text": "heç bir qadın ərinə xəyanət etməzdi” hədisi də var."
   },
   {
-   "a": 665.51,
-   "b": 669.51,
+   "a": 665.31,
+   "b": 669.31,
    "text": "Amma alimlər bu hədisi ilk günahın Həvvaya yüklənməsi kimi"
   },
   {
-   "a": 669.55,
-   "b": 670.42,
+   "a": 669.35,
+   "b": 670.22,
    "text": "anlamayıblar."
   },
   {
-   "a": 670.96,
-   "b": 672.4,
+   "a": 670.76,
+   "b": 672.2,
    "text": "“Həvva Adəmi aldatdı,"
   },
   {
-   "a": 672.43,
-   "b": 676.76,
+   "a": 672.23,
+   "b": 676.56,
    "text": "qadın lənətləndi” hekayəsi Tövrat rəvayətlərindən gəlir."
   },
   {
-   "a": 677.16,
-   "b": 678.39,
+   "a": 676.96,
+   "b": 678.19,
    "text": "İkisi də daddılar."
   },
   {
-   "a": 678.67,
-   "b": 682.54,
+   "a": 678.47,
+   "b": 682.34,
    "text": "Libasları üstlərindən düşdü və özlərini Cənnət yarpaqları ilə"
   },
   {
-   "a": 682.58,
-   "b": 683.76,
+   "a": 682.38,
+   "b": 683.56,
    "text": "örtməyə başladılar."
   },
   {
-   "a": 684.26,
-   "b": 687.49,
+   "a": 684.06,
+   "b": 687.29,
    "text": "Sonra Adəm Rəbbindən bəzi kəlmələr öyrəndi."
   },
   {
-   "a": 687.88,
-   "b": 689.32,
+   "a": 687.68,
+   "b": 689.12,
    "text": "O kəlmələr bunlar idi:"
   },
   {
-   "a": 689.79,
-   "b": 690.57,
+   "a": 689.59,
+   "b": 690.37,
    "text": "“Rəbbimiz,"
   },
   {
-   "a": 690.76,
-   "b": 692.49,
+   "a": 690.56,
+   "b": 692.29,
    "text": "biz özümüzə zülm etdik."
   },
   {
-   "a": 692.83,
-   "b": 695.87,
+   "a": 692.63,
+   "b": 695.67,
    "text": "Əgər bizi bağışlamasan və bizə rəhm etməsən,"
   },
   {
-   "a": 696.05,
-   "b": 696.45,
+   "a": 695.85,
+   "b": 696.25,
    "text": "şübhəsiz ki,"
   },
   {
-   "a": 696.34,
-   "b": 701.37,
+   "a": 696.14,
+   "b": 701.17,
    "text": "ziyana uğrayanlardan olarıq.” Allah onların tövbəsini qəbul"
   },
   {
-   "a": 701.41,
-   "b": 701.8,
+   "a": 701.21,
+   "b": 701.6,
    "text": "etdi."
   },
   {
-   "a": 702.33,
-   "b": 706.33,
+   "a": 702.13,
+   "b": 706.13,
    "text": "İslamda “ilk günahın” nəslə miras qalması deyə bir şey yoxdur."
   },
   {
-   "a": 709.96,
-   "b": 712.6,
+   "a": 709.76,
+   "b": 712.4,
    "text": "Amma yer üzünə enmə vaxtı gəlmişdi."
   },
   {
-   "a": 712.99,
-   "b": 715.86,
+   "a": 712.79,
+   "b": 715.66,
    "text": "Çünki Adəm əvvəldən yer üzü üçün,"
   },
   {
-   "a": 716.09,
-   "b": 718.05,
+   "a": 715.89,
+   "b": 717.85,
    "text": "xəlifə olmaq üçün yaradılmışdı."
   },
   {
-   "a": 718.49,
-   "b": 719.91,
+   "a": 718.29,
+   "b": 719.71,
    "text": "Səhih Müslimdə gəlir:"
   },
   {
-   "a": 720.37,
-   "b": 722.35,
+   "a": 720.17,
+   "b": 722.15,
    "text": "Adəm Cümə günü yaradıldı,"
   },
   {
-   "a": 722.79,
-   "b": 728.45,
+   "a": 722.59,
+   "b": 728.25,
    "text": "Cümə günü Cənnətə daxil edildi və Cümə günü oradan çıxarıldı."
   },
   {
-   "a": 728.46,
-   "b": 730.1,
+   "a": 728.26,
+   "b": 729.9,
    "text": "Qiyamət də Cümə günü qopacaq."
   },
   {
-   "a": 730.69,
-   "b": 733.01,
+   "a": 730.49,
+   "b": 732.81,
    "text": "Bəs Adəm və Həvva harada endilər?"
   },
   {
-   "a": 733.63,
-   "b": 737.57,
+   "a": 733.43,
+   "b": 737.37,
    "text": "Bəzi rəvayətlərə görə Adəm Hind tərəfə,"
   },
   {
-   "a": 737.46,
-   "b": 739.53,
+   "a": 737.26,
+   "b": 739.33,
    "text": "indiki Şri-Lankaya,"
   },
   {
-   "a": 739.55,
-   "b": 743.09,
+   "a": 739.35,
+   "b": 742.89,
    "text": "Həvva isə Ciddə tərəfə endirildi."
   },
   {
-   "a": 743.14,
-   "b": 746.92,
+   "a": 742.94,
+   "b": 746.72,
    "text": "Uzun ayrılıqdan sonra Ərəfatda bir-birini tapıb tanıdılar."
   },
   {
-   "a": 747.03,
-   "b": 753.0,
+   "a": 746.83,
+   "b": 752.8,
    "text": "Deyilənə görə “Ərəfat” adı da elə “tanışmaq” sözündəndir."
   },
   {
-   "a": 753.38,
-   "b": 754.73,
+   "a": 753.18,
+   "b": 754.53,
    "text": "Amma bu rəvayətlərin isnadı zəifdir."
   },
   {
-   "a": 754.62,
-   "b": 757.7,
+   "a": 754.42,
+   "b": 757.5,
    "text": "Ona görə də bunları qəti fakt kimi yox,"
   },
   {
-   "a": 758.3,
-   "b": 760.84,
+   "a": 758.1,
+   "b": 760.64,
    "text": "rəvayət kimi qəbul edirik."
   },
   {
-   "a": 768.89,
-   "b": 773.2,
+   "a": 768.69,
+   "b": 773.0,
    "text": "Təfsir rəvayətlərinə görə Həvva hər doğumda əkiz dünyaya"
   },
   {
-   "a": 773.24,
-   "b": 773.98,
+   "a": 773.04,
+   "b": 773.78,
    "text": "gətirirdi:"
   },
   {
-   "a": 774.48,
-   "b": 775.92,
+   "a": 774.28,
+   "b": 775.72,
    "text": "bir oğlan və bir qız."
   },
   {
-   "a": 775.81,
-   "b": 780.32,
+   "a": 775.61,
+   "b": 780.12,
    "text": "Doğumların sayı rəvayətlərdə fərqli verilir."
   },
   {
-   "a": 780.39,
-   "b": 783.16,
+   "a": 780.19,
+   "b": 782.96,
    "text": "O dövrə məxsus müvəqqəti hökmə görə oğlan öz əkizi ilə evlənə"
   },
   {
-   "a": 783.2,
-   "b": 783.58,
+   "a": 783.0,
+   "b": 783.38,
    "text": "bilməzdi."
   },
   {
-   "a": 783.6,
-   "b": 784.6,
+   "a": 783.4,
+   "b": 784.4,
    "text": "O,"
   },
   {
-   "a": 784.49,
-   "b": 787.91,
+   "a": 784.29,
+   "b": 785.99,
    "text": "başqa doğumdan olan bacı ilə evlənməli idi."
   },
   {
-   "a": 787.8,
-   "b": 789.85,
+   "a": 786.44,
+   "b": 789.65,
    "text": "İnsanlığın artması başqa yolla mümkün deyildi."
   },
   {
-   "a": 790.3,
-   "b": 793.07,
+   "a": 790.1,
+   "b": 792.87,
    "text": "Sonrakı şəriətlərdə bu,"
   },
   {
-   "a": 792.96,
-   "b": 795.78,
+   "a": 792.76,
+   "b": 795.58,
    "text": "tamamilə haram edildi."
   },
   {
-   "a": 795.8,
-   "b": 796.26,
+   "a": 795.6,
+   "b": 796.06,
    "text": "İlk qətlə gəlincə,"
   },
   {
-   "a": 796.15,
-   "b": 797.23,
+   "a": 795.95,
+   "b": 797.03,
    "text": "bunu bilmək vacibdir:"
   },
   {
-   "a": 797.72,
-   "b": 800.62,
+   "a": 797.52,
+   "b": 800.42,
    "text": "“Qabil” və “Habil” adları Quranda keçmir."
   },
   {
-   "a": 801.07,
-   "b": 804.45,
+   "a": 800.87,
+   "b": 804.25,
    "text": "Quran onları “Adəmin iki oğlu” deyə anır."
   },
   {
-   "a": 804.91,
-   "b": 806.93,
+   "a": 804.71,
+   "b": 805.73,
    "text": "Quran deyir ki,"
   },
   {
-   "a": 806.82,
-   "b": 808.23,
+   "a": 806.03,
+   "b": 808.03,
    "text": "onlar qurban təqdim etdilər."
   },
   {
-   "a": 808.63,
-   "b": 810.79,
+   "a": 808.43,
+   "b": 810.59,
    "text": "Birininki qəbul olundu,"
   },
   {
-   "a": 810.83,
-   "b": 812.23,
+   "a": 810.63,
+   "b": 812.03,
    "text": "o birininki olunmadı."
   },
   {
-   "a": 812.7,
-   "b": 814.04,
+   "a": 812.5,
+   "b": 813.84,
    "text": "Qəbul olunmayan dedi:"
   },
   {
-   "a": 814.37,
-   "b": 817.02,
+   "a": 814.17,
+   "b": 816.82,
    "text": "“Səni öldürəcəyəm!” O biri isə dedi:"
   },
   {
-   "a": 817.44,
-   "b": 821.4,
+   "a": 817.24,
+   "b": 821.2,
    "text": "“Sən məni öldürmək üçün əlini mənə uzatsan da,"
   },
   {
-   "a": 821.29,
-   "b": 824.7,
+   "a": 821.09,
+   "b": 824.5,
    "text": "mən səni öldürmək üçün əlimi sənə uzatmayacağam."
   },
   {
-   "a": 824.94,
-   "b": 829.73,
+   "a": 824.74,
+   "b": 829.53,
    "text": "Mən aləmlərin Rəbbi Allahdan qorxuram.” Qətlin səbəbini Quran"
   },
   {
-   "a": 829.77,
-   "b": 830.2,
+   "a": 829.57,
+   "b": 830.0,
    "text": "demir."
   },
   {
-   "a": 830.59,
-   "b": 835.32,
+   "a": 830.39,
+   "b": 835.12,
    "text": "Rəvayətlərə görə səbəb qardaşın öz əkiz bacısı ilə evlənmək"
   },
   {
-   "a": 835.36,
-   "b": 836.37,
+   "a": 835.16,
+   "b": 836.17,
    "text": "istəməsi idi."
   },
   {
-   "a": 836.39,
-   "b": 836.89,
+   "a": 836.19,
+   "b": 836.69,
    "text": "Bu,"
   },
   {
-   "a": 836.78,
-   "b": 839.12,
+   "a": 836.58,
+   "b": 838.92,
    "text": "təfsir rəvayətidir,"
   },
   {
-   "a": 839.66,
-   "b": 840.53,
+   "a": 839.46,
+   "b": 839.77,
    "text": "Quran ayəsi deyil."
   },
   {
-   "a": 840.42,
-   "b": 845.2,
+   "a": 839.71,
+   "b": 845.0,
    "text": "Qatil qardaşının cəsədi ilə nə edəcəyini bilmirdi."
   },
   {
-   "a": 845.62,
-   "b": 846.99,
+   "a": 845.42,
+   "b": 846.79,
    "text": "Allah bir qarğa göndərdi."
   },
   {
-   "a": 847.38,
-   "b": 848.21,
+   "a": 847.18,
+   "b": 848.01,
    "text": "Qarğa yeri eşdi."
   },
   {
-   "a": 848.64,
-   "b": 849.56,
+   "a": 848.44,
+   "b": 849.36,
    "text": "Qatil dedi:"
   },
   {
-   "a": 850.0,
-   "b": 850.68,
+   "a": 849.8,
+   "b": 850.11,
    "text": "“Vay halıma!"
   },
   {
-   "a": 850.57,
-   "b": 852.0,
+   "a": 850.05,
+   "b": 851.8,
    "text": "Bu qarğa qədər də ola bilmədimmi ki,"
   },
   {
-   "a": 852.1,
-   "b": 858.2,
+   "a": 851.9,
+   "b": 858.0,
    "text": "qardaşımın cəsədini basdırım?” Və peşman olanlardan oldu."
   },
   {
-   "a": 858.73,
-   "b": 860.66,
+   "a": 858.53,
+   "b": 860.46,
    "text": "Peyğəmbərimiz buyurur:"
   },
   {
-   "a": 860.55,
-   "b": 864.42,
+   "a": 860.35,
+   "b": 864.22,
    "text": "Haqsız yerə öldürülən hər canın qanından bir pay Adəmin"
   },
   {
-   "a": 864.46,
-   "b": 866.7,
+   "a": 864.26,
+   "b": 866.5,
    "text": "birinci oğlunun üzərinə yazılır."
   },
   {
-   "a": 866.84,
-   "b": 871.22,
+   "a": 866.64,
+   "b": 871.02,
    "text": "Çünki qətl yolunu ilk o açdı."
   },
   {
-   "a": 871.24,
-   "b": 875.04,
+   "a": 871.04,
+   "b": 874.84,
    "text": "Düşünün… minilliklər boyu tökülən hər haqsız qan…"
   },
   {
-   "a": 874.93,
-   "b": 877.53,
+   "a": 874.73,
+   "b": 877.33,
    "text": "Və sonda Səhih Buxari və Səhih Müslimdə gələn bir səhnə."
   },
   {
-   "a": 878.12,
-   "b": 884.36,
+   "a": 877.92,
+   "b": 884.16,
    "text": "Adəm ilə Musa qarşılaşdılar və mübahisə etdilər."
   },
   {
-   "a": 884.78,
-   "b": 887.0,
+   "a": 884.58,
+   "b": 886.8,
    "text": "Bu görüşün harada olduğunu hədis demir."
   },
   {
-   "a": 887.15,
-   "b": 888.44,
+   "a": 886.95,
+   "b": 888.24,
    "text": "Alimlər bərzəx,"
   },
   {
-   "a": 888.33,
-   "b": 892.82,
+   "a": 888.13,
+   "b": 892.62,
    "text": "yuxu və Merac gecəsi ehtimallarını müzakirə ediblər."
   },
   {
-   "a": 893.3,
-   "b": 894.12,
+   "a": 893.1,
+   "b": 893.92,
    "text": "Bu,"
   },
   {
-   "a": 894.56,
-   "b": 895.39,
+   "a": 894.36,
+   "b": 895.19,
    "text": "hələ də açıq qalan bir sualdır."
   },
   {
-   "a": 895.69,
-   "b": 897.19,
+   "a": 895.49,
+   "b": 896.99,
    "text": "Musa dedi:"
   },
   {
-   "a": 897.6,
-   "b": 898.51,
+   "a": 897.4,
+   "b": 898.31,
    "text": "“Ey Adəm!"
   },
   {
-   "a": 898.52,
-   "b": 899.7,
+   "a": 898.32,
+   "b": 899.5,
    "text": "Sən bizim atamızsan."
   },
   {
-   "a": 899.71,
-   "b": 905.15,
+   "a": 899.51,
+   "b": 904.95,
    "text": "Bizi məyus etdin və bizi Cənnətdən çıxardın!” Adəm cavab"
   },
   {
-   "a": 905.19,
-   "b": 905.74,
+   "a": 904.99,
+   "b": 905.54,
    "text": "verdi:"
   },
   {
-   "a": 905.63,
-   "b": 907.34,
+   "a": 905.43,
+   "b": 907.14,
    "text": "“Ey Musa!"
   },
   {
-   "a": 907.59,
-   "b": 911.11,
+   "a": 907.39,
+   "b": 910.91,
    "text": "Allah səni Öz kəlamı ilə seçdi və sənin üçün Öz əli ilə yazdı."
   },
   {
-   "a": 911.23,
-   "b": 916.0,
+   "a": 911.03,
+   "b": 915.8,
    "text": "İndi sən məni Allahın məni yaratmazdan qırx il əvvəl mənim"
   },
   {
-   "a": 916.04,
-   "b": 919.82,
+   "a": 915.84,
+   "b": 919.62,
    "text": "üçün təqdir etdiyi bir işə görəmi qınayırsan?”"
   },
   {
-   "a": 919.97,
-   "b": 920.33,
+   "a": 919.77,
+   "b": 920.13,
    "text": "Peyğəmbərimiz,"
   },
   {
-   "a": 920.22,
-   "b": 922.39,
+   "a": 920.02,
+   "b": 922.19,
    "text": "səllallahu aleyhi və səlləm,"
   },
   {
-   "a": 922.52,
-   "b": 924.01,
+   "a": 922.32,
+   "b": 923.81,
    "text": "üç dəfə təkrarladı:"
   },
   {
-   "a": 924.55,
-   "b": 926.76,
+   "a": 924.35,
+   "b": 926.56,
    "text": "“Adəm Musaya qalib gəldi."
   },
   {
-   "a": 930.25,
-   "b": 932.84,
+   "a": 930.05,
+   "b": 932.64,
    "text": "Adəm Musaya qalib gəldi.” Diqqət edin:"
   },
   {
-   "a": 932.73,
-   "b": 935.78,
+   "a": 932.53,
+   "b": 935.58,
    "text": "Adəm günahına bəhanə gətirmirdi."
   },
   {
-   "a": 935.9,
-   "b": 936.31,
+   "a": 935.7,
+   "b": 936.11,
    "text": "O,"
   },
   {
-   "a": 936.2,
-   "b": 938.85,
+   "a": 936.0,
+   "b": 938.65,
    "text": "artıq tövbə etmişdi və bağışlanmışdı."
   },
   {
-   "a": 939.07,
-   "b": 940.48,
+   "a": 938.87,
+   "b": 940.28,
    "text": "Alimlər deyir ki,"
   },
   {
-   "a": 940.5,
-   "b": 943.86,
+   "a": 940.3,
+   "b": 943.66,
    "text": "Musanın qınadığı şey günahın özü deyil,"
   },
   {
-   "a": 944.38,
-   "b": 946.25,
+   "a": 944.18,
+   "b": 946.05,
    "text": "Cənnətdən çıxış müsibəti idi."
   },
   {
-   "a": 946.58,
-   "b": 948.32,
+   "a": 946.38,
+   "b": 948.12,
    "text": "Adəm isə ona xatırlatdı ki,"
   },
   {
-   "a": 948.54,
-   "b": 953.27,
+   "a": 948.34,
+   "b": 953.07,
    "text": "insanın yer üzünə enməsi Allahın əvvəlcədən yazdığı böyük bir"
   },
   {
-   "a": 953.31,
-   "b": 954.13,
+   "a": 953.11,
+   "b": 953.93,
    "text": "hikmət idi."
   },
   {
-   "a": 954.45,
-   "b": 956.1,
+   "a": 954.25,
+   "b": 955.9,
    "text": "Axı ilk gündən deyilmişdi:"
   },
   {
-   "a": 955.99,
-   "b": 958.97,
+   "a": 955.79,
+   "b": 958.77,
    "text": "“Mən yer üzündə bir xəlifə yaradacağam.”"
   },
   {
-   "a": 959.4,
-   "b": 960.6,
+   "a": 959.2,
+   "b": 960.4,
    "text": "İblis də səhv etdi."
   },
   {
-   "a": 960.99,
-   "b": 962.19,
+   "a": 960.79,
+   "b": 961.99,
    "text": "Adəm də səhv etdi."
   },
   {
-   "a": 962.52,
-   "b": 964.07,
+   "a": 962.32,
+   "b": 963.87,
    "text": "Amma İblis dedi:"
   },
   {
-   "a": 964.55,
-   "b": 966.62,
+   "a": 964.35,
+   "b": 966.42,
    "text": "“Mən ondan üstünəm.” Adəm isə dedi:"
   },
   {
-   "a": 966.86,
-   "b": 968.27,
+   "a": 966.66,
+   "b": 968.07,
    "text": "“Rəbbimiz,"
   },
   {
-   "a": 968.28,
-   "b": 971.53,
+   "a": 968.08,
+   "b": 971.33,
    "text": "biz özümüzə zülm etdik.” Biri təkəbbür etdi və qovuldu."
   },
   {
-   "a": 972.01,
-   "b": 975.81,
+   "a": 971.81,
+   "b": 975.61,
    "text": "O biri boynunu bükdü və bəşəriyyətin atası oldu."
   },
   {
-   "a": 981.69,
-   "b": 985.56,
+   "a": 981.49,
+   "b": 985.36,
    "text": "Bu faktlardan hansını ilk dəfə eşitdiniz?"
   },
   {
-   "a": 986.18,
-   "b": 987.28,
+   "a": 985.98,
+   "b": 987.08,
    "text": "Şərhdə yazın."
   },
   {
-   "a": 987.39,
-   "b": 991.22,
+   "a": 987.19,
+   "b": 991.02,
    "text": "Növbəti bölümdə Adəmin nəslindən elə bir peyğəmbər gələcək ki,"
   },
   {
-   "a": 991.24,
-   "b": 994.08,
+   "a": 991.04,
+   "b": 993.88,
    "text": "Quran onun haqqında belə deyir:"
   },
   {
-   "a": 994.16,
-   "b": 997.88,
+   "a": 993.96,
+   "b": 997.68,
    "text": "“Biz onu uca bir məkana qaldırdıq.” Peyğəmbərimiz Merac"
   },
   {
-   "a": 997.92,
-   "b": 1000.34,
+   "a": 997.72,
+   "b": 1000.14,
    "text": "gecəsində onu dördüncü səmada gördü."
   },
   {
-   "a": 1000.84,
-   "b": 1001.96,
+   "a": 1000.64,
+   "b": 1001.76,
    "text": "Rəvayətlərə görə o,"
   },
   {
-   "a": 1002.16,
-   "b": 1004.49,
+   "a": 1001.96,
+   "b": 1004.29,
    "text": "qələmlə yazan ilk insan idi."
   },
   {
-   "a": 1005.02,
-   "b": 1007.45,
+   "a": 1004.82,
+   "b": 1007.25,
    "text": "Bəs onu səmaya qaldıran sirr nə idi?"
   },
   {
-   "a": 1007.91,
-   "b": 1010.59,
+   "a": 1007.71,
+   "b": 1010.39,
    "text": "Və o rəvayətlərin hansı doğrudur,"
   },
   {
-   "a": 1010.91,
-   "b": 1012.1,
+   "a": 1010.71,
+   "b": 1011.9,
    "text": "hansı əfsanədir?"
   },
   {
-   "a": 1012.65,
-   "b": 1013.7,
+   "a": 1012.45,
+   "b": 1013.5,
    "text": "Görüşənədək…"
   }
  ],
@@ -4768,561 +4768,561 @@
   },
   {
    "n": "shimmer",
-   "t": 324.6,
+   "t": 324.4,
    "g": 0.9
   },
   {
    "n": "choir_hit",
-   "t": 324.8,
+   "t": 324.6,
    "g": 0.7
   },
   {
    "n": "pad_sacred",
-   "t": 334.99,
+   "t": 334.79,
    "g": 1.0
   },
   {
    "n": "braam",
-   "t": 346.41,
+   "t": 346.21,
    "g": 0.6
   },
   {
    "n": "tick",
-   "t": 367.79,
+   "t": 367.59,
    "g": 0.5
   },
   {
    "n": "tick",
-   "t": 371.42,
+   "t": 371.22,
    "g": 0.5
   },
   {
    "n": "shimmer",
-   "t": 372.82,
+   "t": 372.62,
    "g": 0.7
   },
   {
    "n": "epic_bed",
-   "t": 385.1,
+   "t": 384.9,
    "g": 1.0
   },
   {
    "n": "braam",
-   "t": 386.54,
+   "t": 385.8,
    "g": 0.9
   },
   {
    "n": "choir_hit",
-   "t": 386.64,
+   "t": 385.9,
    "g": 0.9
   },
   {
    "n": "cut_silence",
-   "t": 389.75,
+   "t": 389.55,
    "g": 1
   },
   {
    "n": "boom",
-   "t": 389.8,
+   "t": 389.6,
    "g": 1.0
   },
   {
    "n": "fire",
-   "t": 389.75,
+   "t": 389.55,
    "g": 0.9,
    "dur": 6
   },
   {
    "n": "drone_dark",
-   "t": 392.88,
+   "t": 392.68,
    "g": 1.0
   },
   {
    "n": "whoosh",
-   "t": 392.88,
+   "t": 392.68,
    "g": 0.6
   },
   {
    "n": "whoosh",
-   "t": 400.24,
+   "t": 400.04,
    "g": 0.6
   },
   {
    "n": "stamp",
-   "t": 402.85,
+   "t": 402.65,
    "g": 1.0
   },
   {
    "n": "tension_bed",
-   "t": 407.47,
+   "t": 407.27,
    "g": 1.0
   },
   {
    "n": "stamp",
-   "t": 407.62,
+   "t": 407.42,
    "g": 1.0
   },
   {
    "n": "shimmer",
-   "t": 419.22,
+   "t": 419.02,
    "g": 0.6
   },
   {
    "n": "whoosh",
-   "t": 421.53,
+   "t": 421.33,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 425.22,
+   "t": 425.02,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 426.42,
+   "t": 426.22,
    "g": 0.5
   },
   {
    "n": "impact",
-   "t": 439.71,
+   "t": 439.51,
    "g": 0.7
   },
   {
    "n": "drone_dark",
-   "t": 446.18,
+   "t": 445.98,
    "g": 1.0
   },
   {
    "n": "whoosh_low",
-   "t": 446.18,
+   "t": 445.98,
    "g": 0.8
   },
   {
    "n": "boom",
-   "t": 452.52,
+   "t": 452.32,
    "g": 0.7
   },
   {
    "n": "pad_sacred",
-   "t": 458.78,
+   "t": 458.58,
    "g": 1.0
   },
   {
    "n": "choir_hit",
-   "t": 472.5,
+   "t": 472.3,
    "g": 0.9
   },
   {
    "n": "shimmer",
-   "t": 472.3,
+   "t": 472.1,
    "g": 0.7
   },
   {
    "n": "shimmer",
-   "t": 510.94,
+   "t": 510.74,
    "g": 0.8
   },
   {
    "n": "impact",
-   "t": 510.94,
+   "t": 510.74,
    "g": 0.5
   },
   {
    "n": "mystery_bed",
-   "t": 516.49,
+   "t": 516.29,
    "g": 1.0
   },
   {
    "n": "sand",
-   "t": 518.29,
+   "t": 518.09,
    "g": 0.8
   },
   {
    "n": "clock",
-   "t": 524.33,
+   "t": 524.13,
    "g": 0.6,
    "dur": 12.06
   },
   {
    "n": "whoosh_low",
-   "t": 522.81,
+   "t": 522.61,
    "g": 0.6
   },
   {
    "n": "impact",
-   "t": 540.34,
+   "t": 540.14,
    "g": 0.5
   },
   {
    "n": "impact",
-   "t": 544.38,
+   "t": 544.18,
    "g": 0.5
   },
   {
    "n": "impact",
-   "t": 547.66,
+   "t": 547.46,
    "g": 0.5
   },
   {
    "n": "paper",
-   "t": 536.54,
+   "t": 536.34,
    "g": 0.5
   },
   {
    "n": "stamp",
-   "t": 556.14,
+   "t": 555.94,
    "g": 1.0
   },
   {
    "n": "paper",
-   "t": 552.12,
+   "t": 551.92,
    "g": 0.5
   },
   {
    "n": "pad_sacred",
-   "t": 566.8,
+   "t": 566.6,
    "g": 1.0
   },
   {
    "n": "water",
-   "t": 566.8,
+   "t": 566.6,
    "g": 0.7,
    "dur": 15.03
   },
   {
    "n": "shimmer",
-   "t": 576.72,
+   "t": 576.52,
    "g": 0.5
   },
   {
    "n": "tension_bed",
-   "t": 581.83,
+   "t": 581.63,
    "g": 1.0
   },
   {
    "n": "stamp",
-   "t": 581.98,
+   "t": 581.78,
    "g": 1.0
   },
   {
    "n": "impact",
-   "t": 589.32,
+   "t": 589.12,
    "g": 0.9
   },
   {
    "n": "tick",
-   "t": 593.44,
+   "t": 593.24,
    "g": 0.5
   },
   {
    "n": "tick",
-   "t": 592.67,
+   "t": 592.47,
    "g": 0.5
   },
   {
    "n": "tick",
-   "t": 593.3,
+   "t": 593.1,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 608.09,
+   "t": 607.89,
    "g": 0.6
   },
   {
    "n": "impact",
-   "t": 610.41,
+   "t": 610.21,
    "g": 0.6
   },
   {
    "n": "stamp",
-   "t": 616.19,
+   "t": 615.99,
    "g": 1.0
   },
   {
    "n": "whoosh",
-   "t": 623.57,
+   "t": 623.37,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 637.43,
+   "t": 637.23,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 647.98,
+   "t": 647.78,
    "g": 0.5
   },
   {
    "n": "impact",
-   "t": 654.38,
+   "t": 654.18,
    "g": 0.7
   },
   {
    "n": "paper",
-   "t": 659.92,
+   "t": 659.72,
    "g": 0.6
   },
   {
    "n": "sorrow_bed",
-   "t": 677.06,
+   "t": 676.86,
    "g": 1.0
   },
   {
    "n": "leaves",
-   "t": 677.06,
+   "t": 676.86,
    "g": 0.7,
    "dur": 7.1
   },
   {
    "n": "choir_hit",
-   "t": 689.81,
+   "t": 689.61,
    "g": 0.7
   },
   {
    "n": "epic_bed",
-   "t": 709.66,
+   "t": 709.46,
    "g": 1.0
   },
   {
    "n": "whoosh_low",
-   "t": 709.56,
+   "t": 709.36,
    "g": 0.7
   },
   {
    "n": "wind",
-   "t": 709.86,
+   "t": 709.66,
    "g": 0.5,
    "dur": 8.53
   },
   {
    "n": "tick",
-   "t": 721.54,
+   "t": 721.34,
    "g": 0.6
   },
   {
    "n": "tick",
-   "t": 723.75,
+   "t": 723.55,
    "g": 0.6
   },
   {
    "n": "tick",
-   "t": 726.84,
+   "t": 726.64,
    "g": 0.6
   },
   {
    "n": "impact",
-   "t": 728.51,
+   "t": 728.31,
    "g": 0.8
   },
   {
    "n": "whoosh_low",
-   "t": 730.59,
+   "t": 730.39,
    "g": 0.6
   },
   {
    "n": "stamp",
-   "t": 750.39,
+   "t": 750.19,
    "g": 1.0
   },
   {
    "n": "tick",
-   "t": 737.09,
+   "t": 736.89,
    "g": 0.6
   },
   {
    "n": "tick",
-   "t": 744.09,
+   "t": 743.89,
    "g": 0.6
   },
   {
    "n": "tick",
-   "t": 750.89,
+   "t": 750.69,
    "g": 0.6
   },
   {
    "n": "mystery_bed",
-   "t": 761.3,
+   "t": 761.1,
    "g": 1.0
   },
   {
    "n": "whoosh",
-   "t": 761.0,
+   "t": 760.8,
    "g": 0.7
   },
   {
    "n": "impact",
-   "t": 761.3,
+   "t": 761.1,
    "g": 0.8
   },
   {
    "n": "impact",
-   "t": 782.0,
+   "t": 781.8,
    "g": 0.6
   },
   {
    "n": "whoosh",
-   "t": 784.24,
+   "t": 784.04,
    "g": 0.6
   },
   {
    "n": "stamp",
-   "t": 790.25,
+   "t": 790.05,
    "g": 0.9
   },
   {
    "n": "drone_dark",
-   "t": 795.7,
+   "t": 795.5,
    "g": 1.0
   },
   {
    "n": "impact",
-   "t": 798.85,
+   "t": 798.65,
    "g": 0.7
   },
   {
    "n": "fire",
-   "t": 804.96,
+   "t": 804.76,
    "g": 0.6,
    "dur": 7.64
   },
   {
    "n": "boom",
-   "t": 814.49,
+   "t": 814.29,
    "g": 0.6
   },
   {
    "n": "heartbeat",
-   "t": 814.49,
+   "t": 814.29,
    "g": 0.8,
-   "dur": 25.83
+   "dur": 25.32
   },
   {
    "n": "dig",
-   "t": 847.43,
+   "t": 847.23,
    "g": 0.8,
    "dur": 5
   },
   {
    "n": "wind",
-   "t": 840.32,
+   "t": 839.61,
    "g": 0.5,
-   "dur": 18.31
+   "dur": 18.82
   },
   {
    "n": "drip",
-   "t": 859.08,
+   "t": 858.88,
    "g": 0.8
   },
   {
    "n": "sub_hit",
-   "t": 871.29,
+   "t": 871.09,
    "g": 0.8
   },
   {
    "n": "mystery_bed",
-   "t": 874.83,
+   "t": 874.63,
    "g": 1.0
   },
   {
    "n": "stamp",
-   "t": 875.18,
+   "t": 874.98,
    "g": 1.0
   },
   {
    "n": "whoosh",
-   "t": 887.4,
+   "t": 887.2,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 888.1,
+   "t": 887.9,
    "g": 0.5
   },
   {
    "n": "whoosh",
-   "t": 889.2,
+   "t": 889.0,
    "g": 0.5
   },
   {
    "n": "whoosh_low",
-   "t": 905.56,
+   "t": 905.36,
    "g": 0.5
   },
   {
    "n": "epic_bed",
-   "t": 919.87,
+   "t": 919.67,
    "g": 1.0
   },
   {
    "n": "braam",
-   "t": 924.63,
+   "t": 924.43,
    "g": 0.55
   },
   {
    "n": "impact",
-   "t": 924.63,
+   "t": 924.43,
    "g": 0.6
   },
   {
    "n": "braam",
-   "t": 927.26,
+   "t": 927.06,
    "g": 0.55
   },
   {
    "n": "impact",
-   "t": 927.26,
+   "t": 927.06,
    "g": 0.6
   },
   {
    "n": "braam",
-   "t": 930.25,
+   "t": 930.05,
    "g": 0.55
   },
   {
    "n": "impact",
-   "t": 930.25,
+   "t": 930.05,
    "g": 0.6
   },
   {
    "n": "choir_hit",
-   "t": 956.01,
+   "t": 955.81,
    "g": 0.9
   },
   {
    "n": "sorrow_bed",
-   "t": 959.3,
+   "t": 959.1,
    "g": 1.0
   },
   {
    "n": "tick",
-   "t": 981.74,
+   "t": 981.54,
    "g": 0.6
   },
   {
    "n": "mystery_bed",
-   "t": 987.29,
+   "t": 987.09,
    "g": 1.0
   },
   {
    "n": "choir_hit",
-   "t": 994.18,
+   "t": 993.98,
    "g": 0.7
   },
   {
    "n": "riser",
-   "t": 999.97,
+   "t": 999.77,
    "g": 0.8
   },
   {
    "n": "braam",
-   "t": 1004.97,
+   "t": 1004.77,
    "g": 0.9
   },
   {
    "n": "boom",
-   "t": 1004.97,
+   "t": 1004.77,
    "g": 0.8
   }
  ]

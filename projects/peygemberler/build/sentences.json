@@ -876,11 +876,11 @@
    },
    {
     "t": 561.7,
-    "e": 564.08,
+    "e": 563.27,
     "text": "Çünki insan unudur."
    },
    {
-    "t": 564.26,
+    "t": 563.76,
     "e": 566.41,
     "text": "Bu, Adəmdən bizə qalan bir xasiyyətdir."
    }
@@ -1193,11 +1193,11 @@
    },
    {
     "t": 783.65,
-    "e": 787.85,
+    "e": 786.13,
     "text": "O, başqa doğumdan olan bacı ilə evlənməli idi."
    },
    {
-    "t": 787.85,
+    "t": 786.69,
     "e": 789.79,
     "text": "İnsanlığın artması başqa yolla mümkün deyildi."
    },
@@ -1240,7 +1240,7 @@
   "id": "K48",
   "part": 3,
   "start": 812.75,
-  "end": 840.47,
+  "end": 839.96,
   "sent": [
    {
     "t": 812.75,
@@ -1259,7 +1259,7 @@
    },
    {
     "t": 836.44,
-    "e": 840.47,
+    "e": 839.91,
     "text": "Bu, təfsir rəvayətidir, Quran ayəsi deyil."
    }
   ]
@@ -1267,11 +1267,11 @@
  {
   "id": "K49",
   "part": 3,
-  "start": 840.47,
+  "start": 839.96,
   "end": 858.78,
   "sent": [
    {
-    "t": 840.47,
+    "t": 839.96,
     "e": 845.14,
     "text": "Qatil qardaşının cəsədi ilə nə edəcəyini bilmirdi."
    },
@@ -1287,11 +1287,11 @@
    },
    {
     "t": 848.69,
-    "e": 850.62,
+    "e": 850.25,
     "text": "Qatil dedi: “Vay halıma!"
    },
    {
-    "t": 850.62,
+    "t": 850.3,
     "e": 858.14,
     "text": "Bu qarğa qədər də ola bilmədimmi ki, qardaşımın cəsədini basdırım?” Və peşman olanlardan oldu."
    }
