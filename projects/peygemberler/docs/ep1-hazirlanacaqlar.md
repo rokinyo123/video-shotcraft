@@ -507,7 +507,7 @@ a black crow flying across the frame from left to right, isolated on a solid pur
 | **K09b** | Şəklə 3D kamera hərəkəti verirəm (yavaş yaxınlaşma/sürüşmə), fonu qaraldıb önündə mətni göstərirəm. K09-dan sonra keçid, kamera yavaş yaxınlaşır, köz effekti üstə. |
 | **K10** | Şəklə 3D kamera hərəkəti verirəm (yavaş yaxınlaşma/sürüşmə), fonu qaraldıb önündə mətni göstərirəm. Nur şüası. “Mən sizin bilmədiklərinizi bilirəm” ekranda qalır, sonra “yadda saxlayın” ilə kiçilib küncə gedir (sonra geri qayıdacaq). |
 | **K12** | Şəklə 3D kamera hərəkəti verirəm (yavaş yaxınlaşma/sürüşmə), fonu qaraldıb önündə mətni göstərirəm. Müxtəlif rəngli əllər. Sözlər çıxır: qırmızı · ağ · qara · yumşaq · sərt. |
-| **K13** | Videonu səsin uzunluğuna görə yavaşladıram, fonu bir az qaraldıram, altyazı əlavə edirəm. K13 yuxarıdan tüstü halqası. “Səhih Müslim 2611” möhürü. K13b: K03 yenidən. |
+| **K13** | Videonu səsin uzunluğuna görə yavaşladıram, fonu bir az qaraldıram, altyazı əlavə edirəm. K13 yuxarıdan tüstü halqası. “Səhih Müslim 2611” möhürü. |
 | **K13b** | Şəklə 3D kamera hərəkəti verirəm (yavaş yaxınlaşma/sürüşmə), fonu qaraldıb önündə mətni göstərirəm. K13-dən sonra, İblis hədisinin davamında; tüstü (G01) üstə qoyulur. |
 | **K15** | Videonu səsin uzunluğuna görə yavaşladıram, fonu bir az qaraldıram, altyazı əlavə edirəm. Ruh üfürülür — nur bədənə axır. |
 | **K16** | Videonu səsin uzunluğuna görə yavaşladıram, fonu bir az qaraldıram, altyazı əlavə edirəm. İlk oturuş, nur zərrələri. “Əlhəmdulillah” ərəbcə xəttatlıqla yazılır. |
