@@ -291,7 +291,7 @@ ELEM = {
 BEDS = {'drone_dark': drone_dark, 'tension_bed': tension_bed, 'pad_sacred': pad_sacred}
 AMB = {'heartbeat': heartbeat, 'wind': wind}
 GAIN = {  # qrup səviyyələri (dB) — danışıq üstün olsun deyə
-    'beds': -15, 'amb': -16, 'sfx': -10,
+    'beds': -11, 'amb': -12.5, 'sfx': -9,
 }
 
 

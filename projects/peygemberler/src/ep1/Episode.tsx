@@ -8,6 +8,7 @@ import {
   BigText,
   Corner,
   Grain,
+  Opener,
   Letterbox,
   Particles,
   Pulse,
@@ -39,6 +40,8 @@ const renderLayer = (l: Layer, t: number, i: number) => {
       return <AyahCard key={i} {...p} ar={l.ar} az={l.az} ref_={l.ref_} />;
     case 'qcard':
       return <QCard key={i} {...p} n={l.n} q={l.q} sub={l.sub} subAt={l.subAt} img={l.img} />;
+    case 'opener':
+      return <Opener key={i} {...p} />;
     case 'title':
       return <SeriesTitle key={i} {...p} />;
     case 'source':

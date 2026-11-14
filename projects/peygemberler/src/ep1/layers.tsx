@@ -385,3 +385,34 @@ export const SourceTag: React.FC<{t: number; a: number; b: number; label: string
     </div>
   );
 };
+
+/** Videonun ilk saniyələrində səhnənin üstündə seriya adı (ayrıca kart deyil). */
+export const Opener: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
+  const o = env(t, a, b, 0.8, 1.0);
+  if (o <= 0) return null;
+  const f = t - a;
+  const sp = interpolate(f, [0, 4.5], [30, 14], {...clamp, easing: Easing.out(Easing.quad)});
+  const line = interpolate(f, [0.4, 1.6], [0, 1], {...clamp, easing: ease});
+  const nm = interpolate(f, [1.2, 2.0], [0, 1], clamp);
+  return (
+    <div style={{position: 'absolute', left: 0, right: 0, top: BAR + 70, textAlign: 'center', opacity: o}}>
+      <div style={{fontFamily: F.sans, fontSize: 22, letterSpacing: sp / 2, color: C.gold}}>PEYĞƏMBƏRLƏRİN</div>
+      <div
+        style={{
+          fontFamily: F.serif,
+          fontWeight: 700,
+          fontSize: 92,
+          letterSpacing: sp,
+          color: C.ivory,
+          marginTop: 4,
+          filter: `blur(${(1 - Math.min(1, f / 0.9)) * 10}px)`,
+          textShadow: '0 6px 40px rgba(0,0,0,0.95), 0 0 30px rgba(214,168,78,0.25)',
+        }}
+      >
+        GİZLİ TARİXİ
+      </div>
+      <div style={{margin: '14px auto 10px', height: 2, width: 520 * line, background: `linear-gradient(90deg, transparent, ${C.gold}, transparent)`}} />
+      <div style={{fontFamily: F.serif, fontStyle: 'italic', fontSize: 50, color: C.goldSoft, opacity: nm, textShadow: '0 4px 30px #000'}}>Adəm</div>
+    </div>
+  );
+};

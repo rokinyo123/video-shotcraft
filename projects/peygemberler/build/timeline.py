@@ -19,6 +19,8 @@ def d(k): return S[k]['end'] - S[k]['start']
 # ---------- 1. SOYUQ AÇILIŞ ----------
 shot('K01', vid('K01', d('K01') + 0.4, clip=4.0, kb=[1.0, 0, 0, 1.06, 0, 0], dark=0.2), tr=0.0)
 L('particles', 0, 13.3, kind='dust')
+L('opener', 0.2, 5.0)
+fx('shimmer', 0.4, 0.5); fx('sub_hit', 0.3, 0.6)
 shot('K02', vid('K02', d('K02'), start=1.0, kb=[1.05, 0, 0, 1.12, 0, -1], dark=0.15))
 L('particles', 4.6, 13.3, kind='embers', n=40)
 shot('K03', img('K03', kb=[1.0, 0, 0, 1.28, 0, 2], dark=0.1))
