@@ -19,6 +19,6 @@ export const Thumbnail3: React.FC<{img?: string; full?: boolean}> = ({img = 'med
     <div style={{position: 'absolute', left: 84, top: 352, background: '#fff', padding: '0 26px', fontFamily: O, fontWeight: 700, fontSize: 110, lineHeight: 1.22, color: '#000'}}>İNANILMAZ</div>
     <div style={{position: 'absolute', left: 84, top: 506, background: '#fff', padding: '0 26px', fontFamily: O, fontWeight: 700, fontSize: 110, lineHeight: 1.22, color: '#000'}}>HƏYATI</div>
     {/* seriya nömrəsi */}
-    <div style={{position: 'absolute', right: 40, top: 20, fontFamily: O, fontWeight: 700, fontSize: 200, lineHeight: 1, color: '#ffd21f', WebkitTextStroke: '6px #000', paintOrder: 'stroke fill', textShadow: '0 8px 30px rgba(0,0,0,0.8)'}}>1</div>
+    <div style={{position: 'absolute', right: 36, top: 22, fontFamily: O, fontWeight: 700, fontSize: 90, lineHeight: 1, color: '#ffd21f', WebkitTextStroke: '4px #000', paintOrder: 'stroke fill', textShadow: '0 8px 30px rgba(0,0,0,0.8)'}}>1</div>
   </AbsoluteFill>
 );
