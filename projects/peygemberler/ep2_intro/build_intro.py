@@ -185,25 +185,105 @@ for n in range(nF):
     p.stdin.write((np.clip(fr_, 0, 1) * 255).astype(np.uint8).tobytes())
 p.stdin.close(); p.wait()
 
-# ---------------- 5. DƏRİN BOOM ----------------
-ASR = 48000; bl = 4.0; tb = np.arange(int(bl * ASR)) / ASR
-f0 = 58 * np.exp(-tb * 0.9) + 30
-boom = np.sin(2 * np.pi * np.cumsum(f0) / ASR) * np.exp(-tb * 1.6)
-noise = signal.sosfilt(signal.butter(2, 180, 'low', fs=ASR, output='sos'), rng.normal(0, 1, len(tb))) * np.exp(-tb * 3) * 0.5
-dry = boom + noise; dry[: int(0.004 * ASR)] *= np.linspace(0, 1, int(0.004 * ASR))
-ir = rng.normal(0, 1, int(2.5 * ASR)) * np.exp(-np.arange(int(2.5 * ASR)) / ASR * 2.2)
-ir = signal.sosfilt(signal.butter(2, 900, 'low', fs=ASR, output='sos'), ir)
-wet = signal.fftconvolve(dry, ir)[: len(dry)]; wet /= np.abs(wet).max()
-sig = 0.75 * dry / np.abs(dry).max() + 0.45 * wet
-sig = sig / np.abs(sig).max() * 0.6
-fadeo = np.ones_like(sig); fadeo[-int(0.5 * ASR):] = np.linspace(1, 0, int(0.5 * ASR)); sig *= fadeo
+# ---------------- 5. SƏS DİZAYNI (sintez: fon + effektlər) ----------------
 import wave
-with wave.open(f'{TMP}/boom.wav', 'wb') as wv:
+ASR = 48000
+VTOT = VEND + FADE; TOTAL = VTOT + TC; NS = int(TOTAL * ASR)
+ar = np.random.default_rng(11)
+def tt(d): return np.arange(int(d * ASR)) / ASR
+def lp(x, f, o=2): return signal.sosfilt(signal.butter(o, f, 'low', fs=ASR, output='sos'), x)
+def hp(x, f, o=2): return signal.sosfilt(signal.butter(o, f, 'high', fs=ASR, output='sos'), x)
+def bp(x, a, b, o=2): return signal.sosfilt(signal.butter(o, [a, b], 'band', fs=ASR, output='sos'), x)
+def db2(g): return 10 ** (g / 20)
+def peak(x, g): return x / (np.abs(x).max() + 1e-9) * db2(g)
+def reverb(x, sec=2.2, decay=2.4, mix=0.45, tone=2500):
+    ir = lp(ar.normal(0, 1, int(sec * ASR)) * np.exp(-tt(sec) * decay), tone)
+    w = signal.fftconvolve(x, ir)[: len(x) + int(sec * ASR)]; w /= np.abs(w).max() + 1e-9
+    y = np.zeros(len(w)); y[: len(x)] += x / (np.abs(x).max() + 1e-9); return (1 - mix) * y + mix * w
+bus = np.zeros((NS, 2))
+def place(x, t0, g, pan=0.0):
+    x = peak(x, g); a = int(t0 * ASR)
+    if a < 0: x = x[-a:]; a = 0
+    n = min(len(x), NS - a)
+    if n <= 0: return
+    bus[a:a + n, 0] += x[:n] * np.sqrt(0.5 - pan / 2) * np.sqrt(2)
+    bus[a:a + n, 1] += x[:n] * np.sqrt(0.5 + pan / 2) * np.sqrt(2)
+
+# 1) Dərin kosmik fon (bütün video boyu, -24 dB RMS)
+t = tt(TOTAL)
+brown = np.cumsum(ar.normal(0, 1, NS)); brown = hp(brown, 20); brown = lp(brown, 140, 4)
+wind = bp(ar.normal(0, 1, NS), 250, 700) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.07 * t + 1) ** 2)
+sub = np.sin(2 * np.pi * 41.2 * t) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.05 * t)) + 0.5 * np.sin(2 * np.pi * 55 * t + 0.6) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.031 * t))
+dr = brown / np.abs(brown).max() * 0.9 + wind / np.abs(wind).max() * 0.35 + sub / np.abs(sub).max() * 0.45
+env = np.minimum(1, t / 2.0) * np.minimum(1, (TOTAL - t) / 1.2).clip(0, 1)
+dr = dr * env; dr = dr / np.sqrt(np.mean(dr ** 2)) * db2(-25.4)
+wl = bp(ar.normal(0, 1, NS), 250, 700) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.07 * t + 2.5) ** 2)
+wl = wl / np.sqrt(np.mean(wl ** 2)) * db2(-25.4) * 0.35 * env
+bus[:, 0] += dr + wl; bus[:, 1] += dr - wl
+
+# 2) 0:00 — rəqəmsal glitch + sub-bass drop
+g = np.zeros(int(0.5 * ASR))
+for k in range(9):
+    a = int(ar.uniform(0, 0.4) * ASR); n = int(ar.uniform(0.008, 0.045) * ASR)
+    seg = np.sign(np.sin(2 * np.pi * ar.uniform(300, 2400) * tt(n / ASR))) * 0.6 + ar.normal(0, 0.5, n)
+    seg = np.round(seg * 4) / 4  # bit-crush
+    g[a:a + n] += seg[: len(g) - a]
+g = hp(g, 200)
+place(g, 0.0, -14, 0.25)
+td = tt(2.4); f = 32 + 90 * np.exp(-td * 3.2)
+drop = np.sin(2 * np.pi * np.cumsum(f) / ASR) * np.exp(-td * 1.3); drop[:200] *= np.linspace(0, 1, 200)
+place(drop, 0.0, -11)
+
+# 3) keçidlərdə yumşaq whoosh
+def whoosh(d=0.9, f0=300, f1=2400):
+    n = int(d * ASR); x = ar.normal(0, 1, n); y = np.zeros(n); blk = 512
+    for s0 in range(0, n, blk):
+        u = s0 / n; fc_ = f0 + (f1 - f0) * np.sin(np.pi * u)
+        y[s0:s0 + blk] = bp(x[max(0, s0 - 2048):s0 + blk], fc_ * 0.6, min(fc_ * 1.6, 20000))[-len(x[s0:s0 + blk]):]
+    e = np.sin(np.pi * np.linspace(0, 1, n)) ** 2
+    return y * e
+for k, b in enumerate(B):
+    place(whoosh(), b - 0.45, -14, 0.35 if k % 2 else -0.35)
+
+# 4) ekran yazılarında dərin kinematoqrafik zərbə
+def boom(d=3.0, f_hi=62, f_lo=36, decay=1.5, verb=0.4):
+    td = tt(d); f = f_lo + (f_hi - f_lo) * np.exp(-td * 2.5)
+    x = np.sin(2 * np.pi * np.cumsum(f) / ASR) * np.exp(-td * decay)
+    x += lp(ar.normal(0, 1, len(td)), 160) * np.exp(-td * 6) * 0.4
+    x[:200] *= np.linspace(0, 1, 200)
+    return reverb(x, 2.0, 2.2, verb, 900)
+for tc_, _, _ in cue_t:
+    place(boom(), tc_ - 0.1, -11)
+
+# 5) clip7-nin sonunda yüksələn gərginlik (riser)
+rd = 5.5; td = tt(rd); u = td / rd
+nz = ar.normal(0, 1, len(td)); r = np.zeros(len(td)); blk = 512
+for s0 in range(0, len(td), blk):
+    fc_ = 200 + 3800 * (s0 / len(td)) ** 2
+    r[s0:s0 + blk] = bp(nz[max(0, s0 - 2048):s0 + blk], fc_ * 0.7, min(fc_ * 1.4, 20000))[-len(nz[s0:s0 + blk]):]
+tone = np.sin(2 * np.pi * np.cumsum(70 + 330 * u ** 2) / ASR) * 0.5
+r = (r / np.abs(r).max() + tone) * (u ** 2.2)
+place(r, VEND - rd + 0.1, -12)
+
+# 6) Title Card: güclü təmiz boom + shimmer
+place(boom(4.0, 70, 34, 1.1, 0.5), VTOT, -10)
+sd = 3.6; td = tt(sd)
+sh = sum(np.sin(2 * np.pi * fq * td + ph) * (0.6 + 0.4 * np.sin(2 * np.pi * (5 + k) * td)) for k, (fq, ph) in enumerate([(2093, 0), (2637, 1), (3136, 2), (4186, 3), (5274, 4)]))
+sh = sh * np.minimum(1, td / 0.15) * np.exp(-td * 0.9)
+place(reverb(sh, 2.5, 1.6, 0.55, 9000), VTOT + 0.05, -20)
+
+# yazılış: 24-bit stereo wav
+with wave.open(f'{TMP}/bus.wav', 'wb') as wv:
     wv.setnchannels(2); wv.setsampwidth(2); wv.setframerate(ASR)
-    st = (np.clip(np.stack([sig, sig], 1), -1, 1) * 32767).astype(np.int16); wv.writeframes(st.tobytes())
+    wv.writeframes((np.clip(bus, -1, 1) * 32767).astype(np.int16).tobytes())
+print('\n=== SƏS EFFEKTLƏRİ ===')
+print('0.00  glitch + sub-bass drop')
+for b in B: print(f'{b:5.2f}  whoosh (keçid)')
+for tc_, txt, _ in cue_t: print(f'{tc_ - 0.1:5.2f}  boom — {txt}')
+print(f'{VEND - rd + 0.1:5.2f}  riser ({rd} s)')
+print(f'{VTOT:5.2f}  Title Card boom + shimmer')
 
 # ---------------- 6. YIĞIM ----------------
-VTOT = VEND + FADE
 inputs = []; [inputs.extend(['-i', f'{TMP}/c{k + 1}.mp4']) for k in range(len(BLOCKS))]
 fc = []; last = '[0:v]'
 for k in range(1, len(BLOCKS)):
@@ -219,11 +299,10 @@ for i, (t, _, _) in enumerate(cue_t):
 nt = ni + len(cue_t)
 inputs += ['-i', title_mp4]
 fc.append(f'{last}fps={FPS},format=yuv420p,setsar=1[m1];[{nt}:v]fps={FPS},format=yuv420p,setsar=1[m2];[m1][m2]concat=n=2:v=1:a=0[vout]')
-inputs += ['-i', VOICE, '-i', f'{TMP}/boom.wav']
+inputs += ['-i', VOICE, '-i', f'{TMP}/bus.wav']
 bd = int(VTOT * 1000)
 fc.append(f'[{nt + 1}:a]aresample=48000,aformat=channel_layouts=stereo,apad[va]')
-fc.append(f'[{nt + 2}:a]adelay={bd}|{bd}[bm]')
-fc.append(f'[va][bm]amix=inputs=2:duration=first:normalize=0,atrim=duration={VTOT + TC:.3f}[aout]')
+fc.append(f'[va][{nt + 2}:a]amix=inputs=2:duration=longest:normalize=0,atrim=duration={VTOT + TC:.3f},alimiter=limit=0.95:attack=2:release=60:level=disabled[aout]')
 OUT = f'{D}/intro_1min.mp4'
 run(['ffmpeg', '-y', '-v', 'error', *inputs, '-filter_complex', ';'.join(fc), '-map', '[vout]', '-map', '[aout]',
      '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-c:a', 'aac', '-b:a', '256k',
