@@ -58,4 +58,16 @@ export const GLOBES: Record<string, GlobeProps> = {
     title: {text: 'Adəm və Həvva harada endilər?', a: 0.6, b: 5.2},
     stamp: {text: 'ZƏİF RƏVAYƏT', at: 750.21 - 730.41},
   },
+  GlobeIdris: {
+    dur: 3.8,
+    keys: [
+      [0, 18, 33, 3.2],
+      [3.8, 31.5, 44.4, 1.75],
+    ],
+    pins: [
+      {lat: 21.35, lon: 39.98, color: C.gold, at: 0.1, s: 1.2},
+      {lat: 32.54, lon: 44.42, color: '#e8d9a8', at: 1.9, title: '?', sub: 'Babil · Mesopotamiya', size: 0.09},
+    ],
+    arcs: [{from: [21.35, 39.98], to: [32.54, 44.42], a: 0.3, b: 2.0, color: C.gold, h: 0.12}],
+  },
 };

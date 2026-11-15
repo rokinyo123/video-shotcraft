@@ -10,7 +10,7 @@ const ease = Easing.bezier(0.33, 0, 0.2, 1);
 /** Qlobal saniyə (kompozisiyanın başlanğıcı + kadr). */
 export const useT = (offset: number) => offset + useCurrentFrame() / FPS;
 
-const env = (t: number, a: number, b: number, fin = 0.5, fout = 0.5) => {
+export const env = (t: number, a: number, b: number, fin = 0.5, fout = 0.5) => {
   const L = Math.max(0.04, b - a);
   const k = Math.min(1, (L - 0.02) / Math.max(0.001, fin + fout));
   const fi = Math.max(0.005, fin * k), fo = Math.max(0.005, fout * k);
@@ -351,7 +351,7 @@ export const QCard: React.FC<{t: number; a: number; b: number; n: number; q: str
   );
 };
 
-export const SeriesTitle: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
+export const SeriesTitle: React.FC<{t: number; a: number; b: number; ep?: string}> = ({t, a, b, ep: epText = 'Birinci bölüm · Adəm'}) => {
   const o = env(t, a, b, 0.05, 0.8);
   if (o <= 0) return null;
   const f = t - a;
@@ -386,7 +386,7 @@ export const SeriesTitle: React.FC<{t: number; a: number; b: number}> = ({t, a, 
             GİZLİ TARİXİ
           </div>
           <div style={{margin: '24px auto', height: 2, width: 820 * line, background: `linear-gradient(90deg, transparent, ${C.gold}, transparent)`}} />
-          <div style={{opacity: ep, fontFamily: F.serif, fontSize: 52, color: C.goldSoft, fontStyle: 'italic'}}>Birinci bölüm · Adəm</div>
+          <div style={{opacity: ep, fontFamily: F.serif, fontSize: 52, color: C.goldSoft, fontStyle: 'italic'}}>{epText}</div>
         </div>
       </AbsoluteFill>
       <AbsoluteFill style={{background: '#fff3d6', opacity: flash, mixBlendMode: 'screen'}} />

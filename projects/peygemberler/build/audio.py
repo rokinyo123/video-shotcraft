@@ -467,8 +467,8 @@ GAIN = {  # qrup səviyyələri (dB) — danışıq üstün olsun deyə
 def db(x): return 10 ** (x / 20)
 
 
-def main(t0, t1, out_path):
-    tl = json.load(open('src/ep1/timeline.json', encoding='utf8'))
+def main(t0, t1, out_path, tl_path='src/ep1/timeline.json', vo=None):
+    tl = json.load(open(tl_path, encoding='utf8'))
     cues = [c for c in tl['sfx'] if t0 - 6 <= c['t'] <= t1]
     n = int((t1 - t0) * SR)
     music = np.zeros((n, 2))
@@ -500,15 +500,15 @@ def main(t0, t1, out_path):
     sf.write('build/_sfx.wav', np.clip(sfxb, -1, 1), SR)
 
     # Səsləndirmə: 3 hissə qlobal vaxta görə
-    offs = [(1, 0.0), (2, 312.45), (3, 312.45 + 397.5575)]
+    offs = vo or [(f'public/vo/ep1/{p}.mp3', o) for p, o in [(1, 0.0), (2, 312.45), (3, 312.45 + 397.5575)]]
     inputs, chains = [], []
     k = 0
     for p, o in offs:
-        dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'public/vo/ep1/{p}.mp3'], capture_output=True, text=True).stdout)
+        dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
         if o + dur < t0 or o > t1: continue
         ss = max(0, t0 - o)
         delay = max(0, o - t0)
-        inputs += ['-ss', f'{ss:.3f}', '-i', f'public/vo/ep1/{p}.mp3']
+        inputs += ['-ss', f'{ss:.3f}', '-i', p]
         chains.append(f'[{k}:a]aresample=48000,pan=stereo|c0=c0|c1=c0,adelay={int(delay*1000)}|{int(delay*1000)}[v{k}]')
         k += 1
     vmix = ''.join(f'[v{i}]' for i in range(k)) + f'amix=inputs={k}:normalize=0,atrim=0:{t1-t0:.3f}'
@@ -521,4 +521,9 @@ def main(t0, t1, out_path):
 
 
 if __name__ == '__main__':
-    main(float(sys.argv[1]), float(sys.argv[2]), sys.argv[3])
+    a = sys.argv[1:]
+    tlp = 'src/ep1/timeline.json'; vo = None
+    if '--tl' in a: tlp = a[a.index('--tl') + 1]
+    if '--vo' in a:
+        vo = [(x.split('@')[0], float(x.split('@')[1])) for x in a[a.index('--vo') + 1].split(',')]
+    main(float(a[0]), float(a[1]), a[2], tlp, vo)

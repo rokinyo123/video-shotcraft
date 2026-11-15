@@ -13,6 +13,7 @@ import {Thumbnail} from './Thumbnail';
 import {Thumbnail2} from './Thumbnail2';
 import {Thumbnail3} from './Thumbnail3';
 import {ThumbVertical} from './ThumbVertical';
+import {Trailer, TRAILER_DUR} from './ep2/Trailer';
 import {GlobeScene} from './three/GlobeScene';
 import {GLOBES} from './three/globes';
 import {FPS} from './theme';
@@ -45,5 +46,6 @@ export const RemotionRoot: React.FC = () => (
       <Composition id="ThumbD" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} />
       <Composition id="ThumbE" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep1/thumb_hand.jpg', full: true}} />
       <Composition id="ThumbV" component={ThumbVertical} durationInFrames={1} fps={30} width={1080} height={1920} />
+      <Composition id="Ep2Trailer" component={Trailer} durationInFrames={Math.round(TRAILER_DUR * FPS)} fps={FPS} width={1920} height={1080} />
 </>
 );
