@@ -11,6 +11,7 @@
     "@fontsource/amiri": "5.2.5",
     "@fontsource/cormorant-garamond": "5.2.6",
     "@fontsource/inter": "5.2.6",
+    "@fontsource/oswald": "^5.1.0",
     "@react-three/fiber": "^9.1.2",
     "@remotion/cli": "4.0.484",
     "@remotion/three": "^4.0.484",

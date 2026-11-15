@@ -11,6 +11,7 @@ import {A18Enis, A18_FRAMES} from './ep1/A18Enis';
 import {Episode} from './ep1/Episode';
 import {Thumbnail} from './Thumbnail';
 import {Thumbnail2} from './Thumbnail2';
+import {Thumbnail3} from './Thumbnail3';
 import {GlobeScene} from './three/GlobeScene';
 import {GLOBES} from './three/globes';
 import {FPS} from './theme';
@@ -40,5 +41,6 @@ export const RemotionRoot: React.FC = () => (
         <Composition id="ThumbA" component={Thumbnail} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep1/K16.jpg', hook: '30 METR BOYU?', hook2: 'GİZLİ QALAN SİRLƏR'}} />
       <Composition id="ThumbB" component={Thumbnail} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep1/K13_last.jpg', hook: 'İBLİS NƏ GÖRDÜ?', hook2: 'İÇİ BOŞ BƏDƏN'}} />
       <Composition id="ThumbC" component={Thumbnail2} durationInFrames={1} fps={30} width={1280} height={720} />
+      <Composition id="ThumbD" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} />
 </>
 );
