@@ -312,7 +312,8 @@ L('list', A('K44') + 0.2, B('K44') + 0.2, title='CÜMƏ', sub='Səhih Müslim 85
     {'text': 'Adəm yaradıldı', 'at': f44[0]}, {'text': 'Cənnətə daxil edildi', 'at': f44[1]}, {'text': 'Cənnətdən çıxarıldı', 'at': f44[2]}, {'text': 'Qiyamət qopacaq', 'at': f44[3]}])
 for x in f44[:3]: fx('tick', x, 0.6)
 fx('impact', f44[3], 0.8)
-shot('K45', GLOBE('GlobeArrival', 27.8))
+shot('K45', GLOBE('GlobeArrival', 27.8), b=A('K45') + 27.0)
+shot('K45', {'type': 'image', 'src': f'{M}GlobeArrival_hold.jpg', 'kb': [1.0, 0, 0, 1.08, 0, 0], 'dark': 0.0}, a=A('K45') + 27.0, tr=0.8, sid='K45h')
 fx('whoosh_low', A('K45'), 0.6); fx('stamp', A('K45') + 19.8, 1.0)
 for x in (6.5, 13.5, 20.3): fx('tick', A('K45') + x, 0.6)
 k = 'KART-EVLILIK'

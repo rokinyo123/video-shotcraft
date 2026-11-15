@@ -1088,7 +1088,7 @@
   {
    "id": "K45",
    "a": 730.39,
-   "b": 761.1,
+   "b": 757.39,
    "bg": {
     "type": "video",
     "src": "media/ep1/GlobeArrival.mp4",
@@ -1105,6 +1105,25 @@
     "dark": 0.0
    },
    "tr": 0.45
+  },
+  {
+   "id": "K45h",
+   "a": 757.39,
+   "b": 761.1,
+   "bg": {
+    "type": "image",
+    "src": "media/ep1/GlobeArrival_hold.jpg",
+    "kb": [
+     1.0,
+     0,
+     0,
+     1.08,
+     0,
+     0
+    ],
+    "dark": 0.0
+   },
+   "tr": 0.8
   },
   {
    "id": "KART-EVLILIK",
