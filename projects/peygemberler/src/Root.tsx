@@ -42,5 +42,6 @@ export const RemotionRoot: React.FC = () => (
       <Composition id="ThumbB" component={Thumbnail} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep1/K13_last.jpg', hook: 'İBLİS NƏ GÖRDÜ?', hook2: 'İÇİ BOŞ BƏDƏN'}} />
       <Composition id="ThumbC" component={Thumbnail2} durationInFrames={1} fps={30} width={1280} height={720} />
       <Composition id="ThumbD" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} />
+      <Composition id="ThumbE" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep1/thumb_hand.jpg', full: true}} />
 </>
 );
