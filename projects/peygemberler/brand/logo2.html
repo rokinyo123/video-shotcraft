@@ -1,0 +1,42 @@
+<html><head><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Inter:wght@600&display=block" rel="stylesheet">
+<style>body{margin:0;background:transparent}#h{display:inline-block;padding:20px;filter:drop-shadow(0 3px 6px rgba(0,0,0,.85)) drop-shadow(0 0 2px rgba(0,0,0,.9))}</style></head><body>
+<div id="h"><svg id="s" width="1000" height="260" viewBox="0 0 1000 260">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1c8"/><stop offset=".45" stop-color="#e6c06a"/><stop offset="1" stop-color="#a87a30"/></linearGradient>
+ <linearGradient id="gh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d6a84e"/><stop offset="1" stop-color="#fff1c8"/></linearGradient>
+</defs>
+<g id="bow"></g><text id="t" x="0" y="178" font-family="Cormorant Garamond" font-weight="700" font-size="150" fill="url(#g)" letter-spacing="10"><tspan id="sg">SG</tspan><tspan id="arow" dx="40">AROW</tspan></text>
+<g id="arr"></g>
+<text id="sub" x="0" y="236" font-family="Inter" font-weight="600" font-size="22" letter-spacing="9" fill="#efe6d2">PEYĞƏMBƏRLƏRİN GİZLİ TARİXİ</text>
+</svg></div>
+<script>
+document.fonts.ready.then(()=>{
+const N='http://www.w3.org/2000/svg';const el=(p,a)=>{const e=document.createElementNS(N,p);for(const k in a)e.setAttribute(k,a[k]);return e};
+// bow-E: cap top ~ 82, baseline 178
+const top=80,bot=178,mid=(top+bot)/2, X=40; // spine x
+const bow=document.getElementById('bow');
+// limb: recurve "(" with tips curling right = E top & bottom arms
+bow.appendChild(el('path',{d:`M${X+96},${top-8} C${X+94},${top+4} ${X+86},${top+3} ${X+72},${top+3} L${X+28},${top+3} C${X+4},${top+3} ${X-4},${mid-30} ${X-4},${mid} C${X-4},${mid+30} ${X+4},${bot-3} ${X+28},${bot-3} L${X+72},${bot-3} C${X+86},${bot-3} ${X+94},${bot-4} ${X+96},${bot+8}`,fill:'none',stroke:'url(#g)','stroke-width':16,'stroke-linecap':'round','stroke-linejoin':'round'}));
+// grip
+bow.appendChild(el('rect',{x:X-12,y:mid-16,width:16,height:30,rx:5,fill:'#a87a30',stroke:'#fff1c8','stroke-width':1.5}));
+// string drawn back to nock
+const nock=X+30;
+bow.appendChild(el('path',{d:`M${X+96},${top-8} L${nock},${mid} L${X+96},${bot+8}`,fill:'none',stroke:'#f0d9a0','stroke-width':2.5}));
+// place text after E
+const t=document.getElementById('t');t.setAttribute('x',X+120);
+const sg=document.getElementById('sg').getExtentOfChar?null:null;
+const b0=t.getExtentOfChar(0),b1=t.getExtentOfChar(1),b2=t.getExtentOfChar(2);
+const capMid=top+ (bot-top)*0.5 + 4;
+const head=b1.x+b1.width+30; // arrow tip between G and A
+const a=document.getElementById('arr');
+// shaft from nock through S,G
+a.appendChild(el('line',{x1:nock-4,y1:capMid,x2:head-26,y2:capMid,stroke:'#2a1c08','stroke-width':14,'stroke-linecap':'round'}));
+a.appendChild(el('line',{x1:nock-4,y1:capMid,x2:head-26,y2:capMid,stroke:'#f0d9a0','stroke-width':8,'stroke-linecap':'round'}));
+// head
+a.appendChild(el('path',{d:`M${head},${capMid} L${head-40},${capMid-17} L${head-30},${capMid} L${head-40},${capMid+17} Z`,fill:'#fff1c8'}));
+// fletching
+for(const k of [0,16]){a.appendChild(el('path',{d:`M${nock+6+k},${capMid} l-18,-15 l10,0 l18,15 z`,fill:'#d6a84e'}));a.appendChild(el('path',{d:`M${nock+6+k},${capMid} l-18,15 l10,0 l18,-15 z`,fill:'#d6a84e'}));}
+document.getElementById('sub').setAttribute('x',X+124);
+const bb=document.getElementById('s').getBBox();const s=document.getElementById('s');s.setAttribute('viewBox',`${bb.x-14} ${bb.y-14} ${bb.width+28} ${bb.height+28}`);s.setAttribute('width',bb.width+28);s.setAttribute('height',bb.height+28);
+document.title='done';});
+</script></body></html>
