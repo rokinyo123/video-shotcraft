@@ -1,0 +1,3345 @@
+{
+"T0": 52.0,
+"END": 731.56,
+"shots": [
+{
+"id": "L01",
+"a": 52.0,
+"b": 61.36,
+"bg": {
+"type": "video",
+"src": "media/ep2/D1.mp4",
+"rate": 0.821,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.6
+},
+{
+"id": "L02",
+"a": 61.36,
+"b": 67.23,
+"bg": {
+"type": "video",
+"src": "media/ep2/D1.mp4",
+"rate": 0.797,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.12,
+0,
+0,
+1.18,
+0,
+0
+],
+"dark": 0.45,
+"blur": 2
+},
+"tr": 0.5
+},
+{
+"id": "L03",
+"a": 67.23,
+"b": 72.42,
+"bg": {
+"type": "video",
+"src": "media/ep2/D2.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.05,
+0,
+0,
+1.16,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.6
+},
+{
+"id": "L04",
+"a": 72.42,
+"b": 78.42,
+"bg": {
+"type": "video",
+"src": "media/ep2/D3.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+-2
+],
+"dark": 0.15
+},
+"tr": 0.4
+},
+{
+"id": "L05",
+"a": 78.42,
+"b": 84.28,
+"bg": {
+"type": "video",
+"src": "media/ep2/D3.mp4",
+"rate": 0.799,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.12,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.35,
+"grade": "saturate(0.6)"
+},
+"tr": 0.5
+},
+{
+"id": "L06",
+"a": 84.28,
+"b": 88.23,
+"bg": {
+"type": "video",
+"src": "media/ep2/D4.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.05,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0
+},
+{
+"id": "L07",
+"a": 88.23,
+"b": 96.29,
+"bg": {
+"type": "video",
+"src": "media/ep2/D5.mp4",
+"rate": 0.953,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.1,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.6
+},
+{
+"id": "L08",
+"a": 96.29,
+"b": 103.07,
+"bg": {
+"type": "video",
+"src": "media/ep2/GlobeBirth.mp4",
+"rate": 0.996,
+"startFrom": 0.0,
+"clipLen": 7.0,
+"kb": [
+1,
+0,
+0,
+1.04,
+0,
+0
+],
+"dark": 0.0
+},
+"tr": 0.5
+},
+{
+"id": "L09",
+"a": 103.07,
+"b": 109.07,
+"bg": {
+"type": "video",
+"src": "media/ep2/D5.mp4",
+"rate": 0.863,
+"startFrom": 2.5,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.18,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.5
+},
+{
+"id": "L10",
+"a": 109.07,
+"b": 126.09,
+"bg": {
+"type": "video",
+"src": "media/ep2/D7.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.5
+},
+{
+"id": "L11",
+"a": 126.09,
+"b": 136.89,
+"bg": {
+"type": "video",
+"src": "media/ep2/D6.mp4",
+"rate": 0.711,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0.6
+},
+{
+"id": "L12",
+"a": 136.89,
+"b": 149.91,
+"bg": {
+"type": "video",
+"src": "media/ep2/D6.mp4",
+"rate": 0.6,
+"startFrom": 2.0,
+"clipLen": 7.93,
+"kb": [
+1.12,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.5
+},
+{
+"id": "L14",
+"a": 149.91,
+"b": 159.67,
+"bg": {
+"type": "video",
+"src": "media/ep2/D6.mp4",
+"rate": 0.6,
+"startFrom": 4.0,
+"clipLen": 7.93,
+"kb": [
+1.15,
+0,
+0,
+1.22,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L15",
+"a": 159.67,
+"b": 170.38,
+"bg": {
+"type": "video",
+"src": "media/ep2/D7.mp4",
+"rate": 0.6,
+"startFrom": 1.5,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.14,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.5
+},
+{
+"id": "L16",
+"a": 170.38,
+"b": 172.14,
+"bg": {
+"type": "video",
+"src": "media/ep2/D7.mp4",
+"rate": 1.0,
+"startFrom": 4.5,
+"clipLen": 7.93,
+"kb": [
+1.2,
+0,
+0,
+1.22,
+0,
+0
+],
+"dark": 0.55,
+"blur": 5
+},
+"tr": 0
+},
+{
+"id": "L17",
+"a": 172.14,
+"b": 182.48,
+"bg": {
+"type": "video",
+"src": "media/ep2/ROD.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L19",
+"a": 182.48,
+"b": 192.36,
+"bg": {
+"type": "video",
+"src": "media/ep2/D8.mp4",
+"rate": 0.777,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.1,
+0,
+0
+],
+"dark": 0.1
+},
+"tr": 0.6
+},
+{
+"id": "L20",
+"a": 192.36,
+"b": 202.67,
+"bg": {
+"type": "video",
+"src": "media/ep2/E1.mp4",
+"rate": 0.745,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.6
+},
+{
+"id": "L21",
+"a": 202.67,
+"b": 212.95,
+"bg": {
+"type": "video",
+"src": "media/ep2/E1.mp4",
+"rate": 0.6,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.12,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L22a",
+"a": 212.95,
+"b": 217.6,
+"bg": {
+"type": "video",
+"src": "media/ep2/CLAY.mp4",
+"rate": 0.813,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.05,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.4
+},
+{
+"id": "L22b",
+"a": 217.6,
+"b": 223.28,
+"bg": {
+"type": "video",
+"src": "media/ep2/E2.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.1,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.4
+},
+{
+"id": "L23a",
+"a": 223.28,
+"b": 227.13,
+"bg": {
+"type": "video",
+"src": "media/ep2/NEEDLE.mp4",
+"rate": 0.982,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.1,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0
+},
+{
+"id": "L23b",
+"a": 227.13,
+"b": 230.98,
+"bg": {
+"type": "video",
+"src": "media/ep2/FIRE.mp4",
+"rate": 0.982,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.05,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0.3
+},
+{
+"id": "L24",
+"a": 230.98,
+"b": 239.14,
+"bg": {
+"type": "video",
+"src": "media/ep2/E3.mp4",
+"rate": 0.941,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.5
+},
+{
+"id": "L25",
+"a": 239.14,
+"b": 251.21,
+"bg": {
+"type": "video",
+"src": "media/ep2/E4.mp4",
+"rate": 0.636,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0.5
+},
+{
+"id": "L26a",
+"a": 251.21,
+"b": 256.1,
+"bg": {
+"type": "video",
+"src": "media/ep2/E5.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.03,
+0,
+0,
+1.13,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.4
+},
+{
+"id": "L26b",
+"a": 256.1,
+"b": 257.98,
+"bg": {
+"type": "video",
+"src": "media/ep2/E6.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.03,
+0,
+0,
+1.13,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0
+},
+{
+"id": "L26c",
+"a": 257.98,
+"b": 261.2,
+"bg": {
+"type": "video",
+"src": "media/ep2/E7.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.03,
+0,
+0,
+1.13,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0
+},
+{
+"id": "L27",
+"a": 261.2,
+"b": 271.01,
+"bg": {
+"type": "video",
+"src": "media/ep2/ROD.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.18,
+0,
+2
+],
+"dark": 0.2
+},
+"tr": 0.4
+},
+{
+"id": "L28a",
+"a": 271.01,
+"b": 279.27,
+"bg": {
+"type": "video",
+"src": "media/ep2/E8.mp4",
+"rate": 0.93,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.03,
+0,
+0,
+1.13,
+0,
+0
+],
+"dark": 0.45,
+"blur": 2
+},
+"tr": 0.4
+},
+{
+"id": "L28b",
+"a": 279.27,
+"b": 283.9,
+"bg": {
+"type": "video",
+"src": "media/ep2/E9.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.03,
+0,
+0,
+1.13,
+0,
+0
+],
+"dark": 0.45,
+"blur": 2
+},
+"tr": 0.35
+},
+{
+"id": "L29",
+"a": 283.9,
+"b": 301.57,
+"bg": {
+"type": "video",
+"src": "media/ep2/E10.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.6
+},
+{
+"id": "L31",
+"a": 301.57,
+"b": 308.79,
+"bg": {
+"type": "video",
+"src": "media/ep2/F1.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0.6
+},
+{
+"id": "L32",
+"a": 308.79,
+"b": 316.15,
+"bg": {
+"type": "video",
+"src": "media/ep2/D5.mp4",
+"rate": 0.908,
+"startFrom": 1.0,
+"clipLen": 7.93,
+"kb": [
+1.05,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L33a",
+"a": 316.15,
+"b": 320.57,
+"bg": {
+"type": "video",
+"src": "media/ep2/F2.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.5
+},
+{
+"id": "L33g",
+"a": 320.57,
+"b": 332.03,
+"bg": {
+"type": "video",
+"src": "media/ep2/GlobeBooks.mp4",
+"rate": 0.764,
+"startFrom": 0.0,
+"clipLen": 9.0,
+"kb": [
+1,
+0,
+0,
+1.03,
+0,
+0
+],
+"dark": 0.0
+},
+"tr": 0.5
+},
+{
+"id": "L34",
+"a": 332.03,
+"b": 336.62,
+"bg": {
+"type": "video",
+"src": "media/ep2/F3.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.5
+},
+{
+"id": "L35",
+"a": 336.62,
+"b": 351.68,
+"bg": {
+"type": "video",
+"src": "media/ep2/D7.mp4",
+"rate": 0.6,
+"startFrom": 2.5,
+"clipLen": 7.93,
+"kb": [
+1.08,
+0,
+0,
+1.16,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.5
+},
+{
+"id": "L36",
+"a": 351.68,
+"b": 358.33,
+"bg": {
+"type": "video",
+"src": "media/ep2/F4.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.14,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.5
+},
+{
+"id": "L37",
+"a": 358.33,
+"b": 365.06,
+"bg": {
+"type": "video",
+"src": "media/ep2/D4.mp4",
+"rate": 0.695,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.18,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0
+},
+{
+"id": "L38",
+"a": 365.06,
+"b": 374.04,
+"bg": {
+"type": "video",
+"src": "media/ep2/F5.mp4",
+"rate": 0.855,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0
+},
+{
+"id": "L39",
+"a": 374.04,
+"b": 382.36,
+"bg": {
+"type": "video",
+"src": "media/ep2/F6.mp4",
+"rate": 0.923,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.5
+},
+{
+"id": "L40",
+"a": 382.36,
+"b": 386.94,
+"bg": {
+"type": "video",
+"src": "media/ep2/PILLAR.mp4",
+"rate": 0.825,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.6
+},
+{
+"id": "L41",
+"a": 386.94,
+"b": 395.21,
+"bg": {
+"type": "video",
+"src": "media/ep2/PILLAR.mp4",
+"rate": 0.6,
+"startFrom": 1.0,
+"clipLen": 4.03,
+"kb": [
+1.1,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L42",
+"a": 395.21,
+"b": 407.06,
+"bg": {
+"type": "video",
+"src": "media/ep2/G1.mp4",
+"rate": 0.648,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.5
+},
+{
+"id": "L43",
+"a": 407.06,
+"b": 417.13,
+"bg": {
+"type": "video",
+"src": "media/ep2/G2.mp4",
+"rate": 0.763,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.14,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.6
+},
+{
+"id": "L44a",
+"a": 417.13,
+"b": 421.41,
+"bg": {
+"type": "video",
+"src": "media/ep2/G2.mp4",
+"rate": 1.0,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.4
+},
+{
+"id": "L44b",
+"a": 421.41,
+"b": 426.9,
+"bg": {
+"type": "video",
+"src": "media/ep2/G3.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.5
+},
+{
+"id": "L45",
+"a": 426.9,
+"b": 438.93,
+"bg": {
+"type": "video",
+"src": "media/ep2/G3.mp4",
+"rate": 0.6,
+"startFrom": 2.0,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L47a",
+"a": 438.93,
+"b": 449.87,
+"bg": {
+"type": "video",
+"src": "media/ep2/G3.mp4",
+"rate": 0.6,
+"startFrom": 4.0,
+"clipLen": 7.93,
+"kb": [
+1.15,
+0,
+0,
+1.25,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.4
+},
+{
+"id": "L47b",
+"a": 449.87,
+"b": 457.16,
+"bg": {
+"type": "video",
+"src": "media/ep2/G4.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.1
+},
+"tr": 0.6
+},
+{
+"id": "L48",
+"a": 457.16,
+"b": 468.25,
+"bg": {
+"type": "video",
+"src": "media/ep2/G1.mp4",
+"rate": 0.6,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.18,
+0,
+0
+],
+"dark": 0.35
+},
+"tr": 0.5
+},
+{
+"id": "L49a",
+"a": 464.92,
+"b": 469.47,
+"bg": {
+"type": "video",
+"src": "media/ep2/G5.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.5
+},
+{
+"id": "L49b",
+"a": 469.47,
+"b": 486.13,
+"bg": {
+"type": "video",
+"src": "media/ep2/G6.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.14,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0.8
+},
+{
+"id": "L51",
+"a": 486.13,
+"b": 495.81,
+"bg": {
+"type": "video",
+"src": "media/ep2/CLOUDS.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.6
+},
+{
+"id": "L52",
+"a": 495.81,
+"b": 537.03,
+"bg": {
+"type": "video",
+"src": "media/ep2/CLOUDS.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.25,
+0,
+0
+],
+"dark": 0.45,
+"blur": 2
+},
+"tr": 0.5
+},
+{
+"id": "L56",
+"a": 537.03,
+"b": 545.04,
+"bg": {
+"type": "video",
+"src": "media/ep2/PILLAR.mp4",
+"rate": 0.6,
+"startFrom": 0.5,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.1,
+0,
+0
+],
+"dark": 0.25
+},
+"tr": 0.5
+},
+{
+"id": "L57",
+"a": 545.04,
+"b": 545.7,
+"bg": {
+"type": "video",
+"src": "media/ep2/PILLAR.mp4",
+"rate": 1.0,
+"startFrom": 2.5,
+"clipLen": 4.03,
+"kb": [
+1.15,
+0,
+0,
+1.16,
+0,
+0
+],
+"dark": 0.55,
+"blur": 4
+},
+"tr": 0
+},
+{
+"id": "L58",
+"a": 545.7,
+"b": 564.46,
+"bg": {
+"type": "video",
+"src": "media/ep2/PILLAR.mp4",
+"rate": 0.6,
+"startFrom": 1.0,
+"clipLen": 4.03,
+"kb": [
+1.1,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.3
+},
+{
+"id": "L60",
+"a": 564.46,
+"b": 593.58,
+"bg": {
+"type": "video",
+"src": "media/ep2/D7.mp4",
+"rate": 0.6,
+"startFrom": 0.5,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.6,
+"blur": 4
+},
+"tr": 0.5
+},
+{
+"id": "L64",
+"a": 593.58,
+"b": 600.6,
+"bg": {
+"type": "video",
+"src": "media/ep2/ZIGG.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 4.03,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+-2
+],
+"dark": 0.2
+},
+"tr": 0.6
+},
+{
+"id": "L65",
+"a": 600.6,
+"b": 616.79,
+"bg": {
+"type": "video",
+"src": "media/ep2/H1.mp4",
+"rate": 0.6,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.6
+},
+{
+"id": "L67",
+"a": 616.79,
+"b": 625.03,
+"bg": {
+"type": "video",
+"src": "media/ep2/H2.mp4",
+"rate": 0.932,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.5
+},
+{
+"id": "L68",
+"a": 625.03,
+"b": 629.09,
+"bg": {
+"type": "video",
+"src": "media/ep2/H3.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.1,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.5
+},
+{
+"id": "L69",
+"a": 629.09,
+"b": 638.59,
+"bg": {
+"type": "video",
+"src": "media/ep2/H4.mp4",
+"rate": 0.808,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.4
+},
+{
+"id": "L70",
+"a": 638.59,
+"b": 645.43,
+"bg": {
+"type": "video",
+"src": "media/ep2/D2.mp4",
+"rate": 0.83,
+"startFrom": 2.0,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.35
+},
+"tr": 0.5
+},
+{
+"id": "L71",
+"a": 645.43,
+"b": 653.51,
+"bg": {
+"type": "video",
+"src": "media/ep2/H4.mp4",
+"rate": 0.6,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.12,
+0,
+0,
+1.22,
+0,
+0
+],
+"dark": 0.3,
+"grade": "sepia(0.4) saturate(1.6)"
+},
+"tr": 0.4
+},
+{
+"id": "L72",
+"a": 653.51,
+"b": 655.78,
+"bg": {
+"type": "video",
+"src": "media/ep2/H4.mp4",
+"rate": 1.0,
+"startFrom": 5.0,
+"clipLen": 7.93,
+"kb": [
+1.2,
+0,
+0,
+1.22,
+0,
+0
+],
+"dark": 0.55,
+"blur": 4
+},
+"tr": 0
+},
+{
+"id": "L73",
+"a": 655.78,
+"b": 657.83,
+"bg": {
+"type": "video",
+"src": "media/ep2/H3.mp4",
+"rate": 1.0,
+"startFrom": 3.0,
+"clipLen": 7.93,
+"kb": [
+1.1,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.3
+},
+"tr": 0.3
+},
+{
+"id": "L74",
+"a": 657.83,
+"b": 683.12,
+"bg": {
+"type": "video",
+"src": "media/ep2/GlobeIdols.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 26.0,
+"kb": [
+1,
+0,
+0,
+1.03,
+0,
+0
+],
+"dark": 0.0
+},
+"tr": 0.6
+},
+{
+"id": "L76",
+"a": 683.12,
+"b": 689.9,
+"bg": {
+"type": "video",
+"src": "media/ep2/H5.mp4",
+"rate": 1.0,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.15,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.5
+},
+{
+"id": "L77",
+"a": 689.9,
+"b": 694.61,
+"bg": {
+"type": "video",
+"src": "media/ep2/D2.mp4",
+"rate": 0.781,
+"startFrom": 4.0,
+"clipLen": 7.93,
+"kb": [
+1.15,
+0,
+0,
+1.25,
+0,
+0
+],
+"dark": 0.4
+},
+"tr": 0.5
+},
+{
+"id": "L78",
+"a": 694.61,
+"b": 704.39,
+"bg": {
+"type": "video",
+"src": "media/ep2/H6.mp4",
+"rate": 0.785,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.12,
+0,
+0
+],
+"dark": 0.2
+},
+"tr": 0.6
+},
+{
+"id": "L79",
+"a": 704.39,
+"b": 715.19,
+"bg": {
+"type": "video",
+"src": "media/ep2/H7.mp4",
+"rate": 0.711,
+"startFrom": 0.0,
+"clipLen": 7.93,
+"kb": [
+1.0,
+0,
+0,
+1.14,
+0,
+0
+],
+"dark": 0.15
+},
+"tr": 0.6
+},
+{
+"id": "L80",
+"a": 715.19,
+"b": 731.56,
+"bg": {
+"type": "video",
+"src": "media/ep2/H7.mp4",
+"rate": 0.6,
+"startFrom": 3.5,
+"clipLen": 7.93,
+"kb": [
+1.12,
+0,
+0,
+1.2,
+0,
+0
+],
+"dark": 0.5,
+"blur": 3
+},
+"tr": 0.5
+}
+],
+"layers": [
+{
+"type": "chapter",
+"a": 52.1,
+"b": 55.5,
+"n": 1,
+"title": "QARANLIQ DÖVR"
+},
+{
+"type": "leak",
+"a": 51.8,
+"b": 52.9
+},
+{
+"type": "tline",
+"a": 54.85,
+"b": 72.42,
+"at0": 60.095,
+"at1": 61.695,
+"dimA": 67.83,
+"dimB": 72.02
+},
+{
+"type": "source",
+"a": 52.75,
+"b": 62.8,
+"label": "İbn Hibban, 6190"
+},
+{
+"type": "chips",
+"a": 62.36,
+"b": 67.03,
+"items": [
+{
+"text": "TÖVHİD",
+"at": 64.68714285714285,
+"c": "#f0d9a0"
+}
+],
+"y": 74,
+"size": 58
+},
+{
+"type": "source",
+"a": 61.66,
+"b": 66.93,
+"label": "əl-Hakim, Müstədrək · İbn Abbas"
+},
+{
+"type": "leak",
+"a": 72.12,
+"b": 73.22
+},
+{
+"type": "pulse",
+"a": 84.28,
+"b": 88.23
+},
+{
+"type": "chips",
+"a": 84.48,
+"b": 88.13,
+"items": [
+{
+"text": "ZÜLM",
+"at": 85.81230769230768,
+"c": "#ff8a6a"
+},
+{
+"text": "HAQSIZLIQ",
+"at": 85.94,
+"c": "#ff8a6a"
+},
+{
+"text": "AZĞINLIQ",
+"at": 86.74799999999999,
+"c": "#ff8a6a"
+}
+],
+"y": 78,
+"size": 50
+},
+{
+"type": "ftree",
+"a": 88.53,
+"b": 96.39,
+"at0": 88.73,
+"step": 0.55,
+"hiAt": 94.36294117647058
+},
+{
+"type": "source",
+"a": 88.73,
+"b": 96.09,
+"label": "Təbəri, Tarix · İbn İshaq",
+"icon": "quill"
+},
+{
+"type": "source",
+"a": 96.79,
+"b": 102.87,
+"label": "Tarix mənbələri · rəvayət",
+"weak": true
+},
+{
+"type": "chips",
+"a": 103.27,
+"b": 108.97,
+"items": [
+{
+"text": "XANOK",
+"at": 104.07
+},
+{
+"text": "ƏNUX",
+"at": 107.68692307692308
+},
+{
+"text": "İDRİS",
+"at": 108.58692307692309,
+"c": "#f0d9a0"
+}
+],
+"y": 50,
+"size": 70
+},
+{
+"type": "strike",
+"a": 109.27,
+"b": 125.89,
+"words": [
+"DƏRS → İDRİS?"
+],
+"strikeAt": 115.64,
+"repl": "QƏDİM BİR AD",
+"replAt": 124.23
+},
+{
+"type": "source",
+"a": 115.64,
+"b": 125.89,
+"label": "İbn Kəsir, Qisasul-Ənbiya",
+"icon": "quill"
+},
+{
+"type": "leak",
+"a": 125.79,
+"b": 126.89
+},
+{
+"type": "counter",
+"a": 126.49,
+"b": 136.59,
+"from": 0,
+"to": 2,
+"at": 128.8163157894737,
+"dur": 0.6,
+"label": "QURANDA ADI ÇƏKİLƏN YER",
+"y": 30
+},
+{
+"type": "ayah",
+"a": 137.19,
+"b": 149.81,
+"ar": "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ ۚ إِنَّهُ كَانَ صِدِّيقًا نَّبِيًّا ۝ وَرَفَعْنَاهُ مَكَانًا عَلِيًّا",
+"az": "Kitabda İdrisi də yad et! O, çox doğru danışan bir peyğəmbər idi. Biz onu uca bir məqama qaldırdıq.",
+"ref_": "MƏRYƏM · 19:56–57"
+},
+{
+"type": "ayah",
+"a": 150.11,
+"b": 159.57,
+"ar": "وَإِسْمَاعِيلَ وَإِدْرِيسَ وَذَا الْكِفْلِ ۖ كُلٌّ مِّنَ الصَّابِرِينَ",
+"az": "İsmayıl, İdris və Zülkifl — hamısı səbir edənlərdən idi.",
+"ref_": "ƏNBİYA · 21:85"
+},
+{
+"type": "counter",
+"a": 163.69,
+"b": 170.28,
+"from": 0,
+"to": 365,
+"at": 163.686,
+"dur": 1.6,
+"label": "İL",
+"y": 28
+},
+{
+"type": "source",
+"a": 160.07,
+"b": 170.18,
+"label": "Tövrat, Yaradılış 5:23–24",
+"icon": "quill"
+},
+{
+"type": "freeze",
+"a": 170.28,
+"b": 172.34
+},
+{
+"type": "big",
+"a": 170.38,
+"b": 172.24,
+"text": "DAYANIN",
+"size": 120,
+"color": "#ffe6a6"
+},
+{
+"type": "calendar",
+"a": 172.34,
+"b": 182.38,
+"at": 174.14000000000001,
+"dur": 2.2
+},
+{
+"type": "constellation",
+"a": 177.67,
+"b": 182.48
+},
+{
+"type": "quote",
+"a": 185.44,
+"b": 192.26,
+"text": "Allahla birgə yeriyirdi… sonra yox oldu, çünki Allah onu götürdü.",
+"by": "Yaradılış 5:24",
+"size": 50,
+"side": "center"
+},
+{
+"type": "chapter",
+"a": 192.36,
+"b": 195.76,
+"n": 2,
+"title": "İNSANLIĞI DƏYİŞƏN “İLK”LƏR"
+},
+{
+"type": "leak",
+"a": 192.06,
+"b": 193.16
+},
+{
+"type": "chips",
+"a": 202.97,
+"b": 212.75,
+"items": [
+{
+"text": "İBN KƏSİR",
+"at": 202.67000000000002
+},
+{
+"text": "TƏBƏRİ",
+"at": 203.04000000000002
+},
+{
+"text": "FƏXRƏDDİN ƏR-RAZİ",
+"at": 203.95125000000002
+}
+],
+"y": 46,
+"size": 46
+},
+{
+"type": "source",
+"a": 202.97,
+"b": 212.75,
+"label": "Təfsir alimlərinin rəvayətləri",
+"weak": true
+},
+{
+"type": "ilk",
+"a": 212.95,
+"b": 271.01,
+"items": [
+{
+"text": "YAZI",
+"at": 212.95000000000002
+},
+{
+"text": "PALTAR",
+"at": 222.45000000000002
+},
+{
+"text": "TƏRƏZİ",
+"at": 252.93375000000003
+},
+{
+"text": "DƏMİR",
+"at": 256.2
+},
+{
+"text": "ƏKİNÇİLİK",
+"at": 258.08
+},
+{
+"text": "ULDUZLAR",
+"at": 265.1826315789474
+}
+]
+},
+{
+"type": "source",
+"a": 213.25,
+"b": 223.08,
+"label": "İbn Hibban, Əbu Zərr hədisi",
+"weak": true
+},
+{
+"type": "source",
+"a": 223.58,
+"b": 230.78,
+"label": "əl-Hakim, Müstədrək · İbn Abbas"
+},
+{
+"type": "callig",
+"a": 234.45,
+"b": 239.04,
+"ar": "سُبْحَانَ اللّٰه",
+"sub": "Sübhanallah",
+"y": 40
+},
+{
+"type": "stamp",
+"a": 245.25,
+"b": 250.91,
+"top": "TÜRK ƏSNAF ƏNƏNƏSİ",
+"main": "DƏRZİLƏRİN PİRİ"
+},
+{
+"type": "constellation",
+"a": 264.88,
+"b": 271.01
+},
+{
+"type": "counter",
+"a": 273.3,
+"b": 279.17,
+"from": 0,
+"to": 72,
+"at": 273.2978947368421,
+"dur": 1.2,
+"label": "DİL",
+"y": 30
+},
+{
+"type": "counter",
+"a": 280.7,
+"b": 283.8,
+"from": 0,
+"to": 100,
+"at": 280.7038095238095,
+"dur": 1.2,
+"label": "ŞƏHƏR",
+"suffix": "+",
+"y": 30
+},
+{
+"type": "source",
+"a": 271.31,
+"b": 283.7,
+"label": "Tarix kitabları · rəvayət",
+"weak": true
+},
+{
+"type": "leak",
+"a": 283.6,
+"b": 284.7
+},
+{
+"type": "big",
+"a": 291.8,
+"b": 296.74,
+"text": "HERMES = İDRİS?",
+"size": 100,
+"color": "#f0d9a0"
+},
+{
+"type": "glitch",
+"a": 291.8,
+"b": 292.4
+},
+{
+"type": "stamp",
+"a": 297.24,
+"b": 301.47,
+"top": "QURAN VƏ SƏHİH HƏDİS",
+"main": "SÜBUT OLUNMAYIB",
+"color": "#e2483a"
+},
+{
+"type": "chapter",
+"a": 301.57,
+"b": 304.97,
+"n": 3,
+"title": "OTUZ SƏHİFƏ VƏ İLK MÜBARİZƏ"
+},
+{
+"type": "leak",
+"a": 301.27,
+"b": 302.37
+},
+{
+"type": "counter",
+"a": 306.13,
+"b": 308.69,
+"from": 0,
+"to": 30,
+"at": 306.1333333333333,
+"dur": 1.0,
+"label": "SƏHİFƏ",
+"y": 30
+},
+{
+"type": "source",
+"a": 302.07,
+"b": 308.59,
+"label": "Təbəri · Əbu Zərr hədisi",
+"weak": true
+},
+{
+"type": "chips",
+"a": 308.99,
+"b": 316.05,
+"items": [
+{
+"text": "ADƏM",
+"at": 310.85833333333335
+},
+{
+"text": "ŞEYS",
+"at": 311.46333333333337
+},
+{
+"text": "İDRİS",
+"at": 313.27833333333336,
+"c": "#f0d9a0"
+}
+],
+"y": 50,
+"size": 66
+},
+{
+"type": "big",
+"a": 318.78,
+"b": 320.47,
+"text": "“XANOK KİTABI”",
+"size": 96,
+"color": "#f0d9a0"
+},
+{
+"type": "counter",
+"a": 332.13,
+"b": 336.52,
+"from": 0,
+"to": 2000,
+"at": 332.1302272727273,
+"dur": 1.4,
+"label": "İLDƏN ÇOX",
+"suffix": "+",
+"y": 30
+},
+{
+"type": "source",
+"a": 326.77,
+"b": 336.42,
+"label": "Qumran (Ölü dəniz) əlyazmaları",
+"icon": "search"
+},
+{
+"type": "columns",
+"a": 337.02,
+"b": 351.48,
+"items": [
+{
+"h": "XANOK KİTABI",
+"t": "Qədim kitab, xalqların yaddaşı",
+"at": 337.12,
+"icon": "quill",
+"c": "#d6a84e"
+},
+{
+"h": "VƏHY DEYİL",
+"t": "Müsəlman alimlər onu vəhy saymır",
+"at": 341.28000000000003,
+"icon": "cross",
+"c": "#e2483a"
+}
+]
+},
+{
+"type": "flash",
+"a": 355.31,
+"b": 355.81
+},
+{
+"type": "pulse",
+"a": 358.33,
+"b": 365.06
+},
+{
+"type": "source",
+"a": 365.46,
+"b": 373.84,
+"label": "Tarix mənbələri · rəvayət",
+"weak": true
+},
+{
+"type": "big",
+"a": 377.47,
+"b": 382.16,
+"text": "İLK MÜBARİZƏ",
+"size": 110,
+"color": "#f0d9a0"
+},
+{
+"type": "chapter",
+"a": 382.36,
+"b": 385.76,
+"n": 4,
+"title": "ÖLÜM MƏLƏYİ VƏ DÖRDÜNCÜ SƏMA"
+},
+{
+"type": "leak",
+"a": 382.06,
+"b": 383.16
+},
+{
+"type": "columns",
+"a": 387.24,
+"b": 395.11,
+"items": [
+{
+"h": "QƏTİ MƏLUMAT",
+"t": "Quran və səhih hədis",
+"at": 387.4268181818182,
+"icon": "quran",
+"c": "#d6a84e"
+},
+{
+"h": "RƏVAYƏT",
+"t": "Tarix kitablarındakı hekayələr",
+"at": 390.51,
+"icon": "warn",
+"c": "#9a8f80"
+}
+]
+},
+{
+"type": "stamp",
+"a": 402.2,
+"b": 406.86,
+"top": "KƏB ƏL-ƏHBAR",
+"main": "İSRAİLİYYAT",
+"color": "#c4532b"
+},
+{
+"type": "source",
+"a": 395.61,
+"b": 401.9,
+"label": "İbn Kəsir, Təfsir",
+"icon": "quill"
+},
+{
+"type": "source",
+"a": 407.46,
+"b": 416.93,
+"label": "Kəb əl-Əhbar rəvayəti",
+"weak": true
+},
+{
+"type": "dialog",
+"a": 433.77,
+"b": 435.97,
+"who": "ƏZRAİL",
+"text": "Bəs İdris haradadır?",
+"side": "left",
+"c": "#9fb3c8"
+},
+{
+"type": "dialog",
+"a": 435.72,
+"b": 440.13,
+"who": "MƏLƏK",
+"text": "Kürəyimdədir.",
+"side": "right"
+},
+{
+"type": "quote",
+"a": 439.23,
+"b": 453.18,
+"text": "Sübhanallah! Mənə əmr olunmuşdu ki, İdrisin ruhunu dördüncü səmada alım…",
+"by": "Əzrail · rəvayət",
+"size": 48
+},
+{
+"type": "source",
+"a": 457.46,
+"b": 468.05,
+"label": "Digər rəvayət",
+"weak": true
+},
+{
+"type": "ayahchecks",
+"a": 474.85,
+"b": 486.03,
+"items": [
+{
+"q": "Hər nəfs ölümü dadacaq",
+"r": "mən daddım",
+"ref": "ALİ-İMRAN 3:185",
+"at": 475.18333333333334,
+"ok": 479.54
+},
+{
+"q": "Hamı Cəhənnəmə uğrayacaq",
+"r": "mən keçdim",
+"ref": "MƏRYƏM 19:71",
+"at": 478.87,
+"ok": 480.07
+},
+{
+"q": "Oradan çıxmayacaqlar",
+"r": "mən də çıxmıram",
+"ref": "HİCR 15:48",
+"at": 481.572,
+"ok": 482.772
+}
+]
+},
+{
+"type": "leak",
+"a": 485.83,
+"b": 486.93
+},
+{
+"type": "chips",
+"a": 492.1,
+"b": 495.71,
+"items": [
+{
+"text": "QURAN",
+"at": 492.1
+},
+{
+"text": "SƏHİH HƏDİS",
+"at": 493.22318181818184
+}
+],
+"y": 74,
+"size": 50
+},
+{
+"type": "heavens",
+"a": 496.11,
+"b": 536.93,
+"steps": [
+496.81,
+497.31,
+497.81,
+505.91052631578947
+],
+"mid": 528.9799999999999,
+"names": [
+"ADƏM",
+"YƏHYA VƏ İSA",
+"YUSİF",
+"İDRİS",
+"HARUN",
+"MUSA",
+"İBRAHİM"
+],
+"all_at": 508.3242105263158
+},
+{
+"type": "source",
+"a": 496.21,
+"b": 510.28,
+"label": "Səhih Buxari, 3207 · Səhih Müslim, 162"
+},
+{
+"type": "source",
+"a": 510.58,
+"b": 528.48,
+"label": "Tirmizi, 3157"
+},
+{
+"type": "chips",
+"a": 523.22,
+"b": 528.58,
+"items": [
+{
+"text": "UCA MƏQAM",
+"at": 523.2219999999999
+},
+{
+"text": "=",
+"at": 523.6219999999998
+},
+{
+"text": "4-CÜ SƏMA",
+"at": 525.9346666666665,
+"c": "#f0d9a0"
+}
+],
+"y": 84,
+"size": 44
+},
+{
+"type": "quote",
+"a": 538.76,
+"b": 544.94,
+"text": "Əməlisaleh qardaş və əməlisaleh peyğəmbər, xoş gəldin!",
+"by": "Səhih Buxari, 3207",
+"size": 52
+},
+{
+"type": "freeze",
+"a": 544.94,
+"b": 545.9
+},
+{
+"type": "big",
+"a": 545.04,
+"b": 545.8,
+"text": "DAYANIN",
+"size": 120,
+"color": "#ffe6a6"
+},
+{
+"type": "columns",
+"a": 546.0,
+"b": 564.36,
+"items": [
+{
+"h": "ADƏM",
+"t": "“Əməlisaleh oğul”",
+"mark": "1",
+"at": 546.314,
+"c": "#d6a84e"
+},
+{
+"h": "İDRİS",
+"t": "“Əməlisaleh qardaş”",
+"mark": "4",
+"at": 558.9499999999999,
+"c": "#e2483a"
+},
+{
+"h": "İBRAHİM",
+"t": "“Əməlisaleh oğul”",
+"mark": "7",
+"at": 550.91,
+"c": "#d6a84e"
+}
+],
+"focus": {
+"i": 1,
+"at": 561.92
+}
+},
+{
+"type": "columns",
+"a": 564.76,
+"b": 586.12,
+"items": [
+{
+"h": "1-Cİ FİKİR",
+"t": "Nuhdan sonra yaşayıb? “İlyas elə İdrisdir.”",
+"mark": "?",
+"at": 568.02,
+"icon": "hadith",
+"c": "#d6a84e"
+},
+{
+"h": "2-Cİ FİKİR",
+"t": "Təvazökarlıq: peyğəmbərlər qardaşdır",
+"mark": "♡",
+"at": 579.4,
+"icon": "people",
+"c": "#f0d9a0"
+}
+]
+},
+{
+"type": "source",
+"a": 572.87,
+"b": 579.2,
+"label": "Səhih Buxari, Peyğəmbərlər kitabı"
+},
+{
+"type": "big",
+"a": 586.32,
+"b": 593.48,
+"text": "Qəti cavabı yalnız Allah bilir.",
+"size": 74,
+"color": "#f0d9a0"
+},
+{
+"type": "chapter",
+"a": 593.58,
+"b": 596.98,
+"n": 5,
+"title": "GEDİŞİNDƏN SONRAKI FACİƏ"
+},
+{
+"type": "leak",
+"a": 593.28,
+"b": 594.38
+},
+{
+"type": "fivenames",
+"a": 605.01,
+"b": 616.69,
+"items": [
+{
+"ar": "وَدّ",
+"az": "VƏDD",
+"at": 608.9399999999999
+},
+{
+"ar": "سُوَاع",
+"az": "SUVA",
+"at": 609.5699999999999
+},
+{
+"ar": "يَغُوث",
+"az": "YƏĞUS",
+"at": 610.8299999999999
+},
+{
+"ar": "يَعُوق",
+"az": "YƏUQ",
+"at": 610.3599999999999
+},
+{
+"ar": "نَسْر",
+"az": "NƏSR",
+"at": 611.7475
+}
+]
+},
+{
+"type": "source",
+"a": 605.11,
+"b": 616.59,
+"label": "Səhih Buxari, 4920 · Nuh 71:23"
+},
+{
+"type": "quote",
+"a": 619.75,
+"b": 624.93,
+"text": "Onların oturduğu yerlərə heykəllərini qoyun, xatirələrini yaşadın.",
+"by": "şeytanın pıçıltısı",
+"size": 48,
+"color": "#ffb4a0"
+},
+{
+"type": "pulse",
+"a": 636.54,
+"b": 638.59
+},
+{
+"type": "quote",
+"a": 640.58,
+"b": 645.33,
+"text": "O nəsil ölüb elm unudulanda, o heykəllərə ibadət olundu.",
+"by": "İbn Abbas · Səhih Buxari, 4920",
+"size": 54
+},
+{
+"type": "big",
+"a": 651.84,
+"b": 653.41,
+"text": "İLK BÜTPƏRƏSTLİK",
+"size": 110,
+"color": "#ff8a6a"
+},
+{
+"type": "freeze",
+"a": 653.41,
+"b": 655.98
+},
+{
+"type": "big",
+"a": 653.51,
+"b": 655.88,
+"text": "DAYANIN",
+"size": 120,
+"color": "#ffe6a6"
+},
+{
+"type": "source",
+"a": 658.13,
+"b": 673.93,
+"label": "Səhih Buxari, 4920 · İbn Abbas"
+},
+{
+"type": "flash",
+"a": 688.07,
+"b": 688.57
+},
+{
+"type": "big",
+"a": 690.0,
+"b": 694.51,
+"text": "Elm unudulanda yarandı.",
+"sub": "Bütlər bir gündə yaranmadı",
+"size": 88,
+"color": "#f0d9a0"
+},
+{
+"type": "quote",
+"a": 700.11,
+"b": 704.29,
+"text": "Elmin olması kifayət deyil — onu unutmaq olar.",
+"size": 56
+},
+{
+"type": "leak",
+"a": 704.09,
+"b": 705.19
+},
+{
+"type": "next",
+"a": 710.82,
+"b": 715.59,
+"name": "NUH",
+"sub": "Tufan, gəmi və gəmiyə minməyən oğul"
+},
+{
+"type": "comment",
+"a": 715.29,
+"b": 719.07,
+"text": "Sizcə, bu gün ən çox unudulan elm hansıdır?"
+},
+{
+"type": "subscribe",
+"a": 718.97,
+"b": 730.96,
+"click": 721.17
+}
+],
+"sfx": [
+{
+"n": "whoosh_low",
+"t": 51.7,
+"g": 0.7
+},
+{
+"n": "boom",
+"t": 52.1,
+"g": 0.6
+},
+{
+"n": "mystery_bed",
+"t": 52.0,
+"g": 1.0
+},
+{
+"n": "water",
+"t": 52.0,
+"g": 0.5,
+"dur": 15.23
+},
+{
+"n": "tick",
+"t": 60.09,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 60.25,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 60.41,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 60.57,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 60.73,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 60.89,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 61.05,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 61.21,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 61.38,
+"g": 0.5
+},
+{
+"n": "tick",
+"t": 61.53,
+"g": 0.5
+},
+{
+"n": "drip",
+"t": 70.25,
+"g": 0.6
+},
+{
+"n": "whoosh",
+"t": 72.12,
+"g": 0.5
+},
+{
+"n": "tension_bed",
+"t": 78.42,
+"g": 0.9
+},
+{
+"n": "fire",
+"t": 84.28,
+"g": 0.8,
+"dur": 3.95
+},
+{
+"n": "impact",
+"t": 84.28,
+"g": 0.7
+},
+{
+"n": "stamp",
+"t": 85.81,
+"g": 0.5
+},
+{
+"n": "stamp",
+"t": 85.94,
+"g": 0.5
+},
+{
+"n": "stamp",
+"t": 86.75,
+"g": 0.5
+},
+{
+"n": "pad_sacred",
+"t": 88.23,
+"g": 1.0
+},
+{
+"n": "shimmer",
+"t": 94.36,
+"g": 0.6
+},
+{
+"n": "whoosh_low",
+"t": 95.99,
+"g": 0.6
+},
+{
+"n": "click",
+"t": 98.15,
+"g": 0.7
+},
+{
+"n": "click",
+"t": 101.17,
+"g": 0.7
+},
+{
+"n": "paper",
+"t": 109.37,
+"g": 0.6
+},
+{
+"n": "impact",
+"t": 115.64,
+"g": 0.7
+},
+{
+"n": "pad_sacred",
+"t": 126.09,
+"g": 1.0
+},
+{
+"n": "shimmer",
+"t": 126.09,
+"g": 0.6
+},
+{
+"n": "mystery_bed",
+"t": 159.67,
+"g": 1.0
+},
+{
+"n": "paper",
+"t": 159.67,
+"g": 0.5
+},
+{
+"n": "cut_silence",
+"t": 170.23,
+"g": 1.0
+},
+{
+"n": "sub_hit",
+"t": 170.38,
+"g": 1.0
+},
+{
+"n": "impact",
+"t": 170.43,
+"g": 0.7
+},
+{
+"n": "pad_sacred",
+"t": 172.14,
+"g": 1.0
+},
+{
+"n": "clock",
+"t": 172.14,
+"g": 0.6,
+"dur": 10.34
+},
+{
+"n": "shimmer",
+"t": 188.95,
+"g": 0.8
+},
+{
+"n": "wind",
+"t": 182.48,
+"g": 0.5,
+"dur": 9.88
+},
+{
+"n": "whoosh_low",
+"t": 191.96,
+"g": 0.7
+},
+{
+"n": "boom",
+"t": 192.36,
+"g": 0.6
+},
+{
+"n": "epic_bed",
+"t": 192.36,
+"g": 0.85
+},
+{
+"n": "tick",
+"t": 212.95,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 222.45,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 252.93,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 256.2,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 258.08,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 265.18,
+"g": 0.7
+},
+{
+"n": "sand",
+"t": 212.95,
+"g": 0.5
+},
+{
+"n": "paper",
+"t": 217.6,
+"g": 0.5
+},
+{
+"n": "fire",
+"t": 227.13,
+"g": 0.6,
+"dur": 3.85
+},
+{
+"n": "shimmer",
+"t": 234.65,
+"g": 0.6
+},
+{
+"n": "stamp",
+"t": 245.25,
+"g": 0.8
+},
+{
+"n": "click",
+"t": 251.71,
+"g": 0.6
+},
+{
+"n": "impact",
+"t": 256.2,
+"g": 0.6
+},
+{
+"n": "whoosh",
+"t": 257.78,
+"g": 0.4
+},
+{
+"n": "shimmer",
+"t": 265.18,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 273.3,
+"g": 0.6
+},
+{
+"n": "dig",
+"t": 279.27,
+"g": 0.5,
+"dur": 4.63
+},
+{
+"n": "tension_bed",
+"t": 283.9,
+"g": 0.9
+},
+{
+"n": "stamp",
+"t": 297.24,
+"g": 1.0
+},
+{
+"n": "braam",
+"t": 297.14,
+"g": 0.6
+},
+{
+"n": "whoosh_low",
+"t": 301.17,
+"g": 0.7
+},
+{
+"n": "boom",
+"t": 301.57,
+"g": 0.6
+},
+{
+"n": "pad_sacred",
+"t": 301.57,
+"g": 1.0
+},
+{
+"n": "paper",
+"t": 309.09,
+"g": 0.5
+},
+{
+"n": "mystery_bed",
+"t": 316.15,
+"g": 1.0
+},
+{
+"n": "whoosh_low",
+"t": 320.27,
+"g": 0.6
+},
+{
+"n": "wind",
+"t": 332.03,
+"g": 0.5,
+"dur": 4.59
+},
+{
+"n": "impact",
+"t": 341.28,
+"g": 0.6
+},
+{
+"n": "tension_bed",
+"t": 351.68,
+"g": 1.0
+},
+{
+"n": "boom",
+"t": 355.31,
+"g": 0.7
+},
+{
+"n": "wind",
+"t": 351.68,
+"g": 0.6,
+"dur": 6.65
+},
+{
+"n": "fire",
+"t": 358.33,
+"g": 0.7,
+"dur": 6.73
+},
+{
+"n": "epic_bed",
+"t": 365.06,
+"g": 1.0
+},
+{
+"n": "impact",
+"t": 365.06,
+"g": 0.8
+},
+{
+"n": "dig",
+"t": 365.06,
+"g": 0.6,
+"dur": 8.98
+},
+{
+"n": "braam",
+"t": 377.47,
+"g": 0.6
+},
+{
+"n": "whoosh_low",
+"t": 381.96,
+"g": 0.7
+},
+{
+"n": "boom",
+"t": 382.36,
+"g": 0.6
+},
+{
+"n": "mystery_bed",
+"t": 382.36,
+"g": 1.0
+},
+{
+"n": "stamp",
+"t": 402.2,
+"g": 0.9
+},
+{
+"n": "paper",
+"t": 395.21,
+"g": 0.5
+},
+{
+"n": "pad_sacred",
+"t": 407.06,
+"g": 1.0
+},
+{
+"n": "shimmer",
+"t": 407.56,
+"g": 0.6
+},
+{
+"n": "wind",
+"t": 407.06,
+"g": 0.5,
+"dur": 19.84
+},
+{
+"n": "drone_dark",
+"t": 421.41,
+"g": 1.0
+},
+{
+"n": "braam",
+"t": 424.68,
+"g": 0.7
+},
+{
+"n": "shimmer",
+"t": 453.38,
+"g": 0.8
+},
+{
+"n": "tension_bed",
+"t": 464.92,
+"g": 1.0
+},
+{
+"n": "fire",
+"t": 464.92,
+"g": 0.7,
+"dur": 12.31
+},
+{
+"n": "pad_sacred",
+"t": 469.47,
+"g": 1.0
+},
+{
+"n": "water",
+"t": 469.47,
+"g": 0.5,
+"dur": 16.66
+},
+{
+"n": "shimmer",
+"t": 469.47,
+"g": 0.7
+},
+{
+"n": "tick",
+"t": 475.18,
+"g": 0.6
+},
+{
+"n": "tick",
+"t": 478.87,
+"g": 0.6
+},
+{
+"n": "tick",
+"t": 481.57,
+"g": 0.6
+},
+{
+"n": "epic_bed",
+"t": 486.13,
+"g": 0.9
+},
+{
+"n": "riser",
+"t": 500.91,
+"g": 0.7
+},
+{
+"n": "boom",
+"t": 505.91,
+"g": 0.9
+},
+{
+"n": "choir_hit",
+"t": 505.91,
+"g": 0.6
+},
+{
+"n": "shimmer",
+"t": 528.98,
+"g": 0.6
+},
+{
+"n": "pad_sacred",
+"t": 537.03,
+"g": 1.0
+},
+{
+"n": "cut_silence",
+"t": 544.89,
+"g": 1.0
+},
+{
+"n": "sub_hit",
+"t": 545.04,
+"g": 1.0
+},
+{
+"n": "impact",
+"t": 545.09,
+"g": 0.7
+},
+{
+"n": "mystery_bed",
+"t": 545.7,
+"g": 1.0
+},
+{
+"n": "impact",
+"t": 562.88,
+"g": 0.8
+},
+{
+"n": "whoosh_low",
+"t": 593.18,
+"g": 0.7
+},
+{
+"n": "boom",
+"t": 593.58,
+"g": 0.6
+},
+{
+"n": "sorrow_bed",
+"t": 593.58,
+"g": 1.0
+},
+{
+"n": "wind",
+"t": 600.6,
+"g": 0.6,
+"dur": 16.19
+},
+{
+"n": "bell",
+"t": 608.94,
+"g": 0.35
+},
+{
+"n": "bell",
+"t": 609.57,
+"g": 0.35
+},
+{
+"n": "bell",
+"t": 610.83,
+"g": 0.35
+},
+{
+"n": "bell",
+"t": 610.36,
+"g": 0.35
+},
+{
+"n": "bell",
+"t": 611.75,
+"g": 0.35
+},
+{
+"n": "drone_dark",
+"t": 616.79,
+"g": 1.0
+},
+{
+"n": "tension_bed",
+"t": 629.09,
+"g": 1.0
+},
+{
+"n": "braam",
+"t": 636.54,
+"g": 0.7
+},
+{
+"n": "drip",
+"t": 641.98,
+"g": 0.7
+},
+{
+"n": "cut_silence",
+"t": 653.36,
+"g": 1.0
+},
+{
+"n": "sub_hit",
+"t": 653.51,
+"g": 1.0
+},
+{
+"n": "impact",
+"t": 653.56,
+"g": 0.7
+},
+{
+"n": "mystery_bed",
+"t": 655.78,
+"g": 1.0
+},
+{
+"n": "click",
+"t": 665.79,
+"g": 0.7
+},
+{
+"n": "click",
+"t": 666.41,
+"g": 0.7
+},
+{
+"n": "click",
+"t": 667.81,
+"g": 0.7
+},
+{
+"n": "click",
+"t": 669.57,
+"g": 0.7
+},
+{
+"n": "click",
+"t": 670.34,
+"g": 0.7
+},
+{
+"n": "shimmer",
+"t": 675.52,
+"g": 0.6
+},
+{
+"n": "epic_bed",
+"t": 683.12,
+"g": 1.0
+},
+{
+"n": "boom",
+"t": 688.07,
+"g": 1.0
+},
+{
+"n": "water",
+"t": 683.12,
+"g": 0.8,
+"dur": 6.78
+},
+{
+"n": "sorrow_bed",
+"t": 689.9,
+"g": 1.0
+},
+{
+"n": "epic_bed",
+"t": 704.39,
+"g": 1.0
+},
+{
+"n": "boom",
+"t": 711.12,
+"g": 0.8
+},
+{
+"n": "click",
+"t": 721.17,
+"g": 0.9
+},
+{
+"n": "bell",
+"t": 721.27,
+"g": 0.6
+},
+{
+"n": "cut_silence",
+"t": 731.51,
+"g": 1.0
+}
+]
+}

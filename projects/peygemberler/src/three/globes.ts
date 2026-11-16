@@ -1,5 +1,6 @@
 import {C} from '../theme';
 import type {GlobeProps} from './GlobeScene';
+import EP2G from '../ep2/globes_ep2.json';
 
 const G = '#3ddc84';
 const sc = (x: number) => x * (27.6 / 22);
@@ -70,4 +71,5 @@ export const GLOBES: Record<string, GlobeProps> = {
     ],
     arcs: [{from: [21.35, 39.98], to: [32.54, 44.42], a: 0.3, b: 2.0, color: C.gold, h: 0.12}],
   },
+  ...(EP2G as unknown as Record<string, GlobeProps>),
 };

@@ -1,0 +1,1476 @@
+{
+"OA": 52.4,
+"OB": 351.87593749999996,
+"phrases": [
+{
+"shot": "L01",
+"si": 0,
+"text": "Bir səhabə Peyğəmbərimizdən soruşdu:",
+"a": 52.45,
+"b": 54.72
+},
+{
+"shot": "L01",
+"si": 0,
+"text": "\"Adəmlə Nuh arasında nə qədər vaxt var idi?\" Cavab belə oldu:",
+"a": 55.28,
+"b": 59.55
+},
+{
+"shot": "L01",
+"si": 0,
+"text": "\"On əsr.\"",
+"a": 60.15,
+"b": 60.84
+},
+{
+"shot": "L02",
+"si": 0,
+"text": "İbn Abbas isə əlavə edir:",
+"a": 61.56,
+"b": 63.18
+},
+{
+"shot": "L02",
+"si": 0,
+"text": "\"Onların hamısı haqq yol üzərində idi.\"",
+"a": 63.79,
+"b": 66.35
+},
+{
+"shot": "L03",
+"si": 0,
+"text": "Amma bu on əsrin içində işıq yavaş-yavaş sönməyə başladı.",
+"a": 67.43,
+"b": 71.66
+},
+{
+"shot": "L04",
+"si": 0,
+"text": "Həzrəti Adəm və onun oğlu Şeys peyğəmbərdən sonra yer üzündə nəsillər sürətlə artdı.",
+"a": 72.62,
+"b": 78.48
+},
+{
+"shot": "L05",
+"si": 0,
+"text": "Amma zaman keçdikcə insanlar doğru yoldan uzaqlaşmağa başladı.",
+"a": 78.62,
+"b": 83.8
+},
+{
+"shot": "L06",
+"si": 0,
+"text": "Xüsusilə Qabilin nəsli içində zülm,",
+"a": 84.48,
+"b": 86.14
+},
+{
+"shot": "L06",
+"si": 0,
+"text": "haqsızlıq və azğınlıq yayıldı.",
+"a": 86.14,
+"b": 88.16
+},
+{
+"shot": "L07",
+"si": 0,
+"text": "Məhz belə bir dövrdə,",
+"a": 88.43,
+"b": 89.79
+},
+{
+"shot": "L07",
+"si": 0,
+"text": "Adəmin altıncı nəslindən —",
+"a": 90.55,
+"b": 91.92
+},
+{
+"shot": "L07",
+"si": 0,
+"text": "Şeys peyğəmbərin soyundan olan İdris dünyaya gəldi.",
+"a": 92.31,
+"b": 96.14
+},
+{
+"shot": "L08",
+"si": 0,
+"text": "Tarix mənbələri onun Babil torpaqlarında,",
+"a": 96.49,
+"b": 99.98
+},
+{
+"shot": "L08",
+"si": 0,
+"text": "bəzi rəvayətlər isə Misirdə doğulduğunu yazır.",
+"a": 99.98,
+"b": 103.1
+},
+{
+"shot": "L09",
+"si": 0,
+"text": "Onun əsl adı Xanok,",
+"a": 103.27,
+"b": 104.67
+},
+{
+"shot": "L09",
+"si": 0,
+"text": "ərəb mənbələrində isə Ənux idi.",
+"a": 105.45,
+"b": 108.97
+},
+{
+"shot": "L10",
+"si": 0,
+"text": "Bəziləri deyir ki,",
+"a": 109.27,
+"b": 109.98
+},
+{
+"shot": "L10",
+"si": 0,
+"text": "\"İdris\" adı \"dərs\" sözündəndir,",
+"a": 110.88,
+"b": 113.14
+},
+{
+"shot": "L10",
+"si": 0,
+"text": "çünki o,",
+"a": 113.34,
+"b": 114.42
+},
+{
+"shot": "L10",
+"si": 0,
+"text": "çox oxuyub öyrədirdi.",
+"a": 115.0,
+"b": 115.63
+},
+{
+"shot": "L10",
+"si": 1,
+"text": "Amma İbn Kəsir bunu qəbul etmir.",
+"a": 115.84,
+"b": 117.0
+},
+{
+"shot": "L10",
+"si": 2,
+"text": "Çünki ərəb dilində bu ad ərəb sözləri kimi hallanmır.",
+"a": 117.68,
+"b": 122.07
+},
+{
+"shot": "L10",
+"si": 3,
+"text": "Bu,",
+"a": 122.35,
+"b": 122.96
+},
+{
+"shot": "L10",
+"si": 3,
+"text": "onun ərəbcə yox,",
+"a": 122.96,
+"b": 123.92
+},
+{
+"shot": "L10",
+"si": 3,
+"text": "daha qədim bir dildən gəldiyini göstərir.",
+"a": 124.43,
+"b": 125.99
+},
+{
+"shot": "L11",
+"si": 0,
+"text": "Qurani-Kərimdə onun adı cəmi iki yerdə çəkilir,",
+"a": 126.29,
+"b": 131.47
+},
+{
+"shot": "L11",
+"si": 0,
+"text": "amma hər iki ayədə böyük ehtiramla yad edilir.",
+"a": 131.47,
+"b": 136.28
+},
+{
+"shot": "L12",
+"si": 0,
+"text": "Məryəm surəsinin əlli altı və əlli yeddinci ayələrində Allah belə buyurur:",
+"a": 137.09,
+"b": 142.21
+},
+{
+"shot": "L13",
+"si": 0,
+"text": "\"Kitabda İdrisi də yad et!",
+"a": 142.9,
+"b": 144.7
+},
+{
+"shot": "L13",
+"si": 1,
+"text": "Həqiqətən,",
+"a": 145.26,
+"b": 145.48
+},
+{
+"shot": "L13",
+"si": 1,
+"text": "o,",
+"a": 145.48,
+"b": 145.62
+},
+{
+"shot": "L13",
+"si": 1,
+"text": "çox doğru danışan bir peyğəmbər idi.",
+"a": 145.62,
+"b": 148.67
+},
+{
+"shot": "L13",
+"si": 2,
+"text": "Biz onu uca bir məqama qaldırdıq.\"",
+"a": 149.26,
+"b": 149.88
+},
+{
+"shot": "L14",
+"si": 0,
+"text": "Ənbiya surəsində isə o,",
+"a": 150.11,
+"b": 154.05
+},
+{
+"shot": "L14",
+"si": 0,
+"text": "çətinliklərə sinə gərən ən səbirli peyğəmbərlər sırasında göstərilir.",
+"a": 154.43,
+"b": 159.0
+},
+{
+"shot": "L15",
+"si": 0,
+"text": "Tövratda onun adı Xanok kimi keçir və yer üzündə üç yüz altmış beş il yaşadıqdan sonra Allah tərəfindən göyə alındığı yazılır.",
+"a": 159.87,
+"b": 169.91
+},
+{
+"shot": "L16",
+"si": 0,
+"text": "Dayanın.",
+"a": 170.58,
+"b": 171.76
+},
+{
+"shot": "L17",
+"si": 0,
+"text": "Bu rəqəmə bir də baxın:",
+"a": 172.34,
+"b": 173.05
+},
+{
+"shot": "L17",
+"si": 0,
+"text": "üç yüz altmış beş.",
+"a": 173.05,
+"b": 173.75
+},
+{
+"shot": "L17",
+"si": 1,
+"text": "Bir ildə də düz üç yüz altmış beş gün var.",
+"a": 174.34,
+"b": 177.22
+},
+{
+"shot": "L18",
+"si": 0,
+"text": "Ulduzların və zamanın hesabını öyrədən bir insanın ömrü,",
+"a": 177.87,
+"b": 180.54
+},
+{
+"shot": "L18",
+"si": 0,
+"text": "Tövrata görə,",
+"a": 180.54,
+"b": 181.35
+},
+{
+"shot": "L18",
+"si": 0,
+"text": "bir ilin günləri qədər idi.",
+"a": 181.66,
+"b": 182.42
+},
+{
+"shot": "L19",
+"si": 0,
+"text": "Və Tövrat onun ölümünü yazmır.",
+"a": 182.68,
+"b": 185.44
+},
+{
+"shot": "L19",
+"si": 1,
+"text": "Sadəcə deyir:",
+"a": 185.64,
+"b": 186.83
+},
+{
+"shot": "L19",
+"si": 1,
+"text": "\"Allahla birgə yeriyirdi… sonra yox oldu,",
+"a": 187.25,
+"b": 190.2
+},
+{
+"shot": "L19",
+"si": 1,
+"text": "çünki Allah onu götürdü.\"",
+"a": 190.76,
+"b": 191.98
+},
+{
+"shot": "L20",
+"si": 0,
+"text": "Həzrəti İdris yalnız sözlə dəvət etmirdi —",
+"a": 192.56,
+"b": 196.52
+},
+{
+"shot": "L20",
+"si": 0,
+"text": "rəvayətlərə görə,",
+"a": 196.66,
+"b": 197.62
+},
+{
+"shot": "L20",
+"si": 0,
+"text": "Allah ona insanlığa sivilizasiyanın təməlini öyrətmək üçün böyük elmlər vermişdi.",
+"a": 197.62,
+"b": 202.87
+},
+{
+"shot": "L21",
+"si": 0,
+"text": "İbn Kəsir,",
+"a": 202.87,
+"b": 203.24
+},
+{
+"shot": "L21",
+"si": 0,
+"text": "Təbəri və Fəxrəddin ər-Razi kimi böyük təfsir alimlərinin nəql etdiyi rəvayətlərə görə,",
+"a": 203.24,
+"b": 210.53
+},
+{
+"shot": "L21",
+"si": 0,
+"text": "İdris yer üzündə bir çox şeyin ilki idi:",
+"a": 210.53,
+"b": 212.68
+},
+{
+"shot": "L22",
+"si": 0,
+"text": "O,",
+"a": 213.15,
+"b": 213.65
+},
+{
+"shot": "L22",
+"si": 0,
+"text": "qələmlə yazı yazan ilk insan idi.",
+"a": 213.78,
+"b": 216.1
+},
+{
+"shot": "L22",
+"si": 1,
+"text": "Ondan əvvəl biliklər yalnız yaddaşda qalırdı;",
+"a": 216.87,
+"b": 219.56
+},
+{
+"shot": "L22",
+"si": 1,
+"text": "İdris isə sözü səhifəyə köçürdü.",
+"a": 220.07,
+"b": 222.96
+},
+{
+"shot": "L23",
+"si": 0,
+"text": "O,",
+"a": 223.48,
+"b": 222.65
+},
+{
+"shot": "L23",
+"si": 0,
+"text": "iynə ilə paltar tikən ilk dərzi idi.",
+"a": 222.65,
+"b": 225.96
+},
+{
+"shot": "L23",
+"si": 1,
+"text": "Ondan əvvəl insanlar heyvan dərisi və xəz geyinirdi.",
+"a": 226.72,
+"b": 230.96
+},
+{
+"shot": "L24",
+"si": 0,
+"text": "Rəvayətə görə,",
+"a": 231.18,
+"b": 232.79
+},
+{
+"shot": "L24",
+"si": 0,
+"text": "İdris hər iynə vurduqca \"Sübhanallah\" deyərək zəhməti ibadətə çevirirdi.",
+"a": 232.95,
+"b": 239.11
+},
+{
+"shot": "L25",
+"si": 0,
+"text": "Bu rəvayət o qədər sevildi ki,",
+"a": 239.34,
+"b": 241.85
+},
+{
+"shot": "L25",
+"si": 0,
+"text": "türk əsnaf ənənəsində əsrlər boyu İdris dərzilərin \"piri\" sayıldı.",
+"a": 242.59,
+"b": 246.25
+},
+{
+"shot": "L25",
+"si": 1,
+"text": "Usta şagirdə ilk iynəni verəndə onun adını çəkirdi.",
+"a": 246.37,
+"b": 251.28
+},
+{
+"shot": "L26",
+"si": 0,
+"text": "O,",
+"a": 251.41,
+"b": 251.27
+},
+{
+"shot": "L26",
+"si": 0,
+"text": "ədalətli ticarət üçün tərəzi və ölçü vahidlərini tətbiq edən,",
+"a": 251.27,
+"b": 256.24
+},
+{
+"shot": "L26",
+"si": 0,
+"text": "dəmirdən alətlər düzəldən və əkinçiliyi sistemləşdirən ilk ustad idi.",
+"a": 256.4,
+"b": 261.1
+},
+{
+"shot": "L27",
+"si": 0,
+"text": "Qövmü ondan möcüzə istəyəndə isə,",
+"a": 261.4,
+"b": 263.25
+},
+{
+"shot": "L27",
+"si": 0,
+"text": "Allahın ona verdiyi elmlə ulduzların hərəkətini,",
+"a": 263.43,
+"b": 267.14
+},
+{
+"shot": "L27",
+"si": 0,
+"text": "göylərin quruluşunu və riyaziyyatı açıqladı.",
+"a": 267.55,
+"b": 270.87
+},
+{
+"shot": "L28",
+"si": 0,
+"text": "Tarix kitablarında onun yetmiş iki dildə danışdığı,",
+"a": 271.21,
+"b": 276.04
+},
+{
+"shot": "L28",
+"si": 0,
+"text": "hər tayfaya öz dilində xitab etdiyi və insanlara şəhərsalma öyrədərək yüzə yaxın şəhər qurduğu da rəvayət olunur.",
+"a": 276.23,
+"b": 283.78
+},
+{
+"shot": "L29",
+"si": 0,
+"text": "Hətta bəzi İslam tarixçiləri qədim yunanların və misirlilərin elmlərin banisi saydığı əfsanəvi \"Hermes\" şəxsiyyətinin əslində Həzrəti İdris olduğunu qeyd ediblər.",
+"a": 284.1,
+"b": 297.04
+},
+{
+"shot": "L30",
+"si": 0,
+"text": "Amma bu iddianın nə Quranda,",
+"a": 297.04,
+"b": 298.84
+},
+{
+"shot": "L30",
+"si": 0,
+"text": "nə də səhih hədisdə heç bir əsası yoxdur.",
+"a": 299.42,
+"b": 301.52
+},
+{
+"shot": "L31",
+"si": 0,
+"text": "Təbərinin nəql etdiyinə görə,",
+"a": 301.77,
+"b": 304.5
+},
+{
+"shot": "L31",
+"si": 0,
+"text": "Allah İdris peyğəmbərə otuz səhifəlik ilahi kitab nazil etmişdi.",
+"a": 305.09,
+"b": 308.82
+},
+{
+"shot": "L32",
+"si": 0,
+"text": "O,",
+"a": 308.99,
+"b": 310.05
+},
+{
+"shot": "L32",
+"si": 0,
+"text": "eyni zamanda Adəm və Şeysin səhifələrini də qoruyub tələbələrinə öyrədirdi.",
+"a": 310.05,
+"b": 316.1
+},
+{
+"shot": "L33",
+"si": 0,
+"text": "Maraqlıdır ki,",
+"a": 316.35,
+"b": 317.59
+},
+{
+"shot": "L33",
+"si": 0,
+"text": "İslamdan kənarda da \"Xanok kitabı\" adlı qədim bir kitab var.",
+"a": 318.16,
+"b": 320.5
+},
+{
+"shot": "L33",
+"si": 1,
+"text": "Bu gün o,",
+"a": 320.77,
+"b": 322.11
+},
+{
+"shot": "L33",
+"si": 1,
+"text": "Efiopiya kilsəsinin müqəddəs kitablarının içindədir.",
+"a": 322.11,
+"b": 326.67
+},
+{
+"shot": "L34",
+"si": 0,
+"text": "İyirminci əsrdə Ölü dəniz sahilindəki Qumran mağaralarında bu kitabın iki min ildən çox yaşı olan parçaları tapıldı.",
+"a": 326.67,
+"b": 336.22
+},
+{
+"shot": "L35",
+"si": 0,
+"text": "Amma dürüst olaq:",
+"a": 336.82,
+"b": 337.12
+},
+{
+"shot": "L35",
+"si": 0,
+"text": "bu kitab İdrisə nazil olan səhifələr deyil.",
+"a": 337.12,
+"b": 340.99
+},
+{
+"shot": "L35",
+"si": 1,
+"text": "Müsəlman alimlər onu vəhy kimi qəbul etmir.",
+"a": 341.48,
+"b": 344.19
+},
+{
+"shot": "L35",
+"si": 2,
+"text": "Sadəcə göstərir ki,",
+"a": 344.71,
+"b": 345.87
+},
+{
+"shot": "L35",
+"si": 2,
+"text": "bu insanın xatirəsi min illər boyu müxtəlif xalqların yaddaşında yaşayıb.",
+"a": 346.27,
+"b": 351.14
+},
+{
+"shot": "L36",
+"si": 0,
+"text": "İnsanlara gələcəkdə baş verəcək böyük fəlakəti —",
+"a": 351.88,
+"b": 355.09
+},
+{
+"shot": "L36",
+"si": 0,
+"text": "Nuh tufanını əvvəlcədən xəbər vermişdi.",
+"a": 355.51,
+"b": 357.99
+},
+{
+"shot": "L37",
+"si": 0,
+"text": "Amma Qabilin azğınlaşmış nəsli onun sözünü dinləmədi,",
+"a": 358.53,
+"b": 362.28
+},
+{
+"shot": "L37",
+"si": 0,
+"text": "əksinə,",
+"a": 362.67,
+"b": 363.19
+},
+{
+"shot": "L37",
+"si": 0,
+"text": "haqqa qarşı çıxdı.",
+"a": 363.53,
+"b": 364.61
+},
+{
+"shot": "L38",
+"si": 0,
+"text": "Tarix mənbələrinə görə,",
+"a": 365.26,
+"b": 366.62
+},
+{
+"shot": "L38",
+"si": 0,
+"text": "Həzrəti İdris Allahın əmri ilə atlılardan ibarət ordu toplayaraq fəsad törədənlərə qarşı döyüşdü.",
+"a": 366.95,
+"b": 373.61
+},
+{
+"shot": "L39",
+"si": 0,
+"text": "Beləliklə,",
+"a": 374.24,
+"b": 374.83
+},
+{
+"shot": "L39",
+"si": 0,
+"text": "rəvayətə görə,",
+"a": 375.19,
+"b": 375.69
+},
+{
+"shot": "L39",
+"si": 0,
+"text": "o,",
+"a": 375.69,
+"b": 376.36
+},
+{
+"shot": "L39",
+"si": 0,
+"text": "Allah yolunda ilk dəfə silahlı mübarizə aparan peyğəmbər oldu və zalımları məğlub etdi.",
+"a": 376.79,
+"b": 382.44
+},
+{
+"shot": "L40",
+"si": 0,
+"text": "Bəs Həzrəti İdris yer üzündən necə ayrıldı?",
+"a": 382.56,
+"b": 386.42
+},
+{
+"shot": "L41",
+"si": 0,
+"text": "Burada Quranda və səhih hədislərdə olan qəti məlumatlarla,",
+"a": 387.14,
+"b": 390.71
+},
+{
+"shot": "L41",
+"si": 0,
+"text": "tarix kitablarındakı rəvayətləri ayırmaq vacibdir.",
+"a": 390.71,
+"b": 394.77
+},
+{
+"shot": "L42",
+"si": 0,
+"text": "İslam alimlərinin əksəriyyəti,",
+"a": 395.41,
+"b": 397.29
+},
+{
+"shot": "L42",
+"si": 0,
+"text": "xüsusilə İbn Kəsir,",
+"a": 397.58,
+"b": 398.36
+},
+{
+"shot": "L42",
+"si": 0,
+"text": "səmaya qaldırılma ilə bağlı iki məşhur hekayənin Kəb əl-Əhbardan gələn qədim rəvayətlər olduğunu qeyd edir.",
+"a": 398.36,
+"b": 406.65
+},
+{
+"shot": "L43",
+"si": 0,
+"text": "Birinci rəvayətə görə,",
+"a": 407.26,
+"b": 407.75
+},
+{
+"shot": "L43",
+"si": 0,
+"text": "İdris ibadətini artırmaq üçün bir mələk dostundan xahiş edir ki,",
+"a": 407.75,
+"b": 412.4
+},
+{
+"shot": "L43",
+"si": 0,
+"text": "onu göylərə qaldırsın və ömrünün uzadılması üçün Əzraillə danışsın.",
+"a": 412.4,
+"b": 417.04
+},
+{
+"shot": "L44",
+"si": 0,
+"text": "Mələk onu qanadlarının arasına alıb səmaya qaldırır.",
+"a": 417.33,
+"b": 421.39
+},
+{
+"shot": "L44",
+"si": 1,
+"text": "Dördüncü səmaya çatanda qarşıdan enən Ölüm mələyi —",
+"a": 421.61,
+"b": 426.05
+},
+{
+"shot": "L44",
+"si": 1,
+"text": "Əzraillə rastlaşırlar.",
+"a": 426.05,
+"b": 426.83
+},
+{
+"shot": "L45",
+"si": 0,
+"text": "Mələk İdrisin xahişini deyəndə Əzrail heyrətlə soruşur:",
+"a": 427.1,
+"b": 433.18
+},
+{
+"shot": "L45",
+"si": 0,
+"text": "\"Bəs İdris haradadır?\"",
+"a": 433.77,
+"b": 435.15
+},
+{
+"shot": "L46",
+"si": 0,
+"text": "\"Kürəyimdədir\" —",
+"a": 435.87,
+"b": 437.79
+},
+{
+"shot": "L46",
+"si": 0,
+"text": "deyir mələk.",
+"a": 438.39,
+"b": 439.01
+},
+{
+"shot": "L47",
+"si": 0,
+"text": "Əzrail belə cavab verir:",
+"a": 439.13,
+"b": 441.67
+},
+{
+"shot": "L47",
+"si": 0,
+"text": "\"Sübhanallah!",
+"a": 442.15,
+"b": 443.52
+},
+{
+"shot": "L47",
+"si": 1,
+"text": "Mənə əmr olunmuşdu ki,",
+"a": 443.84,
+"b": 444.44
+},
+{
+"shot": "L47",
+"si": 1,
+"text": "İdrisin ruhunu dördüncü səmada alım.",
+"a": 444.44,
+"b": 446.18
+},
+{
+"shot": "L47",
+"si": 2,
+"text": "Yerdə olan insanın ruhunu dördüncü səmada necə alacağımı düşünürdüm.\" Və onun ruhu elə orada alınır.",
+"a": 446.68,
+"b": 456.9
+},
+{
+"shot": "L48",
+"si": 0,
+"text": "Digər məşhur rəvayətdə isə deyilir ki,",
+"a": 457.36,
+"b": 459.7
+},
+{
+"shot": "L48",
+"si": 0,
+"text": "İdris Əzraildən bir anlıq ölümün dadını dadmağı,",
+"a": 459.7,
+"b": 463.63
+},
+{
+"shot": "L48",
+"si": 0,
+"text": "sonra isə Cəhənnəmi və Cənnəti görməyi xahiş edir.",
+"a": 463.63,
+"b": 468.14
+},
+{
+"shot": "L49",
+"si": 0,
+"text": "Cəhənnəmi görüb Cənnətə daxil olanda isə oradan çıxmaq istəmir və belə deyir:",
+"a": 468.45,
+"b": 474.34
+},
+{
+"shot": "L50",
+"si": 0,
+"text": "\"Allah 'Hər nəfs ölümü dadacaq' dedi —",
+"a": 474.85,
+"b": 478.05
+},
+{
+"shot": "L50",
+"si": 0,
+"text": "mən daddım. 'Hamı Cəhənnəmə uğrayacaq' dedi —",
+"a": 478.54,
+"b": 481.19
+},
+{
+"shot": "L50",
+"si": 0,
+"text": "mən keçdim. 'Onlar oradan çıxmayacaqlar' dedi —",
+"a": 481.19,
+"b": 484.1
+},
+{
+"shot": "L50",
+"si": 0,
+"text": "mən də Cənnətdən çıxmıram.\"",
+"a": 484.73,
+"b": 486.33
+},
+{
+"shot": "L51",
+"si": 0,
+"text": "Bu hekayələrin sənədi barədə alimlər arasında fərqli fikirlər olsa da,",
+"a": 486.33,
+"b": 492.04
+},
+{
+"shot": "L51",
+"si": 0,
+"text": "Qurandakı ayə və səhih hədis bizə qəti həqiqəti göstərir:",
+"a": 492.3,
+"b": 495.83
+},
+{
+"shot": "L52",
+"si": 0,
+"text": "Səhih Buxari və Səhih Müslimdəki Merac hədisinə görə,",
+"a": 496.01,
+"b": 500.73
+},
+{
+"shot": "L52",
+"si": 0,
+"text": "Həzrət Məhəmməd peyğəmbər Merac gecəsi səmalara yüksələndə,",
+"a": 501.11,
+"b": 505.61
+},
+{
+"shot": "L52",
+"si": 0,
+"text": "məhz dördüncü qat səmada Həzrəti İdrislə qarşılaşmışdır.",
+"a": 505.88,
+"b": 510.26
+},
+{
+"shot": "L53",
+"si": 0,
+"text": "Tirmizinin nəql etdiyi hədisdə isə Peyğəmbərimiz məhz \"Biz onu uca bir məqama qaldırdıq\" ayəsini oxuyub buyurur:",
+"a": 510.58,
+"b": 518.96
+},
+{
+"shot": "L53",
+"si": 0,
+"text": "\"Merac gecəsi İdrisi dördüncü səmada gördüm.\"",
+"a": 518.96,
+"b": 522.03
+},
+{
+"shot": "L54",
+"si": 0,
+"text": "Yəni ayədəki \"uca məqam\"ı Peyğəmbərimizin özü dördüncü səma ilə izah edib.",
+"a": 522.17,
+"b": 528.43
+},
+{
+"shot": "L55",
+"si": 0,
+"text": "Və maraqlı bir məqam:",
+"a": 528.88,
+"b": 530.63
+},
+{
+"shot": "L55",
+"si": 0,
+"text": "yeddi səmanın dördüncüsü onların tam ortasıdır.",
+"a": 530.91,
+"b": 533.87
+},
+{
+"shot": "L55",
+"si": 1,
+"text": "Altında üç qat,",
+"a": 534.2,
+"b": 535.26
+},
+{
+"shot": "L55",
+"si": 1,
+"text": "üstündə üç qat.",
+"a": 535.92,
+"b": 536.77
+},
+{
+"shot": "L56",
+"si": 0,
+"text": "İdris onu:",
+"a": 537.23,
+"b": 538.61
+},
+{
+"shot": "L56",
+"si": 0,
+"text": "\"Əməlisaleh qardaş və əməlisaleh peyğəmbər,",
+"a": 538.96,
+"b": 541.93
+},
+{
+"shot": "L56",
+"si": 0,
+"text": "xoş gəldin!\" deyərək salamlamışdır.",
+"a": 542.25,
+"b": 544.71
+},
+{
+"shot": "L57",
+"si": 0,
+"text": "Dayanın.",
+"a": 545.24,
+"b": 545.9
+},
+{
+"shot": "L58",
+"si": 0,
+"text": "Eyni gecə birinci səmada Adəm onu belə salamladı:",
+"a": 545.9,
+"b": 548.97
+},
+{
+"shot": "L58",
+"si": 0,
+"text": "\"Əməlisaleh oğul.\" Yeddinci səmada İbrahim də \"əməlisaleh oğul\" dedi.",
+"a": 549.64,
+"b": 555.1
+},
+{
+"shot": "L58",
+"si": 1,
+"text": "Çünki hər ikisi Peyğəmbərimizin ulu babasıdır.",
+"a": 555.56,
+"b": 558.59
+},
+{
+"shot": "L59",
+"si": 0,
+"text": "Bəs İdris də onun ulu babasıdırsa,",
+"a": 559.15,
+"b": 561.37
+},
+{
+"shot": "L59",
+"si": 0,
+"text": "niyə \"oğlum\" yox,",
+"a": 561.66,
+"b": 562.81
+},
+{
+"shot": "L59",
+"si": 0,
+"text": "\"qardaşım\" dedi?",
+"a": 563.08,
+"b": 563.95
+},
+{
+"shot": "L60",
+"si": 0,
+"text": "Alimlər burada ikiyə bölünüb.",
+"a": 564.66,
+"b": 567.9
+},
+{
+"shot": "L61",
+"si": 0,
+"text": "Bəziləri dedi ki,",
+"a": 568.22,
+"b": 569.09
+},
+{
+"shot": "L61",
+"si": 0,
+"text": "bəlkə İdris Nuhdan sonra yaşayıb.",
+"a": 569.22,
+"b": 572.89
+},
+{
+"shot": "L61",
+"si": 1,
+"text": "İmam Buxari öz kitabında İbn Məsud və İbn Abbasdan qəribə bir söz qeyd edir:",
+"a": 573.07,
+"b": 577.79
+},
+{
+"shot": "L61",
+"si": 1,
+"text": "\"İlyas elə İdrisdir.\"",
+"a": 578.01,
+"b": 578.94
+},
+{
+"shot": "L62",
+"si": 0,
+"text": "Digərləri isə dedi:",
+"a": 579.6,
+"b": 580.67
+},
+{
+"shot": "L62",
+"si": 0,
+"text": "bu,",
+"a": 581.19,
+"b": 581.57
+},
+{
+"shot": "L62",
+"si": 0,
+"text": "təvazökarlıqdır.",
+"a": 581.57,
+"b": 582.55
+},
+{
+"shot": "L62",
+"si": 1,
+"text": "Peyğəmbərlər hamısı bir-birinin qardaşıdır.",
+"a": 583.03,
+"b": 585.76
+},
+{
+"shot": "L63",
+"si": 0,
+"text": "Qəti cavabı yalnız Allah bilir.",
+"a": 586.42,
+"b": 588.63
+},
+{
+"shot": "L63",
+"si": 1,
+"text": "Amma bu tək söz İdrisin sirrini daha da dərinləşdirir.",
+"a": 589.27,
+"b": 593.2
+},
+{
+"shot": "L64",
+"si": 0,
+"text": "Həzrəti İdris səmaya qaldırıldıqdan sonra insanlar uzun müddət onun öyrətdiyi yolla getdilər.",
+"a": 593.78,
+"b": 600.21
+},
+{
+"shot": "L65",
+"si": 0,
+"text": "Amma zaman keçdikcə o elmi daşıyan saleh insanlar da bir-bir dünyadan köçdü.",
+"a": 600.8,
+"b": 604.83
+},
+{
+"shot": "L66",
+"si": 0,
+"text": "Səhih Buxaridə İbn Abbas onların adlarını çəkir:",
+"a": 605.01,
+"b": 608.98
+},
+{
+"shot": "L66",
+"si": 0,
+"text": "Vədd,",
+"a": 609.14,
+"b": 609.77
+},
+{
+"shot": "L66",
+"si": 0,
+"text": "Suva,",
+"a": 609.77,
+"b": 610.53
+},
+{
+"shot": "L66",
+"si": 0,
+"text": "Yəğus,",
+"a": 611.03,
+"b": 610.56
+},
+{
+"shot": "L66",
+"si": 0,
+"text": "Yəuq və Nəsr.",
+"a": 610.56,
+"b": 612.41
+},
+{
+"shot": "L66",
+"si": 1,
+"text": "Bunlar saleh insanların adları idi.",
+"a": 612.74,
+"b": 616.99
+},
+{
+"shot": "L67",
+"si": 0,
+"text": "Onlar öləndə şeytan insanlara pıçıldadı:",
+"a": 616.99,
+"b": 619.82
+},
+{
+"shot": "L67",
+"si": 0,
+"text": "\"Onların oturduğu yerlərə heykəllərini qoyun,",
+"a": 619.95,
+"b": 623.34
+},
+{
+"shot": "L67",
+"si": 0,
+"text": "xatirələrini yaşadın.\"",
+"a": 623.34,
+"b": 624.83
+},
+{
+"shot": "L68",
+"si": 0,
+"text": "İlk nəsillər bu heykəllərə sadəcə hörmətlə baxırdı.",
+"a": 625.23,
+"b": 629.29
+},
+{
+"shot": "L69",
+"si": 0,
+"text": "Amma aradan əsrlər keçdikcə,",
+"a": 629.29,
+"b": 630.45
+},
+{
+"shot": "L69",
+"si": 0,
+"text": "gələn yeni nəsillər o heykəllərin niyə düzəldildiyini unutdular —",
+"a": 631.02,
+"b": 635.99
+},
+{
+"shot": "L69",
+"si": 0,
+"text": "və onlara ibadət etməyə başladılar.",
+"a": 635.99,
+"b": 638.63
+},
+{
+"shot": "L70",
+"si": 0,
+"text": "İbn Abbasın sözləri belədir:",
+"a": 638.79,
+"b": 640.24
+},
+{
+"shot": "L70",
+"si": 0,
+"text": "\"O nəsil ölüb elm unudulanda,",
+"a": 640.78,
+"b": 643.85
+},
+{
+"shot": "L70",
+"si": 0,
+"text": "o heykəllərə ibadət olundu.\"",
+"a": 643.85,
+"b": 645.31
+},
+{
+"shot": "L71",
+"si": 0,
+"text": "Beləcə,",
+"a": 645.63,
+"b": 646.77
+},
+{
+"shot": "L71",
+"si": 0,
+"text": "insanları Tək Allaha çağıran bir peyğəmbərin gedişindən sonra,",
+"a": 646.77,
+"b": 651.3
+},
+{
+"shot": "L71",
+"si": 0,
+"text": "yer üzündə ilk bütpərəstlik yarandı.",
+"a": 651.3,
+"b": 653.53
+},
+{
+"shot": "L72",
+"si": 0,
+"text": "Dayanın.",
+"a": 653.71,
+"b": 655.29
+},
+{
+"shot": "L73",
+"si": 0,
+"text": "Bu beş büt tufanla birlikdə yox olmadı.",
+"a": 655.98,
+"b": 657.84
+},
+{
+"shot": "L74",
+"si": 0,
+"text": "İbn Abbas deyir ki,",
+"a": 658.03,
+"b": 659.64
+},
+{
+"shot": "L74",
+"si": 0,
+"text": "Nuh qövmünün bu bütləri sonra ərəb tayfalarına keçdi.",
+"a": 660.27,
+"b": 665.36
+},
+{
+"shot": "L74",
+"si": 1,
+"text": "Vədd Kəlb qəbiləsinin,",
+"a": 665.99,
+"b": 666.38
+},
+{
+"shot": "L74",
+"si": 1,
+"text": "Suva Hüzeylin,",
+"a": 666.61,
+"b": 667.64
+},
+{
+"shot": "L74",
+"si": 1,
+"text": "Yəğus Muradın,",
+"a": 668.01,
+"b": 669.33
+},
+{
+"shot": "L74",
+"si": 1,
+"text": "Yəuq Həmdanın,",
+"a": 669.77,
+"b": 670.35
+},
+{
+"shot": "L74",
+"si": 1,
+"text": "Nəsr isə Himyərin bütü oldu.",
+"a": 670.54,
+"b": 674.13
+},
+{
+"shot": "L75",
+"si": 0,
+"text": "Yəni Peyğəmbərimiz Məkkədə bütlərə qarşı çıxanda,",
+"a": 674.33,
+"b": 677.9
+},
+{
+"shot": "L75",
+"si": 0,
+"text": "o bütlərin bəzilərinin kökü İdrisdən sonrakı dövrə,",
+"a": 677.9,
+"b": 681.24
+},
+{
+"shot": "L75",
+"si": 0,
+"text": "minillər əvvələ gedirdi.",
+"a": 681.46,
+"b": 682.98
+},
+{
+"shot": "L76",
+"si": 0,
+"text": "İnsanlıq elə bir qaranlığa büründü ki,",
+"a": 683.32,
+"b": 686.19
+},
+{
+"shot": "L76",
+"si": 0,
+"text": "artıq yer üzünü təmizləyəcək Böyük Tufan qaçılmaz idi.",
+"a": 686.19,
+"b": 689.97
+},
+{
+"shot": "L77",
+"si": 0,
+"text": "Bütlər bir gündə yaranmadı.",
+"a": 690.1,
+"b": 691.93
+},
+{
+"shot": "L77",
+"si": 1,
+"text": "Elm unudulanda yarandı.",
+"a": 692.55,
+"b": 694.25
+},
+{
+"shot": "L78",
+"si": 0,
+"text": "İnsanlığa qələmi öyrədən peyğəmbərin hekayəsi bizə bunu xatırladır:",
+"a": 694.81,
+"b": 700.08
+},
+{
+"shot": "L78",
+"si": 0,
+"text": "elmin olması kifayət deyil —",
+"a": 700.31,
+"b": 702.84
+},
+{
+"shot": "L78",
+"si": 0,
+"text": "onu unutmaq olar.",
+"a": 702.84,
+"b": 704.08
+},
+{
+"shot": "L79",
+"si": 0,
+"text": "Növbəti bölümdə Həzrəti İdrisdən sonra gələn və gəmisi ilə bəşəriyyəti xilas edən Həzrəti Nuhun gizli tarixindən danışacağıq.",
+"a": 704.59,
+"b": 714.79
+},
+{
+"shot": "L80",
+"si": 0,
+"text": "Sizcə,",
+"a": 715.39,
+"b": 714.23
+},
+{
+"shot": "L80",
+"si": 0,
+"text": "bu gün ən çox unudulan elm hansıdır?",
+"a": 714.23,
+"b": 717.49
+},
+{
+"shot": "L80",
+"si": 1,
+"text": "Şərhlərdə yazın.",
+"a": 717.49,
+"b": 718.55
+},
+{
+"shot": "L81",
+"si": 0,
+"text": "Seriyanın davamını qaçırmamaq üçün videonu bəyənməyi,",
+"a": 718.97,
+"b": 723.79
+},
+{
+"shot": "L81",
+"si": 0,
+"text": "kanala abunə olmağı və fikirlərinizi şərhdə bölüşməyi unutmayın.",
+"a": 724.06,
+"b": 728.36
+}
+]
+}

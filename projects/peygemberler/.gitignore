@@ -4,3 +4,4 @@ build/_*.wav
 ep2_intro/tmp/
 ep2_intro/intro_1min.mp4
 ep2_trailer/
+build/_stills.mjs

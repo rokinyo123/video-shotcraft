@@ -591,7 +591,7 @@ export const Dialog: React.FC<P & {who: string; text: string; side: 'left' | 'ri
 };
 
 /** Növbəti bölüm kartı. */
-export const NextEp: React.FC<P> = ({t, a, b}) => {
+export const NextEp: React.FC<P & {name?: string; sub?: string}> = ({t, a, b, name = 'İDRİS', sub = 'Səmaya qaldırılan peyğəmbərin sirri'}) => {
   const o = env(t, a, b, 0.8, 1.2);
   if (o <= 0) return null;
   const sp = interpolate(t, [a, a + 4], [40, 18], {...clamp, easing: Easing.out(Easing.quad)});
@@ -599,8 +599,8 @@ export const NextEp: React.FC<P> = ({t, a, b}) => {
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', opacity: o}}>
       <div style={{textAlign: 'center'}}>
         <div style={{fontFamily: F.sans, letterSpacing: 10, fontSize: 26, color: C.gold}}>NÖVBƏTİ BÖLÜM</div>
-        <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 170, letterSpacing: sp, color: C.ivory, textShadow: '0 0 60px rgba(214,168,78,0.4)'}}>İDRİS</div>
-        <div style={{fontFamily: F.serif, fontStyle: 'italic', fontSize: 44, color: C.goldSoft}}>Səmaya qaldırılan peyğəmbərin sirri</div>
+        <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 170, letterSpacing: sp, color: C.ivory, textShadow: '0 0 60px rgba(214,168,78,0.4)'}}>{name}</div>
+        <div style={{fontFamily: F.serif, fontStyle: 'italic', fontSize: 44, color: C.goldSoft}}>{sub}</div>
       </div>
     </AbsoluteFill>
   );
