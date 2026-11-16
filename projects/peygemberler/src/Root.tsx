@@ -18,6 +18,7 @@ import {Main as Ep2Main, EP2_T0, EP2_END} from './ep2/Main';
 import {GlobeScene} from './three/GlobeScene';
 import {GLOBES} from './three/globes';
 import {FPS} from './theme';
+import {LogoSpin, LOGO_FRAMES} from './brand/LogoSpin';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -54,5 +55,7 @@ export const RemotionRoot: React.FC = () => (
       ].map(([id, a, b]) => (
         <Composition key={id as string} id={id as string} component={Ep2Main} durationInFrames={Math.round(((b as number) - (a as number)) * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{from: a as number}} />
       ))}
+  <Composition id="LogoSpin" component={LogoSpin} durationInFrames={LOGO_FRAMES} fps={30} width={1080} height={1080} defaultProps={{green: false}} />
+  <Composition id="LogoSpinGreen" component={LogoSpin} durationInFrames={LOGO_FRAMES} fps={30} width={1080} height={1080} defaultProps={{green: true}} />
 </>
 );
