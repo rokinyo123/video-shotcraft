@@ -1,0 +1,47 @@
+<html><head><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Inter:wght@700&display=block" rel="stylesheet">
+<style>body{margin:0;background:transparent}#bg{width:1024px;height:1024px;position:relative}
+#bg.dark{background:radial-gradient(circle at 50% 45%,#2a1d0e 0%,#0b0805 70%)}svg{position:absolute;inset:0;filter:drop-shadow(0 8px 14px rgba(0,0,0,.8))}</style></head><body>
+<div id="bg"><svg width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3cc"/><stop offset=".45" stop-color="#e6c06a"/><stop offset="1" stop-color="#9c6d26"/></linearGradient>
+ <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3cc"/><stop offset=".5" stop-color="#d6a84e"/><stop offset="1" stop-color="#7a5218"/></linearGradient>
+ <radialGradient id="in" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#3a2810"/><stop offset=".6" stop-color="#160f07"/><stop offset="1" stop-color="#070503"/></radialGradient>
+ <linearGradient id="rib" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0c0"/><stop offset=".5" stop-color="#e2b65c"/><stop offset="1" stop-color="#a5762c"/></linearGradient>
+ <path id="arc" d="M 222 440 A 290 290 0 0 1 802 440"/>
+</defs>
+<!-- rays -->
+<g opacity=".28">
+ <g id="rays"></g>
+</g>
+<circle cx="512" cy="440" r="350" fill="url(#g2)"/>
+<circle cx="512" cy="440" r="334" fill="url(#in)"/>
+<circle cx="512" cy="440" r="320" fill="none" stroke="url(#g)" stroke-width="3" opacity=".8"/>
+<circle cx="512" cy="440" r="236" fill="none" stroke="url(#g)" stroke-width="2" opacity=".55"/>
+<g id="dots"></g>
+<text font-family="Inter" font-weight="700" font-size="30" letter-spacing="9" fill="#f0d9a0"><textPath href="#arc" startOffset="50%" text-anchor="middle">PEYĞƏMBƏRLƏRİN GİZLİ TARİXİ</textPath></text>
+<!-- bow E -->
+<g transform="translate(512 470) scale(1.55) translate(-60 -10)">
+ <path d="M-10 -78 C-12 -64 -20 -64 -34 -64 L-62 -64 C-90 -64 -100 -32 -100 0 C-100 32 -90 64 -62 64 L-34 64 C-20 64 -12 64 -10 78" fill="none" stroke="url(#g)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="-110" y="-17" width="18" height="34" rx="5" fill="#9c6d26" stroke="#fff3cc" stroke-width="2"/>
+ <path d="M-10 -78 L-70 0 L-10 78" fill="none" stroke="#f0d9a0" stroke-width="3"/>
+ <line x1="-74" y1="0" x2="128" y2="0" stroke="#1a1006" stroke-width="15" stroke-linecap="round"/>
+ <line x1="-74" y1="0" x2="128" y2="0" stroke="#f0d9a0" stroke-width="8" stroke-linecap="round"/>
+ <path d="M160 0 L118 -18 L128 0 L118 18 Z" fill="#fff3cc" stroke="#1a1006" stroke-width="2"/>
+ <g fill="#d6a84e" stroke="#1a1006" stroke-width="1.5"><path d="M-62 0 l-18 -16 l11 0 l18 16 z"/><path d="M-62 0 l-18 16 l11 0 l18 -16 z"/><path d="M-46 0 l-18 -16 l11 0 l18 16 z"/><path d="M-46 0 l-18 16 l11 0 l18 -16 z"/></g>
+</g>
+<!-- ribbon -->
+<g>
+ <path d="M70 700 L170 700 L170 830 L70 830 L110 765 Z" fill="#8a5e22"/>
+ <path d="M954 700 L854 700 L854 830 L954 830 L914 765 Z" fill="#8a5e22"/>
+ <path d="M130 680 L894 680 L894 800 L130 800 Z" fill="url(#rib)" stroke="#5a3a10" stroke-width="4"/>
+ <path d="M130 800 L170 830 L170 800Z M894 800 L854 830 L854 800Z" fill="#4a300c"/>
+ <text x="512" y="776" text-anchor="middle" font-family="Cormorant Garamond" font-weight="700" font-size="104" letter-spacing="16" fill="#1e1306">ESGAROW</text>
+</g>
+</svg></div>
+<script>
+const N='http://www.w3.org/2000/svg';
+const r=document.getElementById('rays');for(let i=0;i<36;i++){const a=i*10*Math.PI/180;const p=document.createElementNS(N,'path');const w=0.06;
+p.setAttribute('d',`M512 440 L${512+480*Math.cos(a-w)} ${440+480*Math.sin(a-w)} L${512+480*Math.cos(a+w)} ${440+480*Math.sin(a+w)}Z`);p.setAttribute('fill','#d6a84e');p.setAttribute('opacity',i%2?'.25':'.5');r.appendChild(p);}
+const d=document.getElementById('dots');for(let i=0;i<24;i++){const a=(i*15+7.5)*Math.PI/180; if(Math.sin(a)<-0.15) continue; const c=document.createElementNS(N,'circle');c.setAttribute('cx',512+278*Math.cos(a));c.setAttribute('cy',440+278*Math.sin(a));c.setAttribute('r',5);c.setAttribute('fill','#d6a84e');d.appendChild(c);}
+document.fonts.ready.then(()=>document.title='done');
+</script></body></html>
