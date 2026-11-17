@@ -48,6 +48,7 @@ export const RemotionRoot: React.FC = () => (
       <Composition id="ThumbD" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} />
       <Composition id="ThumbE" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep1/thumb_hand.jpg', full: true}} />
       <Composition id="ThumbIdris" component={Thumbnail3} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={{img: 'media/ep2/thumb_zigg.jpg', full: true, top: 'GÖYƏ QALDIRILAN', name: 'HZ. İDRİSİN', l1: 'SİRLİ', l2: 'HƏYATI', num: '2', shift: 340, nameTop: 138, nameSize: 164}} />
+      <Composition id="ThumbVIdris" component={ThumbVertical} durationInFrames={1} fps={30} width={1080} height={1920} defaultProps={{img: 'media/ep2/thumb_zigg.jpg', imgLeft: -704, top: 'GÖYƏ QALDIRILAN', name: 'HZ. İDRİSİN', l1: 'SİRLİ', l2: 'HƏYATI', num: '2', dy: 26}} />
       <Composition id="ThumbV" component={ThumbVertical} durationInFrames={1} fps={30} width={1080} height={1920} />
       <Composition id="Ep2Trailer" component={Trailer} durationInFrames={Math.round(TRAILER_DUR * FPS)} fps={FPS} width={1920} height={1080} />
       {[
