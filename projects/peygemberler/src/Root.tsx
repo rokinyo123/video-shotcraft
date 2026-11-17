@@ -19,6 +19,8 @@ import {GlobeScene} from './three/GlobeScene';
 import {GLOBES} from './three/globes';
 import {FPS} from './theme';
 import {LogoSpin, LOGO_FRAMES} from './brand/LogoSpin';
+import {ShortEnd, SHORT_END_FRAMES} from './brand/ShortEnd';
+import {ShortTrailer, SHORT_FRAMES} from './brand/ShortTrailer';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -59,5 +61,7 @@ export const RemotionRoot: React.FC = () => (
       ))}
   <Composition id="LogoSpin" component={LogoSpin} durationInFrames={LOGO_FRAMES} fps={30} width={1080} height={1080} defaultProps={{green: false}} />
   <Composition id="LogoSpinGreen" component={LogoSpin} durationInFrames={LOGO_FRAMES} fps={30} width={1080} height={1080} defaultProps={{green: true}} />
+  <Composition id="ShortEnd" component={ShortEnd} durationInFrames={SHORT_END_FRAMES} fps={30} width={1080} height={1920} />
+  <Composition id="ShortTrailer" component={ShortTrailer} durationInFrames={SHORT_FRAMES} fps={30} width={1080} height={1920} />
 </>
 );
