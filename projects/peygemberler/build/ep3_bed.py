@@ -14,10 +14,13 @@ def add(snd, t, g, fi=0.0, fo=0.0):
     if fo: k = int(fo * SR); s[-k:] *= np.linspace(1, 0, k)[:, None]
     buf[i:i + n] += s
 # yataqlar (səhnələrə görə)
-add(A.mystery_bed(19.5), 0.0, -22, 0.5, 1.5)            # giriş, sirli
-add(A.tension_bed(31.0), 18.6, -23, 1.5, 1.5)          # gəmi sirləri
-add(A.drone_dark(9.5), 49.3, -18, 0.6, 1.2)            # casus qadın
-add(A.pad_sacred(20.5), 58.0, -21, 1.5, 1.2)           # mənbələr
+add(A.mystery_bed(19.5), 0.0, -13, 0.5, 1.5)            # giriş, sirli
+add(A.tension_bed(31.0), 18.6, -12, 1.5, 1.5)
+for k in range(16): add(A.taiko(0.8), 19.0 + k * 1.9, -17)          # gəmi sirləri
+add(A.drone_dark(9.5), 49.3, -10, 0.6, 1.2)
+add(A.heartbeat(8.8), 49.5, -12, 0.5, 0.8)            # casus qadın
+add(A.tension_bed(9.5), 58.0, -14, 0.8, 1.5)
+add(A.pad_sacred(12.5), 66.0, -13, 1.5, 1.2)           # mənbələr
 # effektlər
 add(A.boom(), 1.0, -9); add(A.shimmer(4.0), 1.1, -15)   # başlıq
 for t in [5.67, 18.95, 30.99, 37.31, 43.75, 58.27, 67.2]:
