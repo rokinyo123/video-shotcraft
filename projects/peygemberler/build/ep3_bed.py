@@ -22,11 +22,18 @@ add(A.heartbeat(8.8), 49.5, -12, 0.5, 0.8)            # casus qadın
 add(A.tension_bed(9.5), 58.0, -14, 0.8, 1.5)
 add(A.pad_sacred(12.5), 66.0, -13, 1.5, 1.2)           # mənbələr
 # effektlər
-add(A.boom(), 1.0, -9); add(A.shimmer(4.0), 1.1, -15)   # başlıq
-for t in [5.67, 18.95, 30.99, 37.31, 43.75, 58.27, 67.2]:
+add(A.boom(), 0.25, -8); add(A.sub_hit(), 0.25, -10); add(A.shimmer(4.0), 0.4, -14)
+add(A.sand(2.0), 5.75, -15); add(A.shimmer(2.0), 6.0, -18); add(A.riser(1.8), 7.5, -18)
+for a in (9.2, 10.95): add(A.impact(), a, -12)
+add(A.sand(1.8), 31.05, -15); add(A.riser(1.2), 32.5, -18)
+for a in (34.05, 34.85, 35.65): add(A.click(), a, -10); add(A.shimmer(0.8), a, -18)
+add(A.boom(), 36.55, -14)
+for a in (67.5, 68.05, 68.85, 69.9): add(A.stamp(), a, -16)
+add(A.choir_hit(3.0), 76.7, -14)   # başlıq
+for t in [5.67, 18.95, 30.99, 37.31, 43.75, 58.27, 66.4]:
     add(A.whoosh(), t - 0.45, -17)
 add(A.sub_hit(), 49.5, -8); add(A.braam(4.0), 49.5, -16)
 add(A.riser(2.5), 41.3, -20); add(A.choir_hit(4.0), 43.75, -18)
-add(A.paper(), 67.3, -14)
+add(A.paper(), 66.3, -12)
 fo = int(1.0 * SR); buf[-fo:] *= np.linspace(1, 0, fo)[:, None]
 sf.write('public/audio/ep3/bed.wav', np.clip(buf, -1, 1), SR); print('ok')
