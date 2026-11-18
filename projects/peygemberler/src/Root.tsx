@@ -21,6 +21,7 @@ import {FPS} from './theme';
 import {LogoSpin, LOGO_FRAMES} from './brand/LogoSpin';
 import {ShortEnd, SHORT_END_FRAMES} from './brand/ShortEnd';
 import {ShortTrailer, SHORT_FRAMES} from './brand/ShortTrailer';
+import {Ep3Intro, EP3_INTRO_DUR} from './ep3/Intro';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -63,5 +64,6 @@ export const RemotionRoot: React.FC = () => (
   <Composition id="LogoSpinGreen" component={LogoSpin} durationInFrames={LOGO_FRAMES} fps={30} width={1080} height={1080} defaultProps={{green: true}} />
   <Composition id="ShortEnd" component={ShortEnd} durationInFrames={SHORT_END_FRAMES} fps={30} width={1080} height={1920} />
   <Composition id="ShortTrailer" component={ShortTrailer} durationInFrames={SHORT_FRAMES} fps={30} width={1080} height={1920} />
+  <Composition id="Ep3Intro" component={Ep3Intro} durationInFrames={Math.round(EP3_INTRO_DUR * 30)} fps={30} width={1920} height={1080} />
 </>
 );
