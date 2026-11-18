@@ -124,23 +124,24 @@ const Floors: React.FC<{t: number; a: number; b: number; at: number[]}> = ({t, a
 };
 
 // ---------- 3: 80 mömin -> 3 qol ----------
-const Lineage: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
+const Lineage: React.FC<{t: number; a: number; b: number; dots: number; gone: number; sonsAt: number}> = ({t, a, b, dots, gone, sonsAt}) => {
   const o = env(t, a, b, 0.3, 0.5);
   if (o <= 0) return null;
   const f = t - a;
-  const dotsIn = interpolate(f, [0, 0.8], [0, 1], clamp);
-  const fade = interpolate(f, [1.3, 2.4], [0, 1], clamp); // 77-si sönür
-  const arrow = interpolate(f, [2.0, 2.6], [0, 1], clamp);
+  const dotsIn = interpolate(t, [dots, dots + 1.2], [0, 1], clamp);
+  const fade = interpolate(t, [gone, gone + 1.4], [0, 1], clamp); // 77-si sönür
+  const arrow = interpolate(t, [sonsAt, sonsAt + 0.7], [0, 1], clamp);
+  void f;
   const sons = ['SAM', 'HAM', 'YAFƏS'];
   const keep = new Set([33, 39, 46]);
   return (
-    <div style={{position: 'absolute', right: 80, top: 150, width: 560, padding: '26px 30px', opacity: o, background: 'rgba(8,6,4,0.62)', border: '1px solid rgba(214,168,78,0.55)', borderRadius: 4, boxShadow: '0 10px 40px rgba(0,0,0,0.6)'}}>
-      <div style={{fontFamily: F.sans, fontWeight: 600, fontSize: 26, letterSpacing: 6, color: C.gold}}>80 MÖMİN</div>
-      <div style={{display: 'grid', gridTemplateColumns: 'repeat(16, 1fr)', gap: 9, margin: '16px 0 18px'}}>
+    <div style={{position: 'absolute', right: 70, top: 150, width: 660, padding: '30px 36px', opacity: o, background: 'rgba(8,6,4,0.62)', border: '1px solid rgba(214,168,78,0.55)', borderRadius: 4, boxShadow: '0 10px 40px rgba(0,0,0,0.6)'}}>
+      <div style={{fontFamily: F.sans, fontWeight: 600, fontSize: 34, letterSpacing: 6, color: C.gold}}>80 MÖMİN</div>
+      <div style={{display: 'grid', gridTemplateColumns: 'repeat(16, 1fr)', gap: 11, margin: '18px 0 20px'}}>
         {Array.from({length: 80}, (_, i) => {
           const on = i / 80 < dotsIn;
           const k = keep.has(i);
-          return <div key={i} style={{width: 18, height: 18, borderRadius: 9, background: k ? C.gold : C.ivory, opacity: on ? (k ? 1 : 1 - 0.85 * fade) : 0, boxShadow: k && fade > 0.5 ? `0 0 14px ${C.gold}` : 'none', transform: `scale(${k ? 1 + 0.3 * fade : 1 - 0.3 * fade})`}} />;
+          return <div key={i} style={{width: 22, height: 22, borderRadius: 11, background: k ? C.gold : C.ivory, opacity: on ? (k ? 1 : 1 - 0.85 * fade) : 0, boxShadow: k && fade > 0.5 ? `0 0 14px ${C.gold}` : 'none', transform: `scale(${k ? 1 + 0.3 * fade : 1 - 0.3 * fade})`}} />;
         })}
       </div>
       <div style={{display: 'flex', alignItems: 'center', gap: 16, opacity: arrow}}>
@@ -185,7 +186,7 @@ export const Ep3Intro: React.FC = () => {
       <Title t={t} a={1.0} b={6.0} />
       <LowerThird t={t} a={21.0} b={30.6} k="SİRR #1" text="Gəmidəki İlahi Sükunət" />
       <Floors t={t} a={31.3} b={37.1} at={[33.3, 34.3, 35.3]} />
-      <Lineage t={t} a={44.0} b={49.35} />
+      <Lineage t={t} a={39.3} b={49.6} dots={39.5} gone={42.0} sonsAt={47.3} />
       <Tension t={t} a={49.5} b={58.3} />
 
       <Vignette />
