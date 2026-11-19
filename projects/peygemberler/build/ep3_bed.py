@@ -24,12 +24,10 @@ add(A.pad_sacred(12.5), 66.0, -13, 1.5, 1.2)           # mənbələr
 # effektlər
 add(A.boom(), 0.25, -8); add(A.sub_hit(), 0.25, -10); add(A.shimmer(4.0), 0.4, -14)
 add(A.sand(2.0), 5.75, -15); add(A.shimmer(2.0), 6.0, -18); add(A.riser(1.8), 7.5, -18)
-add(A.impact(), 9.2, -12)
-for a in (10.95, 11.6): add(A.boom(), a, -11)
-add(A.water(1.6), 10.75, -14)
+for a in (9.25, 10.95, 11.6): add(A.boom(), a, -10)
+add(A.water(3.4), 8.9, -12, 0.4, 0.5); add(A.wind(3.4), 8.9, -14, 0.4, 0.5)
 add(A.sand(1.3), 31.05, -15); add(A.riser(1.0), 32.1, -18)
-for a in (33.25, 34.1, 34.95): add(A.click(), a, -10); add(A.shimmer(0.8), a, -18)
-add(A.boom(), 35.85, -14)
+for a in (33.25, 34.45, 35.65): add(A.click(), a, -10); add(A.shimmer(1.0), a, -16)
 for a in (67.5, 68.05, 68.85, 69.9): add(A.stamp(), a, -16)
 add(A.choir_hit(3.0), 76.7, -14)   # başlıq
 for t in [5.67, 12.02, 13.75, 18.95, 30.99, 37.75, 43.75, 58.27, 66.4]:

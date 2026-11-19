@@ -10,36 +10,37 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const CLIP = 6.03;
 
 type Shot = {kind: 'img' | 'vid' | 'eng'; src: string; a: number; b: number; from?: number; z0: number; z1: number; gray?: boolean; vol?: number; dark?: number;
-  cut?: boolean; draw?: [number, number]; lamp?: [number, number]; away?: [number, number]; top?: boolean; flash?: number[]; rain?: [number, number]; candle?: boolean; origin?: string; crush?: boolean; rate?: number};
+  cut?: boolean; draw?: [number, number]; lamp?: [number, number]; away?: [number, number]; top?: boolean; flash?: number[]; rain?: [number, number]; candle?: boolean; origin?: string; crush?: boolean; rate?: number; path?: {t: number; s: number; x: number; y: number}[]; sea?: boolean; tilt?: [number, number]};
 const I = (n: number, a: number, b: number, o: Partial<Shot> = {}): Shot => ({kind: 'img', src: `img_${n}.jpg`, a, b, z0: 1.0, z1: 1.04, ...o});
-const Vd = (n: number, a: number, b: number, o: Partial<Shot> = {}): Shot => ({kind: 'vid', src: `vid_${n}.mp4`, a, b, z0: 1.04, z1: 1.08, vol: 0.27, ...o});
+const Vd = (n: number, a: number, b: number, o: Partial<Shot> = {}): Shot => ({kind: 'vid', src: `vid_${n}.mp4`, a, b, z0: 1.04, z1: 1.08, vol: 0.25, ...o});
 const E = (n: number, a: number, b: number, draw: [number, number], lamp: [number, number], o: Partial<Shot> = {}): Shot => ({kind: 'eng', src: `img_${n}.jpg`, a, b, z0: 1.0, z1: 1.05, draw, lamp, ...o});
 
 export const SHOTS: Shot[] = [
   // 1 — salamlama + seriya başlığı (başlıq oxunsun deyə kadr bir az tündləşir)
-  I(1, 0, 1.8, {dark: 0.3}), Vd(1, 1.8, 5.67, {dark: 0.3}),
-  // 2 — "hamımız uşaqlıqdan eşitmişik": gəmi köhnə kitab qravürası kimi açılır; "yağış yağdı"da yağış + ildırım
-  E(1, 5.67, 12.02, [5.75, 7.6], [7.5, 9.2], {cut: true, z0: 1.0, z1: 1.1, rain: [10.75, 12.1], flash: [10.95, 11.6]}),
+  I(1, 0, 1.8, {dark: 0.3, z1: 1.05}), Vd(1, 1.8, 5.67, {dark: 0.3, z0: 1.05, z1: 1.09}),
+  // 2 — fırtınada Nuhun gəmisi: köhnə qravüra kimi açılır, sonra canlanır (yağış, dəniz, ildırım)
+  E(2, 5.67, 12.02, [5.75, 7.6], [7.5, 9.2], {cut: true, z0: 1.0, z1: 1.12, rain: [9.0, 12.1], flash: [9.25, 10.95, 11.6], sea: true}),
   Vd(5, 12.02, 13.75, {from: 3.4, vol: 0, z0: 1.0, z1: 1.05, cut: true}),
   // "bu hekayənin arxasında çox az adamın bildiyi sirlər" — şam işığında köhnə kitablar
   I(8, 13.75, 18.95, {dark: 0.35, z0: 1.0, z1: 1.14, cut: true, candle: true}),
-  // 3 — gəminin içi → şir və ceyran
-  Vd(4, 18.95, 23.2, {vol: 0, z0: 1.0, z1: 1.06, cut: true}),
-  I(3, 23.2, 24.7, {cut: true}), Vd(3, 24.7, 30.99),
-  // 4 — 3 mərtəbə: kəsik qravüra kimi çəkilir, sonra mərtəbələr yanır
-  E(4, 30.99, 37.75, [31.05, 32.3], [32.2, 33.05], {cut: true, z0: 1.0, z1: 1.0}),
+  // 3 — "aylarla qapalı qalan gəmidə" → "şirlə ceyran" → "canavarla qoyun" (kamera heyvanlar arasında gəzir)
+  Vd(4, 18.95, 22.3, {vol: 0.25, z0: 1.0, z1: 1.06, cut: true}),
+  I(3, 22.3, 27.6, {cut: true, z0: 1, z1: 1, path: [{t: 22.3, s: 1.0, x: 50, y: 55}, {t: 23.4, s: 1.06, x: 58, y: 62}, {t: 25.2, s: 1.22, x: 66, y: 72}, {t: 25.8, s: 1.2, x: 40, y: 80}, {t: 27.6, s: 1.3, x: 34, y: 84}]}),
+  Vd(3, 27.6, 30.99, {z0: 1.04, z1: 1.1}),
+  // 4 — 3 mərtəbə: kəsik qravüra kimi çəkilir, sonra aşağıdan yuxarı mərtəbə göstəriciləri
+  E(4, 30.99, 37.75, [31.05, 32.6], [32.4, 33.1], {cut: true, z0: 1.07, z1: 1.07, tilt: [33.0, 37.75]}),
   // 5 — 80 mömin
-  I(5, 37.75, 39.3, {cut: true}), Vd(5, 39.3, 43.75, {vol: 0}),
+  I(5, 37.75, 39.3, {cut: true, z1: 1.05}), Vd(5, 39.3, 43.75, {vol: 0, z0: 1.05, z1: 1.09}),
   // 6 — 8 milyard, 3 oğul
-  I(6, 43.75, 45.4, {cut: true}), Vd(6, 45.4, 49.5),
-  // 7 — casus qadın: qadına yaxın kadr, mühafizəçilər kölgədə
-  I(7, 49.5, 51.4, {cut: true, flash: [49.55], z0: 1.45, z1: 1.55, origin: '28% 45%', crush: true}),
-  Vd(7, 51.4, 58.27, {vol: 0, z0: 1.4, z1: 1.5, origin: '22% 45%', crush: true, rate: 0.6}),
+  I(6, 43.75, 45.4, {cut: true, z1: 1.05}), Vd(6, 45.4, 49.5, {z0: 1.05, z1: 1.09}),
+  // 7 — casus qadın (Mesopotamiya küçəsi): yavaş, gərgin yaxınlaşma qadına doğru
+  I(7, 49.5, 58.27, {cut: true, flash: [49.55], z0: 1, z1: 1, path: [{t: 49.5, s: 1.02, x: 62, y: 48}, {t: 58.27, s: 1.32, x: 80, y: 44}]}),
   // 8 — "standart hekayələri kənara qoyun": solğun kadr kart olub kənara uçur → mənbələr
   Vd(5, 58.27, 62.7, {from: 0.2, gray: true, vol: 0, z0: 1.0, z1: 1.06}),
-  I(8, 66.3, 69.1, {z0: 1.02, z1: 1.06}), Vd(8, 69.1, EP3_INTRO_DUR),
+  I(8, 66.3, 69.1, {z0: 1.02, z1: 1.06}), Vd(8, 69.1, EP3_INTRO_DUR, {z0: 1.06, z1: 1.12}),
   Vd(1, 62.7, 67.25, {gray: true, vol: 0.1, z0: 1.05, z1: 1.0, away: [66.25, 67.2], top: true}),
 ];
+export const tiltY = (t: number) => interpolate(t, [33.0, 37.75], [-34, 34], {...clamp, easing: Easing.inOut(Easing.sin)});
 const XF = 0.3;
 
 const rnd = (i: number) => {
@@ -91,8 +92,15 @@ const ShotView: React.FC<{s: Shot; t: number}> = ({s, t}) => {
     return (
       <AbsoluteFill style={wrap}>
         <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, #2b1e10 0%, #120c06 70%)'}} />
-        <AbsoluteFill style={{transform: `scale(${z})`}}>
-          <div style={{position: 'absolute', inset: 0, WebkitMaskImage: cm, maskImage: cm}}><Img src={staticFile(M + s.src)} style={style} /></div>
+        <AbsoluteFill style={{transform: `translateY(${s.tilt ? tiltY(t) : 0}px) scale(${z})`}}>
+          <div style={{position: 'absolute', inset: 0, WebkitMaskImage: cm, maskImage: cm}}>
+            <Img src={staticFile(M + s.src)} style={style} />
+            {s.sea && rk > 0 ? (
+              <div style={{position: 'absolute', inset: 0, opacity: rk, WebkitMaskImage: 'linear-gradient(180deg, transparent 52%, #000 64%)', maskImage: 'linear-gradient(180deg, transparent 52%, #000 64%)'}}>
+                <Img src={staticFile(M + s.src)} style={{...style, filter: `url(#sea) ${style.filter}`}} />
+              </div>
+            ) : null}
+          </div>
           <Lines src={s.src} t={t} draw={s.draw!} o={lo} />
         </AbsoluteFill>
         {rk > 0 ? <Rain t={t} o={rk * 0.85} /> : null}
@@ -101,17 +109,24 @@ const ShotView: React.FC<{s: Shot; t: number}> = ({s, t}) => {
       </AbsoluteFill>
     );
   }
+  let origin = s.origin ?? '50% 50%';
+  if (s.path) {
+    const ts = s.path.map((p) => p.t);
+    const e = {...clamp, easing: Easing.inOut(Easing.sin)};
+    z = interpolate(t, ts, s.path.map((p) => p.s), e);
+    origin = `${interpolate(t, ts, s.path.map((p) => p.x), e)}% ${interpolate(t, ts, s.path.map((p) => p.y), e)}%`;
+  }
   const from = s.from ?? 0;
   const dur = s.b - s.a + 0.4;
   const rate = s.rate ?? Math.max(0.6, Math.min(1, (CLIP - from - 0.05) / dur));
   return (
     <AbsoluteFill style={wrap}>
-      <AbsoluteFill style={{transform: `scale(${z})`, transformOrigin: s.origin ?? '50% 50%'}}>
+      <AbsoluteFill style={{transform: `scale(${z})`, transformOrigin: origin}}>
         {s.kind === 'img' ? (
           <Img src={staticFile(M + s.src)} style={style} />
         ) : (
           <Sequence from={Math.round((s.a - (s.cut ? XF / 2 : 0)) * FPS)} layout="none">
-            <OffthreadVideo src={staticFile(M + s.src)} startFrom={Math.round(from * FPS)} playbackRate={rate} volume={s.vol ?? 0.27} style={style} />
+            <OffthreadVideo src={staticFile(M + s.src)} startFrom={Math.round(from * FPS)} playbackRate={rate} volume={s.vol ?? 0.25} style={style} />
           </Sequence>
         )}
       </AbsoluteFill>
@@ -134,7 +149,7 @@ const Title: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
       <AbsoluteFill style={{background: 'radial-gradient(ellipse 60% 45% at 50% 50%, rgba(0,0,0,0.82), rgba(0,0,0,0.25) 85%)'}} />
       <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', transform: `scale(${sc})`}}>
         <div style={{textAlign: 'center'}}>
-          <div style={{position: 'relative', fontFamily: F.serif, fontWeight: 700, fontSize: 86, letterSpacing: 6, whiteSpace: 'nowrap'}}>
+          <div style={{position: 'relative', fontFamily: F.serif, fontWeight: 700, fontSize: 84, letterSpacing: interpolate(f, [0, b - a], [2, 9], clamp), whiteSpace: 'nowrap'}}>
             <div style={{position: 'absolute', inset: 0, color: '#000', transform: 'translate(0, 5px)', filter: 'blur(8px)', opacity: 1, WebkitTextStroke: '6px #000'}}>PEYĞƏMBƏRLƏRİN GİZLİ TARİXİ</div>
             <div style={{position: 'relative', backgroundImage: GOLD, WebkitBackgroundClip: 'text', color: 'transparent', filter: 'drop-shadow(0 0 26px rgba(214,168,78,0.45))'}}>PEYĞƏMBƏRLƏRİN GİZLİ TARİXİ</div>
           </div>
@@ -165,52 +180,63 @@ const LowerThird: React.FC<{t: number; a: number; b: number; k: string; text: st
   );
 };
 
-// ---------- 2: gəminin 3 mərtəbəsi (kəsik şəklin real mərtəbələri üzərində) ----------
-// img_4 1376x768 → 1920x1080 cover (x1.406, x-7.5): quşlar y 56–387, insanlar 415–654, heyvanlar 675–962; en 569–1567
+// ---------- 2: gəminin 3 mərtəbəsi — memarlıq göstəriciləri (pin + lazer xətti + şüşə panel) ----------
+// img_4 2000x1116 → 1920x1080 cover (x0.9677); kadr scale 1.07 + aşağıdan yuxarı tilt (tiltY) ilə birlikdə hərəkət edir
 const FL = [
-  {y0: 676, y1: 960, n: '1-Cİ MƏRTƏBƏ', v: 'Heyvanlar', at: 33.25},
-  {y0: 418, y1: 652, n: '2-Cİ MƏRTƏBƏ', v: 'İnsanlar', at: 34.1},
-  {y0: 150, y1: 392, n: '3-CÜ MƏRTƏBƏ', v: 'Quşlar', at: 34.95},
+  {y: 871, n: '1-Cİ MƏRTƏBƏ', v: 'VƏHŞİ VƏ EV HEYVANLARI', at: 33.25},
+  {y: 545, n: '2-Cİ MƏRTƏBƏ', v: 'İNSANLAR VƏ AZUQƏ', at: 34.45},
+  {y: 236, n: '3-CÜ MƏRTƏBƏ', v: 'BÜTÜN QUŞ NÖVLƏRİ', at: 35.65},
 ];
-const Floors: React.FC<{t: number; a: number; b: number; all: number}> = ({t, a, b, all}) => {
-  const o = env(t, a, b, 0.3, 0.4);
+const PX = 1150;
+const Floors: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
+  const o = env(t, a, b, 0.35, 0.45);
   if (o <= 0) return null;
-  const dim = interpolate(t, [FL[0].at - 0.3, FL[0].at], [0, 1], clamp) * interpolate(t, [all, all + 0.4], [1, 0.35], clamp);
-  const cur = FL.reduce((c, f, i) => (t >= f.at ? i : c), -1);
-  const allK = interpolate(t, [all, all + 0.4], [0, 1], clamp);
+  const fr = Math.round(t * FPS);
+  const ty = tiltY(t);
+  const Y = (y: number) => 540 + (y - 540) * 1.07 + ty;
+  const X = (x: number) => 960 + (x - 960) * 1.07;
   return (
     <AbsoluteFill style={{opacity: o}}>
-      {/* aktiv mərtəbədən başqa hər yer qaralır */}
+      {/* 15% tündləşmə + vinyetka ki, göstəricilər parlasın */}
+      <AbsoluteFill style={{background: 'rgba(0,0,0,0.15)'}} />
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse 75% 70% at 45% 50%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%)'}} />
       <svg width={1920} height={1080} style={{position: 'absolute', inset: 0}}>
         <defs>
-          <mask id="fl">
-            <rect width="1920" height="1080" fill="white" />
-            {FL.map((f, i) => (i === cur || allK > 0 ? <rect key={i} x={560} y={f.y0} width={1015} height={f.y1 - f.y0} rx={6} fill="black" opacity={i === cur ? 1 : allK} /> : null))}
-          </mask>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+          <linearGradient id="laser" x1="0" x2="1"><stop offset="0" stopColor="#d6a84e" stopOpacity="0" /><stop offset="0.75" stopColor="#f3d58a" stopOpacity="0.9" /><stop offset="1" stopColor="#fff3cc" /></linearGradient>
         </defs>
-        <rect width="1920" height="1080" fill="black" opacity={0.62 * dim} mask="url(#fl)" />
         {FL.map((f, i) => {
-          const k = interpolate(t, [f.at, f.at + 0.45], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
-          if (k <= 0) return null;
-          const P = 2 * (1015 + (f.y1 - f.y0));
-          const act = i === cur ? 1 : 0.55;
+          const k = spring({frame: fr - Math.round(f.at * FPS), fps: FPS, config: {damping: 18, stiffness: 120}});
+          if (fr < f.at * FPS) return null;
+          const y = Y(f.y), px = X(PX);
+          const laser = interpolate(t, [f.at, f.at + 0.55], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
+          const L1 = px - 120, line = 150;
+          const pulse = ((t - f.at) % 1.4) / 1.4;
           return (
-            <g key={i} opacity={act}>
-              <rect x={560} y={f.y0} width={1015} height={f.y1 - f.y0} rx={6} fill="none" stroke={C.gold} strokeWidth={3} strokeDasharray={P} strokeDashoffset={P * (1 - k)} style={{filter: `drop-shadow(0 0 ${i === cur ? 12 : 4}px ${C.gold})`}} />
-              <line x1={1575} y1={(f.y0 + f.y1) / 2} x2={1575 + 60 * k} y2={(f.y0 + f.y1) / 2} stroke={C.gold} strokeWidth={2} />
-              <circle cx={1575} cy={(f.y0 + f.y1) / 2} r={6} fill={C.gold} />
+            <g key={i}>
+              {/* mərtəbə boyunca lazer xətti */}
+              <line x1={120} y1={y} x2={px} y2={y} stroke="url(#laser)" strokeWidth={2} strokeDasharray={px - 120} strokeDashoffset={(px - 120) * (1 - laser)} filter="url(#glow)" opacity={0.85} />
+              {/* nöqtə + nəbz halqası */}
+              <circle cx={px} cy={y} r={20 + 26 * pulse} fill="none" stroke="#f3d58a" strokeWidth={2} opacity={(1 - pulse) * 0.8 * k} />
+              <circle cx={px} cy={y} r={9 * k} fill="#ffe7a6" filter="url(#glow)" />
+              {/* panelə xətt */}
+              <line x1={px + 10} y1={y} x2={px + 10 + line * laser} y2={y} stroke="#f3d58a" strokeWidth={2} filter="url(#glow)" />
+              {void L1}
             </g>
           );
         })}
       </svg>
       {FL.map((f, i) => {
-        const k = interpolate(t, [f.at + 0.15, f.at + 0.55], [0, 1], clamp);
-        if (k <= 0) return null;
-        const act = i === cur ? 1 : 0.7;
+        const k = spring({frame: fr - Math.round((f.at + 0.35) * FPS), fps: FPS, config: {damping: 16, stiffness: 140}});
+        if (fr < (f.at + 0.35) * FPS) return null;
+        const y = Y(f.y), px = X(PX);
+        const glow = interpolate(t, [f.at + 0.35, f.at + 0.6, f.at + 1.6], [0, 1, 0.35], clamp) + 0.15 * Math.sin(t * 3 + i);
         return (
-          <div key={i} style={{position: 'absolute', left: 1648, top: (f.y0 + f.y1) / 2 - 52, opacity: k * act, transform: `translateX(${(1 - k) * 20}px)`, padding: '10px 18px', background: 'rgba(8,6,4,0.72)', borderLeft: `3px solid ${C.gold}`}}>
-            <div style={{fontFamily: F.sans, fontWeight: 600, fontSize: 20, letterSpacing: 5, color: C.gold}}>{f.n}</div>
-            <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 46, color: C.ivory, lineHeight: 1.05}}>{f.v}</div>
+          <div key={i} style={{position: 'absolute', left: px + 160, top: y - 50, opacity: Math.min(1, k * 1.3), transform: `translateX(${(1 - k) * 40}px) scale(${0.92 + 0.08 * k})`, transformOrigin: 'left center',
+            padding: '14px 26px 16px 22px', background: 'rgba(10,8,5,0.55)', backdropFilter: 'blur(14px) saturate(1.2)', WebkitBackdropFilter: 'blur(14px) saturate(1.2)',
+            border: '1.5px solid rgba(243,213,138,0.75)', borderRadius: 6, boxShadow: `0 0 ${18 + 22 * glow}px rgba(214,168,78,${0.25 + 0.35 * glow}), inset 0 0 20px rgba(214,168,78,0.12)`}}>
+            <div style={{fontFamily: F.sans, fontWeight: 600, fontSize: 21, letterSpacing: 6, color: C.gold}}>{f.n}</div>
+            <div style={{fontFamily: F.sans, fontWeight: 700, fontSize: 34, letterSpacing: 2, color: '#fff7e2', marginTop: 4, textShadow: '0 0 14px rgba(243,213,138,0.5)'}}>{f.v}</div>
           </div>
         );
       })}
@@ -230,7 +256,7 @@ const Lineage: React.FC<{t: number; a: number; b: number; dots: number; gone: nu
   const sons = ['SAM', 'HAM', 'YAFƏS'];
   const keep = new Set([33, 39, 46]);
   return (
-    <div style={{position: 'absolute', right: 70, top: 150, width: 660, padding: '30px 36px', opacity: o, background: 'rgba(6,4,2,0.84)', border: '1.5px solid rgba(214,168,78,0.8)', borderRadius: 4, boxShadow: '0 10px 40px rgba(0,0,0,0.6)'}}>
+    <div style={{position: 'absolute', right: 70, top: 150, width: 660, padding: '30px 36px', opacity: o, background: 'rgba(8,6,4,0.62)', backdropFilter: 'blur(14px)', WebkitBackdropFilter: 'blur(14px)', border: '1.5px solid rgba(214,168,78,0.8)', borderRadius: 4, boxShadow: '0 10px 40px rgba(0,0,0,0.6)'}}>
       <div style={{fontFamily: F.sans, fontWeight: 600, fontSize: 34, letterSpacing: 6, color: C.gold}}>80 MÖMİN</div>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(16, 1fr)', gap: 11, margin: '18px 0 20px'}}>
         {Array.from({length: 80}, (_, i) => {
@@ -240,10 +266,10 @@ const Lineage: React.FC<{t: number; a: number; b: number; dots: number; gone: nu
         })}
       </div>
       <div style={{display: 'flex', alignItems: 'center', gap: 16, opacity: arrow}}>
-        <div style={{fontFamily: F.serif, fontSize: 46, color: C.gold}}>→</div>
+        <div style={{fontFamily: F.sans, fontSize: 46, color: C.gold}}>➔</div>
         <div>
-          <div style={{fontFamily: F.sans, fontWeight: 700, fontSize: 32, letterSpacing: 5, color: '#ffffff'}}>YALNIZ 3 QOL</div>
-          <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 52, color: '#ffd96b', letterSpacing: 3, textShadow: '0 0 18px rgba(255,200,90,0.55)'}}>{sons.join(' · ')}</div>
+          <div style={{fontFamily: F.sans, fontWeight: 700, fontSize: 32, letterSpacing: 5, color: '#ffffff'}}>YALNIZ 3 NƏSİL QOLU</div>
+          <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: 52, color: '#ffd96b', letterSpacing: 3, textShadow: '0 0 18px rgba(255,200,90,0.55)'}}>{sons.join(' • ')}</div>
         </div>
       </div>
     </div>
@@ -258,11 +284,7 @@ const Tension: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
   const shake = Math.sin(t * 37) * 1.2;
   return (
     <AbsoluteFill style={{opacity: o, transform: `translateX(${shake}px)`}}>
-      <AbsoluteFill style={{background: `radial-gradient(ellipse 62% 58% at 50% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,${0.78 + 0.12 * p}) 100%)`}} />
-      {/* mühafizəçilər kölgədə qalır, işıq qadının üzərindədir */}
-      <AbsoluteFill style={{background: 'linear-gradient(270deg, rgba(0,0,0,0.94) 0%, rgba(0,0,0,0.9) 26%, rgba(0,0,0,0) 44%)'}} />
-      {/* sonda qadın kameraya yaxınlaşır, arxadakı mühafizəçi də kölgəyə düşür */}
-      <AbsoluteFill style={{opacity: interpolate(t, [55.6, 56.2], [0, 1], clamp), background: 'radial-gradient(ellipse 17% 34% at 36% 52%, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.93) 100%)'}} />
+      <AbsoluteFill style={{background: `radial-gradient(ellipse 62% 58% at 50% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,${0.62 + 0.12 * p}) 100%)`}} />
       <AbsoluteFill style={{background: `radial-gradient(ellipse 70% 65% at 50% 50%, rgba(0,0,0,0) 55%, rgba(110,10,6,${0.18 * p}) 100%)`, mixBlendMode: 'screen'}} />
     </AbsoluteFill>
   );
@@ -327,6 +349,12 @@ export const Ep3Intro: React.FC<{withAudio?: boolean}> = () => {
   const order = [...SHOTS].sort((x, y) => Number(!!x.top) - Number(!!y.top));
   return (
     <AbsoluteFill style={{background: '#000'}}>
+      <svg width="0" height="0" style={{position: 'absolute'}}>
+        <filter id="sea">
+          <feTurbulence type="fractalNoise" baseFrequency={`${0.008 + 0.002 * Math.sin(t * 1.3)} ${0.026}`} numOctaves={2} seed={Math.floor(t * 12)} result="n" />
+          <feDisplacementMap in="SourceGraphic" in2="n" scale={16} xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      </svg>
       {order.map((s, i) => (t >= s.a - XF && t < s.b + XF ? <ShotView key={i} s={s} t={t} /> : null))}
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(255,170,80,0.07), rgba(20,10,40,0.10))', mixBlendMode: 'soft-light'}} />
       <AbsoluteFill style={{background: 'rgba(255,190,120,0.05)', mixBlendMode: 'overlay'}} />
@@ -334,12 +362,12 @@ export const Ep3Intro: React.FC<{withAudio?: boolean}> = () => {
       {[5.67, 18.95, 30.99, 37.31, 43.75, 49.5, 58.27].map((c) => <Leak key={c} t={t} a={c - 0.35} />)}
 
       <Title t={t} a={0.25} b={5.5} />
-      <LowerThird t={t} a={25.0} b={30.7} k="SİRR #1" text="Gəmidəki İlahi Sükunət" />
-      <LowerThird t={t} a={31.2} b={32.95} k="SİRR #2" text="Üç Mərtəbəli Gəmi" />
+      <LowerThird t={t} a={23.4} b={30.7} k="SİRR #1" text="GƏMİDƏKİ İLAHİ SÜKUNƏT" />
+      <LowerThird t={t} a={31.2} b={32.95} k="SİRR #2" text="ÜÇ MƏRTƏBƏLİ GƏMİ" />
       <SourceTag t={t} a={33.3} b={37.6} label="Rəvayət · İbn Abbas (Təbəri, İbn Kəsir)" weak icon="quill" />
-      <LowerThird t={t} a={39.9} b={43.6} k="SİRR #3" text="İz Qoymayan Nəsillər" />
-      <LowerThird t={t} a={44.0} b={49.3} k="SİRR #4" text="Bəşəriyyətin Üç Atası" />
-      <Floors t={t} a={33.0} b={37.75} all={35.85} />
+      <LowerThird t={t} a={39.9} b={43.6} k="SİRR #3" text="İZ QOYMAYAN NƏSİLLƏR" />
+      <LowerThird t={t} a={44.0} b={49.3} k="SİRR #4" text="BƏŞƏRİYYƏTİN ÜÇ ATASI" />
+      <Floors t={t} a={33.0} b={37.75} />
       <Lineage t={t} a={39.3} b={49.6} dots={39.9} gone={42.3} sonsAt={47.8} />
       <Tension t={t} a={49.5} b={58.3} />
       <BigQ t={t} a={49.7} b={51.3} text="ƏN BÖYÜK SUAL…" />
