@@ -34,7 +34,7 @@ export const SCENES: Scene[] = [
     path: [{t: 52.92, s: 1.04, x: 70, y: 50}, {t: 58, s: 1.14, x: 85, y: 45}, {t: 62.6, s: 1.2, x: 80, y: 45}, {t: 66.85, s: 1.12, x: 75, y: 50}]},
   {img: 'k6.jpg', a: 66.85, b: 79.97, rays: true, warm: 0.06, fg: {x: 52, y: 62, rx: 24, ry: 42},
     path: [{t: 66.85, s: 1.02, x: 50, y: 55}, {t: 71.3, s: 1.12, x: 70, y: 50}, {t: 76, s: 1.24, x: 74, y: 45}, {t: 79.97, s: 1.3, x: 72, y: 45}]},
-  {img: 'k7.jpg', a: 79.97, b: B2_DUR, sea: true, rain: 0.9, cold: 0.1, flash: [80.4, 88.2, 93.3, 94.0], shake: [93.3],
+  {img: 'k7.jpg', a: 79.97, b: B2_DUR, sea: true, rain: 0.9, cold: 0.1, flash: [82.0, 88.2, 93.3, 94.0], shake: [93.3],
     path: [{t: 79.97, s: 1.12, x: 50, y: 50}, {t: 88, s: 1.06, x: 45, y: 55}, {t: 93.3, s: 1.08, x: 45, y: 58}, {t: B2_DUR, s: 1.0, x: 45, y: 58}]},
 ];
 const XF = 0.6;
@@ -69,17 +69,24 @@ const Stones: React.FC<{t: number; at: number}> = ({t, at}) => {
 
 const SceneView: React.FC<{s: Scene; t: number; first: boolean}> = ({s, t, first}) => {
   const fin = first ? 1 : interpolate(t, [s.a - XF / 2, s.a + XF / 2], [0, 1], clamp);
-  const ts = s.path.map((p) => p.t);
-  const z = interpolate(t, ts, s.path.map((p) => p.s), {...clamp, easing: ease});
+  // 1) əvvəl şəkil sakit görünür (STILL san.), 2) sonra işıq keçir və səhnə canlanır
+  const STILL = 1.8;
+  const live = interpolate(t, [s.a + STILL, s.a + STILL + 0.7], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
+  const shift = s.a + STILL; // kamera yolu canlanmadan sonra başlayır
+  const ts = s.path.map((p, i) => (i === 0 ? shift : shift + ((p.t - s.a) / (s.b - s.a)) * (s.b - shift)));
+  const z0 = s.path[0].s;
+  const stillZ = interpolate(t, [s.a, shift], [z0 * 0.985, z0], clamp);
+  const z = t < shift ? stillZ : interpolate(t, ts, s.path.map((p) => p.s), {...clamp, easing: ease});
   const ox = interpolate(t, ts, s.path.map((p) => p.x), {...clamp, easing: ease});
   const oy = interpolate(t, ts, s.path.map((p) => p.y), {...clamp, easing: ease});
-  const prog = (t - s.a) / (s.b - s.a);
-  const par = (prog - 0.5) * 22; // paralaks məsafəsi
-  const breathe = 1 + 0.006 * Math.sin(t * 1.6);
+  const prog = interpolate(t, [shift, s.b], [0, 1], clamp);
+  const par = prog * 26 * live; // paralaks məsafəsi
+  const breathe = 1 + 0.006 * Math.sin(t * 1.6) * live;
+  const sweep = interpolate(t, [shift - 0.15, shift + 0.75], [-30, 130], clamp);
   const sh = Math.max(0, ...(s.shake ?? []).map((a) => interpolate(t, [a, a + 0.05, a + 0.6], [0, 1, 0], clamp)));
   const shx = sh * (Math.sin(t * 61) * 10), shy = sh * (Math.cos(t * 53) * 7);
   const fl = Math.max(0, ...(s.flash ?? []).map((a) => interpolate(t, [a, a + 0.04, a + 0.1, a + 0.16, a + 0.45], [0, 0.9, 0.25, 0.7, 0], clamp)));
-  const flick = s.flicker ? 1 + 0.05 * Math.sin(t * 11) + 0.04 * Math.sin(t * 23.7) : 1;
+  const flick = s.flicker ? 1 + live * (0.05 * Math.sin(t * 11) + 0.04 * Math.sin(t * 23.7)) : 1;
   const grade = `contrast(1.1) saturate(${1 - (s.cold ?? 0)}) brightness(${flick * (1 + fl * 0.9)})`;
   const img: React.CSSProperties = {position: 'absolute', width: 1920, height: 1080, objectFit: 'cover', filter: grade};
   const fgMask = s.fg ? `radial-gradient(ellipse ${s.fg.rx}% ${s.fg.ry}% at ${s.fg.x}% ${s.fg.y}%, #000 55%, transparent 100%)` : '';
@@ -89,15 +96,15 @@ const SceneView: React.FC<{s: Scene; t: number; first: boolean}> = ({s, t, first
         {/* arxa plan qatı */}
         <AbsoluteFill style={{transform: `translateX(${-par}px) scale(1.03)`}}>
           <Img src={staticFile(M + s.img)} style={img} />
-          {s.sea ? (
-            <div style={{position: 'absolute', inset: 0, WebkitMaskImage: 'linear-gradient(180deg, transparent 45%, #000 60%)', maskImage: 'linear-gradient(180deg, transparent 45%, #000 60%)'}}>
+          {s.sea && live > 0 ? (
+            <div style={{position: 'absolute', inset: 0, opacity: live, WebkitMaskImage: 'linear-gradient(180deg, transparent 45%, #000 60%)', maskImage: 'linear-gradient(180deg, transparent 45%, #000 60%)'}}>
               <Img src={staticFile(M + s.img)} style={{...img, filter: `url(#water) ${grade}`}} />
             </div>
           ) : null}
         </AbsoluteFill>
         {/* personaj qatı: önə çıxır, nəfəs alır */}
-        {s.fg ? (
-          <AbsoluteFill style={{WebkitMaskImage: fgMask, maskImage: fgMask, transform: `translateX(${par * 0.6}px) scale(${1.03 * breathe})`, transformOrigin: `${s.fg.x}% ${s.fg.y + s.fg.ry * 0.8}%`}}>
+        {s.fg && live > 0 ? (
+          <AbsoluteFill style={{opacity: live, WebkitMaskImage: fgMask, maskImage: fgMask, transform: `translateX(${par * 0.6}px) scale(${1.03 * breathe})`, transformOrigin: `${s.fg.x}% ${s.fg.y + s.fg.ry * 0.8}%`}}>
             <Img src={staticFile(M + s.img)} style={{...img, filter: `${grade} url(#cloth)`}} />
           </AbsoluteFill>
         ) : null}
@@ -105,15 +112,15 @@ const SceneView: React.FC<{s: Scene; t: number; first: boolean}> = ({s, t, first
       {/* atmosfer */}
       {s.warm ? <AbsoluteFill style={{background: `rgba(255,170,80,${s.warm})`, mixBlendMode: 'overlay'}} /> : null}
       {s.cold ? <AbsoluteFill style={{background: `rgba(60,90,140,${s.cold})`, mixBlendMode: 'soft-light'}} /> : null}
-      {s.rays ? (
-        <AbsoluteFill style={{mixBlendMode: 'screen', opacity: 0.55}}>
+      {s.rays && live > 0 ? (
+        <AbsoluteFill style={{mixBlendMode: 'screen', opacity: 0.55 * live}}>
           {Array.from({length: 6}, (_, i) => (
             <div key={i} style={{position: 'absolute', left: `${30 + i * 8 + Math.sin(t * 0.4 + i) * 3}%`, top: '-20%', width: 60 + i * 14, height: '140%', transform: `rotate(${18 + i * 2}deg)`, background: 'linear-gradient(180deg, rgba(255,225,160,0.35), rgba(255,225,160,0))', filter: 'blur(18px)', opacity: 0.5 + 0.5 * Math.sin(t * 0.7 + i * 1.3)}} />
           ))}
         </AbsoluteFill>
       ) : null}
-      {s.beam ? (
-        <AbsoluteFill style={{mixBlendMode: 'screen'}}>
+      {s.beam && live > 0 ? (
+        <AbsoluteFill style={{mixBlendMode: 'screen', opacity: live}}>
           <div style={{position: 'absolute', left: '44%', top: '18%', width: 520, height: 900, transform: 'rotate(-38deg)', transformOrigin: 'top left', background: 'linear-gradient(180deg, rgba(255,215,150,0.32), rgba(255,215,150,0))', filter: 'blur(22px)', opacity: 0.75 + 0.2 * Math.sin(t * 1.1)}} />
           {Array.from({length: 40}, (_, i) => {
             const y = ((rnd(i) + t * 0.02 * (1 + rnd(i + 1))) % 1) * 600 + 250;
@@ -122,12 +129,14 @@ const SceneView: React.FC<{s: Scene; t: number; first: boolean}> = ({s, t, first
           })}
         </AbsoluteFill>
       ) : null}
-      {s.fog ? (
-        <AbsoluteFill style={{opacity: 0.55}}>
+      {s.fog && live > 0 ? (
+        <AbsoluteFill style={{opacity: 0.55 * live}}>
           <div style={{position: 'absolute', left: -400 + ((t * 30) % 400), top: 520, width: 2800, height: 600, background: 'radial-gradient(ellipse at 50% 50%, rgba(170,180,200,0.35), rgba(170,180,200,0) 70%)', filter: 'blur(30px)'}} />
         </AbsoluteFill>
       ) : null}
-      {s.rain ? <Rain t={t} o={s.rain} /> : null}
+      {s.rain && live > 0 ? <Rain t={t} o={s.rain * live} /> : null}
+      {/* canlanma anı: şəklin üzərindən işıq keçir */}
+      {t > shift - 0.2 && t < shift + 0.9 ? <AbsoluteFill style={{background: `linear-gradient(105deg, rgba(255,230,170,0) ${sweep - 14}%, rgba(255,236,190,0.42) ${sweep}%, rgba(255,230,170,0) ${sweep + 14}%)`, mixBlendMode: 'screen'}} /> : null}
       {s.stones ? <Stones t={t} at={s.stones} /> : null}
       {fl > 0 ? <AbsoluteFill style={{background: '#dfe8ff', opacity: fl * 0.35, mixBlendMode: 'screen'}} /> : null}
     </AbsoluteFill>
