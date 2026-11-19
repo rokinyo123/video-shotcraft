@@ -10,7 +10,7 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const CLIP = 6.03;
 
 type Shot = {kind: 'img' | 'vid' | 'eng'; src: string; a: number; b: number; from?: number; z0: number; z1: number; gray?: boolean; vol?: number; dark?: number;
-  cut?: boolean; draw?: [number, number]; lamp?: [number, number]; away?: [number, number]; top?: boolean; flash?: number[]; rain?: [number, number]; candle?: boolean; origin?: string; crush?: boolean};
+  cut?: boolean; draw?: [number, number]; lamp?: [number, number]; away?: [number, number]; top?: boolean; flash?: number[]; rain?: [number, number]; candle?: boolean; origin?: string; crush?: boolean; rate?: number};
 const I = (n: number, a: number, b: number, o: Partial<Shot> = {}): Shot => ({kind: 'img', src: `img_${n}.jpg`, a, b, z0: 1.0, z1: 1.04, ...o});
 const Vd = (n: number, a: number, b: number, o: Partial<Shot> = {}): Shot => ({kind: 'vid', src: `vid_${n}.mp4`, a, b, z0: 1.04, z1: 1.08, vol: 0.27, ...o});
 const E = (n: number, a: number, b: number, draw: [number, number], lamp: [number, number], o: Partial<Shot> = {}): Shot => ({kind: 'eng', src: `img_${n}.jpg`, a, b, z0: 1.0, z1: 1.05, draw, lamp, ...o});
@@ -34,9 +34,9 @@ export const SHOTS: Shot[] = [
   I(6, 43.75, 45.4, {cut: true}), Vd(6, 45.4, 49.5),
   // 7 — casus qadın: qadına yaxın kadr, mühafizəçilər kölgədə
   I(7, 49.5, 51.4, {cut: true, flash: [49.55], z0: 1.45, z1: 1.55, origin: '28% 45%', crush: true}),
-  Vd(7, 51.4, 58.27, {vol: 0, z0: 1.4, z1: 1.5, origin: '22% 45%', crush: true}),
+  Vd(7, 51.4, 58.27, {vol: 0, z0: 1.4, z1: 1.5, origin: '22% 45%', crush: true, rate: 0.6}),
   // 8 — "standart hekayələri kənara qoyun": solğun kadr kart olub kənara uçur → mənbələr
-  Vd(5, 58.27, 62.7, {from: 0.2, gray: true, vol: 0, z0: 1.0, z1: 1.06, cut: true}),
+  Vd(5, 58.27, 62.7, {from: 0.2, gray: true, vol: 0, z0: 1.0, z1: 1.06}),
   I(8, 66.3, 69.1, {z0: 1.02, z1: 1.06}), Vd(8, 69.1, EP3_INTRO_DUR),
   Vd(1, 62.7, 67.25, {gray: true, vol: 0.1, z0: 1.05, z1: 1.0, away: [66.25, 67.2], top: true}),
 ];
@@ -103,7 +103,7 @@ const ShotView: React.FC<{s: Shot; t: number}> = ({s, t}) => {
   }
   const from = s.from ?? 0;
   const dur = s.b - s.a + 0.4;
-  const rate = Math.max(0.6, Math.min(1, (CLIP - from - 0.05) / dur));
+  const rate = s.rate ?? Math.max(0.6, Math.min(1, (CLIP - from - 0.05) / dur));
   return (
     <AbsoluteFill style={wrap}>
       <AbsoluteFill style={{transform: `scale(${z})`, transformOrigin: s.origin ?? '50% 50%'}}>
@@ -261,6 +261,8 @@ const Tension: React.FC<{t: number; a: number; b: number}> = ({t, a, b}) => {
       <AbsoluteFill style={{background: `radial-gradient(ellipse 62% 58% at 50% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,${0.78 + 0.12 * p}) 100%)`}} />
       {/* mühafizəçilər kölgədə qalır, işıq qadının üzərindədir */}
       <AbsoluteFill style={{background: 'linear-gradient(270deg, rgba(0,0,0,0.94) 0%, rgba(0,0,0,0.9) 26%, rgba(0,0,0,0) 44%)'}} />
+      {/* sonda qadın kameraya yaxınlaşır, arxadakı mühafizəçi də kölgəyə düşür */}
+      <AbsoluteFill style={{opacity: interpolate(t, [55.6, 56.2], [0, 1], clamp), background: 'radial-gradient(ellipse 17% 34% at 36% 52%, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.93) 100%)'}} />
       <AbsoluteFill style={{background: `radial-gradient(ellipse 70% 65% at 50% 50%, rgba(0,0,0,0) 55%, rgba(110,10,6,${0.18 * p}) 100%)`, mixBlendMode: 'screen'}} />
     </AbsoluteFill>
   );
