@@ -38,8 +38,7 @@ for m in [57.4, 57.75, 58.1, 58.45, 58.8, 59.15, 59.5, 59.85, 60.2, 60.55]: add(
 add(A.whoosh(), 60.9, -12); add(A.sub_hit(), 64.6, -9)
 add(A.wind(9.0), 70.5, -20, 1.0, 1.0)
 add(A.water(16.0), 80.0, -13, 1.0, 1.0); add(A.wind(16.0), 80.0, -16, 1.0, 1.0)
-for a in (82.0, 88.2, 93.3, 94.0): add(A.boom(), a, -10)
-for a in (1.8, 13.75, 25.83, 41.52, 54.72, 68.65, 81.77): add(A.shimmer(1.2), a, -15); add(A.whoosh(), a - 0.2, -18)
+for a in (88.2, 93.3, 94.0): add(A.boom(), a, -10)
 add(A.impact(), 93.3, -8)
 fo = int(1.2 * SR); buf[-fo:] *= np.linspace(1, 0, fo)[:, None]
 sf.write('public/audio/ep3/bed_b2.wav', np.clip(buf, -1, 1), SR); print('ok')
