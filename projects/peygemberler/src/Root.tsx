@@ -24,6 +24,7 @@ import {ShortTrailer, SHORT_FRAMES} from './brand/ShortTrailer';
 import {Ep3Intro, EP3_INTRO_DUR} from './ep3/Intro';
 import {Alive, ALIVE_FRAMES} from './ep3/Alive';
 import {Bolum2, B2_DUR} from './ep3/Bolum2';
+import {Ep3Hybrid, EP3H_DUR} from './ep3/Hybrid';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -69,5 +70,6 @@ export const RemotionRoot: React.FC = () => (
   <Composition id="Ep3Intro" component={Ep3Intro} durationInFrames={Math.round(EP3_INTRO_DUR * 30)} fps={30} width={1920} height={1080} />
   <Composition id="Alive" component={Alive} durationInFrames={ALIVE_FRAMES} fps={30} width={1920} height={1080} />
   <Composition id="Ep3Bolum2" component={Bolum2} durationInFrames={Math.round(B2_DUR * 30)} fps={30} width={1920} height={1080} />
+  <Composition id="Ep3Hybrid" component={Ep3Hybrid} durationInFrames={Math.round(EP3H_DUR * 30)} fps={30} width={1920} height={1080} />
 </>
 );
