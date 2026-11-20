@@ -26,6 +26,13 @@ Bu qaydalar hər video üçün keçərlidir. İşə başlamazdan əvvəl oxu, bi
 - Diktor açar fikri, rəqəmi, adı, ayəni, sualı deyəndə həmin söz/ifadə ekranda böyük kinetik tipoqrafiya ilə çıxsın (typography kartları).
 - Xüsusilə mövzunun əsas cümlələri diktorun dilindən gələndə — onların açar sözləri mütləq ekranda olsun.
 
+## 4a. Oxuma vaxtı — yazılar tez keçməsin
+- Ekrandakı hər yazı/kart ən azı: **2.5 s + hər söz üçün 0.4 s** qalsın (məs. 6 sözlü panel ≥ 4.9 s; ayə kartı ≥ 6–8 s).
+- Panel tam açılandan SONRA saymağa başla (animasiya müddəti oxuma vaxtına daxil deyil).
+- Ardıcıl açılan elementlərdə (mərtəbələr, siyahılar) sonuncu element də bu minimumu almalıdır; lazım gələrsə səhnəni uzat.
+- Səhnə keçidi oxunan yazının üstünə düşməsin; yazı keçiddən ən azı 0.5 s əvvəl sönməyə başlasın.
+- Render-dən əvvəl bütün yazıların ekranda qalma müddətini cədvəl kimi yoxla.
+
 ## 5. Üslub
 - Qaranlıq, qızılı, kinematoqrafik Netflix sənədli üslubu. Krem/kağız səhifə üslubunu İSTƏMİR.
 - Şəkilləri saxta canlandırma (paralaks, nəfəs) yaxşı alınmır — video varsa video, yoxdursa sakit şəkil + yavaş kamera.
