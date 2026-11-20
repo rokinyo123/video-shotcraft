@@ -2,6 +2,12 @@
 
 Bu qaydalar hər video üçün keçərlidir. İşə başlamazdan əvvəl oxu, bitirəndə yoxla.
 
+## 0. YENİ İŞ AXINI (2026-11-20-dən)
+- Səsləndirmə faylı VERİLMİR — istifadəçi səsi özü CapCut-da əlavə edir.
+- Fon musiqisi QOYMA. Yalnız təbii səslər (yağış, dalğa, camaat, od, külək…), keçid səsləri və yazı effekt səsləri.
+- Vaxtları mətndən hesabla (~5 heca/san + cümlə sonunda ~0.5 s nəfəs) və videonun yanında vaxt cədvəli ver (hansı cümlə hansı saniyədə).
+- Bütün güc: hekayə montajı, hook-lar, kinetik yazılar, keçidlər (references/shots kartları).
+
 ## 1. Sinxron — gecikmə olmamalıdır
 - Səsləndirməni istifadəçi özü edir (ElevenLabs ilə səs YARATMA). Mətnlər qısa-qısa verilir.
 - Hər kəsim, yazı və effekt **söz səviyyəsində** səsə oturmalıdır. Təxmini heca bölgüsü kifayət deyil.
